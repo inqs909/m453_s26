@@ -1,0 +1,14 @@
+---
+title: "Welcome to Mathematical Statistics!"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  fields: [date, title, description]
+---
+
+::: {.callout-note collapse="true" icon="false"}
+### **Brief Introduction**
+
+Welcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs\@csuci.edu.
+:::
