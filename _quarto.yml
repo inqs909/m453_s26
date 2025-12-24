@@ -23,7 +23,9 @@ website:
   repo-url: https://github.com/inqs909/m453_s26
   title: "MATH 453"
   site-url: www.inqs.info/m453_s26
+  favicon: img/favicon.svg
   navbar:
+    logo: img/favicon.svg
     right:
       - syllabus.qmd
       - hw.qmd
@@ -33,8 +35,8 @@ website:
 
 format:
   html:
-    theme: flatly
-    css: styles.css
+    theme: 
+      light: theme.scss
     toc: true
 
 
