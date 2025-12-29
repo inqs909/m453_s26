@@ -1,0 +1,94 @@
+---
+title: "Week 14"
+date: 11-21-24
+description: We will discuss essential concepts to hypothesis testing.
+editor: visual
+draft: false
+---
+
+## Learning Outcomes
+
+### Monday
+
+-   Type I and Type II Errors
+-   Power of Tests
+-   Neyman-Pearson Lemma
+
+### Wednesday
+
+-   Likelihood Ratio Test
+
+## Important Concepts
+
+### Type I and II Errors
+
+With hypothesis testing, we are testing to either reject or fail to reject the $H_0$. We usually choose a significance value of $\alpha$ to determine how we will make our decision. In this case, $\alpha$ represents the probability that we reject $H_0$ given that $H_0$ is true ($P(Reject\ H_0| H_0\ true)$). If we reject $H_0$, given that it is true, we are committing Type I error. Generally speaking, we control Type I error by selecting a small $\alpha$
+
+Type II error is the opposite case, where we fail to reject $H_0$, given it is false. Similar to type I error, a hypothesis test will have a probability ($P(Fail\ to\ reject\ H_0|H_0\ False)$).
+
+### Power of Tests
+
+#### Power
+
+The power of a test is the probability of rejecting $H_0$ when the true parameter is $\theta$.
+
+$$
+\mathrm{power}(\theta) = \mathrm P(\mathrm{Reject}\ H_0\ \mathrm{when}\ \theta\ \mathrm{is true}) 
+$$
+
+#### Power and Type II Error
+
+$$
+\beta = 1 - \mathrm{power}(\theta_a)
+$$
+
+# 
+
+### Neyman-Pearson Lemma
+
+Suppose you test the simple null hypothesis ($H_0: \theta=\theta_0$) vs a simple alternative hypothesis ($H_a: \theta=\theta_1$), based on a random sample with parameter $\theta$. Let $L(\theta)$ denote the likelihood function of the sample with parameter $\theta$. Then for a given $\alpha$, the test that maximizes the power at $\theta_1$ has a rejection region determined by $$
+\frac{L(\theta_0)}{L(\theta_1)}<k
+$$The value of $k$ is chosen so that the test has the desired value for $\alpha$. such a test is most powerful $\alpha$-level test for $H_0$ vs $H_a$
+
+### Likelihood Ratio Test
+
+The likelihood ratio test is used when you cannot find a uniformly most powerful test for a given set of hypothesis. This will yield a very good test that is decently powerful.
+
+#### Hypothesis
+
+::: columns
+::: {.column width="40%"}
+$H_0:\ \theta\in\Theta_0$
+:::
+
+::: {.column width="40%"}
+$H_a:\ \theta\in\Theta_a$
+:::
+:::
+
+-   $\Theta = \Theta_0\cup\Theta_a$
+
+-   $\Theta$ is the parameters space
+
+#### Test Statistic
+
+$$
+\Lambda = \frac{L(\hat\theta_0)}{L(\hat\theta)}=\frac{f(x_1,\ldots,x_n;\hat\theta_0)}{f(x_1,\ldots,x_n;\hat\theta)}
+$$
+
+-   $\hat\theta_0=\underset{\theta\in\Theta_0}{\arg\max}\ L(\theta)$
+
+-   $\hat\theta=\underset{\theta\in\Theta}{\arg\max}\ L(\theta)$: MLE
+
+#### Decision
+
+Reject $H_0$ if $\Lambda\le k$
+
+## Resources
+
+Press the "b" key to access hidden notes.
+
+| Lecture   | Slides                                                             | Videos                                |
+|-----------|--------------------------------------------------------------------|---------------------------------------|
+| Monday    | [Slides](https://m453.inqs.info/files/Lecture_15_class/index.html) | [Video](https://youtu.be/U42gpCH47Ns) |
+| Wednesday | [Slides](https://m453.inqs.info/files/Lecture_16_class/index.html) | [Video](https://youtu.be/xfrmVYdNuqU) |

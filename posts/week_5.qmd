@@ -1,0 +1,33 @@
+---
+title: "Week 5"
+date: 09-23-24
+description: |
+  This week, we will review functions of random variables and introduce the idea of sampling distributions and Central Limit Theorem.
+editor: visual
+draft: false
+---
+
+## Learning Outcomes
+
+### Monday
+
+-   Central Limit Theorem
+
+-   Order Statistics
+
+### Wednesday
+
+-   Bias and Mean Square Error
+
+-   Unbiased Point Estimator
+
+## Resources
+
+You must log on to your CI Google account to access the video.
+
+Press the "b" key to access hidden notes.
+
+| Lecture   | Slides                                       | Videos                                |
+|---------------|-------------------------------|--------------------------|
+| Monday    | [Slides](https://m453.inqs.info/lectures/5a) | [Video](https://youtu.be/zNMlwgCrG2E) |
+| Wednesday | [Slides](https://m453.inqs.info/lectures/5b) |                                       |

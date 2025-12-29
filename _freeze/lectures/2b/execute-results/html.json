@@ -1,0 +1,19 @@
+{
+  "hash": "bfa3b3b823dd563bef1dee23bd775246",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Review:\"\nsubtitle: \"Moment Generating Functions\"\nformat:\n  revealjs:\n    scrollable: true\n    include-in-header: \"math_commands.html\"\n    navigation-mode: vertical\n    controls-layout: bottom-right\n    controls-tutorial: true\n    incremental: false \n    chalkboard:\n      theme: whiteboard\n      chalk-width: 4\nknitr:\n  opts_chunk: \n    echo: true\n    eval: true\n    message: false\n    warnings: false\n    comment: \"#>\" \n    \nrevealjs-plugins:\n  - pointer\n  - verticator\n  \nfilters: \n  - reveal-header\n  - code-fullscreen\n  - reveal-auto-agenda\n\neditor: source\n---\n\n## Learning Outcomes\n\n-   Define Moment Generating Functions\n\n-   Discuss Properties\n\n# Moment Generating Functions\n\n## Moments\n\nThe $k$th moment is defined as the expectation of the random variable, raised to the $k$th power, defined as $E(X^k)$.\n\n## Moment Generating Functions\n\nThe moment generating functions is used to obtain the $k$th moment. The mgf is defined as\n\n$$\nm(t) = E(e^{tX})\n$$\n\nThe $k$th moment can be obtained by taking the $k$th derivative of the mgf, with respect to $t$, and setting $t$ equal to 0:\n\n$$\nE(X^k)=\\frac{d^km(t)}{dt}\\Bigg|_{t=0}\n$$\n\n# Poisson Distribution\n\n## MGF\n\n## Expected Value\n\n## Variance\n\n## Variance\n\n# Binomial Distribution\n\n## MGF\n\n# Uniform Distribution\n\n## MGF\n\n# Normal Distribution\n\n## MGF\n\n# MGF Properties\n\n## Linearity\n\nLet $X$ follow a distribution $f$, with the an MGF $M_X(t)$, the MGF of $Y=aX+b$ is given as\n\n$$\nM_Y(t) = e^{tb}M_X(at)\n$$\n\n## Derivation\n\n## Linearity\n\nLet $X$ and $Y$ be two random variables with MGFs $M_X(t)$ and $M_Y(t)$, respectively, and are independent. The MGF of $U=X-Y$\n\n$$\nM_U(t) = M_X(t)M_Y(-t)\n$$\n\n## Derivation\n\n## Uniqueness\n\nLet $X$ and $Y$ have the following distributions $F_X(x)$ and $F_Y(y)$ and MGFs $M_X(t)$ and $M_Y(t)$, respectively. $X$ and $Y$ have the same distribution $F_X(x)=F_Y(y)$ if and only if $M_X(t)=M_Y(t)$.\n\n## Uniqueness\n\nLet $X_1,\\cdots, X_n$ be independent random variables, where $X_i\\sim N(\\mu_i, \\sigma^2_i)$, with $M_{X_i}(t)=\\exp\\{\\mu_i t+\\sigma^2_it^2/2\\}$ for $i=1,\\cdots, n$. Find the MGF of $Y=a_1X_1+\\cdots+a_nX_n$, where $a_1, \\cdots, a_n$ are constants.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,209 @@
+---
+title: "Joint Distribution Functions"
+format:
+  revealjs:
+    navigation-mode: vertical
+    controls-layout: bottom-right
+    controls-tutorial: true
+    incremental: false 
+    chalkboard:
+      src: chalkboard.json
+      theme: whiteboard
+      chalk-width: 4
+editor: source
+---
+
+```{r}
+#| include: false
+
+knitr::opts_chunk$set(echo = T)
+
+```
+
+-   Independence
+
+-   Expectations
+
+-   Covariance
+
+# Independence
+
+## Independent Random Variables
+
+Random variables are considered independent of each other if the probability of one variable does not affect the probability of another variable.
+
+## Discrete Independent Random Variables
+
+Let $X_1$ and $X_2$ be 2 discrete random variables, with a joint density function of $p_{X_1,X_2}(x_1,x_2)$. $X_1$ is independent of $X_2$ if and only if
+
+$$
+p_{X_1,X_2}(x_1,x_2) = p_{X_1}(x_1)p_{X_2}(x_2)
+$$
+
+## Continuous Independent Random Variables
+
+Let $X_1$ and $X_2$ be 2 continuous random variables, with a joint density function of $f_{X_1,X_2}(x_1,x_2)$. $X_1$ is independent of $X_2$ if and only if
+
+$$
+f_{X_1,X_2}(x_1,x_2) = f_{X_1}(x_1)f_{X_2}(x_2)
+$$
+
+## Matrix Algebra
+
+$$
+A = \left(\begin{array}{cc}
+a_1 & 0\\
+0 & a_2
+\end{array}\right)
+$$
+
+$$
+\det(A) = a_1a_2
+$$
+
+$$
+A^{-1}=\left(\begin{array}{cc}
+1/a_1 & 0 \\
+0 & 1/a_2
+\end{array}\right)
+$$
+
+## Example
+
+$$
+\left(\begin{array}{c}
+X\\
+Y
+\end{array}\right)\sim N \left\{
+\left(\begin{array}{c}
+\mu_x\\
+\mu_y
+\end{array}\right),\left(\begin{array}{cc}
+\sigma_x^2 & 0\\
+0 & \sigma_y^2
+\end{array}\right)
+\right\}
+$$
+
+Show that $X\perp Y$.
+
+$$
+f_{X,Y}(x,y)=\det(2\pi\Sigma)^{-1/2}\exp\left\{-\frac{1}{2}(\boldsymbol{w}-\boldsymbol\mu)^T\Sigma^{-1}(\boldsymbol w-\boldsymbol\mu)\right\}
+$$
+
+where $\Sigma=\left(\begin{array}{cc}\sigma_y^2 & 0\\0 & \sigma_y^2\end{array}\right)$, $\boldsymbol \mu = \left(\begin{array}{cc}\mu_x\\ \mu_y \end{array}\right)$, and $\boldsymbol w = \left(\begin{array}{cc} x\\ y \end{array}\right)$
+
+# Expectations
+
+## Expectations
+
+Let $X_1, X_2, \ldots,X_n$ be a set of random variables, the expectation of a function $g(X_1,\ldots, X_n)$ is defined as
+
+$$
+E\{g(X_1,\ldots, X_n)\} = \sum_{x_1\in X_1}\cdots\sum_{x_n\in X_n}g(X_1,\ldots, X_n)p(x_1,\ldots,x_n)
+$$
+
+or
+
+$$
+E\{g(\boldsymbol X)\} = \int_{x_1\in X_1}\cdots\int_{x_n\in X_n}g(\boldsymbol X)f(\boldsymbol X)dx_n \cdots dx_1
+$$
+
+-   $\boldsymbol X = (X_1,\cdots, X_n)$
+
+## Expected Value and Variance of Linear Functions
+
+Let $X_1,\ldots,X_n$ and $Y_1,\ldots,Y_m$ be random variables with $E(X_i)=\mu_i$ and $E(Y_j)=\tau_j$. Furthermore, let $U = \sum^n_{i=1}a_iX_i$ and $V=\sum^m_{j=1}b_jY_j$ where $\{a_i\}^n_{i=1}$ and $\{b_j\}_{j=1}^m$ are constants. We have the following properties:
+
+-   $E(U)=\sum_{i=1}^na_i\mu_i$
+
+-   $Var(U)=\sum^n_{i=1}a_i^2Var(X_i)+2\underset{i<j}{\sum\sum}a_ia_jCov(X_i,X_j)$
+
+-   $Cov(U,V)=\sum^n_{i=1}\sum^m_{j=1}Cov(X_i,Y_j)$
+
+## Expectation of Product
+
+Let $X$ and $Y$ be independent random variables with Joint Function $f_{XY}(x,y)$, then
+
+$$
+E(XY) = E(X)E(Y)
+$$
+
+::: fragment
+Prove it!
+:::
+
+## Conditional Expectations
+
+Let $X_1$ and $X_2$ be two random variables, the conditional expectation of $g(X_1)$, given $X_2=x_2$, is defined as
+
+$$
+E\{g(X_1)|X_2=x_2\}=\sum_{x_1}g(x_1)p(x_1|x_2)
+$$
+
+or
+
+$$
+E\{g(X_1)|X_2=x_2\}=\int_{x_1}g(x_1)f(x_1|x_2)dx_1.
+$$
+
+## Conditional Expectations
+
+Furthermore,
+
+$$
+E(X_1)=E_{X_2}\{E_{X_1|X_2}(X_1|X_2)\}
+$$
+
+and
+
+$$
+Var(X_1) = E_{X_2}\{Var_{X_1|X_2}(X_1|X_2)\} + Var_{X_2}\{E_{X_1|X_2}(X_1|X_2)\}
+$$
+
+# Covariance
+
+## Covariance
+
+Let $X_1$ and $X_2$ be 2 random variables with mean $E(X_1)=\mu_1$ and $E(X_2)=\mu_2$, respectively. The covariance of $X_1$ and $X_2$ is defined as
+
+$$
+\begin{eqnarray*}
+Cov(X_1,X_2) & = & E\{(X_1-\mu_1)(X_2-\mu_2)\}\\
+ & =& E(X_1X_2)-\mu_1\mu_2
+\end{eqnarray*}
+$$
+
+If $X_1$ and $X_2$ are independent random variables, then
+
+$$
+Cov(X_1,X_2)=0
+$$
+
+## Correlation
+
+The correlation of $X_1$ and $X_2$ is defined as
+
+$$
+\rho = Cor(X_1,X_2) = \frac{Cov(X_1,X_2)}{\sqrt{Var(X_1)Var(X_2)}}
+$$
+
+## MGF Property: Independence
+
+Let $X$ and $Y$ be independent random variables. Let $Z = X+Y$, the MGF of Z is
+
+$$
+M_Z(t) = M_X(t)M_Y(t)
+$$
+
+# Examples
+
+Let $Z$ follow a standard normal distribution with mean 0 and variance 1. Find the distribution of $Y = Z^2$
+
+## Examples
+
+Let $X_1\sim Bin(n_1,p)$ and $X_2\sim Bin(n_2, p)$. Find the distribution function of $Y=X_1 + X_2$. Assume $X_1\perp X_2$.
+
+## Examples
+
+Let $X_1\sim N(\mu_1,\sigma_1^2)$ and $X_2\sim N(\mu_2,\sigma_2^2)$. Find the distribution function of $Y=X_1 + X_2$. Assume $X_1\perp X_2$.

@@ -1,0 +1,15 @@
+---
+title: "Week 13"
+date: 11-17-24
+description: |
+  We will begin hypothesis testing.
+editor: source
+draft: false
+---
+
+## Resources
+
+| Lecture   | Slides                                                             | Videos                                |
+|-------------------|----------------------------------|-------------------|
+| Monday    | [Notes](files/m453-11-18.pdf) | [Video](https://youtu.be/D6Fwhb7bkwk) |
+| Wednesday    | [Notes](files/m453-11-20.pdf) | [Video](https://youtu.be/ciSTJF5mOjU) |

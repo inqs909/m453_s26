@@ -1,0 +1,141 @@
+---
+title: "Simple Linear Regression"
+knitr:
+  opts_chunk: 
+    echo: true
+format:
+  revealjs:
+    scrollable: true
+    navigation-mode: vertical
+    controls-layout: bottom-right
+    controls-tutorial: true
+    incremental: true 
+    chalkboard:
+      src: chalkboard.json
+      storage: chalkboard_pres
+      theme: whiteboard
+      chalk-width: 4
+editor: source
+---
+
+
+
+## Learning Outcomes
+
+- Linear Regression
+
+- Ordinary Least Squares
+
+- R Code
+
+## R Packages
+
+```{r}
+#| label: setup
+library(tidyverse)
+penguins <- penguins |> drop_na()
+```
+
+
+# Linear Regression
+
+## Linear Regression
+
+Linear regression is used to model the association between a set of predictor variables (x's) and an outcome variable (y). Linear regression will fit a line that best describes the data points.
+
+## Simple Linear Regression
+
+Simple linear regression will model the association between one predictor variable and an outcome:
+
+$$
+Y = \beta_0 + \beta_1 X + \epsilon
+$$
+
+- $\beta_0$: Intercept term
+
+- $\beta_1$: Slope term
+
+- $\epsilon\sim N(0,\sigma^2)$ 
+
+
+## `palmerpenguins`
+
+
+The `palmerpenguins` data set contains 344 observations of 7 penguin characteristics. We will be looking at different association of the penguins
+
+## Scatter Plot
+
+```{r}
+ggplot(penguins, aes(y = flipper_len, x = body_mass)) +
+  geom_point() + theme_bw()
+```
+
+## Scatter Plot
+```{r}
+ggplot(sample_n(penguins,10), aes(y = flipper_len, x = body_mass)) +
+  geom_point() + theme_bw()
+```
+
+## Fitting a Line 
+
+```{r}
+penguins |> 
+  ggplot(aes(y = flipper_len, x = body_mass)) +
+    geom_point() + 
+    geom_smooth(method = "lm") +
+    theme_bw() + 
+    annotate("text", label = "y=136.7+0.015x", x=3250, y=230, size = 10)
+```
+## Interpretation
+
+$$
+\hat y = 136.73 + 0.015 x
+$$
+
+# Ordinary Least Squares
+
+## Ordinary Least Squares
+
+For a data pair $(X_i,Y_i)_{i=1}^n$, the ordinary least squares estimator will find the estimates of $\hat\beta_0$ and $\hat\beta_1$ that minimize the following function:
+
+$$
+\sum^n_{i=1}\{y_i-(\beta_0+\beta_1x_i)\}^2
+$$
+
+## Estimates
+
+$$
+\hat\beta_0 = \bar y - \hat\beta_1\bar x
+$$
+$$
+\hat\beta_1 = \frac{\sum^n_{i=1}(y_i-\bar y)(x_i-\bar x)}{\sum^n_{i=1}(x_i-\bar x)^2}
+$$
+$$
+\hat\sigma^2 = \frac{1}{n-2}\sum^n_{i=1}(y_i-\hat y_i)^2
+$$
+
+# Standard Errors of $\beta$'s
+
+## Standard Errors of $\beta$'s
+
+$$
+SE(\hat\beta_0)=\sqrt{\frac{\sum^n_{i=1}x_i^2\hat\sigma^2}{n\sum^n_{i=1}(x_i-\bar x)^2}}
+$$
+
+$$
+SE(\hat\beta_1)=\sqrt\frac{\hat\sigma^2}{\sum^n_{i=1}(x_i-\bar x)^2}
+$$
+
+## Distributions
+
+
+## Standard Error of $\beta_0$
+
+
+
+
+
+
+
+
+

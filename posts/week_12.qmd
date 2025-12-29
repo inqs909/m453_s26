@@ -1,0 +1,14 @@
+---
+title: "Week 12"
+date: 11-11-24
+description: |
+  We will begin hypothesis testing.
+editor: source
+draft: false
+---
+
+## Resources
+
+| Lecture   | Slides                                                             | Videos                                |
+|-------------------|----------------------------------|-------------------|
+| Wednesday    | [Notes](files/m453-11-13.pdf) | [Video](https://youtu.be/Xj8aGd6JUnw) |

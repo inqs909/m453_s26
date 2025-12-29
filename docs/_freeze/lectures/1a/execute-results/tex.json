@@ -1,0 +1,17 @@
+{
+  "hash": "488328cb740fa7b6481118a33ac9e6e2",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Math 453\"\nsubtitle: \"Mathematical Statistics\"\nformat: beamer\nknitr:\n  opts_chunk:\n    echo: true\n    eval: true\n    message: false\n    warnings: false\n    comment: \"#>\" \neditor: source\n---\n\n## Introductions\n\n-   San Bernardino, CA\n\n-   CSU Monterey Bay\n\n    -   BS Biology\n\n-   San Diego State University\n\n    -   Master's in Public Health\n\n-   UC Riverside\n\n    -   PhD in Applied Statistics\n\n## Introductions\n\n::: nonincremental\n-   Name\n\n-   Year\n\n-   Major\n\n-   Fun Fact\n\n-   Career Goal\n:::\n\n## Learning Objectives\n\n-   Define and identify population, sample, parameter, and statistics\n\n-   Define and identify different variable types (quantitative and categorical)\n\n-   Define concept of random samples and sampling methods\n\n## Website and Syllabus\n\n# Fundamental of Statistics\n\n## Fundamental of Statistics\n\n-   Observational Unit\n\n-   Variable\n\n    -   Types of Variables\n\n        -   Quantitative\n\n        -   Categorical\n\n    -   Roles of Variables\n\n        -   Predictors\n\n        -   Outcome\n\n## Observational Unit\n\n## Type of Variable - Quantitative\n\n## Type of Variable - Qualitative\n\n## Predictor Variables\n\n## Outcomes\n\n# Fundamental of Statistical Inference\n\n## Fundamental of Statistical Inference {.nonincremental}\n\n::: columns\n::: {.column .nonincremental width=\"40%\"}\n-   Categorical Variables\n\n    -   Proportions\n\n        -   p or $\\pi$\n\n        -   $\\hat p$\n:::\n\n::: {.column .nonincremental width=\"60%\"}\n-   Continuous Variables\n\n    -   Means or Averages\n\n        -   $\\mu$\n\n        -   $\\hat \\mu$ or $\\bar X$\n\n    -   Variances\n\n        -   $\\sigma^2$\n\n        -   $\\hat \\sigma^2$ or $s^2$\n:::\n:::\n\n# Sampling Techniques\n\n## Sampling Techniques\n\n-   Simple Random Sampling\n\n-   Stratified Sampling\n\n-   Cluster Sampling\n\n-   Multistage Sampling\n",
+    "supporting": [
+      "1a_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}

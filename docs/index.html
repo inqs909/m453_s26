@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-541f197af378977fc20974814766a4e0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dc7d23dde7e8858c84cd2ab1c0605a1a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -114,7 +115,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -140,7 +141,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./img/favicon.svg" alt="" class="navbar-logo">
+    <img src="./img/logo.png" alt="" class="navbar-logo light-content">
+    <img src="./img/logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">MATH 453</span>
@@ -177,6 +179,9 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <div id="quarto-announcement" data-announcement-id="7e92ee71e5604a937da02dbfd14893de" class="alert alert-danger hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>Alert</strong> - this course is still under construction</p>
+</div></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -208,12 +213,12 @@ window.Quarto = {
 
 
 <div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<strong>Brief Introduction</strong>
+<span class="screen-reader-only">Note</span><strong>Brief Introduction</strong>
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -229,7 +234,261 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1733040000000" data-listing-file-modified-sort="1766551867000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/week_15.html" class="no-external">Week 15</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/week_15.html" class="no-external">
+<p>We will begin discussing Simple Linear Regression</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/week_15.html" class="no-external">
+<div class="listing-date">
+Dec 1, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1732176000000" data-listing-file-modified-sort="1766551867000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="459">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/week_14.html" class="no-external">Week 14</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/week_14.html" class="no-external">
+<p>We will discuss essential concepts to hypothesis testing.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/week_14.html" class="no-external">
+<div class="listing-date">
+Nov 21, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1731830400000" data-listing-file-modified-sort="1766551867000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="118">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/week_13.html" class="no-external">Week 13</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/week_13.html" class="no-external">
+<p>We will begin hypothesis testing.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/week_13.html" class="no-external">
+<div class="listing-date">
+Nov 17, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1731312000000" data-listing-file-modified-sort="1766551867000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="109">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/week_12.html" class="no-external">Week 12</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/week_12.html" class="no-external">
+<p>We will begin hypothesis testing.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/week_12.html" class="no-external">
+<div class="listing-date">
+Nov 11, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1730530800000" data-listing-file-modified-sort="1766551867000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="109">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/week_11.html" class="no-external">Week 11</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/week_11.html" class="no-external">
+<p>We will continue learning about statistical intervals.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/week_11.html" class="no-external">
+<div class="listing-date">
+Nov 2, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1730098800000" data-listing-file-modified-sort="1766551867000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="115">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/week_10.html" class="no-external">Week 10</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/week_10.html" class="no-external">
+<p>We will continue learning about statistical intervals.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/week_10.html" class="no-external">
+<div class="listing-date">
+Oct 28, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1729062000000" data-listing-file-modified-sort="1766551867000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="115">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/week_9.html" class="no-external">Week 9</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/week_9.html" class="no-external">
+<p>This week, we will evaluate the goodness of point estimators.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/week_9.html" class="no-external">
+<div class="listing-date">
+Oct 16, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1728802800000" data-listing-file-modified-sort="1766551867000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="414">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/week_8.html" class="no-external">Week 8</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/week_8.html" class="no-external">
+<p>This week, we will evaluate the goodness of point estimators and confidence intervals.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/week_8.html" class="no-external">
+<div class="listing-date">
+Oct 13, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1728111600000" data-listing-file-modified-sort="1766551867000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/week_7.html" class="no-external">Week 7</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/week_7.html" class="no-external">
+<p>This week focuses on statistical estimators.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/week_7.html" class="no-external">
+<div class="listing-date">
+Oct 5, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1727679600000" data-listing-file-modified-sort="1766551867000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/week_6.html" class="no-external">Week 6</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/week_6.html" class="no-external">
+<p>This week focuses on statistical estimators</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/week_6.html" class="no-external">
+<div class="listing-date">
+Sep 30, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1727074800000" data-listing-file-modified-sort="1766551867000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/week_5.html" class="no-external">Week 5</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/week_5.html" class="no-external">
+<p>This week, we will review functions of random variables and introduce the idea of sampling distributions and Central Limit Theorem.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/week_5.html" class="no-external">
+<div class="listing-date">
+Sep 23, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-listing-date-sort="1726124400000" data-listing-file-modified-sort="1766551867000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/week_4.html" class="no-external">Week 4</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/week_4.html" class="no-external">
+<p>This week, we will review functions of random variables and introduce the idea of sampling distributions and Central Limit Theorem.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/week_4.html" class="no-external">
+<div class="listing-date">
+Sep 12, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-listing-date-sort="1725519600000" data-listing-file-modified-sort="1766551867000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="117">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/week_3.html" class="no-external">Week 3</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/week_3.html" class="no-external">
+<p>This week, we will cover Transformations of Random Variables</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/week_3.html" class="no-external">
+<div class="listing-date">
+Sep 5, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-listing-date-sort="1724914800000" data-listing-file-modified-sort="1766551867000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="706">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/week_2.html" class="no-external">Week 2</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/week_2.html" class="no-external">
+<p>This week we will review basic concepts related to distribution functions and random variables</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/week_2.html" class="no-external">
+<div class="listing-date">
+Aug 29, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-listing-date-sort="1724310000000" data-listing-file-modified-sort="1766551867000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/week_1.html" class="no-external">Week 1</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/week_1.html" class="no-external">
+<p>This week is designed to be an introduction week. We will briefly discuss topics related statistics and inference. Then we will look at installing R and RStudio as well as the basics of using R.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/week_1.html" class="no-external">
+<div class="listing-date">
+Aug 22, 2024
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
@@ -284,13 +543,14 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

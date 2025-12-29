@@ -1,0 +1,21 @@
+{
+  "hash": "dc4f07f8c36dc3b8e6a01c3ba2409006",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Linear Regression\"\nformat:\n  revealjs:\n    scrollable: true\n    navigation-mode: vertical\n    controls-layout: bottom-right\n    controls-tutorial: true\n    incremental: true \n    chalkboard:\n      src: chalkboard.json\n      storage: \"chalkboard_pres\"\n      theme: whiteboard\n      chalk-width: 4\neditor: source\n---\n\n\n\n## Learning Outcomes\n\n- Scatter Plot\n\n- Linear Regression\n\n- Ordinary Least Squares\n\n- Unbiasedness\n\n# Scatter Plot\n\n## Scatter Plot\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](15a_files/figure-revealjs/unnamed-chunk-2-1.png){width=960}\n:::\n:::\n\n\n## Scatter Plot\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](15a_files/figure-revealjs/unnamed-chunk-3-1.png){width=960}\n:::\n:::\n\n\n\n\n# Linear Regression\n\n## Linear Regression\n\nLinear regression is used to model the association between a set of predictor variables (x's) and an outcome variable (y). Linear regression will fit a line that best describes the data points.\n\n## Simple Linear Regression\n\nSimple linear regression will model the association between one predictor variable and an outcome:\n\n$$\nY = \\beta_0 + \\beta_1 X + \\epsilon\n$$\n\n- $\\beta_0$: Intercept term\n\n- $\\beta_1$: Slope term\n\n- $\\epsilon\\sim N(0,\\sigma^2)$ \n\n\n## Fitting a Line \n\n\n::: {.cell}\n::: {.cell-output-display}\n![](15a_files/figure-revealjs/unnamed-chunk-4-1.png){width=960}\n:::\n:::\n\n## Interpretation\n\n$$\n\\hat y = 136.73 + 0.015 x\n$$\n\n# Ordinary Least Squares\n\n## Ordinary Least Squares\n\nFor a data pair $(X_i,Y_i)_{i=1}^n$, the ordinary least squares estimator will find the estimates of $\\hat\\beta_0$ and $\\hat\\beta_1$ that minimize the following function:\n\n$$\n\\sum^n_{i=1}\\{y_i-(\\beta_0+\\beta_1x_i)\\}^2\n$$\n\n## Estimating $\\beta$'s\n\n## Estimating $\\beta_1$\n\n## Estimating $\\beta_0$\n\n## Estimates\n\n$$\n\\hat\\beta_0 = \\bar y - \\hat\\beta_1\\bar x\n$$\n$$\n\\hat\\beta_1 = \\frac{\\sum^n_{i=1}(y_i-\\bar y)(x_i-\\bar x)}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n$$\n$$\n\\hat\\sigma^2 = \\frac{1}{n-2}\\sum^n_{i=1}(y_i-\\hat y_i)^2\n$$\n\n# Unbiasedness of $\\beta$'s\n\n## Unbiasedness of $\\beta$'s\n\nBoth $\\beta_0$ and $\\beta_1$ are unbiased estimators.\n\n##  $E(\\beta_1)$\n\n##  $E(\\beta_0)$\n",
+    "supporting": [
+      "15a_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,24 @@
+---
+title: "Week 15"
+date: 12-01-24
+description: We will begin discussing Simple Linear Regression
+editor: visual
+draft: false
+---
+
+## Learning Outcomes
+
+### Monday
+
+-   Simple Linear Regression
+
+### Wednesday
+
+-   Simple Linear Regression
+
+## Resources
+
+| Lecture   | Slides                                        | Videos |
+|-----------|-----------------------------------------------|--------|
+| Monday    | [Slides](https://m453.inqs.info/lectures/15a) |        |
+| Wednesday | [Slides](https://m453.inqs.info/lectures/15b) |        |

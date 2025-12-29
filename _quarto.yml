@@ -25,13 +25,18 @@ website:
   site-url: www.inqs.info/m453_s26
   favicon: img/favicon.svg
   navbar:
-    logo: img/favicon.svg
+    logo: img/logo.png
     right:
       - syllabus.qmd
       - hw.qmd
       - ec.qmd
       - books.qmd
-
+  announcement: 
+    icon: info-circle
+    dismissable: false
+    content: "**Alert** - this course is still under construction"
+    type: danger
+    position: below-navbar
 
 format:
   html:

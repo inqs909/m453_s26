@@ -1,0 +1,211 @@
+---
+title: "Review:"
+subtitle: "Random Variables and Distribution Functions"
+format:
+  revealjs:
+    scrollable: true
+    include-in-header: "math_commands.html"
+    navigation-mode: vertical
+    controls-layout: bottom-right
+    controls-tutorial: true
+    incremental: false 
+    chalkboard:
+      theme: whiteboard
+      chalk-width: 4
+knitr:
+  opts_chunk: 
+    echo: true
+    eval: true
+    message: false
+    warnings: false
+    comment: "#>" 
+    
+revealjs-plugins:
+  - pointer
+  - verticator
+  
+filters: 
+  - reveal-header
+  - code-fullscreen
+  - reveal-auto-agenda
+
+editor: source
+
+---
+
+# Review Random Variables
+
+## Random Variables
+
+A random variable is function that maps the sample space to real value.
+
+
+
+# Discrete Random Variables
+
+## Discrete Random Variables
+
+A random variable is considered to be discrete if it can only map to a finite or countably infinite number of distinct values.
+
+## PMF
+
+The probability mass function of discrete variable can be represented by a formula, table, or a graph. The Probability of a random variable Y can be expressed as $P(Y=y)$ for all values of $y$.
+
+## CDF
+
+The cumulative distribution function provides the $P(Y\leq y)$ for a random variable $Y$.
+
+## Expected Value
+
+The *expected value* is the value we expect when we randomly sample from population that follows a specific distribution. The expected value of Y is
+
+$$
+E(Y)=\sum_y yP(y)
+$$
+
+## Variance
+
+The *variance* is the expected squared difference between the random variable and expected value.
+
+$$
+Var(Y)=\sum_y\{y-E(Y)\}^2P(y)
+$$
+
+$$
+Var(Y) = E(X^2) - E(X)^2
+$$
+
+## Known Distributions
+
+| Distribution      | Parameter(s)      | PMF $P(Y=y)$                          |
+|-------------------|-------------------|---------------------------------------|
+| Bernoulli         | $p$               | $p$                                   |
+| Binomial          | $n$ and $p$       | $(^n_y)p^y(1-p)^{n-p}$                |
+| Geometric         | $p$               | $(1-p)^{y-1}p$                        |
+| Negative Binomial | $r$ and $p$       | $(^{y-1}_{r-1})p^{r-1}(1-p)^{y-r}$    |
+| Hypergeometric    | $N$, $n$, and $r$ | $\frac{(^r_y)(^{N-r}_{n-y})}{(^N_n)}$ |
+| Poisson           | $\lambda$         | $\frac{\lambda^y}{y!} e^{-\lambda}$   |
+
+# Binomial Distribution
+
+## Binomial Distribution
+
+An experiment is said to follow a binomial distribution if
+
+1.  Fixed $n$
+2.  Each trial has 2 outcomes
+3.  The probability of success is a constant $p$
+4.  The trials are independent of each
+
+::: fragment
+$P(X=x)=(^n_x)p^x(1-p)^{n-x}$
+:::
+
+## Expected Value of a Binomial Distribution
+
+## Continued
+
+# Poisson Distribution
+
+## Poisson Distribution
+
+The poisson distribution describes an experiment that measures that occurrence of an event at specific point and/or time period.
+
+::: fragment
+$P(X=x)=\frac{\lambda^x}{x!}e^{-\lambda}$
+:::
+
+## Expected Value of a Poisson Distribution
+
+# Continuous Random Variables
+
+## Continuous Random Variables
+
+A random variable $X$ is considered continuous if the $P(X=x)$ does not exist.
+
+## CDF
+
+The cumulative distribution function of $X$ provides the $P(X\leq x)$, denoted by $F(x)$, for the domain of $X$.
+
+Properties of the CDF of $X$:
+
+1.  $F(-\infty)\equiv \lim_{y\rightarrow -\infty}F(y)=0$
+2.  $F(\infty)\equiv \lim_{y\rightarrow \infty}F(y)=1$
+3.  $F(x)$ is a nondecreaseing function
+
+## PDF
+
+The probability density function of the random variable $X$ is given by
+
+$$
+f(x)=\frac{dF(x)}{d(x)}=F^\prime(x)
+$$
+
+wherever the derivative exists.
+
+Properties of pdfs:
+
+1.  $f(x)\geq 0$
+2.  $\int^\infty_{-\infty}f(x)dx=1$
+3.  $P(a\leq X\leq b) = P(a<X<b)=\int^b_af(x)dx$
+
+## Expected Value
+
+The expected value for a continuous distribution is defined as
+
+$$
+E(X)=\int x f(x)dx
+$$
+
+The expectation of a function $g(X)$ is defined as
+
+$$
+E\{g(X)\}=\int g(x)f(x)dx
+$$
+
+## Expected Value Properties
+
+1.  $E(c)=c$, where $c$ is constant
+2.  $E\{cg(X)\}=cE\{g(X)\}$
+3.  $E\{g_1(X)+g_2(X)+\cdots+g_n(X)\}=E\{g_1(X)\}+E\{g_2(X)\}+\cdots+E\{g_n(X)\}$
+
+## Variance
+
+The variance of continuous variable is defined as
+
+$$
+Var(X) =  E[\{X-E(X)\}^2] = \int \{X-E(X)\}^2 f(x)dx 
+$$
+
+# Uniform Distribution
+
+## Uniform Distribution
+
+A random variable is said to follow uniform distribution if the density function is constant between two parameters.
+
+::: fragment
+$$
+f(x) = \left\{\begin{array}{cc}
+ \frac{1}{b-a} & a \leq x \leq b\\
+0 & \mathrm{elsewhere}
+\end{array}\right.
+$$
+:::
+
+## Expected Value
+
+# Normal Distribution
+
+## Normal Distribution
+
+A random variable is said to follow a normal distribution if the the frequency of occurrence follow a Gaussian function.
+
+::: fragment
+$$
+f(x)=\frac{1}{\sqrt{2\pi \sigma^2}}\exp\left\{-\frac{(x-\mu)^2}{2\sigma^2}\right\}
+$$
+:::
+
+## Expected Value
+
+## Continued

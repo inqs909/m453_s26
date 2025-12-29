@@ -1,0 +1,19 @@
+---
+title: "Week 1"
+date: 08-22-24
+description: |
+  This week is designed to be an introduction week. We will briefly discuss topics related  statistics and inference. Then we will look at installing R and RStudio as well as the basics of using R.
+editor: source
+draft: false
+---
+
+## Learning Outcomes
+
+## Resources
+
+
+| Lecture   | Slides                                    | Video     |
+|-----------|-------------------------------------------|----------|
+| Monday    | [Slides](https://m453.inqs.info/lectures/1a) | [Video](https://youtu.be/43dVJ9Vais0) |
+| Wednesday | [Slides](https://m453.inqs.info/lectures/1b) | [Video](https://youtu.be/M4-KElln-14) |
+

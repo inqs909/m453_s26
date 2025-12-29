@@ -1,0 +1,127 @@
+---
+title: "Math 453"
+subtitle: "Mathematical Statistics"
+format: beamer
+knitr:
+  opts_chunk:
+    echo: true
+    eval: true
+    message: false
+    warnings: false
+    comment: "#>" 
+editor: source
+---
+
+## Introductions
+
+-   San Bernardino, CA
+
+-   CSU Monterey Bay
+
+    -   BS Biology
+
+-   San Diego State University
+
+    -   Master's in Public Health
+
+-   UC Riverside
+
+    -   PhD in Applied Statistics
+
+## Introductions
+
+::: nonincremental
+-   Name
+
+-   Year
+
+-   Major
+
+-   Fun Fact
+
+-   Career Goal
+:::
+
+## Learning Objectives
+
+-   Define and identify population, sample, parameter, and statistics
+
+-   Define and identify different variable types (quantitative and categorical)
+
+-   Define concept of random samples and sampling methods
+
+## Website and Syllabus
+
+# Fundamental of Statistics
+
+## Fundamental of Statistics
+
+-   Observational Unit
+
+-   Variable
+
+    -   Types of Variables
+
+        -   Quantitative
+
+        -   Categorical
+
+    -   Roles of Variables
+
+        -   Predictors
+
+        -   Outcome
+
+## Observational Unit
+
+## Type of Variable - Quantitative
+
+## Type of Variable - Qualitative
+
+## Predictor Variables
+
+## Outcomes
+
+# Fundamental of Statistical Inference
+
+## Fundamental of Statistical Inference {.nonincremental}
+
+::: columns
+::: {.column .nonincremental width="40%"}
+-   Categorical Variables
+
+    -   Proportions
+
+        -   p or $\pi$
+
+        -   $\hat p$
+:::
+
+::: {.column .nonincremental width="60%"}
+-   Continuous Variables
+
+    -   Means or Averages
+
+        -   $\mu$
+
+        -   $\hat \mu$ or $\bar X$
+
+    -   Variances
+
+        -   $\sigma^2$
+
+        -   $\hat \sigma^2$ or $s^2$
+:::
+:::
+
+# Sampling Techniques
+
+## Sampling Techniques
+
+-   Simple Random Sampling
+
+-   Stratified Sampling
+
+-   Cluster Sampling
+
+-   Multistage Sampling

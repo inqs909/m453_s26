@@ -1,0 +1,19 @@
+{
+  "hash": "e470ac548a91a22631696a62b1ed1148",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Maximum Likelihood Estimators\"\nformat:\n  revealjs:\n    navigation-mode: vertical\n    controls-layout: bottom-right\n    controls-tutorial: true\n    incremental: false \n    chalkboard:\n      src: chalkboard.json\n      theme: whiteboard\n      chalk-width: 4\n\nrevealjs-plugins:\n  - pointer\n  - verticator\n  \nfilters: \n  - reveal-header\n  - code-fullscreen\n  - reveal-auto-agenda\n\neditor: source\n---\n\n\n\n# Maximum Likelihood Estimators\n\n## Likelihood Function\n\nUsing the joint pdf or pmf of the sample $\\boldsymbol X$, the likelihood function is a function of $\\boldsymbol \\theta$, given the observed data $\\boldsymbol X =\\boldsymbol x$, defined as\n\n$$\nL(\\boldsymbol \\theta|\\boldsymbol x)=f(\\boldsymbol x|\\boldsymbol \\theta)\n$$\n\nIf the data is iid, then\n\n$$\nf(\\boldsymbol x|\\boldsymbol \\theta) = \\prod^n_{i=1}f(x_i|\\boldsymbol\\theta)\n$$\n\n# MLE\n\n## Likelihood Function\n\nUsing the joint pdf or pmf of the sample $\\boldsymbol X$, the likelihood function is a function of $\\boldsymbol \\theta$, given the observed data $\\boldsymbol X =\\boldsymbol x$, defined as\n\n$$\nL(\\boldsymbol \\theta|\\boldsymbol x)=f(\\boldsymbol x|\\boldsymbol \\theta)\n$$\n\nIf the data is iid, then\n\n$$\nf(\\boldsymbol x|\\boldsymbol \\theta) = \\prod^n_{i=1}f(x_i|\\boldsymbol\\theta)\n$$\n\n## Log-Likelihood Function\n\nIf $\\ln\\{L(\\boldsymbol \\theta)\\}$ is monotone of $\\boldsymbol \\theta$, then maximizing $\\ell(\\boldsymbol\\theta) = \\ln\\{L(\\boldsymbol \\theta)\\}$ will yield the maximum likelihood estimators.\n\n## Maximum log-Likelihood Estimator\n\nThe maximum likelihood estimator are the estimates of $\\boldsymbol \\theta$ that maximize $\\ell(\\boldsymbol\\theta)$.\n\n# Example\n\n## Poisson Distribution\n\nLet $X_1,\\ldots,X_n\\overset{iid}{\\sim}\\mathrm{Pois}(\\lambda)$, show that the MLE of $\\lambda$ is $\\bar x$.\n\n## Normal Distribution\n\nLet $X_1,\\ldots,X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)$. Show that the MLE's of $\\mu$ and $\\sigma^2$ are $\\bar x$ and $\\frac{n-1}{n}s^2$, respectively.\n\n## Exponential Distribution\n\nLet $X_1,\\ldots,X_n\\overset{iid}{\\sim}Exp(\\lambda)$. Find the MLE of $\\lambda$\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
