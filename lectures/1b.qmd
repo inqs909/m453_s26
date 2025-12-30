@@ -3,11 +3,18 @@ title: "Review:"
 subtitle: "Random Variables and Distribution Functions"
 format:
   revealjs:
-    scrollable: true
     include-in-header: "math_commands.html"
+    width: 1200
+    scrollable: true
+    sc-sb-title: true
+    footer: m453.inqs.info/lectures/1a
+    theme: [default, styles.scss]
     navigation-mode: vertical
-    controls-layout: bottom-right
+    controls-layout: edges
     controls-tutorial: true
+    slide-number: true
+    pointer:
+      pointerSize: 32
     incremental: false 
     chalkboard:
       theme: whiteboard
@@ -30,7 +37,6 @@ filters:
   - reveal-auto-agenda
 
 editor: source
-
 ---
 
 # Review Random Variables

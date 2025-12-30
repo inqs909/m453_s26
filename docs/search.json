@@ -882,6 +882,97 @@
     "text": "\\(E(\\beta_0)\\)"
   },
   {
+    "objectID": "lectures/1a.html#introduction",
+    "href": "lectures/1a.html#introduction",
+    "title": "Math 453",
+    "section": "Introduction",
+    "text": "Introduction\n\nSan Bernardino, CA\nCSU Monterey Bay\n\nBS Biology\n\nSan Diego State University\n\nMaster’s in Public Health\n\nUC Riverside\n\nPhD in Applied Statistics"
+  },
+  {
+    "objectID": "lectures/1a.html#introductions",
+    "href": "lectures/1a.html#introductions",
+    "title": "Math 453",
+    "section": "Introductions",
+    "text": "Introductions\n\nName\nYear\nMajor\nFun Fact\nCareer Goal"
+  },
+  {
+    "objectID": "lectures/1a.html#learning-objectives",
+    "href": "lectures/1a.html#learning-objectives",
+    "title": "Math 453",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nDefine and identify population, sample, parameter, and statistics\nDefine and identify different variable types (quantitative and categorical)\nDefine concept of random samples and sampling methods"
+  },
+  {
+    "objectID": "lectures/1a.html#website-and-syllabus",
+    "href": "lectures/1a.html#website-and-syllabus",
+    "title": "Math 453",
+    "section": "Website and Syllabus",
+    "text": "Website and Syllabus"
+  },
+  {
+    "objectID": "lectures/1a.html#outline",
+    "href": "lectures/1a.html#outline",
+    "title": "Math 453",
+    "section": "Outline",
+    "text": "Outline"
+  },
+  {
+    "objectID": "lectures/1a.html#fundamental-of-statistics-1",
+    "href": "lectures/1a.html#fundamental-of-statistics-1",
+    "title": "Math 453",
+    "section": "Fundamental of Statistics",
+    "text": "Fundamental of Statistics\n\nObservational Unit\nVariable\n\nTypes of Variables\n\nQuantitative\nCategorical\n\nRoles of Variables\n\nPredictors\nOutcome"
+  },
+  {
+    "objectID": "lectures/1a.html#observational-unit",
+    "href": "lectures/1a.html#observational-unit",
+    "title": "Math 453",
+    "section": "Observational Unit",
+    "text": "Observational Unit"
+  },
+  {
+    "objectID": "lectures/1a.html#type-of-variable---quantitative",
+    "href": "lectures/1a.html#type-of-variable---quantitative",
+    "title": "Math 453",
+    "section": "Type of Variable - Quantitative",
+    "text": "Type of Variable - Quantitative"
+  },
+  {
+    "objectID": "lectures/1a.html#type-of-variable---qualitative",
+    "href": "lectures/1a.html#type-of-variable---qualitative",
+    "title": "Math 453",
+    "section": "Type of Variable - Qualitative",
+    "text": "Type of Variable - Qualitative"
+  },
+  {
+    "objectID": "lectures/1a.html#predictor-variables",
+    "href": "lectures/1a.html#predictor-variables",
+    "title": "Math 453",
+    "section": "Predictor Variables",
+    "text": "Predictor Variables"
+  },
+  {
+    "objectID": "lectures/1a.html#outcomes",
+    "href": "lectures/1a.html#outcomes",
+    "title": "Math 453",
+    "section": "Outcomes",
+    "text": "Outcomes"
+  },
+  {
+    "objectID": "lectures/1a.html#fundamental-of-statistical-inference",
+    "href": "lectures/1a.html#fundamental-of-statistical-inference",
+    "title": "Math 453",
+    "section": "Fundamental of Statistical Inference",
+    "text": "Fundamental of Statistical Inference\n\n\n\nCategorical Variables\n\nProportions\n\np or \\(\\pi\\)\n\\(\\hat p\\)\n\n\n\n\n\nContinuous Variables\n\nMeans or Averages\n\n\\(\\mu\\)\n\\(\\hat \\mu\\) or \\(\\bar X\\)\n\nVariances\n\n\\(\\sigma^2\\)\n\\(\\hat \\sigma^2\\) or \\(s^2\\)"
+  },
+  {
+    "objectID": "lectures/1a.html#sampling-techniques-1",
+    "href": "lectures/1a.html#sampling-techniques-1",
+    "title": "Math 453",
+    "section": "Sampling Techniques",
+    "text": "Sampling Techniques\n\nSimple Random Sampling\nStratified Sampling\nCluster Sampling\nMultistage Sampling"
+  },
+  {
     "objectID": "lectures/2b.html#learning-outcomes",
     "href": "lectures/2b.html#learning-outcomes",
     "title": "Review:",

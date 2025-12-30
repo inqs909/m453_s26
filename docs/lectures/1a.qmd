@@ -1,18 +1,46 @@
 ---
 title: "Math 453"
 subtitle: "Mathematical Statistics"
-format: beamer
+format:
+  revealjs:
+    include-in-header: "math_commands.html"
+    width: 1200
+    scrollable: true
+    sc-sb-title: true
+    footer: m453.inqs.info/lectures/1a
+    theme: [default, styles.scss]
+    navigation-mode: vertical
+    controls-layout: edges
+    controls-tutorial: true
+    slide-number: true
+    pointer:
+      pointerSize: 32
+    incremental: false 
+    chalkboard:
+      theme: whiteboard
+      chalk-width: 4
 knitr:
-  opts_chunk:
+  opts_chunk: 
     echo: true
     eval: true
     message: false
     warnings: false
     comment: "#>" 
+    
+revealjs-plugins:
+  - pointer
+  - verticator
+  
+filters: 
+  - reveal-header
+  - code-fullscreen
+  - reveal-auto-agenda
+
 editor: source
 ---
 
-## Introductions
+
+## Introduction
 
 -   San Bernardino, CA
 
@@ -30,7 +58,6 @@ editor: source
 
 ## Introductions
 
-::: nonincremental
 -   Name
 
 -   Year
@@ -40,7 +67,6 @@ editor: source
 -   Fun Fact
 
 -   Career Goal
-:::
 
 ## Learning Objectives
 
@@ -51,6 +77,8 @@ editor: source
 -   Define concept of random samples and sampling methods
 
 ## Website and Syllabus
+
+## Outline
 
 # Fundamental of Statistics
 
@@ -82,7 +110,7 @@ editor: source
 
 ## Outcomes
 
-# Fundamental of Statistical Inference
+# Fundamentals of Statistical Inference
 
 ## Fundamental of Statistical Inference {.nonincremental}
 
@@ -113,6 +141,7 @@ editor: source
         -   $\hat \sigma^2$ or $s^2$
 :::
 :::
+
 
 # Sampling Techniques
 

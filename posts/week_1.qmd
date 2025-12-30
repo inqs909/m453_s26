@@ -12,8 +12,8 @@ draft: true
 ## Resources
 
 
-| Lecture   | Slides                                    | Video     |
-|-----------|-------------------------------------------|----------|
-| Monday    | [Slides](https://m453.inqs.info/lectures/1a) | [Video](https://youtu.be/43dVJ9Vais0) |
-| Wednesday | [Slides](https://m453.inqs.info/lectures/1b) | [Video](https://youtu.be/M4-KElln-14) |
+| Lecture   | Slides                       | Annotated  | Video     |
+|-----------|------------------------------|------------|-----------|
+| Monday    | [Slides](../lectures/1a) | [Slides]() | [Video]() |
+| Wednesday | [Slides](../lectures/1b) | [Slides]() | [Video]() |
 
