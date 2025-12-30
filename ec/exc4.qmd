@@ -1,0 +1,75 @@
+---
+title: "Extra Credit 4"
+description: Instructions for extra credit four.
+date: 08-20-2024
+editor: source
+draft: true
+---
+
+Write a report on one of the topics below. Provide a brief history and their purpose. Lastly, provide a toy example demonstrating the use of the topic in R.
+
+### Monte Carlo Methods
+
+Monte Carlo Methods are a class of computational algorithms that rely on random sampling to obtain numerical results. These methods use statistical sampling techniques to approximate complex mathematical problems, particularly those with deterministic or probabilistic aspects. The name "Monte Carlo" is derived from the Monte Carlo Casino in Monaco, known for its games of chance and randomness.
+
+In Monte Carlo Methods, random samples are generated to simulate the behavior of a system or process, and the results are analyzed to estimate desired quantities or solve problems. These methods find applications in various fields, such as physics, finance, engineering, and statistics. Monte Carlo simulations are particularly useful for solving problems with a large number of variables or complex interactions, where analytical solutions may be challenging or impossible to obtain.
+
+#### Resources
+
+-   <https://towardsdatascience.com/an-overview-of-monte-carlo-methods-675384eb1694>
+
+-   <https://towardsdatascience.com/monte-carlo-simulation-a-practical-guide-85da45597f0e>
+
+### Survival Analysis
+
+Survival analysis is a statistical method used to analyze the time until an event of interest occurs. This type of analysis is commonly employed in medical research, epidemiology, and other fields to study the duration until a specific event, often referred to as a "failure" or "survival" event. The event could be anything from the onset of a disease, death, relapse, or any other occurrence of interest.
+
+Survival analysis is conducted using various statistical models, with the Cox proportional hazards model being one of the most widely used. These analyses help researchers understand factors influencing the time to an event, identify risk factors, and estimate survival probabilities over time.
+
+Make sure to provide a brief history of survival analysis and prominent methods such as Kaplan-Meier curves and Cox proportional hazard models.
+
+#### Resources
+
+-   <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2394262/>
+
+-   <https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_survival/BS704_Survival_print.html>
+
+### Bayesian Analysis
+
+Bayesian analysis is a statistical approach that involves updating probabilities for hypotheses based on new evidence or data. It is rooted in Bayes' theorem, which describes how beliefs about the probability of a hypothesis should change in light of new information. In Bayesian analysis, the prior probability (initial belief) is combined with the likelihood of observing the data given the hypothesis and results in the posterior probability (updated belief).
+
+Bayesian methods are particularly valuable in situations with limited data or when incorporating prior knowledge is crucial. These methods provide a flexible framework for modeling uncertainty and updating beliefs as more information becomes available. Bayesian analysis is applied across various fields, including statistics, machine learning, physics, biology, and finance. Markov Chain Monte Carlo (MCMC) methods are often used to simulate samples from the posterior distribution in complex Bayesian models.
+
+#### Resources
+
+-   <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6406060/>
+
+-   <https://www.statlect.com/fundamentals-of-statistics/Bayesian-inference>
+
+### Causal Inference
+
+Causal inference is a field within statistics and epidemiology that focuses on understanding and estimating the causal relationships between variables or events. The goal is to determine whether a particular factor or intervention has a causal impact on an outcome. Causal inference involves identifying and controlling for confounding factors, which are variables that may influence both the cause and the effect, leading to potential bias in estimating causal relationships.
+
+Causal inference is essential for making informed decisions in fields such as medicine, public health, economics, and social sciences. It helps researchers draw valid conclusions about the effectiveness of interventions, policies, or treatments by accounting for potential sources of bias and confounding. Advances in causal inference methodologies contribute to a more rigorous understanding of cause-and-effect relationships in complex systems.
+
+#### Resources
+
+-   <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2836213/>
+
+-   <https://web.stanford.edu/~swager/stats361.pdf>
+
+### Report Guideline
+
+-   5-6 Pages
+
+-   Must include a title page
+
+-   Double Spaced
+
+-   12 point font
+
+-   Proofread your work
+
+-   Submit a pdf of your work to Canvas
+
+-   Due 12/6/2024

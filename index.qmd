@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Mathematical Statistics!"
+title: "Welcome to Course!"
 listing:
   contents: posts
   sort: "date desc"

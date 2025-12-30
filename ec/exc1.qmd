@@ -1,0 +1,19 @@
+---
+title: "Extra Credit 1"
+description: Instructions for extra credit one.
+date: 08-20-2024
+editor: source
+draft: true
+---
+
+Write a 1-2 page report related to your favorite activity. Provide details of the activity and why you like the activity.
+
+Report guidelines
+
+-   1-2 Pages
+
+-   Double Spaced
+
+-   12 point font
+
+-   Due 9/14/2024

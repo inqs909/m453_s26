@@ -1,0 +1,188 @@
+---
+title: "Extra Credit 3"
+description: Instructions for extra credit three.
+date: 08-20-2024
+editor: source
+draft: true
+---
+
+Create a website using either [Quarto](https://quarto.org/), [RMarkdown](https://rmarkdown.rstudio.com/), [Blogdown](https://bookdown.org/yihui/blogdown/), [Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll), or any other website building tools that are not point-and-click based. Once you are finished creating your website, you must host it on [GitHub Pages](https://pages.github.com/)[^1]. Below are the guidelines for the website:
+
+[^1]: GitHub Pages allow you to host websites for free if it is a Public Repository.
+
+-   Must have the following pages:
+
+    -   **Home** page
+
+        -   Talk about your major and add a picture of yourself. Add any other information you want to share to the world.
+
+    -   **About** page
+
+        -   Provide a small biography about yourself. Add anything you want to share.
+
+    -   **Resume** page
+
+        -   Report your education
+
+        -   Report any internships/jobs
+
+        -   Any projects
+
+-   Must submit the URL of your website and github repo
+
+-   Due 12/6/2024
+
+## Example Website
+
+[My Website](https://www.inqs.info) [Repo](https://gitlab.com/inqs909/inqs909.gitlab.io)
+
+## Videos
+
+[RStudio Cloud](https://drive.google.com/file/d/1v_I6qCF2VwSstvq_5g23i2pDzIfSrmUN/view?usp=sharing)
+
+## Creating a GitHub Account (Required) {#GitHub}
+
+GitHub can be considered as the google drive of code. It has great features to track code, implement changes, and host websites. You can create a Github account here: <https://github.com/>.
+
+Once you have your account create a new repository with the following naming scheme: USERNAME.github.io. Then, make sure that repository is **public,** and click to create a README document.
+
+## Building a Website with Quarto
+
+I highly recommend building your website using quarto, it is very simple platform where your text documents become webpages.
+
+### Using RStudio Cloud
+
+RStudio Cloud ([rstudio.cloud/](https://rstudio.cloud/)) is an excellent resource to create website. It has all the software that you will need to create a website. Before we begin, make sure to create repository as stated by in the [Creating a GitHub Account (Required)](#GitHub) section.
+
+#### Creating an Account
+
+When you load the website, create a free account using either your email or your CSUCI gmail account. Once you create an account, the dashboard should load with your workspace.
+
+#### Creating a Project
+
+On the top-right corner, click on the "New Project" blue button, and select "New RStudio Project". This will create a new project called "Untitled Project". Now change the name "Untitled Project" to "Website". This project will create the material you need to develop a website.
+
+#### Creating and Connecting an SSH Key
+
+In you website project, you will need a way for the project to connect with GitHub. You can do this by generating an SSH key in RStudio Cloud and transferring it to GitHub.
+
+The SSH key can be thought of as a key that will unlock your computer to transfer data. You will generate the lock and key in RStudio, and then give the key to GitHub. Afterwards, transferring files will occur securely.
+
+To generate an SSH key, go to the menu bar and select "Tools", then "Global Options". A menu will pop-up, select "Git/SVN" from the side menu. Click on the button "Create SSH key ...". A window will pop-up, then enter a password. Then click "Create". Another window will pop-up showing your lock and key, you can close the window immediately.
+
+In a different tab, go to your github account. On the top-right corner, click on your profile and select "Settings". This will redirect you to a different page. In the left menu, click on "SSH and GPG Keys". In the "SSH keys" section, click on the "New SSH key" green button. A new page will pop-up that will allow you to add a key. In the "Title" section, add any title[^2].
+
+[^2]: I usually give different names of galaxies for a title.
+
+Back at RStudio Cloud, click on the "View public key" link. Copy the highlighted text. Go back to Github and paste it in the "Key" section. Lastly, click on the "Add SSH Key" green button.
+
+Now you can transfer file easily between RStudio and GitHub.
+
+#### Cloning a Repository
+
+Cloning a repository is the process of downloading a repository from a remote server, in this case GitHub account. This will allow you to re-download your repository if it is ever deleted.
+
+In GitHub, navigate to your repository. On the top-right hand corner, click on the green button labeled "Code". Make sure the "SSH" tab is selected and copy, or click on the double squares button, the text they provide. You should copy something that look like this:
+
+``` default
+git@github.com:USERNAME/USERNAME.github.io.git 
+```
+
+In your RStudio Cloud Project, select the terminal tab in your console pane, usually on the left-side of the IDE. Paste the following text in the terminal tab[^3]:
+
+[^3]: You may need to use a special keyboard shortcut to paste text. For me, it is ctrl-shift-v. Right-clicking should work as well.
+
+``` default
+git clone git@github.com:USERNAME/USERNAME.github.io.git
+```
+
+It will prompt you to accept the SSH connection, type "yes". Afterwards, it will ask you for your SSH password. Type your password. Then, it will download your repository as a folder. In the "Files" tab, you should see the newly created folder.
+
+#### Making a Quarto Website
+
+For this section, we will primarily be working in the "Terminal" Tab in RStudio. Click on the "Terminal" Tab in the "Console" Pane. The you will type the following:
+
+``` default
+cd USERNAME.github.io
+```
+
+Make sure to replace USERNAME with your user name for GitHub. The above command will change the working folder to "USERNAME.github.io". Afterwards, you want to fill the folder with the necessary contents for making a Quarto Website. Type the following command in the terminal:
+
+``` default
+quarto create-project . --type website
+```
+
+This will fill generate new files for your website. Next, you will need to create a "nojekyll" file that tells GitHub, not to use Jekyll. Type the following in the terminal:
+
+``` default
+touch .nojekyll
+```
+
+Now, go to the "Files" Tab and open "\_quarto.yml". At the top of the document, you will need to add `output-dir: docs` under the `project:`, you should have something like this:
+
+``` default
+project:
+  type: website
+  output-dir: docs
+```
+
+Now you are set to Render your website!
+
+#### Rendering and Publishing a Website
+
+Whenever you are finished updating your website files, you will need render your website so it will update all the new content. To begin, make sure you are working in the directory (folder) containing your website files:
+
+``` default
+cd USERNAME.github.io
+```
+
+Now, you can render your website using the following command:
+
+``` default
+quarto render
+```
+
+Your website will be rendered in the `docs` folder. Then you will need to commit the changes using git. First type
+
+``` default
+git add .
+```
+
+The commit your files using the following commands:
+
+``` default
+git commit -m "Updates"
+```
+
+Lastly, push your updates to GitHub:
+
+``` default
+git push
+```
+
+It will prompt your for your password related towards you SSH key. Then it will push all the updates. GitHub will then publish your website in a few minutes. Lastly, type "USERNAME.github.io" in any browser and your website should work.
+
+### Using RStudio on Mac/Linux
+
+Coming Soon ...
+
+### Using RStudio on Windows
+
+Coming Soon ...
+
+## Creating Webpages
+
+To create a webpage, you will simply open a new quarto document, edit the page, and save it in your website's folder. To link the webpage in your menu bar, add the qmd file to the "\_quarto.yml" file:
+
+``` default
+website:
+  title: "inqs909.github.io"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - NEWFILE.qmd
+```
+
+The render your website and push it to GitHub.

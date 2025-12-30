@@ -1,0 +1,91 @@
+---
+title: "Extra Credit 2"
+description: Instructions for extra credit two.
+date: 08-20-2024
+editor: source
+draft: true
+---
+
+Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and connect key elements of the book to your every day life. Some of these books are available through the Broome Library. The professor my have the books that you can borrow.
+
+**Books:**
+
+-   The Book of Why
+
+    -   Judea Pearl
+
+-   Algorithms of Oppression
+
+    -   Safiya Umoja Noble
+
+-   Data Feminism
+
+    -   Catherine D'Ignazio and Lauren Klein
+
+-   Weapons of Math Destruction
+
+    -   Cathy O'Niel
+
+-   Invisible women : data bias in a world designed for men
+
+    -   Caroline Criado Perez
+
+-   Factfulness: Ten Reasons We're Wrong About the World... and Why Things are Better Than You Think
+
+    -   Hans Rosling
+
+-   Artificial Unintelligence: How Computers Misunderstand the World
+
+    -   Merideth Broussard
+
+-   Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech
+
+    -   Sara Wachter-Boettcher
+
+-   Automating Inequality
+
+    -   Virgina Eubanks
+
+-   Cloud Ethics
+
+    -   Louise Amoore
+
+-   Race after Technology
+
+    -   Ruha Benjamin
+
+-   Digitizing Race
+
+    -   Lisa Nakamura
+
+-   Unmasking AI
+
+    -   Joy Buolamwini
+
+-   Humble Pi
+
+    -   Matt Parker
+
+-   More than a Glitch
+
+    -   Meridith Broussard
+
+-   Data Action
+
+    -   Sarah Williams
+
+Report guidelines
+
+-   5-6 Pages
+
+-   Must include a title page
+
+-   Double Spaced
+
+-   12 point font
+
+-   Proofread your work
+
+-   Submit a pdf of your work to Canvas
+
+-   Due 12/6/2024

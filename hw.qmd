@@ -1,0 +1,10 @@
+---
+title: "Homework"
+editor: source
+listing:
+  contents: hw
+  sort: "date desc"
+  type: default
+---
+
+Below are the different homework assignments for the course. Scan your homework as a PDF. You can use [CamScanner](https://www.camscanner.com/), [Dropbox](https://help.dropbox.com/create-upload/document-scanning), [Google Drive](https://support.google.com/drive/answer/3145835?hl=en&co=GENIE.Platform%3DAndroid), or [icloud](https://support.apple.com/en-us/108963). Any assignments as images or not pdfs will not be graded.
