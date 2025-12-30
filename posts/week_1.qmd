@@ -2,9 +2,9 @@
 title: "Week 1"
 date: 08-22-24
 description: |
-  This week is designed to be an introduction week. We will briefly discuss topics related  statistics and inference. Then we will look at installing R and RStudio as well as the basics of using R.
+  This week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.
 editor: source
-draft: true
+draft: false
 ---
 
 ## Learning Outcomes

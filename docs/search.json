@@ -774,7 +774,7 @@
     "href": "index.html",
     "title": "Welcome to Mathematical Statistics!",
     "section": "",
-    "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related statistics and inference. Then we will look at installing R and RStudio as well as the basics of using R.\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "lectures/15a.html#learning-outcomes",
@@ -1608,5 +1608,12 @@
     "title": "Goodness of Estimators",
     "section": "Example",
     "text": "Example\nLet \\(X_1,\\ldots, X_n\\overset{iid}{\\sim}Unif(0,\\theta)\\) and \\(\\hat\\theta=2\\bar X\\). Find the efficiency of \\(\\hat \\theta\\)."
+  },
+  {
+    "objectID": "posts/week_1.html#resources",
+    "href": "posts/week_1.html#resources",
+    "title": "Week 1",
+    "section": "Resources",
+    "text": "Resources\n\n\n\nLecture\nSlides\nAnnotated\nVideo\n\n\n\n\nMonday\nSlides\nSlides\nVideo\n\n\nWednesday\nSlides\nSlides\nVideo"
   }
 ]
