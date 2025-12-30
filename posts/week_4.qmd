@@ -3,13 +3,13 @@ title: "Week 4"
 date: 09-12-24
 description: |
   This week, we will review functions of random variables and introduce the idea of sampling distributions and Central Limit Theorem.
-editor: visual
-draft: false
+editor: source
+draft: true
 ---
 
 ## Learning Outcomes
 
-| Lecture   | Slides                                       | Videos                                |
-|-----------|----------------------------------------------|---------------------------------------|
-| Monday    | [Slides](https://m453.inqs.info/lectures/4a) | [Video](https://youtu.be/IkkGXur7DWQ) |
+| Lecture | Slides | Videos |
+|---------------|-------------------------------|--------------------------|
+| Monday | [Slides](https://m453.inqs.info/lectures/4a) | [Video](https://youtu.be/IkkGXur7DWQ) |
 | Wednesday | [Slides](https://m453.inqs.info/lectures/4b) | [Video](https://youtu.be/V9wj_e5tl28) |

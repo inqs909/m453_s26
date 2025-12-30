@@ -4,7 +4,7 @@ date: 10-28-24
 description: |
   We will continue learning about statistical intervals.
 editor: source
-draft: false
+draft: true
 ---
 
 ## Resources

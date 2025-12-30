@@ -3,8 +3,8 @@ title: "Week 2"
 date: 08-29-24
 description: |
   This week we will review basic concepts related to distribution functions and random variables
-editor: visual
-draft: false
+editor: source
+draft: true
 ---
 
 ## Learning Outcomes
@@ -113,12 +113,12 @@ $$
 
 You must log on to your CI Google account to access the video.
 
-+-----------+--------------------------------------------------+---------------------------------------------------------------------+
-| Lecture   | Slides                                           | Videos                                                              |
-+===========+==================================================+=====================================================================+
-| Monday    |                                                  |                                                                     |
-+-----------+--------------------------------------------------+---------------------------------------------------------------------+
-| Wednesday | [Slides](https://m453.inqs.info/lectures/2b)     | [M352 Continuous MGF](https://www.youtube.com/watch?v=x9Nghr4CSoo)  |
-|           |                                                  |                                                                     |
-|           | [2023 Math 352 Website](https://m352.inqs.info/) | [M352 Categorical MGF](https://www.youtube.com/watch?v=vNVpMtqgSXw) |
-+-----------+--------------------------------------------------+---------------------------------------------------------------------+
++-------------+--------------------------------------------------+---------------------------------------------------------------------+
+| Lecture     | Slides                                           | Videos                                                              |
++=============+==================================================+=====================================================================+
+| Monday      |                                                  |                                                                     |
++-------------+--------------------------------------------------+---------------------------------------------------------------------+
+| Wednesday   | [Slides](https://m453.inqs.info/lectures/2b)     | [M352 Continuous MGF](https://www.youtube.com/watch?v=x9Nghr4CSoo)  |
+|             |                                                  |                                                                     |
+|             | [2023 Math 352 Website](https://m352.inqs.info/) | [M352 Categorical MGF](https://www.youtube.com/watch?v=vNVpMtqgSXw) |
++-------------+--------------------------------------------------+---------------------------------------------------------------------+

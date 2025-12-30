@@ -2,8 +2,8 @@
 title: "Week 14"
 date: 11-21-24
 description: We will discuss essential concepts to hypothesis testing.
-editor: visual
-draft: false
+editor: source
+draft: true
 ---
 
 ## Learning Outcomes
@@ -56,7 +56,7 @@ The likelihood ratio test is used when you cannot find a uniformly most powerful
 
 #### Hypothesis
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 $H_0:\ \theta\in\Theta_0$
 :::
@@ -64,7 +64,7 @@ $H_0:\ \theta\in\Theta_0$
 ::: {.column width="40%"}
 $H_a:\ \theta\in\Theta_a$
 :::
-:::
+:::::
 
 -   $\Theta = \Theta_0\cup\Theta_a$
 
@@ -88,7 +88,7 @@ Reject $H_0$ if $\Lambda\le k$
 
 Press the "b" key to access hidden notes.
 
-| Lecture   | Slides                                                             | Videos                                |
-|-----------|--------------------------------------------------------------------|---------------------------------------|
-| Monday    | [Slides](https://m453.inqs.info/files/Lecture_15_class/index.html) | [Video](https://youtu.be/U42gpCH47Ns) |
+| Lecture | Slides | Videos |
+|---------------|-------------------------------------|--------------------|
+| Monday | [Slides](https://m453.inqs.info/files/Lecture_15_class/index.html) | [Video](https://youtu.be/U42gpCH47Ns) |
 | Wednesday | [Slides](https://m453.inqs.info/files/Lecture_16_class/index.html) | [Video](https://youtu.be/xfrmVYdNuqU) |

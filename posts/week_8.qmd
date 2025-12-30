@@ -3,8 +3,8 @@ title: "Week 8"
 date: 10-13-24
 description: |
   This week, we will evaluate the goodness of point estimators and confidence intervals.
-editor: visual
-draft: false
+editor: source
+draft: true
 ---
 
 ## Learning Outcomes
@@ -78,7 +78,7 @@ You must log on to your CI Google account to access the video.
 
 Press the "b" key to access hidden notes.
 
-| Lecture   | Slides                                                    | Videos                                |
-|-------------------|----------------------------------|-------------------|
-| Monday    | [Slides](https://m453.inqs.info/lectures/8a#/title-slide) | [Video](https://youtu.be/2Od7bDiyRAE) |
+| Lecture | Slides | Videos |
+|-------------------|---------------------------------|-------------------|
+| Monday | [Slides](https://m453.inqs.info/lectures/8a#/title-slide) | [Video](https://youtu.be/2Od7bDiyRAE) |
 | Wednesday | [Slides](https://m453.inqs.info/lectures/8b#/title-slide) | [Video](https://youtu.be/930igHnccVQ) |

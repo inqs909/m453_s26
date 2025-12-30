@@ -4,7 +4,7 @@ date: 11-17-24
 description: |
   We will begin hypothesis testing.
 editor: source
-draft: false
+draft: true
 ---
 
 ## Resources

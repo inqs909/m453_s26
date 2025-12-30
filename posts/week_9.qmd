@@ -4,7 +4,7 @@ date: 10-16-24
 description: |
   This week, we will evaluate the goodness of point estimators.
 editor: source
-draft: false
+draft: true
 ---
 
 ## Resources

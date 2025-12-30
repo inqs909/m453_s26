@@ -14,508 +14,984 @@
     "text": "Term: Spring 2026\nInstructor: Isaac Quintanilla Salinas\nContact: isaac.qs@csuci.edu\nOffice Location: Marin 2326\nOffice Hours:\nLecture:\nPre-Requisites: MATH 201 or MATH 202/PSY 202 or MATH 300 or MATH 352\n\n\n\nThis course is an introduction to mathematical statistics with an emphasis on statistical estimation and hypothesis testing. The course will be comprised of both theory and applications. We begin with a condensed review of fundamental concepts from Math 352; particularly, we briefly review important discrete and continuous probability distributions. We will then begin our discussion on the main topic of this course, statistical inference, through the study of distributions of functions of random variables using the method of moment-generating functions and order statistics. We then discuss ideas of convergence with sampling distributions and the central limit theorem. Next, we consider the topics of estimation, properties of point estimators, and methods of estimation. Finally, we study the theory of statistical tests and likelihood ratio tests. Depending on time, other topics may be added or removed.\n\n\n\n\nDemonstrate statistical knowledge and apply it to various data sets.\nUse basic principles of statistical inference (both Bayesian and frequentist).\nBuild a starter statistical toolbox and discuss the utility and limitations of these techniques.\nUse software and simulation to do statistics.\nDemonstrate ability to discuss statistical information in oral and written form.\n\n\n\n\n\nModern Mathematical Statistics (MMS) with Applications, by Jay L. Devore and Kenneth N. Berk , Third Edition, Springer, 2021. (available online for free through the Broome Library).\n\n\n\n\n\n\n\nCategory\nPercentage\n\n\n\n\nHomework\n25%\n\n\nExam 1\n25%\n\n\nExam 2\n25%\n\n\nExam 3\n25%\n\n\n\nAt the end of the quarter, course grades will be assigned according to the following scale:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA+\n98 – 100\nB+\n87 – &lt;90\nC+\n77 – &lt;80\nD+\n67 – &lt;70\n\n\n\n\nA\n93 – &lt;98\nB\n83 – &lt;87\nC\n73 – &lt;77\nD\n63 – &lt;67\nF\n&lt; 60\n\n\nA–\n90 - &lt;93\nB-\n80 – &lt;83\nC–\n70 – &lt;73\nD–\n60 – &lt;63\n\n\n\n\n\n\n\nHomework will be assigned on a regular basis and posted on https://m453.inqs.info/hw.html and CANVAS. All homework assignments are due at the beginning of class. The homework is to help you practice the concepts learned in lecture and to help you study. You must turn in your own individual homework and show your understanding of the material. At the end of the semester, the three lowest homework grades will be dropped.\n\n\n\nThere will be three exams and Final.\nExam #1 will most likely be during the 6th week of the semester. Exam #2 will most likely be during the 11th week of the semester. Exam #3 will be on December 9, 2024 10:30 AM - 12:30 PM.\nWhile the exams are not considered cumulative, the material builds on each other. Developing a strong understanding of the material through out the course is important for your success.\nAt the end of the semester, your lowest exam grade will be replaced by your median average exam grade.\nThis course will operate under a zero-tolerance policy. Talking during the time of the exam, sharing materials, looking at another students’ exam, or not following directions given will be subject to the\nUniversity’s academic integrity policy.\n\n\n\nThere will be 4 extra credit opportunities worth a total of 10% of your overall grade. (There are no make-ups for missed extra credit assignments!) More information will be provided on the extra credit assignments on a later date.\n\n\n\n\nThe following outline may be subject to change. Any changes will be announced in class.\n\n\n\n\n\n\n\n\n\nWeek\nLecture\nTopic\nReading\n\n\n\n\n1 8/26-8/30\n1 Monday\nIntroduction to Statistics\n1.1-1.4\n\n\n\n2 Wednesday\nReview: RV and Distribution Function\n3.1, 3.5-3.7, 4.1, 4.3-4.5\n\n\n2 9/2-9/6\n3 Labor Day\n\n\n\n\n\n4 Wednesday\nReview: Moment Generating Functions\n3.4, 4.2\n\n\n3 9/9-9/13\n5 Monday\nTransonformation of Random Variables\n4.7\n\n\n\n6 Wednesday\nJoint Distributions\n5.1, 5.2\n\n\n4 9/16- 9/20\n7 Monday\nLinear Combinations and Conditional Distributions\n5.3, 5.4\n\n\n\n8 Wednesday\nFunctions of RV’s and Order Statistics\n5.6, 5.7\n\n\n5 9/23-9/27\n9 Monday\nSampling Distributions\n6.1, 6.2\n\n\n\n10 Wednesday\nCommon Sampling Distributions\n6.3, 6.4\n\n\n6 9/30-10/4\n11 Monday\nExam #1\n\n\n\n\n12 Wednesday\nPoint Estimation\n7.1\n\n\n7 10/7-10/11\n13 Monday\nMaximum Likelihood Estimator\n7.2\n\n\n\n14 Wednesday\nMethod of Moments Estimator\n7.2\n\n\n8 10/14-10/18\n15 Monday\nSufficiency\n7.3\n\n\n\n16 Wednesday\nInformation and Efficiency\n7.4\n\n\n9 10/21-10/25\n17 Monday\nConfidence Intervals\n8.1\n\n\n\n18 Wednesday\nSingle Sample Intervals\n8.2\n\n\n10 10/28-11/1\n19 Monday\nProportion Intervals\n8.3\n\n\n\n20 Wednesday\nIntervals for Variances\n8.4\n\n\n11 11/4-11/6\n21 Monday\nBootstrap-based Intervals\n8.5\n\n\n\n22 Wednesday\nExam #2\n\n\n\n12 11/11-11/15\n23 Monday\nVeteran’s Day\n\n\n\n\n24 Wednesday\nHypothesis Testing\n9.1\n\n\n13 11/18-11/22\n25 Monday\nTests for Population Mean\n9.2\n\n\n\n26 Wednesday\nTests for Population Porportion\n9.3\n\n\n14 11/25-11/29\n27 Monday\nP-Value\n9.4\n\n\n\n28 Wednesday\nNeyman-Pearson Lemma and Likelihood Ratio Test (Virtual Class)\n9.5\n\n\n15 12/2-12/6\n29 Monday\nSimple Linear Regression\n12.1\n\n\n\n30 Wednesday\nEstimation and Inference\n12.2-12.4\n\n\n16 12/9\n\nExam #3\n\n\n\n\n\n\n\n\nAcademic Honesty:\nPlease conduct yourself with honesty and integrity. Do not submit others’ work as your own. For assignments and quizzes that allow you to work with a group, only put your name on what the group submits if you genuinely contributed to the work. Work completely independently on exams, using only the materials that are indicated as allowed. Failure to observe academic honesty results in substantial penalties that can include failing the course.\nDisabilities:\nIf you are a student with a disability requesting reasonable accommodations in this course, you need to contact Disability Accommodations and Support Services (DASS) located on the second floor of Arroyo Hall, via email accommodations@csuci.edu or call 805-437-3331. All requests for reasonable accommodations require registration with DASS in advance of need: https://www.csuci.edu/dass/students/apply-for-services.htm. Faculty, students and DASS will work together regarding classroom accommodations. You are encouraged to discuss approved.\nEmergency Procedure Notice to Students:\nCSUCI is following guidelines and public orders from the California Department of Public Health and Ventura County Public Health for the COVID-19 pandemic as it pertains to CSUCI students, employees and visitors on the campus. Students are expected to adhere to all health and safety requirements as noted on the University’s Fall 2022 Semester website or they may be subject to removal from the classroom."
   },
   {
-    "objectID": "posts/week_8.html",
-    "href": "posts/week_8.html",
-    "title": "Week 8",
-    "section": "",
-    "text": "Consistency\nSufficiency\nInformation\nEfficiency\n\n\n\n\n\nRelative Efficiency\nConsisteny"
-  },
-  {
-    "objectID": "posts/week_8.html#learning-outcomes",
-    "href": "posts/week_8.html#learning-outcomes",
-    "title": "Week 8",
-    "section": "",
-    "text": "Consistency\nSufficiency\nInformation\nEfficiency\n\n\n\n\n\nRelative Efficiency\nConsisteny"
-  },
-  {
-    "objectID": "posts/week_8.html#important-concepts",
-    "href": "posts/week_8.html#important-concepts",
-    "title": "Week 8",
-    "section": "Important Concepts",
-    "text": "Important Concepts\n\nConsistency\nLet \\(X_1,\\ldots,X_n\\) be a random sample from a distribution with parameter \\(\\theta\\). The estimator \\(\\hat \\theta\\) is a consistent estimator of the \\(\\theta\\) if\n\n\\(E\\{(\\hat\\theta-\\theta)^2\\}\\rightarrow0\\) as \\(n\\rightarrow \\infty\\)\n\\(P(|\\hat\\theta-\\theta|\\ge \\epsilon)\\rightarrow0\\) as \\(n\\rightarrow \\infty\\) for every \\(\\epsilon&gt;0\\)\n\n\n\nSufficiency\nSufficiency evaluates whether a statistic (or estimator) contains enough information of a parameter \\(\\theta\\). In essence a statistic is considered sufficient to infer \\(\\theta\\) if it provides enough information about \\(\\theta\\).\nLet \\(X_1,\\ldots,X_n\\) be a random sample from a distribution with parameter \\(\\theta\\). A statistic \\(T=t(X_1,\\ldots,X_n)\\) is said to be sufficient for making inferences of a parameter \\(\\theta\\) if condition joint distribution of \\(X_1,\\ldots,X_n\\) given \\(T=t\\) does not depend on \\(\\theta\\).\n\nFactorization Theorem\nLet \\(f(x_1, \\ldots, x_n;\\theta)\\) be the joint PMF of PDF of \\(X_1, \\ldots,X_n\\). Then \\(T=t(X_1,\\ldots,X_n)\\) is a sufficient statistic for \\(\\theta\\) if and only if there exist 2 nonnegative functions, \\(g\\) and \\(h\\), such that\n\\[\nf(x_1,\\ldots,x_n) = g\\{t(x_1,\\ldots,x_n);\\theta\\}h(x_1,\\ldots,x_n).\n\\]\n\n\n\nMinimum Sufficient Statistics\nA minimum sufficient statistic is a sufficient statistic that has the smallest dimensionality, which represents the greatest possible reduction of the data without any information loss.\n\n\nInformation\nIn Statistics, information is thought of as how much does the data tell you about a parameter \\(\\theta\\). In general, the more data is provided, the more information is provided to estimate \\(\\theta\\).\nInformation can be quantified using Fisher’s Information \\(I(\\theta)\\). For a single observation, Fisher’s Information is defined as\n\\[\nI(\\theta)=E\\left[-\\frac{\\partial^2}{\\partial\\theta^2}\\log\\{f(X;\\theta)\\}\\right],\n\\]\nwhere \\(f(X;\\theta)\\) is either the PMF or PDF of the random variable \\(X\\). Furthermore, \\(I(\\theta)\\) can be defined as\n\\[\nI(\\theta)=Var\\left\\{\\frac{\\partial}{\\partial\\theta}\\log f(X;\\theta)\\right\\}.\n\\]\n\nAdditive Principle\nLet \\(X_1,\\ldots,X_n\\) be a random sample from a distribution with parameter \\(\\theta\\), then Fisher’s Information for the random sample is defined as\n\\[\nI_n(\\theta)=nI(\\theta)\n\\]"
-  },
-  {
-    "objectID": "posts/week_8.html#resources",
-    "href": "posts/week_8.html#resources",
-    "title": "Week 8",
-    "section": "Resources",
-    "text": "Resources\nYou must log on to your CI Google account to access the video.\nPress the “b” key to access hidden notes.\n\n\n\nLecture\nSlides\nVideos\n\n\n\n\nMonday\nSlides\nVideo\n\n\nWednesday\nSlides\nVideo"
-  },
-  {
-    "objectID": "posts/week_6.html",
-    "href": "posts/week_6.html",
-    "title": "Week 6",
-    "section": "",
-    "text": "Estimators\nMLE\n\n\n\n\n\nExam"
-  },
-  {
-    "objectID": "posts/week_6.html#learning-outcomes",
-    "href": "posts/week_6.html#learning-outcomes",
-    "title": "Week 6",
-    "section": "",
-    "text": "Estimators\nMLE\n\n\n\n\n\nExam"
-  },
-  {
-    "objectID": "posts/week_6.html#resources",
-    "href": "posts/week_6.html#resources",
-    "title": "Week 6",
-    "section": "Resources",
-    "text": "Resources\nYou must log on to your CI Google account to access the video.\nPress the “b” key to access hidden notes.\n\n\n\nLecture\nSlides\nVideos\n\n\n\n\nMonday\nSlides\nVideo\n\n\nWednesday"
-  },
-  {
-    "objectID": "posts/week_4.html",
-    "href": "posts/week_4.html",
-    "title": "Week 4",
-    "section": "",
-    "text": "Lecture\nSlides\nVideos\n\n\n\n\nMonday\nSlides\nVideo\n\n\nWednesday\nSlides\nVideo"
-  },
-  {
-    "objectID": "posts/week_4.html#learning-outcomes",
-    "href": "posts/week_4.html#learning-outcomes",
-    "title": "Week 4",
-    "section": "",
-    "text": "Lecture\nSlides\nVideos\n\n\n\n\nMonday\nSlides\nVideo\n\n\nWednesday\nSlides\nVideo"
-  },
-  {
-    "objectID": "posts/week_2.html",
-    "href": "posts/week_2.html",
-    "title": "Week 2",
-    "section": "",
-    "text": "Define Moment Generating Functions\nDiscuss Properties"
-  },
-  {
-    "objectID": "posts/week_2.html#learning-outcomes",
-    "href": "posts/week_2.html#learning-outcomes",
-    "title": "Week 2",
-    "section": "",
-    "text": "Define Moment Generating Functions\nDiscuss Properties"
-  },
-  {
-    "objectID": "posts/week_2.html#important-concepts",
-    "href": "posts/week_2.html#important-concepts",
-    "title": "Week 2",
-    "section": "Important Concepts",
-    "text": "Important Concepts\n\nMonday\n\nDiscrete Variables\nA random variable is considered to be discrete if it can only map to a finite or countably infinite number of distinct values.\n\nPMF\nThe probability mass function of discrete variable can be represented by a formula, table, or a graph. The Probability of a random variable Y can be expressed as \\(P(Y=y)\\) for all values of \\(y\\).\n\n\nCDF\nThe cumulative distribution function provides the \\(P(Y\\leq y)\\) for a random variable \\(Y\\).\n\n\nExpected Value\nThe expected value is the value we expect when we randomly sample from population that follows a specific distribution. The expected value of Y is\n\\[\nE(Y)=\\sum_y yP(y)\n\\]\n\n\n\nContinuous Variables\nA random variable \\(X\\) is considered continuous if the \\(P(X=x)\\) does not exist.\n\nCDF\nThe cumulative distribution function of \\(X\\) provides the \\(P(X\\leq x)\\), denoted by \\(F(x)\\), for the domain of \\(X\\).\nProperties of the CDF of \\(X\\):\n\n\\(F(-\\infty)\\equiv \\lim_{y\\rightarrow -\\infty}F(y)=0\\)\n\\(F(\\infty)\\equiv \\lim_{y\\rightarrow \\infty}F(y)=1\\)\n\\(F(x)\\) is a nondecreaseing function\n\n\n\nPDF\nThe probability density function of the random variable \\(X\\) is given by\n\\[\nf(x)=\\frac{dF(x)}{d(x)}=F^\\prime(x)\n\\]\nwherever the derivative exists.\nProperties of pdfs:\n\n\\(f(x)\\geq 0\\)\n\\(\\int^\\infty_{-\\infty}f(x)dx=1\\)\n\\(P(a\\leq X\\leq b) = P(a&lt;X&lt;b)=\\int^b_af(x)dx\\)\n\n\n\nExpected Value\nThe expected value for a continuous distribution is defined as\n\\[\nE(X)=\\int x f(x)dx\n\\]\nThe expectation of a function \\(g(X)\\) is defined as\n\\[\nE\\{g(X)\\}=\\int g(x)f(x)dx\n\\] Special properties of the expected value:\n\n\\(E(c)=c\\), where \\(c\\) is constant\n\\(E\\{cg(X)\\}=cE\\{g(X)\\}\\)\n\\(E\\{g_1(X)+g_2(X)+\\cdots+g_n(X)\\}=E\\{g_1(X)\\}+E\\{g_2(X)\\}+\\cdots+E\\{g_n(X)\\}\\)\n\n\n\n\n\nWednesday\n\nMoments\nThe \\(k\\)th moment is defined as the expectation of the random variable, raised to the \\(k\\)th power, defined as \\(E(X^k)\\).\n\n\nMoment Generating Functions\nThe moment generating functions is used to obtain the \\(k\\)th moment. The mgf is defined as\n\\[\nm(c) = E(e^{tX})\n\\]\nThe \\(k\\)th moment can be obtained by taking the \\(k\\)th derivative of the mgf, with respect to \\(c\\), and setting \\(c\\) equal to 0:\n\\[\nE(X^k)=\\frac{d^km(c)}{dc}\\Bigg|_{c=0}\n\\]"
-  },
-  {
-    "objectID": "posts/week_2.html#resources",
-    "href": "posts/week_2.html#resources",
-    "title": "Week 2",
-    "section": "Resources",
-    "text": "Resources\nYou must log on to your CI Google account to access the video.\n\n\n\nLecture\nSlides\nVideos\n\n\n\n\nMonday\n\n\n\n\nWednesday\nSlides\n2023 Math 352 Website\nM352 Continuous MGF\nM352 Categorical MGF"
-  },
-  {
-    "objectID": "posts/week_14.html",
-    "href": "posts/week_14.html",
-    "title": "Week 14",
-    "section": "",
-    "text": "Type I and Type II Errors\nPower of Tests\nNeyman-Pearson Lemma\n\n\n\n\n\nLikelihood Ratio Test"
-  },
-  {
-    "objectID": "posts/week_14.html#learning-outcomes",
-    "href": "posts/week_14.html#learning-outcomes",
-    "title": "Week 14",
-    "section": "",
-    "text": "Type I and Type II Errors\nPower of Tests\nNeyman-Pearson Lemma\n\n\n\n\n\nLikelihood Ratio Test"
-  },
-  {
-    "objectID": "posts/week_14.html#important-concepts",
-    "href": "posts/week_14.html#important-concepts",
-    "title": "Week 14",
-    "section": "Important Concepts",
-    "text": "Important Concepts\n\nType I and II Errors\nWith hypothesis testing, we are testing to either reject or fail to reject the \\(H_0\\). We usually choose a significance value of \\(\\alpha\\) to determine how we will make our decision. In this case, \\(\\alpha\\) represents the probability that we reject \\(H_0\\) given that \\(H_0\\) is true (\\(P(Reject\\ H_0| H_0\\ true)\\)). If we reject \\(H_0\\), given that it is true, we are committing Type I error. Generally speaking, we control Type I error by selecting a small \\(\\alpha\\)\nType II error is the opposite case, where we fail to reject \\(H_0\\), given it is false. Similar to type I error, a hypothesis test will have a probability (\\(P(Fail\\ to\\ reject\\ H_0|H_0\\ False)\\)).\n\n\nPower of Tests\n\nPower\nThe power of a test is the probability of rejecting \\(H_0\\) when the true parameter is \\(\\theta\\).\n\\[\n\\mathrm{power}(\\theta) = \\mathrm P(\\mathrm{Reject}\\ H_0\\ \\mathrm{when}\\ \\theta\\ \\mathrm{is true})\n\\]\n\n\nPower and Type II Error\n\\[\n\\beta = 1 - \\mathrm{power}(\\theta_a)\n\\]"
-  },
-  {
-    "objectID": "posts/week_14.html#resources",
-    "href": "posts/week_14.html#resources",
-    "title": "Week 14",
-    "section": "Resources",
-    "text": "Resources\nPress the “b” key to access hidden notes.\n\n\n\nLecture\nSlides\nVideos\n\n\n\n\nMonday\nSlides\nVideo\n\n\nWednesday\nSlides\nVideo"
-  },
-  {
-    "objectID": "posts/week_12.html",
-    "href": "posts/week_12.html",
-    "title": "Week 12",
-    "section": "",
-    "text": "Lecture\nSlides\nVideos\n\n\n\n\nWednesday\nNotes\nVideo"
-  },
-  {
-    "objectID": "posts/week_12.html#resources",
-    "href": "posts/week_12.html#resources",
-    "title": "Week 12",
-    "section": "",
-    "text": "Lecture\nSlides\nVideos\n\n\n\n\nWednesday\nNotes\nVideo"
-  },
-  {
-    "objectID": "posts/week_11.html",
-    "href": "posts/week_11.html",
-    "title": "Week 11",
-    "section": "",
-    "text": "Lecture\nSlides\nVideos\n\n\n\n\nMonday\nNotes\nVideo"
-  },
-  {
-    "objectID": "posts/week_11.html#resources",
-    "href": "posts/week_11.html#resources",
-    "title": "Week 11",
-    "section": "",
-    "text": "Lecture\nSlides\nVideos\n\n\n\n\nMonday\nNotes\nVideo"
-  },
-  {
-    "objectID": "posts/week_1.html#resources",
-    "href": "posts/week_1.html#resources",
-    "title": "Week 1",
-    "section": "Resources",
-    "text": "Resources\n\n\n\nLecture\nSlides\nVideo\n\n\n\n\nMonday\nSlides\nVideo\n\n\nWednesday\nSlides\nVideo"
-  },
-  {
-    "objectID": "lectures/8a.html#learning-outcomes",
-    "href": "lectures/8a.html#learning-outcomes",
+    "objectID": "lectures/8b.html#learning-outcomes",
+    "href": "lectures/8b.html#learning-outcomes",
     "title": "Goodness of Estimators",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nConsistency\nSufficiency\nInformation\nEfficiency"
+    "text": "Learning Outcomes\n\nInformation\nEfficiency\nCramér-Rao Inequality\nRelative Efficiency\nLaw of Large Numbers"
   },
   {
-    "objectID": "lectures/8a.html#consistency-1",
-    "href": "lectures/8a.html#consistency-1",
-    "title": "Goodness of Estimators",
-    "section": "Consistency",
-    "text": "Consistency\nAn estimator is considered a consistent estimator of \\(\\theta\\) if the estimator, on average, converges to \\(\\theta\\) as \\(n\\rightarrow\\infty\\)."
-  },
-  {
-    "objectID": "lectures/8a.html#consistency-2",
-    "href": "lectures/8a.html#consistency-2",
-    "title": "Goodness of Estimators",
-    "section": "Consistency",
-    "text": "Consistency\nLet \\(X_1,\\ldots,X_n\\) be a random sample from a distribution with parameter \\(\\theta\\). The estimator \\(\\hat \\theta\\) is a consistent estimator of the \\(\\theta\\) if\n\n\\(E\\{(\\hat\\theta-\\theta)^2\\}\\rightarrow0\\) as \\(n\\rightarrow \\infty\\)\n\\(P(|\\hat\\theta-\\theta|\\ge \\epsilon)\\rightarrow0\\) as \\(n\\rightarrow \\infty\\) for every \\(\\epsilon&gt;0\\)"
-  },
-  {
-    "objectID": "lectures/8a.html#sufficiency-1",
-    "href": "lectures/8a.html#sufficiency-1",
-    "title": "Goodness of Estimators",
-    "section": "Sufficiency",
-    "text": "Sufficiency\nSufficiency evaluates whether a statistic (or estimator) contains enough information of a parameter \\(\\theta\\). In essence a statistic is considered sufficient to infer \\(\\theta\\) if it provides enough information about \\(\\theta\\)."
-  },
-  {
-    "objectID": "lectures/8a.html#sufficiency-2",
-    "href": "lectures/8a.html#sufficiency-2",
-    "title": "Goodness of Estimators",
-    "section": "Sufficiency",
-    "text": "Sufficiency\nLet \\(X_1,\\ldots,X_n\\) be a random sample from a distribution with parameter \\(\\theta\\). A statistic \\(T=t(X_1,\\ldots,X_n)\\) is said to be sufficient for making inferences of a parameter \\(\\theta\\) if condition joint distribution of \\(X_1,\\ldots,X_n\\) given \\(T=t\\) does not depend on \\(\\theta\\)."
-  },
-  {
-    "objectID": "lectures/8a.html#factorization-theorem",
-    "href": "lectures/8a.html#factorization-theorem",
-    "title": "Goodness of Estimators",
-    "section": "Factorization Theorem",
-    "text": "Factorization Theorem\nThe Factorization Theorem provides a condition for a statistic \\(T(X)\\) to be sufficient for a parameter \\(\\theta\\) given a probability density function or probability mass function."
-  },
-  {
-    "objectID": "lectures/8a.html#factorization-theorem-1",
-    "href": "lectures/8a.html#factorization-theorem-1",
-    "title": "Goodness of Estimators",
-    "section": "Factorization Theorem",
-    "text": "Factorization Theorem\nLet \\(X = (X_1, X_2, \\dots, X_n)\\) be a random sample with joint probability density (or mass) function \\(f(x|\\theta)\\), where \\(\\theta\\) is a parameter.\nTheorem: A statistic \\(T(X)\\) is sufficient for \\(\\theta\\) if and only if the joint density (or mass) function \\(f(x|\\theta)\\) can be factored into the form\n\\[\nf(x|\\theta) = g(T(x), \\theta) \\cdot h(x)\n\\]\nwhere:\n\n\\(g(T(x), \\theta)\\) is a function that depends on \\(T(x)\\) and \\(\\theta\\),\n\\(h(x)\\) is a function that does not depend on \\(\\theta\\)."
-  },
-  {
-    "objectID": "lectures/8a.html#factorization-theorem-2",
-    "href": "lectures/8a.html#factorization-theorem-2",
-    "title": "Goodness of Estimators",
-    "section": "Factorization Theorem",
-    "text": "Factorization Theorem\nIn other words, \\(f(x|\\theta)\\) can be written as a product of two functions, where only one function depends on the parameter \\(\\theta\\) and the sufficient statistic \\(T(X)\\).\nImplications: The Factorization Theorem is useful for identifying sufficient statistics, which summarize all necessary information from a sample about the parameter \\(\\theta\\)."
-  },
-  {
-    "objectID": "lectures/8a.html#example",
-    "href": "lectures/8a.html#example",
-    "title": "Goodness of Estimators",
-    "section": "Example",
-    "text": "Example\nLet \\(X_1,\\ldots, X_n\\overset{iid}{\\sim}Bernoulli(p)\\) and \\(Y_n=\\sum^n_{i=1}X_i\\). Show that \\(Y_n\\) is a sufficient statistic for \\(p\\)."
-  },
-  {
-    "objectID": "lectures/8a.html#example-1",
-    "href": "lectures/8a.html#example-1",
-    "title": "Goodness of Estimators",
-    "section": "Example",
-    "text": "Example\nLet \\(X_1,\\ldots, X_n\\overset{iid}{\\sim}Normal(\\mu,\\sigma^2)\\) and \\(Y_n=\\sum^n_{i=1}X_i\\). Show that \\(Y_n\\) is a sufficient statistic for \\(\\mu\\). Assume \\(\\sigma^2\\) is known."
-  },
-  {
-    "objectID": "lectures/8a.html#information-1",
-    "href": "lectures/8a.html#information-1",
+    "objectID": "lectures/8b.html#information-1",
+    "href": "lectures/8b.html#information-1",
     "title": "Goodness of Estimators",
     "section": "Information",
     "text": "Information\nIn Statistics, information is thought of as how much does the data tell you about a parameter \\(\\theta\\). In general, the more data is provided, the more information is provided to estimate \\(\\theta\\)."
   },
   {
-    "objectID": "lectures/8a.html#information-2",
-    "href": "lectures/8a.html#information-2",
+    "objectID": "lectures/8b.html#information-2",
+    "href": "lectures/8b.html#information-2",
     "title": "Goodness of Estimators",
     "section": "Information",
     "text": "Information\nInformation can be quantified using Fisher’s Information \\(I(\\theta)\\). For a single observation, Fisher’s Information is defined as\n\\[\nI(\\theta)=E\\left[-\\frac{\\partial^2}{\\partial\\theta^2}\\log\\{f(X;\\theta)\\}\\right],\n\\]\nwhere \\(f(X;\\theta)\\) is either the PMF or PDF of the random variable \\(X\\)."
   },
   {
-    "objectID": "lectures/8a.html#information-3",
-    "href": "lectures/8a.html#information-3",
+    "objectID": "lectures/8b.html#information-3",
+    "href": "lectures/8b.html#information-3",
     "title": "Goodness of Estimators",
     "section": "Information",
     "text": "Information\nFurthermore, \\(I(\\theta)\\) can be defined as\n\\[\nI(\\theta)=Var\\left\\{\\frac{\\partial}{\\partial\\theta}\\log f(X;\\theta)\\right\\}.\n\\]"
   },
   {
-    "objectID": "lectures/8a.html#proof",
-    "href": "lectures/8a.html#proof",
+    "objectID": "lectures/8b.html#proof",
+    "href": "lectures/8b.html#proof",
     "title": "Goodness of Estimators",
     "section": "Proof",
     "text": "Proof\nShow the following property:\n\\[\nE\\left[-\\frac{\\partial^2}{\\partial\\theta^2}\\log\\{f(X;\\theta)\\}\\right] = Var\\left\\{\\frac{\\partial}{\\partial\\theta}\\log f(X;\\theta)\\right\\}\n\\]"
   },
   {
-    "objectID": "lectures/8a.html#efficiency-1",
-    "href": "lectures/8a.html#efficiency-1",
+    "objectID": "lectures/8b.html#efficiency-1",
+    "href": "lectures/8b.html#efficiency-1",
     "title": "Goodness of Estimators",
     "section": "Efficiency",
     "text": "Efficiency\nEfficiency of an estimator \\(T\\) is the ratio of variation compared to the lowest possible variance."
   },
   {
-    "objectID": "lectures/8a.html#efficiency-2",
-    "href": "lectures/8a.html#efficiency-2",
+    "objectID": "lectures/8b.html#efficiency-2",
+    "href": "lectures/8b.html#efficiency-2",
     "title": "Goodness of Estimators",
     "section": "Efficiency",
     "text": "Efficiency\nThe efficiency of an estimator \\(T\\), where \\(T\\) is an unbiased estimator of \\(\\theta\\), is defined as\n\\[\nefficiency\\ of\\ T = \\frac{1}{Var(T)nI(\\theta)}\n\\]"
   },
   {
-    "objectID": "lectures/8a.html#example-2",
-    "href": "lectures/8a.html#example-2",
+    "objectID": "lectures/8b.html#example",
+    "href": "lectures/8b.html#example",
     "title": "Goodness of Estimators",
     "section": "Example",
     "text": "Example\nLet \\(X_1,\\ldots, X_n\\overset{iid}{\\sim}Unif(0,\\theta)\\) and \\(\\hat\\theta=2\\bar X\\). Find the efficiency of \\(\\hat \\theta\\)."
   },
   {
-    "objectID": "lectures/7a.html#likelihood-function",
-    "href": "lectures/7a.html#likelihood-function",
-    "title": "Maximum Likelihood Estimators",
-    "section": "Likelihood Function",
-    "text": "Likelihood Function\nUsing the joint pdf or pmf of the sample \\(\\boldsymbol X\\), the likelihood function is a function of \\(\\boldsymbol \\theta\\), given the observed data \\(\\boldsymbol X =\\boldsymbol x\\), defined as\n\\[\nL(\\boldsymbol \\theta|\\boldsymbol x)=f(\\boldsymbol x|\\boldsymbol \\theta)\n\\]\nIf the data is iid, then\n\\[\nf(\\boldsymbol x|\\boldsymbol \\theta) = \\prod^n_{i=1}f(x_i|\\boldsymbol\\theta)\n\\]"
+    "objectID": "lectures/8b.html#cramér-rao-inequality",
+    "href": "lectures/8b.html#cramér-rao-inequality",
+    "title": "Goodness of Estimators",
+    "section": "Cramér-Rao Inequality",
+    "text": "Cramér-Rao Inequality\nLet \\(f(x_1, \\ldots, x_n;\\theta)\\) be the joint PMF of PDF of \\(X_1, \\ldots,X_n\\) and \\(T=t(X_1,\\ldots,X_n)\\) be an unbiased estimator of \\(\\theta\\). Then\n\\[\nVar(T) \\ge \\frac{1}{nI(\\theta)}\n\\]\nIf \\(Var(T)=\\frac{1}{nI(\\theta)}\\), then \\(T\\) is considered an efficient estimator of \\(\\theta\\)."
   },
   {
-    "objectID": "lectures/7a.html#likelihood-function-1",
-    "href": "lectures/7a.html#likelihood-function-1",
-    "title": "Maximum Likelihood Estimators",
-    "section": "Likelihood Function",
-    "text": "Likelihood Function\nUsing the joint pdf or pmf of the sample \\(\\boldsymbol X\\), the likelihood function is a function of \\(\\boldsymbol \\theta\\), given the observed data \\(\\boldsymbol X =\\boldsymbol x\\), defined as\n\\[\nL(\\boldsymbol \\theta|\\boldsymbol x)=f(\\boldsymbol x|\\boldsymbol \\theta)\n\\]\nIf the data is iid, then\n\\[\nf(\\boldsymbol x|\\boldsymbol \\theta) = \\prod^n_{i=1}f(x_i|\\boldsymbol\\theta)\n\\]"
-  },
-  {
-    "objectID": "lectures/7a.html#log-likelihood-function",
-    "href": "lectures/7a.html#log-likelihood-function",
-    "title": "Maximum Likelihood Estimators",
-    "section": "Log-Likelihood Function",
-    "text": "Log-Likelihood Function\nIf \\(\\ln\\{L(\\boldsymbol \\theta)\\}\\) is monotone of \\(\\boldsymbol \\theta\\), then maximizing \\(\\ell(\\boldsymbol\\theta) = \\ln\\{L(\\boldsymbol \\theta)\\}\\) will yield the maximum likelihood estimators."
-  },
-  {
-    "objectID": "lectures/7a.html#maximum-log-likelihood-estimator",
-    "href": "lectures/7a.html#maximum-log-likelihood-estimator",
-    "title": "Maximum Likelihood Estimators",
-    "section": "Maximum log-Likelihood Estimator",
-    "text": "Maximum log-Likelihood Estimator\nThe maximum likelihood estimator are the estimates of \\(\\boldsymbol \\theta\\) that maximize \\(\\ell(\\boldsymbol\\theta)\\)."
-  },
-  {
-    "objectID": "lectures/7a.html#poisson-distribution",
-    "href": "lectures/7a.html#poisson-distribution",
-    "title": "Maximum Likelihood Estimators",
-    "section": "Poisson Distribution",
-    "text": "Poisson Distribution\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}\\mathrm{Pois}(\\lambda)\\), show that the MLE of \\(\\lambda\\) is \\(\\bar x\\)."
-  },
-  {
-    "objectID": "lectures/7a.html#normal-distribution",
-    "href": "lectures/7a.html#normal-distribution",
-    "title": "Maximum Likelihood Estimators",
-    "section": "Normal Distribution",
-    "text": "Normal Distribution\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\). Show that the MLE’s of \\(\\mu\\) and \\(\\sigma^2\\) are \\(\\bar x\\) and \\(\\frac{n-1}{n}s^2\\), respectively."
-  },
-  {
-    "objectID": "lectures/7a.html#exponential-distribution",
-    "href": "lectures/7a.html#exponential-distribution",
-    "title": "Maximum Likelihood Estimators",
-    "section": "Exponential Distribution",
-    "text": "Exponential Distribution\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}Exp(\\lambda)\\). Find the MLE of \\(\\lambda\\)"
-  },
-  {
-    "objectID": "lectures/5b.html#central-limit-theorem-1",
-    "href": "lectures/5b.html#central-limit-theorem-1",
-    "title": "Sampling Distributions",
-    "section": "Central Limit Theorem",
-    "text": "Central Limit Theorem\nLet \\(X_1, X_2, \\ldots, X_n\\) be identical and independent distributed random variables with \\(E(X_i)=\\mu\\) and \\(Var(X_i) = \\sigma²\\). We define\n\\[\nY_n = \\sqrt n \\left(\\frac{\\bar X-\\mu}{\\sigma}\\right) \\mathrm{ where }\\ \\bar X = x\\frac{1}{n}\\sum^n_{i=1}X_i.\n\\]\nThen, the distribution of the function \\(Y_n\\) converges to a standard normal distribution function as \\(n\\rightarrow \\infty\\)."
-  },
-  {
-    "objectID": "lectures/5b.html#central-limit-theorem-2",
-    "href": "lectures/5b.html#central-limit-theorem-2",
-    "title": "Sampling Distributions",
-    "section": "Central Limit Theorem",
-    "text": "Central Limit Theorem\n\\[\n\\bar X \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right)\n\\]"
-  },
-  {
-    "objectID": "lectures/5b.html#example",
-    "href": "lectures/5b.html#example",
-    "title": "Sampling Distributions",
+    "objectID": "lectures/8b.html#example-1",
+    "href": "lectures/8b.html#example-1",
+    "title": "Goodness of Estimators",
     "section": "Example",
-    "text": "Example\nLet \\(X_1, \\ldots, X_n \\overset{iid}{\\sim} \\chi^2_p\\), the MGF is \\(M(t)=(1-2t)^{-p/2}\\). Find the distribution of \\(\\bar X\\) as \\(n \\rightarrow \\infty\\)."
+    "text": "Example\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}Pois(\\lambda)\\), show that \\(\\bar X\\) is an efficient estimator of \\(\\lambda\\)."
   },
   {
-    "objectID": "lectures/5b.html#order-statistics-1",
-    "href": "lectures/5b.html#order-statistics-1",
-    "title": "Sampling Distributions",
-    "section": "Order Statistics",
-    "text": "Order Statistics\nOrder statistics are a fundamental concept in statistics and probability, dealing with the properties of sorted random variables. They provide insights into the distribution and behavior of sample data, such as minimum, maximum, and quantiles. Understanding order statistics is crucial in various fields such as risk management, quality control, and data analysis."
+    "objectID": "lectures/8b.html#example-2",
+    "href": "lectures/8b.html#example-2",
+    "title": "Goodness of Estimators",
+    "section": "Example",
+    "text": "Example\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\), show that \\(\\bar X\\) is an efficient estimator of \\(\\mu\\)."
   },
   {
-    "objectID": "lectures/5b.html#order-statistics-2",
-    "href": "lectures/5b.html#order-statistics-2",
-    "title": "Sampling Distributions",
-    "section": "Order Statistics",
-    "text": "Order Statistics\nLet \\(X_1, X_2, \\ldots, X_n\\) be a sample of \\(n\\) independent and identically distributed (i.i.d.) random variables with a common probability density function \\(f(x)\\). The order statistics are the sorted values of this sample, denoted as:\n\\[\n  X_{(1)} \\leq X_{(2)} \\leq \\cdots \\leq X_{(n)}\n  \\]\nHere, \\(X_{(1)}\\) is the minimum, and \\(X_{(n)}\\) is the maximum of the sample."
+    "objectID": "lectures/8b.html#relative-efficiency",
+    "href": "lectures/8b.html#relative-efficiency",
+    "title": "Goodness of Estimators",
+    "section": "Relative Efficiency",
+    "text": "Relative Efficiency\nGiven 2 unbiased estimators \\(\\hat\\theta_1\\) and \\(\\hat\\theta_2\\) of a parameter \\(\\theta\\) , with variances \\(V(\\hat\\theta_1)\\) and \\(V(\\hat\\theta_2)\\), respectively, then the efficiency of \\(\\hat\\theta_1\\) relative to \\(\\hat\\theta_2\\) is defined as\n\\[\nreleff(\\hat\\theta_1,\\hat\\theta_2)=\\frac{V(\\hat\\theta_1)}{V(\\hat\\theta_2)}\n\\]"
   },
   {
-    "objectID": "lectures/5b.html#order-statistics-3",
-    "href": "lectures/5b.html#order-statistics-3",
-    "title": "Sampling Distributions",
-    "section": "Order Statistics",
-    "text": "Order Statistics\n\n\\(X_{(k)}\\): The \\(k\\)-th order statistic, representing the \\(k\\)-th smallest value in the sample.\n\\(X_{(1)}, X_{(n)}\\): The minimum and maximum of the sample, respectively."
+    "objectID": "lectures/8b.html#example-3",
+    "href": "lectures/8b.html#example-3",
+    "title": "Goodness of Estimators",
+    "section": "Example",
+    "text": "Example\nLet \\(X_1,\\ldots,X_n\\) be a random sample from a population with mean \\(\\mu\\) and variance \\(\\sigma^2\\).\n\n\\(\\hat\\mu_1=(X_1+X_2)/2\\)\n\\(\\hat\\mu_2=X_1/4+\\frac{\\sum^{n-1}_{i=2}X_i}{2(n-2)}+X_n/4\\)\n\\(\\hat\\mu_3=\\bar X\\)\n\nFind the relative efficiency of \\(\\hat\\mu_3\\) with respect to \\(\\hat\\mu_1\\) and \\(\\hat\\mu_2\\)."
   },
   {
-    "objectID": "lectures/5b.html#distribution-of-order-statistic",
-    "href": "lectures/5b.html#distribution-of-order-statistic",
-    "title": "Sampling Distributions",
-    "section": "Distribution of Order Statistic",
-    "text": "Distribution of Order Statistic\nThe distribution of the \\(k\\)-th order statistic \\(X_{(k)}\\) can be derived using combinatorial arguments. Its PDF is given by: \\[\n  f_{X_{(k)}}(x) = \\frac{n!}{(k-1)!(n-k)!} [F(x)]^{k-1} [1 - F(x)]^{n-k} f(x)\n  \\]\nThis formula shows how the distribution of \\(X_{(k)}\\) depends on the underlying distribution of the sample and its position \\(k\\)."
+    "objectID": "lectures/8b.html#consistency",
+    "href": "lectures/8b.html#consistency",
+    "title": "Goodness of Estimators",
+    "section": "Consistency",
+    "text": "Consistency\nLet \\(X_1,\\ldots,X_n\\) be a random sample from a distribution with parameter \\(\\theta\\). The estimator \\(\\hat \\theta\\) is a consistent estimator of the \\(\\theta\\) if\n\n\\(E\\{(\\hat\\theta-\\theta)^2\\}\\rightarrow0\\) as \\(n\\rightarrow \\infty\\)\n\\(P(|\\hat\\theta-\\theta|\\ge \\epsilon)\\rightarrow0\\) as \\(n\\rightarrow \\infty\\) for every \\(\\epsilon&gt;0\\)"
   },
   {
-    "objectID": "lectures/5b.html#estimators-1",
-    "href": "lectures/5b.html#estimators-1",
-    "title": "Sampling Distributions",
+    "objectID": "lectures/8b.html#weak-law-of-large-numbers",
+    "href": "lectures/8b.html#weak-law-of-large-numbers",
+    "title": "Goodness of Estimators",
+    "section": "Weak Law of Large Numbers",
+    "text": "Weak Law of Large Numbers\nLet \\(X_1,\\ldots,X_n\\) be iid random variables with \\(E(X_i)=\\mu\\) and \\(Var(X_i)=\\sigma^2&lt;\\infty\\). Let \\(\\bar X_n=\\frac{1}{n}\\sum^n_{i=1}X_i\\), for every, \\(\\epsilon&gt;0\\),\n\\[\n\\lim_{n\\rightarrow\\infty} P(|\\bar X-\\mu|&lt;\\epsilon) = 1\n\\]\nthat is, \\(\\bar X_n\\) converges in probability to \\(\\mu\\)."
+  },
+  {
+    "objectID": "lectures/8b.html#strong-law-of-large-numbers",
+    "href": "lectures/8b.html#strong-law-of-large-numbers",
+    "title": "Goodness of Estimators",
+    "section": "Strong Law of Large Numbers",
+    "text": "Strong Law of Large Numbers\nLet \\(X_1,\\ldots,X_n\\) be iid random variables with \\(E(X_i)=\\mu\\) and \\(Var(X_i)=\\sigma^2&lt;\\infty\\). Let \\(\\bar X_n=\\frac{1}{n}\\sum^n_{i=1}X_i\\), for every, \\(\\epsilon&gt;0\\),\n\\[\nP(\\lim_{n\\rightarrow\\infty} |\\bar X-\\mu|&lt;\\epsilon) = 1\n\\]\nthat is, \\(\\bar X_n\\) converges almost surely to \\(\\mu\\)."
+  },
+  {
+    "objectID": "lectures/7b.html#estimators",
+    "href": "lectures/7b.html#estimators",
+    "title": "Method of Moment Estimator",
     "section": "Estimators",
     "text": "Estimators\nAn estimator is an operation computing the value of an estimate, that targets the parameter, using measurements from a sample."
   },
   {
-    "objectID": "lectures/5b.html#unbiased-estimator",
-    "href": "lectures/5b.html#unbiased-estimator",
-    "title": "Sampling Distributions",
+    "objectID": "lectures/7b.html#data",
+    "href": "lectures/7b.html#data",
+    "title": "Method of Moment Estimator",
+    "section": "Data",
+    "text": "Data\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}F(\\boldsymbol \\theta)\\) where \\(F(\\cdot)\\) is a known distribution function and \\(\\boldsymbol\\theta\\) is a vector of parameters. Let \\(\\boldsymbol X = (X_1,\\ldots, X_n)^\\mathrm{T}\\), be the sample collected."
+  },
+  {
+    "objectID": "lectures/7b.html#method-of-moments",
+    "href": "lectures/7b.html#method-of-moments",
+    "title": "Method of Moment Estimator",
+    "section": "Method of Moments",
+    "text": "Method of Moments\nLet the \\(k\\)th moment be defined as \\(\\mu_k\\) and the corresponding \\(k\\)th moment average \\(\\frac{1}{n}\\sum^n_{i=1}X_i^{k}\\):\n\\[\n\\mu_k = \\frac{1}{n}\\sum^n_{i=1}X_i^k.\n\\]\nThe parameter estimates are for \\(t\\) parameters are the solutions for \\(\\mu_k\\) for \\(k=1,\\ldots,t\\)."
+  },
+  {
+    "objectID": "lectures/7b.html#bernoulli-distribution",
+    "href": "lectures/7b.html#bernoulli-distribution",
+    "title": "Method of Moment Estimator",
+    "section": "Bernoulli Distribution",
+    "text": "Bernoulli Distribution\nLet \\(X_1, \\ldots,X_n\\overset{iid}{\\sim}\\mathrm{Bin}(n,p)\\), find the method of moments estimator for \\(p\\)."
+  },
+  {
+    "objectID": "lectures/7b.html#poisson-distribution",
+    "href": "lectures/7b.html#poisson-distribution",
+    "title": "Method of Moment Estimator",
+    "section": "Poisson Distribution",
+    "text": "Poisson Distribution\nLet \\(X_1, \\ldots,X_n\\overset{iid}{\\sim}\\mathrm{Pois}(\\lambda)\\), find the method of moments estimator for \\(\\lambda\\)."
+  },
+  {
+    "objectID": "lectures/7b.html#uniform-distribution",
+    "href": "lectures/7b.html#uniform-distribution",
+    "title": "Method of Moment Estimator",
+    "section": "Uniform Distribution",
+    "text": "Uniform Distribution\nLet \\(X_1, \\ldots,X_n\\overset{iid}{\\sim}U(1,\\theta)\\), find the method of moments estimator for \\(\\theta\\)."
+  },
+  {
+    "objectID": "lectures/7b.html#gamma-distribution",
+    "href": "lectures/7b.html#gamma-distribution",
+    "title": "Method of Moment Estimator",
+    "section": "Gamma Distribution",
+    "text": "Gamma Distribution\nLet \\(X_1, \\ldots,X_n\\overset{iid}{\\sim}\\mathrm{Gamma}(\\alpha,\\beta)\\), find the method of moments estimator for \\(\\alpha\\) and \\(\\beta\\)."
+  },
+  {
+    "objectID": "lectures/7b.html#nomal-distribution",
+    "href": "lectures/7b.html#nomal-distribution",
+    "title": "Method of Moment Estimator",
+    "section": "Nomal Distribution",
+    "text": "Nomal Distribution\nLet \\(X_1, \\ldots,X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\), find the method of moments estimator for \\(\\mu\\) and \\(\\sigma^2\\)."
+  },
+  {
+    "objectID": "lectures/6a.html#estimators-1",
+    "href": "lectures/6a.html#estimators-1",
+    "title": "Statistical Estimators",
+    "section": "Estimators",
+    "text": "Estimators\nAn estimator is an operation computing the value of an estimate, that targets the parameter, using measurements from a sample."
+  },
+  {
+    "objectID": "lectures/6a.html#unbiased-estimator",
+    "href": "lectures/6a.html#unbiased-estimator",
+    "title": "Statistical Estimators",
     "section": "Unbiased Estimator",
     "text": "Unbiased Estimator\nAn unbiased estimator \\(\\hat\\theta\\) is an estimator that satisfies the following condition:\n\\[\nE(\\hat\\theta) = \\theta\n\\]"
   },
   {
-    "objectID": "lectures/5b.html#bias",
-    "href": "lectures/5b.html#bias",
-    "title": "Sampling Distributions",
+    "objectID": "lectures/6a.html#bias",
+    "href": "lectures/6a.html#bias",
+    "title": "Statistical Estimators",
     "section": "Bias",
     "text": "Bias\nThe bias of an estimator is defined as\n\\[\nB(\\hat\\theta) = E(\\hat\\theta)-\\theta\n\\]"
   },
   {
-    "objectID": "lectures/5b.html#mean-square-error",
-    "href": "lectures/5b.html#mean-square-error",
-    "title": "Sampling Distributions",
+    "objectID": "lectures/6a.html#mean-square-error",
+    "href": "lectures/6a.html#mean-square-error",
+    "title": "Statistical Estimators",
     "section": "Mean Square Error",
     "text": "Mean Square Error\nThe mean square of an estimator is \\(\\hat\\theta\\) is given as\n\\[\n\\begin{eqnarray}\nMSE(\\hat\\theta) & = & E\\{(\\hat\\theta-\\theta)^2\\} \\\\\n& = & Var(\\hat\\theta) + B(\\hat\\theta)^2\n\\end{eqnarray}\n\\]"
   },
   {
-    "objectID": "lectures/5b.html#is-bar-x-an-unbiased-estimator-of-mu",
-    "href": "lectures/5b.html#is-bar-x-an-unbiased-estimator-of-mu",
-    "title": "Sampling Distributions",
+    "objectID": "lectures/6a.html#is-bar-x-an-unbiased-estimator-of-mu",
+    "href": "lectures/6a.html#is-bar-x-an-unbiased-estimator-of-mu",
+    "title": "Statistical Estimators",
     "section": "Is \\(\\bar X\\) an unbiased estimator of \\(\\mu\\)?",
     "text": "Is \\(\\bar X\\) an unbiased estimator of \\(\\mu\\)?\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\), find the bias of \\(\\bar X\\)."
   },
   {
-    "objectID": "lectures/5b.html#why-is-s²-divided-by-n-1-instead-of-n",
-    "href": "lectures/5b.html#why-is-s²-divided-by-n-1-instead-of-n",
-    "title": "Sampling Distributions",
+    "objectID": "lectures/6a.html#why-is-s²-divided-by-n-1-instead-of-n",
+    "href": "lectures/6a.html#why-is-s²-divided-by-n-1-instead-of-n",
+    "title": "Statistical Estimators",
     "section": "Why is \\(S²\\) divided by \\(n-1\\) instead of \\(n\\)?",
     "text": "Why is \\(S²\\) divided by \\(n-1\\) instead of \\(n\\)?\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\), find the bias of \\(S²\\)."
   },
   {
-    "objectID": "lectures/5b.html#problem",
-    "href": "lectures/5b.html#problem",
-    "title": "Sampling Distributions",
+    "objectID": "lectures/6a.html#problem",
+    "href": "lectures/6a.html#problem",
+    "title": "Statistical Estimators",
     "section": "Problem",
-    "text": "Problem\nLet \\(X_1,X_2,X_3\\) follow and exponential distribution with mean and variance \\(\\lambda\\) and \\(\\lambda²\\), respectively. Using the following estimators:\n\n\\(\\hat\\theta_1 = X_1\\)\n\\(\\hat\\theta_2 = \\frac{X_1+X_2}{2}\\)\n\\(\\hat\\theta_3 = \\frac{X_1+2X_2}{3}\\)\n\\(\\hat\\theta_4 = \\frac{X_1+X_2+X_3}{3}\\)\n\nIdentify which estimator\n\nIs unbiased?\nHas the lowest variance?"
+    "text": "Problem\nLet \\(X_1,X_2,X_3\\) follow and exponential distribution with mean and variance \\(\\lambda\\) and \\(\\lambda²\\), respectively. Using the following estimators:\n\n\\(\\hat\\theta_1 = X_1\\)\n\\(\\hat\\theta_2 = \\frac{X_1+X_2}{2}\\)\n\\(\\hat\\theta_3 = \\frac{X_1+2X_2}{3}\\)\n\\(\\hat\\theta_4 = \\frac{X_1+X_2+X_3}{3}\\)\n\nIdentify which estimator:\n\nIs unbiased?\nHas the smallest variance?"
   },
   {
-    "objectID": "lectures/4b.html#sample",
-    "href": "lectures/4b.html#sample",
-    "title": "Sampling Distributions",
-    "section": "Sample",
-    "text": "Sample\nWhen collecting data to construct a sample, the sample is a collection of random variables.\n\nTherefore, the sample can be subjected to probability properties."
+    "objectID": "lectures/6a.html#likelihood-function-1",
+    "href": "lectures/6a.html#likelihood-function-1",
+    "title": "Statistical Estimators",
+    "section": "Likelihood Function",
+    "text": "Likelihood Function\nUsing the joint pdf or pmf of the sample \\(\\boldsymbol X\\), the likelihood function is a function of \\(\\boldsymbol \\theta\\), given the observed data \\(\\boldsymbol X =\\boldsymbol x\\), defined as\n\\[\nL(\\boldsymbol \\theta|\\boldsymbol x)=f(\\boldsymbol x|\\boldsymbol \\theta)\n\\]\nIf the data is iid, then\n\\[\nf(\\boldsymbol x|\\boldsymbol \\theta) = \\prod^n_{i=1}f(x_i|\\boldsymbol\\theta)\n\\]"
   },
   {
-    "objectID": "lectures/4b.html#iid-random-variables",
-    "href": "lectures/4b.html#iid-random-variables",
-    "title": "Sampling Distributions",
-    "section": "iid Random Variables",
-    "text": "iid Random Variables\nA sample of random variables are said to be iid if they are identical and independentally distributed.\nFor example, \\(X\\) and \\(Y\\) are iid, if \\(X\\) and \\(Y\\) has the same distribution \\(f(\\theta)\\) and \\(X \\perp  Y\\)"
+    "objectID": "lectures/6a.html#likelihood-function-2",
+    "href": "lectures/6a.html#likelihood-function-2",
+    "title": "Statistical Estimators",
+    "section": "Likelihood Function",
+    "text": "Likelihood Function\nUsing the joint pdf or pmf of the sample \\(\\boldsymbol X\\), the likelihood function is a function of \\(\\boldsymbol \\theta\\), given the observed data \\(\\boldsymbol X =\\boldsymbol x\\), defined as\n\\[\nL(\\boldsymbol \\theta|\\boldsymbol x)=f(\\boldsymbol x|\\boldsymbol \\theta)\n\\]\nIf the data is iid, then\n\\[\nf(\\boldsymbol x|\\boldsymbol \\theta) = \\prod^n_{i=1}f(x_i|\\boldsymbol\\theta)\n\\]"
   },
   {
-    "objectID": "lectures/4b.html#statistics-1",
-    "href": "lectures/4b.html#statistics-1",
-    "title": "Sampling Distributions",
-    "section": "Statistics",
-    "text": "Statistics\nA statistic is a transformation of the the sample data.\n\nBefore data is calculated, a statistic from a sample can take any value.\n\n\nTherefore, a statistic must be a random variable."
+    "objectID": "lectures/6a.html#log-likelihood-function",
+    "href": "lectures/6a.html#log-likelihood-function",
+    "title": "Statistical Estimators",
+    "section": "Log-Likelihood Function",
+    "text": "Log-Likelihood Function\nIf \\(\\ln\\{L(\\boldsymbol \\theta)\\}\\) is monotone of \\(\\boldsymbol \\theta\\), then maximizing \\(\\ell(\\boldsymbol\\theta) = \\ln\\{L(\\boldsymbol \\theta)\\}\\) will yield the maximum likelihood estimators."
   },
   {
-    "objectID": "lectures/4b.html#sampling-distributions-1",
-    "href": "lectures/4b.html#sampling-distributions-1",
-    "title": "Sampling Distributions",
-    "section": "Sampling Distributions",
-    "text": "Sampling Distributions\nA sampling distribution is the distribution of a statistic. Many known statistics have a known distribution."
+    "objectID": "lectures/6a.html#maximum-log-likelihood-estimator",
+    "href": "lectures/6a.html#maximum-log-likelihood-estimator",
+    "title": "Statistical Estimators",
+    "section": "Maximum log-Likelihood Estimator",
+    "text": "Maximum log-Likelihood Estimator\nThe maximum likelihood estimator are the estimates of \\(\\boldsymbol \\theta\\) that maximize \\(\\ell(\\boldsymbol\\theta)\\)."
   },
   {
-    "objectID": "lectures/4b.html#bar-x",
-    "href": "lectures/4b.html#bar-x",
-    "title": "Sampling Distributions",
-    "section": "\\(\\bar X\\)",
-    "text": "\\(\\bar X\\)\nLet \\(X_1, X_2, \\ldots, X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\) , show that \\(\\bar X \\sim N(\\mu,\\sigma^2/n)\\). Note: the MGF of \\(X_i\\) is \\(e^{\\mu t + \\frac{t^2\\sigma^2}{2}}\\)."
+    "objectID": "lectures/6a.html#poisson-distribution",
+    "href": "lectures/6a.html#poisson-distribution",
+    "title": "Statistical Estimators",
+    "section": "Poisson Distribution",
+    "text": "Poisson Distribution\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}\\mathrm{Pois}(\\lambda)\\), show that the MLE of \\(\\lambda\\) is \\(\\bar x\\)."
   },
   {
-    "objectID": "lectures/4b.html#sum-of-chi2_1",
-    "href": "lectures/4b.html#sum-of-chi2_1",
-    "title": "Sampling Distributions",
-    "section": "Sum of \\(\\chi^2_1\\)",
-    "text": "Sum of \\(\\chi^2_1\\)\nLet \\(Z_1^2, \\ldots, Z_n^2\\) be a iid \\(\\chi^2_1\\). Find \\(Y = \\sum^n_{i=1} Z_i^2\\)"
+    "objectID": "lectures/6a.html#normal-distribution",
+    "href": "lectures/6a.html#normal-distribution",
+    "title": "Statistical Estimators",
+    "section": "Normal Distribution",
+    "text": "Normal Distribution\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\). Show that the MLE’s of \\(\\mu\\) and \\(\\sigma^2\\) are \\(\\bar x\\) and \\(\\frac{n-1}{n}s^2\\), respectively."
   },
   {
-    "objectID": "lectures/4b.html#s2",
-    "href": "lectures/4b.html#s2",
+    "objectID": "lectures/6a.html#exponential-distribution",
+    "href": "lectures/6a.html#exponential-distribution",
+    "title": "Statistical Estimators",
+    "section": "Exponential Distribution",
+    "text": "Exponential Distribution\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}Exp(\\lambda)\\). Find the MLE of \\(\\lambda\\)"
+  },
+  {
+    "objectID": "lectures/5a.html#s2",
+    "href": "lectures/5a.html#s2",
     "title": "Sampling Distributions",
     "section": "\\(s^2\\)",
     "text": "\\(s^2\\)"
   },
   {
-    "objectID": "lectures/4b.html#t-distribution",
-    "href": "lectures/4b.html#t-distribution",
+    "objectID": "lectures/5a.html#t-distribution",
+    "href": "lectures/5a.html#t-distribution",
     "title": "Sampling Distributions",
     "section": "t-distribution",
     "text": "t-distribution\nLet \\(Z\\sim N(0,1)\\), \\(W\\sim \\chi^2_\\nu\\), \\(Z\\perp W\\); therefore:\n\\[\nT=\\frac{Z}{\\sqrt{W/\\nu}} \\sim t_\\nu\n\\]"
   },
   {
-    "objectID": "lectures/4b.html#f-distribution",
-    "href": "lectures/4b.html#f-distribution",
+    "objectID": "lectures/5a.html#f-distribution",
+    "href": "lectures/5a.html#f-distribution",
     "title": "Sampling Distributions",
     "section": "F-distribution",
     "text": "F-distribution\nLet \\(W_1\\sim\\chi^2_{\\nu_1}\\) \\(W_2\\sim\\chi^2_{\\nu_2}\\), and \\(W_1\\perp W_2\\); therefore:\n\\[\nF = \\frac{W_1/\\nu_1}{W_2/\\nu_2}\\sim F_{\\nu_1,\\nu_2}\n\\]"
   },
   {
-    "objectID": "lectures/4b.html#central-limit-theorem-1",
-    "href": "lectures/4b.html#central-limit-theorem-1",
+    "objectID": "lectures/5a.html#central-limit-theorem-1",
+    "href": "lectures/5a.html#central-limit-theorem-1",
     "title": "Sampling Distributions",
     "section": "Central Limit Theorem",
     "text": "Central Limit Theorem\nLet \\(X_1, X_2, \\ldots, X_n\\) be identical and independent distributed random variables with \\(E(X_i)=\\mu\\) and \\(Var(X_i) = \\sigma²\\). We define\n\\[\nY_n = \\sqrt n \\left(\\frac{\\bar X-\\mu}{\\sigma}\\right) \\mathrm{ where }\\ \\bar X = x\\frac{1}{n}\\sum^n_{i=1}X_i.\n\\]\nThen, the distribution of the function \\(Y_n\\) converges to a standard normal distribution function as \\(n\\rightarrow \\infty\\)."
   },
   {
-    "objectID": "lectures/4b.html#central-limit-theorem-2",
-    "href": "lectures/4b.html#central-limit-theorem-2",
+    "objectID": "lectures/5a.html#central-limit-theorem-2",
+    "href": "lectures/5a.html#central-limit-theorem-2",
     "title": "Sampling Distributions",
     "section": "Central Limit Theorem",
     "text": "Central Limit Theorem\n\\[\n\\bar X \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right)\n\\]"
   },
   {
-    "objectID": "lectures/4b.html#example",
-    "href": "lectures/4b.html#example",
+    "objectID": "lectures/5a.html#example",
+    "href": "lectures/5a.html#example",
     "title": "Sampling Distributions",
     "section": "Example",
     "text": "Example\nLet \\(X_1, \\ldots, X_n \\overset{iid}{\\sim} \\chi^2_p\\), the MGF is \\(M(t)=(1-2t)^{-p/2}\\). Find the distribution of \\(\\bar X\\) as \\(n \\rightarrow \\infty\\)."
+  },
+  {
+    "objectID": "lectures/5a.html#order-statistics-1",
+    "href": "lectures/5a.html#order-statistics-1",
+    "title": "Sampling Distributions",
+    "section": "Order Statistics",
+    "text": "Order Statistics\nOrder statistics are a fundamental concept in statistics and probability, dealing with the properties of sorted random variables. They provide insights into the distribution and behavior of sample data, such as minimum, maximum, and quantiles. Understanding order statistics is crucial in various fields such as risk management, quality control, and data analysis."
+  },
+  {
+    "objectID": "lectures/5a.html#order-statistics-2",
+    "href": "lectures/5a.html#order-statistics-2",
+    "title": "Sampling Distributions",
+    "section": "Order Statistics",
+    "text": "Order Statistics\nLet \\(X_1, X_2, \\ldots, X_n\\) be a sample of \\(n\\) independent and identically distributed (i.i.d.) random variables with a common probability density function \\(f(x)\\). The order statistics are the sorted values of this sample, denoted as:\n\\[\n  X_{(1)} \\leq X_{(2)} \\leq \\cdots \\leq X_{(n)}\n  \\]\nHere, \\(X_{(1)}\\) is the minimum, and \\(X_{(n)}\\) is the maximum of the sample."
+  },
+  {
+    "objectID": "lectures/5a.html#order-statistics-3",
+    "href": "lectures/5a.html#order-statistics-3",
+    "title": "Sampling Distributions",
+    "section": "Order Statistics",
+    "text": "Order Statistics\n\n\\(X_{(k)}\\): The \\(k\\)-th order statistic, representing the \\(k\\)-th smallest value in the sample.\n\\(X_{(1)}, X_{(n)}\\): The minimum and maximum of the sample, respectively."
+  },
+  {
+    "objectID": "lectures/5a.html#distribution-of-order-statistic",
+    "href": "lectures/5a.html#distribution-of-order-statistic",
+    "title": "Sampling Distributions",
+    "section": "Distribution of Order Statistic",
+    "text": "Distribution of Order Statistic\nThe distribution of the \\(k\\)-th order statistic \\(X_{(k)}\\) can be derived using combinatorial arguments. Its PDF is given by: \\[\n  f_{X_{(k)}}(x) = \\frac{n!}{(k-1)!(n-k)!} [F(x)]^{k-1} [1 - F(x)]^{n-k} f(x)\n  \\]\nThis formula shows how the distribution of \\(X_{(k)}\\) depends on the underlying distribution of the sample and its position \\(k\\)."
+  },
+  {
+    "objectID": "lectures/4a.html#independent-random-variables",
+    "href": "lectures/4a.html#independent-random-variables",
+    "title": "Joint Distribution Functions",
+    "section": "Independent Random Variables",
+    "text": "Independent Random Variables\nRandom variables are considered independent of each other if the probability of one variable does not affect the probability of another variable."
+  },
+  {
+    "objectID": "lectures/4a.html#discrete-independent-random-variables",
+    "href": "lectures/4a.html#discrete-independent-random-variables",
+    "title": "Joint Distribution Functions",
+    "section": "Discrete Independent Random Variables",
+    "text": "Discrete Independent Random Variables\nLet \\(X_1\\) and \\(X_2\\) be 2 discrete random variables, with a joint density function of \\(p_{X_1,X_2}(x_1,x_2)\\). \\(X_1\\) is independent of \\(X_2\\) if and only if\n\\[\np_{X_1,X_2}(x_1,x_2) = p_{X_1}(x_1)p_{X_2}(x_2)\n\\]"
+  },
+  {
+    "objectID": "lectures/4a.html#continuous-independent-random-variables",
+    "href": "lectures/4a.html#continuous-independent-random-variables",
+    "title": "Joint Distribution Functions",
+    "section": "Continuous Independent Random Variables",
+    "text": "Continuous Independent Random Variables\nLet \\(X_1\\) and \\(X_2\\) be 2 continuous random variables, with a joint density function of \\(f_{X_1,X_2}(x_1,x_2)\\). \\(X_1\\) is independent of \\(X_2\\) if and only if\n\\[\nf_{X_1,X_2}(x_1,x_2) = f_{X_1}(x_1)f_{X_2}(x_2)\n\\]"
+  },
+  {
+    "objectID": "lectures/4a.html#matrix-algebra",
+    "href": "lectures/4a.html#matrix-algebra",
+    "title": "Joint Distribution Functions",
+    "section": "Matrix Algebra",
+    "text": "Matrix Algebra\n\\[\nA = \\left(\\begin{array}{cc}\na_1 & 0\\\\\n0 & a_2\n\\end{array}\\right)\n\\]\n\\[\n\\det(A) = a_1a_2\n\\]\n\\[\nA^{-1}=\\left(\\begin{array}{cc}\n1/a_1 & 0 \\\\\n0 & 1/a_2\n\\end{array}\\right)\n\\]"
+  },
+  {
+    "objectID": "lectures/4a.html#example",
+    "href": "lectures/4a.html#example",
+    "title": "Joint Distribution Functions",
+    "section": "Example",
+    "text": "Example\n\\[\n\\left(\\begin{array}{c}\nX\\\\\nY\n\\end{array}\\right)\\sim N \\left\\{\n\\left(\\begin{array}{c}\n\\mu_x\\\\\n\\mu_y\n\\end{array}\\right),\\left(\\begin{array}{cc}\n\\sigma_x^2 & 0\\\\\n0 & \\sigma_y^2\n\\end{array}\\right)\n\\right\\}\n\\]\nShow that \\(X\\perp Y\\).\n\\[\nf_{X,Y}(x,y)=\\det(2\\pi\\Sigma)^{-1/2}\\exp\\left\\{-\\frac{1}{2}(\\boldsymbol{w}-\\boldsymbol\\mu)^T\\Sigma^{-1}(\\boldsymbol w-\\boldsymbol\\mu)\\right\\}\n\\]\nwhere \\(\\Sigma=\\left(\\begin{array}{cc}\\sigma_y^2 & 0\\\\0 & \\sigma_y^2\\end{array}\\right)\\), \\(\\boldsymbol \\mu = \\left(\\begin{array}{cc}\\mu_x\\\\ \\mu_y \\end{array}\\right)\\), and \\(\\boldsymbol w = \\left(\\begin{array}{cc} x\\\\ y \\end{array}\\right)\\)"
+  },
+  {
+    "objectID": "lectures/4a.html#expectations-1",
+    "href": "lectures/4a.html#expectations-1",
+    "title": "Joint Distribution Functions",
+    "section": "Expectations",
+    "text": "Expectations\nLet \\(X_1, X_2, \\ldots,X_n\\) be a set of random variables, the expectation of a function \\(g(X_1,\\ldots, X_n)\\) is defined as\n\\[\nE\\{g(X_1,\\ldots, X_n)\\} = \\sum_{x_1\\in X_1}\\cdots\\sum_{x_n\\in X_n}g(X_1,\\ldots, X_n)p(x_1,\\ldots,x_n)\n\\]\nor\n\\[\nE\\{g(\\boldsymbol X)\\} = \\int_{x_1\\in X_1}\\cdots\\int_{x_n\\in X_n}g(\\boldsymbol X)f(\\boldsymbol X)dx_n \\cdots dx_1\n\\]\n\n\\(\\boldsymbol X = (X_1,\\cdots, X_n)\\)"
+  },
+  {
+    "objectID": "lectures/4a.html#expected-value-and-variance-of-linear-functions",
+    "href": "lectures/4a.html#expected-value-and-variance-of-linear-functions",
+    "title": "Joint Distribution Functions",
+    "section": "Expected Value and Variance of Linear Functions",
+    "text": "Expected Value and Variance of Linear Functions\nLet \\(X_1,\\ldots,X_n\\) and \\(Y_1,\\ldots,Y_m\\) be random variables with \\(E(X_i)=\\mu_i\\) and \\(E(Y_j)=\\tau_j\\). Furthermore, let \\(U = \\sum^n_{i=1}a_iX_i\\) and \\(V=\\sum^m_{j=1}b_jY_j\\) where \\(\\{a_i\\}^n_{i=1}\\) and \\(\\{b_j\\}_{j=1}^m\\) are constants. We have the following properties:\n\n\\(E(U)=\\sum_{i=1}^na_i\\mu_i\\)\n\\(Var(U)=\\sum^n_{i=1}a_i^2Var(X_i)+2\\underset{i&lt;j}{\\sum\\sum}a_ia_jCov(X_i,X_j)\\)\n\\(Cov(U,V)=\\sum^n_{i=1}\\sum^m_{j=1}Cov(X_i,Y_j)\\)"
+  },
+  {
+    "objectID": "lectures/4a.html#expectation-of-product",
+    "href": "lectures/4a.html#expectation-of-product",
+    "title": "Joint Distribution Functions",
+    "section": "Expectation of Product",
+    "text": "Expectation of Product\nLet \\(X\\) and \\(Y\\) be independent random variables with Joint Function \\(f_{XY}(x,y)\\), then\n\\[\nE(XY) = E(X)E(Y)\n\\]\n\nProve it!"
+  },
+  {
+    "objectID": "lectures/4a.html#conditional-expectations",
+    "href": "lectures/4a.html#conditional-expectations",
+    "title": "Joint Distribution Functions",
+    "section": "Conditional Expectations",
+    "text": "Conditional Expectations\nLet \\(X_1\\) and \\(X_2\\) be two random variables, the conditional expectation of \\(g(X_1)\\), given \\(X_2=x_2\\), is defined as\n\\[\nE\\{g(X_1)|X_2=x_2\\}=\\sum_{x_1}g(x_1)p(x_1|x_2)\n\\]\nor\n\\[\nE\\{g(X_1)|X_2=x_2\\}=\\int_{x_1}g(x_1)f(x_1|x_2)dx_1.\n\\]"
+  },
+  {
+    "objectID": "lectures/4a.html#conditional-expectations-1",
+    "href": "lectures/4a.html#conditional-expectations-1",
+    "title": "Joint Distribution Functions",
+    "section": "Conditional Expectations",
+    "text": "Conditional Expectations\nFurthermore,\n\\[\nE(X_1)=E_{X_2}\\{E_{X_1|X_2}(X_1|X_2)\\}\n\\]\nand\n\\[\nVar(X_1) = E_{X_2}\\{Var_{X_1|X_2}(X_1|X_2)\\} + Var_{X_2}\\{E_{X_1|X_2}(X_1|X_2)\\}\n\\]"
+  },
+  {
+    "objectID": "lectures/4a.html#covariance-1",
+    "href": "lectures/4a.html#covariance-1",
+    "title": "Joint Distribution Functions",
+    "section": "Covariance",
+    "text": "Covariance\nLet \\(X_1\\) and \\(X_2\\) be 2 random variables with mean \\(E(X_1)=\\mu_1\\) and \\(E(X_2)=\\mu_2\\), respectively. The covariance of \\(X_1\\) and \\(X_2\\) is defined as\n\\[\n\\begin{eqnarray*}\nCov(X_1,X_2) & = & E\\{(X_1-\\mu_1)(X_2-\\mu_2)\\}\\\\\n& =& E(X_1X_2)-\\mu_1\\mu_2\n\\end{eqnarray*}\n\\]\nIf \\(X_1\\) and \\(X_2\\) are independent random variables, then\n\\[\nCov(X_1,X_2)=0\n\\]"
+  },
+  {
+    "objectID": "lectures/4a.html#correlation",
+    "href": "lectures/4a.html#correlation",
+    "title": "Joint Distribution Functions",
+    "section": "Correlation",
+    "text": "Correlation\nThe correlation of \\(X_1\\) and \\(X_2\\) is defined as\n\\[\n\\rho = Cor(X_1,X_2) = \\frac{Cov(X_1,X_2)}{\\sqrt{Var(X_1)Var(X_2)}}\n\\]"
+  },
+  {
+    "objectID": "lectures/4a.html#mgf-property-independence",
+    "href": "lectures/4a.html#mgf-property-independence",
+    "title": "Joint Distribution Functions",
+    "section": "MGF Property: Independence",
+    "text": "MGF Property: Independence\nLet \\(X\\) and \\(Y\\) be independent random variables. Let \\(Z = X+Y\\), the MGF of Z is\n\\[\nM_Z(t) = M_X(t)M_Y(t)\n\\]"
+  },
+  {
+    "objectID": "lectures/4a.html#examples-1",
+    "href": "lectures/4a.html#examples-1",
+    "title": "Joint Distribution Functions",
+    "section": "Examples",
+    "text": "Examples\nLet \\(X_1\\sim Bin(n_1,p)\\) and \\(X_2\\sim Bin(n_2, p)\\). Find the distribution function of \\(Y=X_1 + X_2\\). Assume \\(X_1\\perp X_2\\)."
+  },
+  {
+    "objectID": "lectures/4a.html#examples-2",
+    "href": "lectures/4a.html#examples-2",
+    "title": "Joint Distribution Functions",
+    "section": "Examples",
+    "text": "Examples\nLet \\(X_1\\sim N(\\mu_1,\\sigma_1^2)\\) and \\(X_2\\sim N(\\mu_2,\\sigma_2^2)\\). Find the distribution function of \\(Y=X_1 + X_2\\). Assume \\(X_1\\perp X_2\\)."
+  },
+  {
+    "objectID": "lectures/3a.html#function-of-random-variables-1",
+    "href": "lectures/3a.html#function-of-random-variables-1",
+    "title": "Functions of Random Variables",
+    "section": "Function of Random Variables",
+    "text": "Function of Random Variables"
+  },
+  {
+    "objectID": "lectures/3a.html#using-the-distribution-function",
+    "href": "lectures/3a.html#using-the-distribution-function",
+    "title": "Functions of Random Variables",
+    "section": "Using the Distribution Function",
+    "text": "Using the Distribution Function\nLet there be a random variable \\(X\\) with a known distribution function \\(F_X(x)\\), the density function for the random variable \\(Y=g(X)\\) can be found with the following steps\n\n\nFind the region of \\(Y\\) in the space of \\(X\\), find \\(g^{-1}(y)\\)\nFind the region of \\(Y\\le y\\)\nFind \\(F_Y(y)=P(Y\\le y)\\) using the probability density function of \\(X\\) over region \\(Y\\le y\\)\nFind \\(f_Y(y)\\) by differentiating \\(F_Y(y)\\)"
+  },
+  {
+    "objectID": "lectures/3a.html#example-1",
+    "href": "lectures/3a.html#example-1",
+    "title": "Functions of Random Variables",
+    "section": "Example 1",
+    "text": "Example 1\nLet \\(X\\) have the following probability density function:\n\\[\nf_X(x)=\\left\\{\\begin{array}{cc}\n2x & 0\\le x \\le 1 \\\\\n0 & \\mathrm{otherwise}\n\\end{array}\n\\right.\n\\]\nFind the probability density function of \\(Y=3X-1\\)?"
+  },
+  {
+    "objectID": "lectures/3a.html#using-the-pdf",
+    "href": "lectures/3a.html#using-the-pdf",
+    "title": "Functions of Random Variables",
+    "section": "Using the PDF",
+    "text": "Using the PDF\nLet there be a random variable \\(X\\) with a known distribution function \\(F_X(x)\\), if the random variable \\(Y=g(X)\\) is either increasing or decreasing, than the probability density function can be found as\n\\[\nf_Y(y) = f_X\\{g^{-1}(y)\\}\\left|\\frac{dg^{-1}(y)}{dy}\\right|\n\\]"
+  },
+  {
+    "objectID": "lectures/3a.html#example-2",
+    "href": "lectures/3a.html#example-2",
+    "title": "Functions of Random Variables",
+    "section": "Example 2",
+    "text": "Example 2\nLet \\(X\\) have the following probability density function:\n\\[\nf_X(x)=\\left\\{\\begin{array}{cc}\n\\frac{3}{2}x^2 + x & 0\\le y \\le 1 \\\\\n0 & \\mathrm{otherwise}\n\\end{array}\n\\right.\n\\]\nFind the probability density function of \\(Y=5-(X/2)\\)?"
+  },
+  {
+    "objectID": "lectures/3a.html#using-the-mgf",
+    "href": "lectures/3a.html#using-the-mgf",
+    "title": "Functions of Random Variables",
+    "section": "Using the MGF",
+    "text": "Using the MGF\nUsing the uniqueness property of Moment Generating Functions, for a random variable \\(X\\) with a known distribution function \\(F_X(x)\\) and random variable \\(Y=g(X)\\), the distribution of \\(Y\\) can be found by:\n\nFind the moment generating function of \\(Y\\), \\(M_Y(t)\\).\nCompare \\(M_Y(t)\\), with known moment generating functions. If \\(M_Y(t)=M_V(t)\\), for all values \\(t\\), them \\(Y\\) and \\(V\\) have identical distributions."
+  },
+  {
+    "objectID": "lectures/3a.html#example-3",
+    "href": "lectures/3a.html#example-3",
+    "title": "Functions of Random Variables",
+    "section": "Example 3",
+    "text": "Example 3\nLet \\(X\\) follow a normal distribution with mean \\(\\mu\\) and variance \\(\\sigma^2\\). Find the distribution of \\(Z=\\frac{X-\\mu}{\\sigma}\\)."
+  },
+  {
+    "objectID": "lectures/3a.html#example-4",
+    "href": "lectures/3a.html#example-4",
+    "title": "Functions of Random Variables",
+    "section": "Example 4",
+    "text": "Example 4\nLet \\(Z\\) follow a standard normal distribution with mean \\(0\\) and variance \\(1\\). Find the distribution of \\(Y=Z^2\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#random-variables",
+    "href": "lectures/1b.html#random-variables",
+    "title": "Review:",
+    "section": "Random Variables",
+    "text": "Random Variables\nA random variable is function that maps the sample space to real value."
+  },
+  {
+    "objectID": "lectures/1b.html#discrete-random-variables-1",
+    "href": "lectures/1b.html#discrete-random-variables-1",
+    "title": "Review:",
+    "section": "Discrete Random Variables",
+    "text": "Discrete Random Variables\nA random variable is considered to be discrete if it can only map to a finite or countably infinite number of distinct values."
+  },
+  {
+    "objectID": "lectures/1b.html#pmf",
+    "href": "lectures/1b.html#pmf",
+    "title": "Review:",
+    "section": "PMF",
+    "text": "PMF\nThe probability mass function of discrete variable can be represented by a formula, table, or a graph. The Probability of a random variable Y can be expressed as \\(P(Y=y)\\) for all values of \\(y\\)."
+  },
+  {
+    "objectID": "lectures/1b.html#cdf",
+    "href": "lectures/1b.html#cdf",
+    "title": "Review:",
+    "section": "CDF",
+    "text": "CDF\nThe cumulative distribution function provides the \\(P(Y\\leq y)\\) for a random variable \\(Y\\)."
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value",
+    "href": "lectures/1b.html#expected-value",
+    "title": "Review:",
+    "section": "Expected Value",
+    "text": "Expected Value\nThe expected value is the value we expect when we randomly sample from population that follows a specific distribution. The expected value of Y is\n\\[\nE(Y)=\\sum_y yP(y)\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#variance",
+    "href": "lectures/1b.html#variance",
+    "title": "Review:",
+    "section": "Variance",
+    "text": "Variance\nThe variance is the expected squared difference between the random variable and expected value.\n\\[\nVar(Y)=\\sum_y\\{y-E(Y)\\}^2P(y)\n\\]\n\\[\nVar(Y) = E(X^2) - E(X)^2\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#known-distributions",
+    "href": "lectures/1b.html#known-distributions",
+    "title": "Review:",
+    "section": "Known Distributions",
+    "text": "Known Distributions\n\n\n\n\n\n\n\n\nDistribution\nParameter(s)\nPMF \\(P(Y=y)\\)\n\n\n\n\nBernoulli\n\\(p\\)\n\\(p\\)\n\n\nBinomial\n\\(n\\) and \\(p\\)\n\\((^n_y)p^y(1-p)^{n-p}\\)\n\n\nGeometric\n\\(p\\)\n\\((1-p)^{y-1}p\\)\n\n\nNegative Binomial\n\\(r\\) and \\(p\\)\n\\((^{y-1}_{r-1})p^{r-1}(1-p)^{y-r}\\)\n\n\nHypergeometric\n\\(N\\), \\(n\\), and \\(r\\)\n\\(\\frac{(^r_y)(^{N-r}_{n-y})}{(^N_n)}\\)\n\n\nPoisson\n\\(\\lambda\\)\n\\(\\frac{\\lambda^y}{y!} e^{-\\lambda}\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#binomial-distribution-1",
+    "href": "lectures/1b.html#binomial-distribution-1",
+    "title": "Review:",
+    "section": "Binomial Distribution",
+    "text": "Binomial Distribution\nAn experiment is said to follow a binomial distribution if\n\nFixed \\(n\\)\nEach trial has 2 outcomes\nThe probability of success is a constant \\(p\\)\nThe trials are independent of each\n\n\n\\(P(X=x)=(^n_x)p^x(1-p)^{n-x}\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-of-a-binomial-distribution",
+    "href": "lectures/1b.html#expected-value-of-a-binomial-distribution",
+    "title": "Review:",
+    "section": "Expected Value of a Binomial Distribution",
+    "text": "Expected Value of a Binomial Distribution"
+  },
+  {
+    "objectID": "lectures/1b.html#continued",
+    "href": "lectures/1b.html#continued",
+    "title": "Review:",
+    "section": "Continued",
+    "text": "Continued"
+  },
+  {
+    "objectID": "lectures/1b.html#poisson-distribution-1",
+    "href": "lectures/1b.html#poisson-distribution-1",
+    "title": "Review:",
+    "section": "Poisson Distribution",
+    "text": "Poisson Distribution\nThe poisson distribution describes an experiment that measures that occurrence of an event at specific point and/or time period.\n\n\\(P(X=x)=\\frac{\\lambda^x}{x!}e^{-\\lambda}\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-of-a-poisson-distribution",
+    "href": "lectures/1b.html#expected-value-of-a-poisson-distribution",
+    "title": "Review:",
+    "section": "Expected Value of a Poisson Distribution",
+    "text": "Expected Value of a Poisson Distribution"
+  },
+  {
+    "objectID": "lectures/1b.html#continuous-random-variables-1",
+    "href": "lectures/1b.html#continuous-random-variables-1",
+    "title": "Review:",
+    "section": "Continuous Random Variables",
+    "text": "Continuous Random Variables\nA random variable \\(X\\) is considered continuous if the \\(P(X=x)\\) does not exist."
+  },
+  {
+    "objectID": "lectures/1b.html#cdf-1",
+    "href": "lectures/1b.html#cdf-1",
+    "title": "Review:",
+    "section": "CDF",
+    "text": "CDF\nThe cumulative distribution function of \\(X\\) provides the \\(P(X\\leq x)\\), denoted by \\(F(x)\\), for the domain of \\(X\\).\nProperties of the CDF of \\(X\\):\n\n\\(F(-\\infty)\\equiv \\lim_{y\\rightarrow -\\infty}F(y)=0\\)\n\\(F(\\infty)\\equiv \\lim_{y\\rightarrow \\infty}F(y)=1\\)\n\\(F(x)\\) is a nondecreaseing function"
+  },
+  {
+    "objectID": "lectures/1b.html#pdf",
+    "href": "lectures/1b.html#pdf",
+    "title": "Review:",
+    "section": "PDF",
+    "text": "PDF\nThe probability density function of the random variable \\(X\\) is given by\n\\[\nf(x)=\\frac{dF(x)}{d(x)}=F^\\prime(x)\n\\]\nwherever the derivative exists.\nProperties of pdfs:\n\n\\(f(x)\\geq 0\\)\n\\(\\int^\\infty_{-\\infty}f(x)dx=1\\)\n\\(P(a\\leq X\\leq b) = P(a&lt;X&lt;b)=\\int^b_af(x)dx\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-1",
+    "href": "lectures/1b.html#expected-value-1",
+    "title": "Review:",
+    "section": "Expected Value",
+    "text": "Expected Value\nThe expected value for a continuous distribution is defined as\n\\[\nE(X)=\\int x f(x)dx\n\\]\nThe expectation of a function \\(g(X)\\) is defined as\n\\[\nE\\{g(X)\\}=\\int g(x)f(x)dx\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-properties",
+    "href": "lectures/1b.html#expected-value-properties",
+    "title": "Review:",
+    "section": "Expected Value Properties",
+    "text": "Expected Value Properties\n\n\\(E(c)=c\\), where \\(c\\) is constant\n\\(E\\{cg(X)\\}=cE\\{g(X)\\}\\)\n\\(E\\{g_1(X)+g_2(X)+\\cdots+g_n(X)\\}=E\\{g_1(X)\\}+E\\{g_2(X)\\}+\\cdots+E\\{g_n(X)\\}\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#variance-1",
+    "href": "lectures/1b.html#variance-1",
+    "title": "Review:",
+    "section": "Variance",
+    "text": "Variance\nThe variance of continuous variable is defined as\n\\[\nVar(X) =  E[\\{X-E(X)\\}^2] = \\int \\{X-E(X)\\}^2 f(x)dx\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#uniform-distribution-1",
+    "href": "lectures/1b.html#uniform-distribution-1",
+    "title": "Review:",
+    "section": "Uniform Distribution",
+    "text": "Uniform Distribution\nA random variable is said to follow uniform distribution if the density function is constant between two parameters.\n\n\\[\nf(x) = \\left\\{\\begin{array}{cc}\n\\frac{1}{b-a} & a \\leq x \\leq b\\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\\right.\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-2",
+    "href": "lectures/1b.html#expected-value-2",
+    "title": "Review:",
+    "section": "Expected Value",
+    "text": "Expected Value"
+  },
+  {
+    "objectID": "lectures/1b.html#normal-distribution-1",
+    "href": "lectures/1b.html#normal-distribution-1",
+    "title": "Review:",
+    "section": "Normal Distribution",
+    "text": "Normal Distribution\nA random variable is said to follow a normal distribution if the the frequency of occurrence follow a Gaussian function.\n\n\\[\nf(x)=\\frac{1}{\\sqrt{2\\pi \\sigma^2}}\\exp\\left\\{-\\frac{(x-\\mu)^2}{2\\sigma^2}\\right\\}\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-3",
+    "href": "lectures/1b.html#expected-value-3",
+    "title": "Review:",
+    "section": "Expected Value",
+    "text": "Expected Value"
+  },
+  {
+    "objectID": "lectures/1b.html#continued-1",
+    "href": "lectures/1b.html#continued-1",
+    "title": "Review:",
+    "section": "Continued",
+    "text": "Continued"
+  },
+  {
+    "objectID": "lectures/15b.html#learning-outcomes",
+    "href": "lectures/15b.html#learning-outcomes",
+    "title": "Simple Linear Regression",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nLinear Regression\nOrdinary Least Squares\nR Code"
+  },
+  {
+    "objectID": "lectures/15b.html#r-packages",
+    "href": "lectures/15b.html#r-packages",
+    "title": "Simple Linear Regression",
+    "section": "R Packages",
+    "text": "R Packages\n\nlibrary(tidyverse)\npenguins &lt;- penguins |&gt; drop_na()"
+  },
+  {
+    "objectID": "lectures/15b.html#linear-regression-1",
+    "href": "lectures/15b.html#linear-regression-1",
+    "title": "Simple Linear Regression",
+    "section": "Linear Regression",
+    "text": "Linear Regression\nLinear regression is used to model the association between a set of predictor variables (x’s) and an outcome variable (y). Linear regression will fit a line that best describes the data points."
+  },
+  {
+    "objectID": "lectures/15b.html#simple-linear-regression",
+    "href": "lectures/15b.html#simple-linear-regression",
+    "title": "Simple Linear Regression",
+    "section": "Simple Linear Regression",
+    "text": "Simple Linear Regression\nSimple linear regression will model the association between one predictor variable and an outcome:\n\\[\nY = \\beta_0 + \\beta_1 X + \\epsilon\n\\]\n\n\\(\\beta_0\\): Intercept term\n\\(\\beta_1\\): Slope term\n\\(\\epsilon\\sim N(0,\\sigma^2)\\)"
+  },
+  {
+    "objectID": "lectures/15b.html#palmerpenguins",
+    "href": "lectures/15b.html#palmerpenguins",
+    "title": "Simple Linear Regression",
+    "section": "palmerpenguins",
+    "text": "palmerpenguins\nThe palmerpenguins data set contains 344 observations of 7 penguin characteristics. We will be looking at different association of the penguins"
+  },
+  {
+    "objectID": "lectures/15b.html#scatter-plot",
+    "href": "lectures/15b.html#scatter-plot",
+    "title": "Simple Linear Regression",
+    "section": "Scatter Plot",
+    "text": "Scatter Plot\n\nggplot(penguins, aes(y = flipper_len, x = body_mass)) +\n  geom_point() + theme_bw()"
+  },
+  {
+    "objectID": "lectures/15b.html#scatter-plot-1",
+    "href": "lectures/15b.html#scatter-plot-1",
+    "title": "Simple Linear Regression",
+    "section": "Scatter Plot",
+    "text": "Scatter Plot\n\nggplot(sample_n(penguins,10), aes(y = flipper_len, x = body_mass)) +\n  geom_point() + theme_bw()"
+  },
+  {
+    "objectID": "lectures/15b.html#fitting-a-line",
+    "href": "lectures/15b.html#fitting-a-line",
+    "title": "Simple Linear Regression",
+    "section": "Fitting a Line",
+    "text": "Fitting a Line\n\npenguins |&gt; \n  ggplot(aes(y = flipper_len, x = body_mass)) +\n    geom_point() + \n    geom_smooth(method = \"lm\") +\n    theme_bw() + \n    annotate(\"text\", label = \"y=136.7+0.015x\", x=3250, y=230, size = 10)"
+  },
+  {
+    "objectID": "lectures/15b.html#interpretation",
+    "href": "lectures/15b.html#interpretation",
+    "title": "Simple Linear Regression",
+    "section": "Interpretation",
+    "text": "Interpretation\n\\[\n\\hat y = 136.73 + 0.015 x\n\\]"
+  },
+  {
+    "objectID": "lectures/15b.html#ordinary-least-squares-1",
+    "href": "lectures/15b.html#ordinary-least-squares-1",
+    "title": "Simple Linear Regression",
+    "section": "Ordinary Least Squares",
+    "text": "Ordinary Least Squares\nFor a data pair \\((X_i,Y_i)_{i=1}^n\\), the ordinary least squares estimator will find the estimates of \\(\\hat\\beta_0\\) and \\(\\hat\\beta_1\\) that minimize the following function:\n\\[\n\\sum^n_{i=1}\\{y_i-(\\beta_0+\\beta_1x_i)\\}^2\n\\]"
+  },
+  {
+    "objectID": "lectures/15b.html#estimates",
+    "href": "lectures/15b.html#estimates",
+    "title": "Simple Linear Regression",
+    "section": "Estimates",
+    "text": "Estimates\n\\[\n\\hat\\beta_0 = \\bar y - \\hat\\beta_1\\bar x\n\\] \\[\n\\hat\\beta_1 = \\frac{\\sum^n_{i=1}(y_i-\\bar y)(x_i-\\bar x)}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\] \\[\n\\hat\\sigma^2 = \\frac{1}{n-2}\\sum^n_{i=1}(y_i-\\hat y_i)^2\n\\]"
+  },
+  {
+    "objectID": "lectures/15b.html#standard-errors-of-betas-1",
+    "href": "lectures/15b.html#standard-errors-of-betas-1",
+    "title": "Simple Linear Regression",
+    "section": "Standard Errors of \\(\\beta\\)’s",
+    "text": "Standard Errors of \\(\\beta\\)’s\n\\[\nSE(\\hat\\beta_0)=\\sqrt{\\frac{\\sum^n_{i=1}x_i^2\\hat\\sigma^2}{n\\sum^n_{i=1}(x_i-\\bar x)^2}}\n\\]\n\\[\nSE(\\hat\\beta_1)=\\sqrt\\frac{\\hat\\sigma^2}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\]"
+  },
+  {
+    "objectID": "lectures/15b.html#distributions",
+    "href": "lectures/15b.html#distributions",
+    "title": "Simple Linear Regression",
+    "section": "Distributions",
+    "text": "Distributions"
+  },
+  {
+    "objectID": "lectures/15b.html#standard-error-of-beta_0",
+    "href": "lectures/15b.html#standard-error-of-beta_0",
+    "title": "Simple Linear Regression",
+    "section": "Standard Error of \\(\\beta_0\\)",
+    "text": "Standard Error of \\(\\beta_0\\)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Mathematical Statistics!",
+    "section": "",
+    "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "lectures/15a.html#learning-outcomes",
+    "href": "lectures/15a.html#learning-outcomes",
+    "title": "Linear Regression",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nScatter Plot\nLinear Regression\nOrdinary Least Squares\nUnbiasedness"
+  },
+  {
+    "objectID": "lectures/15a.html#scatter-plot-1",
+    "href": "lectures/15a.html#scatter-plot-1",
+    "title": "Linear Regression",
+    "section": "Scatter Plot",
+    "text": "Scatter Plot"
+  },
+  {
+    "objectID": "lectures/15a.html#scatter-plot-2",
+    "href": "lectures/15a.html#scatter-plot-2",
+    "title": "Linear Regression",
+    "section": "Scatter Plot",
+    "text": "Scatter Plot"
+  },
+  {
+    "objectID": "lectures/15a.html#linear-regression-1",
+    "href": "lectures/15a.html#linear-regression-1",
+    "title": "Linear Regression",
+    "section": "Linear Regression",
+    "text": "Linear Regression\nLinear regression is used to model the association between a set of predictor variables (x’s) and an outcome variable (y). Linear regression will fit a line that best describes the data points."
+  },
+  {
+    "objectID": "lectures/15a.html#simple-linear-regression",
+    "href": "lectures/15a.html#simple-linear-regression",
+    "title": "Linear Regression",
+    "section": "Simple Linear Regression",
+    "text": "Simple Linear Regression\nSimple linear regression will model the association between one predictor variable and an outcome:\n\\[\nY = \\beta_0 + \\beta_1 X + \\epsilon\n\\]\n\n\\(\\beta_0\\): Intercept term\n\\(\\beta_1\\): Slope term\n\\(\\epsilon\\sim N(0,\\sigma^2)\\)"
+  },
+  {
+    "objectID": "lectures/15a.html#fitting-a-line",
+    "href": "lectures/15a.html#fitting-a-line",
+    "title": "Linear Regression",
+    "section": "Fitting a Line",
+    "text": "Fitting a Line"
+  },
+  {
+    "objectID": "lectures/15a.html#interpretation",
+    "href": "lectures/15a.html#interpretation",
+    "title": "Linear Regression",
+    "section": "Interpretation",
+    "text": "Interpretation\n\\[\n\\hat y = 136.73 + 0.015 x\n\\]"
+  },
+  {
+    "objectID": "lectures/15a.html#ordinary-least-squares-1",
+    "href": "lectures/15a.html#ordinary-least-squares-1",
+    "title": "Linear Regression",
+    "section": "Ordinary Least Squares",
+    "text": "Ordinary Least Squares\nFor a data pair \\((X_i,Y_i)_{i=1}^n\\), the ordinary least squares estimator will find the estimates of \\(\\hat\\beta_0\\) and \\(\\hat\\beta_1\\) that minimize the following function:\n\\[\n\\sum^n_{i=1}\\{y_i-(\\beta_0+\\beta_1x_i)\\}^2\n\\]"
+  },
+  {
+    "objectID": "lectures/15a.html#estimating-betas",
+    "href": "lectures/15a.html#estimating-betas",
+    "title": "Linear Regression",
+    "section": "Estimating \\(\\beta\\)’s",
+    "text": "Estimating \\(\\beta\\)’s"
+  },
+  {
+    "objectID": "lectures/15a.html#estimating-beta_1",
+    "href": "lectures/15a.html#estimating-beta_1",
+    "title": "Linear Regression",
+    "section": "Estimating \\(\\beta_1\\)",
+    "text": "Estimating \\(\\beta_1\\)"
+  },
+  {
+    "objectID": "lectures/15a.html#estimating-beta_0",
+    "href": "lectures/15a.html#estimating-beta_0",
+    "title": "Linear Regression",
+    "section": "Estimating \\(\\beta_0\\)",
+    "text": "Estimating \\(\\beta_0\\)"
+  },
+  {
+    "objectID": "lectures/15a.html#estimates",
+    "href": "lectures/15a.html#estimates",
+    "title": "Linear Regression",
+    "section": "Estimates",
+    "text": "Estimates\n\\[\n\\hat\\beta_0 = \\bar y - \\hat\\beta_1\\bar x\n\\] \\[\n\\hat\\beta_1 = \\frac{\\sum^n_{i=1}(y_i-\\bar y)(x_i-\\bar x)}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\] \\[\n\\hat\\sigma^2 = \\frac{1}{n-2}\\sum^n_{i=1}(y_i-\\hat y_i)^2\n\\]"
+  },
+  {
+    "objectID": "lectures/15a.html#unbiasedness-of-betas-1",
+    "href": "lectures/15a.html#unbiasedness-of-betas-1",
+    "title": "Linear Regression",
+    "section": "Unbiasedness of \\(\\beta\\)’s",
+    "text": "Unbiasedness of \\(\\beta\\)’s\nBoth \\(\\beta_0\\) and \\(\\beta_1\\) are unbiased estimators."
+  },
+  {
+    "objectID": "lectures/15a.html#ebeta_1",
+    "href": "lectures/15a.html#ebeta_1",
+    "title": "Linear Regression",
+    "section": "\\(E(\\beta_1)\\)",
+    "text": "\\(E(\\beta_1)\\)"
+  },
+  {
+    "objectID": "lectures/15a.html#ebeta_0",
+    "href": "lectures/15a.html#ebeta_0",
+    "title": "Linear Regression",
+    "section": "\\(E(\\beta_0)\\)",
+    "text": "\\(E(\\beta_0)\\)"
+  },
+  {
+    "objectID": "lectures/2b.html#learning-outcomes",
+    "href": "lectures/2b.html#learning-outcomes",
+    "title": "Review:",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nDefine Moment Generating Functions\nDiscuss Properties"
+  },
+  {
+    "objectID": "lectures/2b.html#moments",
+    "href": "lectures/2b.html#moments",
+    "title": "Review:",
+    "section": "Moments",
+    "text": "Moments\nThe \\(k\\)th moment is defined as the expectation of the random variable, raised to the \\(k\\)th power, defined as \\(E(X^k)\\)."
+  },
+  {
+    "objectID": "lectures/2b.html#moment-generating-functions-1",
+    "href": "lectures/2b.html#moment-generating-functions-1",
+    "title": "Review:",
+    "section": "Moment Generating Functions",
+    "text": "Moment Generating Functions\nThe moment generating functions is used to obtain the \\(k\\)th moment. The mgf is defined as\n\\[\nm(t) = E(e^{tX})\n\\]\nThe \\(k\\)th moment can be obtained by taking the \\(k\\)th derivative of the mgf, with respect to \\(t\\), and setting \\(t\\) equal to 0:\n\\[\nE(X^k)=\\frac{d^km(t)}{dt}\\Bigg|_{t=0}\n\\]"
+  },
+  {
+    "objectID": "lectures/2b.html#mgf",
+    "href": "lectures/2b.html#mgf",
+    "title": "Review:",
+    "section": "MGF",
+    "text": "MGF"
+  },
+  {
+    "objectID": "lectures/2b.html#expected-value",
+    "href": "lectures/2b.html#expected-value",
+    "title": "Review:",
+    "section": "Expected Value",
+    "text": "Expected Value"
+  },
+  {
+    "objectID": "lectures/2b.html#variance",
+    "href": "lectures/2b.html#variance",
+    "title": "Review:",
+    "section": "Variance",
+    "text": "Variance"
+  },
+  {
+    "objectID": "lectures/2b.html#variance-1",
+    "href": "lectures/2b.html#variance-1",
+    "title": "Review:",
+    "section": "Variance",
+    "text": "Variance"
+  },
+  {
+    "objectID": "lectures/2b.html#mgf-1",
+    "href": "lectures/2b.html#mgf-1",
+    "title": "Review:",
+    "section": "MGF",
+    "text": "MGF"
+  },
+  {
+    "objectID": "lectures/2b.html#mgf-2",
+    "href": "lectures/2b.html#mgf-2",
+    "title": "Review:",
+    "section": "MGF",
+    "text": "MGF"
+  },
+  {
+    "objectID": "lectures/2b.html#mgf-3",
+    "href": "lectures/2b.html#mgf-3",
+    "title": "Review:",
+    "section": "MGF",
+    "text": "MGF"
+  },
+  {
+    "objectID": "lectures/2b.html#linearity",
+    "href": "lectures/2b.html#linearity",
+    "title": "Review:",
+    "section": "Linearity",
+    "text": "Linearity\nLet \\(X\\) follow a distribution \\(f\\), with the an MGF \\(M_X(t)\\), the MGF of \\(Y=aX+b\\) is given as\n\\[\nM_Y(t) = e^{tb}M_X(at)\n\\]"
+  },
+  {
+    "objectID": "lectures/2b.html#derivation",
+    "href": "lectures/2b.html#derivation",
+    "title": "Review:",
+    "section": "Derivation",
+    "text": "Derivation"
+  },
+  {
+    "objectID": "lectures/2b.html#linearity-1",
+    "href": "lectures/2b.html#linearity-1",
+    "title": "Review:",
+    "section": "Linearity",
+    "text": "Linearity\nLet \\(X\\) and \\(Y\\) be two random variables with MGFs \\(M_X(t)\\) and \\(M_Y(t)\\), respectively, and are independent. The MGF of \\(U=X-Y\\)\n\\[\nM_U(t) = M_X(t)M_Y(-t)\n\\]"
+  },
+  {
+    "objectID": "lectures/2b.html#derivation-1",
+    "href": "lectures/2b.html#derivation-1",
+    "title": "Review:",
+    "section": "Derivation",
+    "text": "Derivation"
+  },
+  {
+    "objectID": "lectures/2b.html#uniqueness",
+    "href": "lectures/2b.html#uniqueness",
+    "title": "Review:",
+    "section": "Uniqueness",
+    "text": "Uniqueness\nLet \\(X\\) and \\(Y\\) have the following distributions \\(F_X(x)\\) and \\(F_Y(y)\\) and MGFs \\(M_X(t)\\) and \\(M_Y(t)\\), respectively. \\(X\\) and \\(Y\\) have the same distribution \\(F_X(x)=F_Y(y)\\) if and only if \\(M_X(t)=M_Y(t)\\)."
+  },
+  {
+    "objectID": "lectures/2b.html#uniqueness-1",
+    "href": "lectures/2b.html#uniqueness-1",
+    "title": "Review:",
+    "section": "Uniqueness",
+    "text": "Uniqueness\nLet \\(X_1,\\cdots, X_n\\) be independent random variables, where \\(X_i\\sim N(\\mu_i, \\sigma^2_i)\\), with \\(M_{X_i}(t)=\\exp\\{\\mu_i t+\\sigma^2_it^2/2\\}\\) for \\(i=1,\\cdots, n\\). Find the MGF of \\(Y=a_1X_1+\\cdots+a_nX_n\\), where \\(a_1, \\cdots, a_n\\) are constants."
   },
   {
     "objectID": "lectures/3b.html#partial-derivatives",
@@ -693,1095 +1169,353 @@
     "text": "Correlation\nThe correlation of \\(X_1\\) and \\(X_2\\) is defined as\n\\[\n\\rho = Cor(X_1,X_2) = \\frac{Cov(X_1,X_2)}{\\sqrt{Var(X_1)Var(X_2)}}\n\\]"
   },
   {
-    "objectID": "lectures/2b.html#learning-outcomes",
-    "href": "lectures/2b.html#learning-outcomes",
-    "title": "Review:",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nDefine Moment Generating Functions\nDiscuss Properties"
+    "objectID": "lectures/4b.html#sample",
+    "href": "lectures/4b.html#sample",
+    "title": "Sampling Distributions",
+    "section": "Sample",
+    "text": "Sample\nWhen collecting data to construct a sample, the sample is a collection of random variables.\n\nTherefore, the sample can be subjected to probability properties."
   },
   {
-    "objectID": "lectures/2b.html#moments",
-    "href": "lectures/2b.html#moments",
-    "title": "Review:",
-    "section": "Moments",
-    "text": "Moments\nThe \\(k\\)th moment is defined as the expectation of the random variable, raised to the \\(k\\)th power, defined as \\(E(X^k)\\)."
+    "objectID": "lectures/4b.html#iid-random-variables",
+    "href": "lectures/4b.html#iid-random-variables",
+    "title": "Sampling Distributions",
+    "section": "iid Random Variables",
+    "text": "iid Random Variables\nA sample of random variables are said to be iid if they are identical and independentally distributed.\nFor example, \\(X\\) and \\(Y\\) are iid, if \\(X\\) and \\(Y\\) has the same distribution \\(f(\\theta)\\) and \\(X \\perp  Y\\)"
   },
   {
-    "objectID": "lectures/2b.html#moment-generating-functions-1",
-    "href": "lectures/2b.html#moment-generating-functions-1",
-    "title": "Review:",
-    "section": "Moment Generating Functions",
-    "text": "Moment Generating Functions\nThe moment generating functions is used to obtain the \\(k\\)th moment. The mgf is defined as\n\\[\nm(t) = E(e^{tX})\n\\]\nThe \\(k\\)th moment can be obtained by taking the \\(k\\)th derivative of the mgf, with respect to \\(t\\), and setting \\(t\\) equal to 0:\n\\[\nE(X^k)=\\frac{d^km(t)}{dt}\\Bigg|_{t=0}\n\\]"
+    "objectID": "lectures/4b.html#statistics-1",
+    "href": "lectures/4b.html#statistics-1",
+    "title": "Sampling Distributions",
+    "section": "Statistics",
+    "text": "Statistics\nA statistic is a transformation of the the sample data.\n\nBefore data is calculated, a statistic from a sample can take any value.\n\n\nTherefore, a statistic must be a random variable."
   },
   {
-    "objectID": "lectures/2b.html#mgf",
-    "href": "lectures/2b.html#mgf",
-    "title": "Review:",
-    "section": "MGF",
-    "text": "MGF"
+    "objectID": "lectures/4b.html#sampling-distributions-1",
+    "href": "lectures/4b.html#sampling-distributions-1",
+    "title": "Sampling Distributions",
+    "section": "Sampling Distributions",
+    "text": "Sampling Distributions\nA sampling distribution is the distribution of a statistic. Many known statistics have a known distribution."
   },
   {
-    "objectID": "lectures/2b.html#expected-value",
-    "href": "lectures/2b.html#expected-value",
-    "title": "Review:",
-    "section": "Expected Value",
-    "text": "Expected Value"
+    "objectID": "lectures/4b.html#bar-x",
+    "href": "lectures/4b.html#bar-x",
+    "title": "Sampling Distributions",
+    "section": "\\(\\bar X\\)",
+    "text": "\\(\\bar X\\)\nLet \\(X_1, X_2, \\ldots, X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\) , show that \\(\\bar X \\sim N(\\mu,\\sigma^2/n)\\). Note: the MGF of \\(X_i\\) is \\(e^{\\mu t + \\frac{t^2\\sigma^2}{2}}\\)."
   },
   {
-    "objectID": "lectures/2b.html#variance",
-    "href": "lectures/2b.html#variance",
-    "title": "Review:",
-    "section": "Variance",
-    "text": "Variance"
+    "objectID": "lectures/4b.html#sum-of-chi2_1",
+    "href": "lectures/4b.html#sum-of-chi2_1",
+    "title": "Sampling Distributions",
+    "section": "Sum of \\(\\chi^2_1\\)",
+    "text": "Sum of \\(\\chi^2_1\\)\nLet \\(Z_1^2, \\ldots, Z_n^2\\) be a iid \\(\\chi^2_1\\). Find \\(Y = \\sum^n_{i=1} Z_i^2\\)"
   },
   {
-    "objectID": "lectures/2b.html#variance-1",
-    "href": "lectures/2b.html#variance-1",
-    "title": "Review:",
-    "section": "Variance",
-    "text": "Variance"
-  },
-  {
-    "objectID": "lectures/2b.html#mgf-1",
-    "href": "lectures/2b.html#mgf-1",
-    "title": "Review:",
-    "section": "MGF",
-    "text": "MGF"
-  },
-  {
-    "objectID": "lectures/2b.html#mgf-2",
-    "href": "lectures/2b.html#mgf-2",
-    "title": "Review:",
-    "section": "MGF",
-    "text": "MGF"
-  },
-  {
-    "objectID": "lectures/2b.html#mgf-3",
-    "href": "lectures/2b.html#mgf-3",
-    "title": "Review:",
-    "section": "MGF",
-    "text": "MGF"
-  },
-  {
-    "objectID": "lectures/2b.html#linearity",
-    "href": "lectures/2b.html#linearity",
-    "title": "Review:",
-    "section": "Linearity",
-    "text": "Linearity\nLet \\(X\\) follow a distribution \\(f\\), with the an MGF \\(M_X(t)\\), the MGF of \\(Y=aX+b\\) is given as\n\\[\nM_Y(t) = e^{tb}M_X(at)\n\\]"
-  },
-  {
-    "objectID": "lectures/2b.html#derivation",
-    "href": "lectures/2b.html#derivation",
-    "title": "Review:",
-    "section": "Derivation",
-    "text": "Derivation"
-  },
-  {
-    "objectID": "lectures/2b.html#linearity-1",
-    "href": "lectures/2b.html#linearity-1",
-    "title": "Review:",
-    "section": "Linearity",
-    "text": "Linearity\nLet \\(X\\) and \\(Y\\) be two random variables with MGFs \\(M_X(t)\\) and \\(M_Y(t)\\), respectively, and are independent. The MGF of \\(U=X-Y\\)\n\\[\nM_U(t) = M_X(t)M_Y(-t)\n\\]"
-  },
-  {
-    "objectID": "lectures/2b.html#derivation-1",
-    "href": "lectures/2b.html#derivation-1",
-    "title": "Review:",
-    "section": "Derivation",
-    "text": "Derivation"
-  },
-  {
-    "objectID": "lectures/2b.html#uniqueness",
-    "href": "lectures/2b.html#uniqueness",
-    "title": "Review:",
-    "section": "Uniqueness",
-    "text": "Uniqueness\nLet \\(X\\) and \\(Y\\) have the following distributions \\(F_X(x)\\) and \\(F_Y(y)\\) and MGFs \\(M_X(t)\\) and \\(M_Y(t)\\), respectively. \\(X\\) and \\(Y\\) have the same distribution \\(F_X(x)=F_Y(y)\\) if and only if \\(M_X(t)=M_Y(t)\\)."
-  },
-  {
-    "objectID": "lectures/2b.html#uniqueness-1",
-    "href": "lectures/2b.html#uniqueness-1",
-    "title": "Review:",
-    "section": "Uniqueness",
-    "text": "Uniqueness\nLet \\(X_1,\\cdots, X_n\\) be independent random variables, where \\(X_i\\sim N(\\mu_i, \\sigma^2_i)\\), with \\(M_{X_i}(t)=\\exp\\{\\mu_i t+\\sigma^2_it^2/2\\}\\) for \\(i=1,\\cdots, n\\). Find the MGF of \\(Y=a_1X_1+\\cdots+a_nX_n\\), where \\(a_1, \\cdots, a_n\\) are constants."
-  },
-  {
-    "objectID": "lectures/15a.html#learning-outcomes",
-    "href": "lectures/15a.html#learning-outcomes",
-    "title": "Linear Regression",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nScatter Plot\nLinear Regression\nOrdinary Least Squares\nUnbiasedness"
-  },
-  {
-    "objectID": "lectures/15a.html#scatter-plot-1",
-    "href": "lectures/15a.html#scatter-plot-1",
-    "title": "Linear Regression",
-    "section": "Scatter Plot",
-    "text": "Scatter Plot"
-  },
-  {
-    "objectID": "lectures/15a.html#scatter-plot-2",
-    "href": "lectures/15a.html#scatter-plot-2",
-    "title": "Linear Regression",
-    "section": "Scatter Plot",
-    "text": "Scatter Plot"
-  },
-  {
-    "objectID": "lectures/15a.html#linear-regression-1",
-    "href": "lectures/15a.html#linear-regression-1",
-    "title": "Linear Regression",
-    "section": "Linear Regression",
-    "text": "Linear Regression\nLinear regression is used to model the association between a set of predictor variables (x’s) and an outcome variable (y). Linear regression will fit a line that best describes the data points."
-  },
-  {
-    "objectID": "lectures/15a.html#simple-linear-regression",
-    "href": "lectures/15a.html#simple-linear-regression",
-    "title": "Linear Regression",
-    "section": "Simple Linear Regression",
-    "text": "Simple Linear Regression\nSimple linear regression will model the association between one predictor variable and an outcome:\n\\[\nY = \\beta_0 + \\beta_1 X + \\epsilon\n\\]\n\n\\(\\beta_0\\): Intercept term\n\\(\\beta_1\\): Slope term\n\\(\\epsilon\\sim N(0,\\sigma^2)\\)"
-  },
-  {
-    "objectID": "lectures/15a.html#fitting-a-line",
-    "href": "lectures/15a.html#fitting-a-line",
-    "title": "Linear Regression",
-    "section": "Fitting a Line",
-    "text": "Fitting a Line"
-  },
-  {
-    "objectID": "lectures/15a.html#interpretation",
-    "href": "lectures/15a.html#interpretation",
-    "title": "Linear Regression",
-    "section": "Interpretation",
-    "text": "Interpretation\n\\[\n\\hat y = 136.73 + 0.015 x\n\\]"
-  },
-  {
-    "objectID": "lectures/15a.html#ordinary-least-squares-1",
-    "href": "lectures/15a.html#ordinary-least-squares-1",
-    "title": "Linear Regression",
-    "section": "Ordinary Least Squares",
-    "text": "Ordinary Least Squares\nFor a data pair \\((X_i,Y_i)_{i=1}^n\\), the ordinary least squares estimator will find the estimates of \\(\\hat\\beta_0\\) and \\(\\hat\\beta_1\\) that minimize the following function:\n\\[\n\\sum^n_{i=1}\\{y_i-(\\beta_0+\\beta_1x_i)\\}^2\n\\]"
-  },
-  {
-    "objectID": "lectures/15a.html#estimating-betas",
-    "href": "lectures/15a.html#estimating-betas",
-    "title": "Linear Regression",
-    "section": "Estimating \\(\\beta\\)’s",
-    "text": "Estimating \\(\\beta\\)’s"
-  },
-  {
-    "objectID": "lectures/15a.html#estimating-beta_1",
-    "href": "lectures/15a.html#estimating-beta_1",
-    "title": "Linear Regression",
-    "section": "Estimating \\(\\beta_1\\)",
-    "text": "Estimating \\(\\beta_1\\)"
-  },
-  {
-    "objectID": "lectures/15a.html#estimating-beta_0",
-    "href": "lectures/15a.html#estimating-beta_0",
-    "title": "Linear Regression",
-    "section": "Estimating \\(\\beta_0\\)",
-    "text": "Estimating \\(\\beta_0\\)"
-  },
-  {
-    "objectID": "lectures/15a.html#estimates",
-    "href": "lectures/15a.html#estimates",
-    "title": "Linear Regression",
-    "section": "Estimates",
-    "text": "Estimates\n\\[\n\\hat\\beta_0 = \\bar y - \\hat\\beta_1\\bar x\n\\] \\[\n\\hat\\beta_1 = \\frac{\\sum^n_{i=1}(y_i-\\bar y)(x_i-\\bar x)}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\] \\[\n\\hat\\sigma^2 = \\frac{1}{n-2}\\sum^n_{i=1}(y_i-\\hat y_i)^2\n\\]"
-  },
-  {
-    "objectID": "lectures/15a.html#unbiasedness-of-betas-1",
-    "href": "lectures/15a.html#unbiasedness-of-betas-1",
-    "title": "Linear Regression",
-    "section": "Unbiasedness of \\(\\beta\\)’s",
-    "text": "Unbiasedness of \\(\\beta\\)’s\nBoth \\(\\beta_0\\) and \\(\\beta_1\\) are unbiased estimators."
-  },
-  {
-    "objectID": "lectures/15a.html#ebeta_1",
-    "href": "lectures/15a.html#ebeta_1",
-    "title": "Linear Regression",
-    "section": "\\(E(\\beta_1)\\)",
-    "text": "\\(E(\\beta_1)\\)"
-  },
-  {
-    "objectID": "lectures/15a.html#ebeta_0",
-    "href": "lectures/15a.html#ebeta_0",
-    "title": "Linear Regression",
-    "section": "\\(E(\\beta_0)\\)",
-    "text": "\\(E(\\beta_0)\\)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to Mathematical Statistics!",
-    "section": "",
-    "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 15\n\n\nWe will begin discussing Simple Linear Regression\n\n\n\n\n\nDec 1, 2024\n\n\n\n\n\n\n\nWeek 14\n\n\nWe will discuss essential concepts to hypothesis testing.\n\n\n\n\n\nNov 21, 2024\n\n\n\n\n\n\n\nWeek 13\n\n\nWe will begin hypothesis testing.\n\n\n\n\n\nNov 17, 2024\n\n\n\n\n\n\n\nWeek 12\n\n\nWe will begin hypothesis testing.\n\n\n\n\n\nNov 11, 2024\n\n\n\n\n\n\n\nWeek 11\n\n\nWe will continue learning about statistical intervals.\n\n\n\n\n\nNov 2, 2024\n\n\n\n\n\n\n\nWeek 10\n\n\nWe will continue learning about statistical intervals.\n\n\n\n\n\nOct 28, 2024\n\n\n\n\n\n\n\nWeek 9\n\n\nThis week, we will evaluate the goodness of point estimators.\n\n\n\n\n\nOct 16, 2024\n\n\n\n\n\n\n\nWeek 8\n\n\nThis week, we will evaluate the goodness of point estimators and confidence intervals.\n\n\n\n\n\nOct 13, 2024\n\n\n\n\n\n\n\nWeek 7\n\n\nThis week focuses on statistical estimators.\n\n\n\n\n\nOct 5, 2024\n\n\n\n\n\n\n\nWeek 6\n\n\nThis week focuses on statistical estimators\n\n\n\n\n\nSep 30, 2024\n\n\n\n\n\n\n\nWeek 5\n\n\nThis week, we will review functions of random variables and introduce the idea of sampling distributions and Central Limit Theorem.\n\n\n\n\n\nSep 23, 2024\n\n\n\n\n\n\n\nWeek 4\n\n\nThis week, we will review functions of random variables and introduce the idea of sampling distributions and Central Limit Theorem.\n\n\n\n\n\nSep 12, 2024\n\n\n\n\n\n\n\nWeek 3\n\n\nThis week, we will cover Transformations of Random Variables\n\n\n\n\n\nSep 5, 2024\n\n\n\n\n\n\n\nWeek 2\n\n\nThis week we will review basic concepts related to distribution functions and random variables\n\n\n\n\n\nAug 29, 2024\n\n\n\n\n\n\n\nWeek 1\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related statistics and inference. Then we will look at installing R and RStudio as well as the basics of using R.\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "lectures/15b.html#learning-outcomes",
-    "href": "lectures/15b.html#learning-outcomes",
-    "title": "Simple Linear Regression",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nLinear Regression\nOrdinary Least Squares\nR Code"
-  },
-  {
-    "objectID": "lectures/15b.html#r-packages",
-    "href": "lectures/15b.html#r-packages",
-    "title": "Simple Linear Regression",
-    "section": "R Packages",
-    "text": "R Packages\n\nlibrary(tidyverse)\npenguins &lt;- penguins |&gt; drop_na()"
-  },
-  {
-    "objectID": "lectures/15b.html#linear-regression-1",
-    "href": "lectures/15b.html#linear-regression-1",
-    "title": "Simple Linear Regression",
-    "section": "Linear Regression",
-    "text": "Linear Regression\nLinear regression is used to model the association between a set of predictor variables (x’s) and an outcome variable (y). Linear regression will fit a line that best describes the data points."
-  },
-  {
-    "objectID": "lectures/15b.html#simple-linear-regression",
-    "href": "lectures/15b.html#simple-linear-regression",
-    "title": "Simple Linear Regression",
-    "section": "Simple Linear Regression",
-    "text": "Simple Linear Regression\nSimple linear regression will model the association between one predictor variable and an outcome:\n\\[\nY = \\beta_0 + \\beta_1 X + \\epsilon\n\\]\n\n\\(\\beta_0\\): Intercept term\n\\(\\beta_1\\): Slope term\n\\(\\epsilon\\sim N(0,\\sigma^2)\\)"
-  },
-  {
-    "objectID": "lectures/15b.html#palmerpenguins",
-    "href": "lectures/15b.html#palmerpenguins",
-    "title": "Simple Linear Regression",
-    "section": "palmerpenguins",
-    "text": "palmerpenguins\nThe palmerpenguins data set contains 344 observations of 7 penguin characteristics. We will be looking at different association of the penguins"
-  },
-  {
-    "objectID": "lectures/15b.html#scatter-plot",
-    "href": "lectures/15b.html#scatter-plot",
-    "title": "Simple Linear Regression",
-    "section": "Scatter Plot",
-    "text": "Scatter Plot\n\nggplot(penguins, aes(y = flipper_len, x = body_mass)) +\n  geom_point() + theme_bw()"
-  },
-  {
-    "objectID": "lectures/15b.html#scatter-plot-1",
-    "href": "lectures/15b.html#scatter-plot-1",
-    "title": "Simple Linear Regression",
-    "section": "Scatter Plot",
-    "text": "Scatter Plot\n\nggplot(sample_n(penguins,10), aes(y = flipper_len, x = body_mass)) +\n  geom_point() + theme_bw()"
-  },
-  {
-    "objectID": "lectures/15b.html#fitting-a-line",
-    "href": "lectures/15b.html#fitting-a-line",
-    "title": "Simple Linear Regression",
-    "section": "Fitting a Line",
-    "text": "Fitting a Line\n\npenguins |&gt; \n  ggplot(aes(y = flipper_len, x = body_mass)) +\n    geom_point() + \n    geom_smooth(method = \"lm\") +\n    theme_bw() + \n    annotate(\"text\", label = \"y=136.7+0.015x\", x=3250, y=230, size = 10)"
-  },
-  {
-    "objectID": "lectures/15b.html#interpretation",
-    "href": "lectures/15b.html#interpretation",
-    "title": "Simple Linear Regression",
-    "section": "Interpretation",
-    "text": "Interpretation\n\\[\n\\hat y = 136.73 + 0.015 x\n\\]"
-  },
-  {
-    "objectID": "lectures/15b.html#ordinary-least-squares-1",
-    "href": "lectures/15b.html#ordinary-least-squares-1",
-    "title": "Simple Linear Regression",
-    "section": "Ordinary Least Squares",
-    "text": "Ordinary Least Squares\nFor a data pair \\((X_i,Y_i)_{i=1}^n\\), the ordinary least squares estimator will find the estimates of \\(\\hat\\beta_0\\) and \\(\\hat\\beta_1\\) that minimize the following function:\n\\[\n\\sum^n_{i=1}\\{y_i-(\\beta_0+\\beta_1x_i)\\}^2\n\\]"
-  },
-  {
-    "objectID": "lectures/15b.html#estimates",
-    "href": "lectures/15b.html#estimates",
-    "title": "Simple Linear Regression",
-    "section": "Estimates",
-    "text": "Estimates\n\\[\n\\hat\\beta_0 = \\bar y - \\hat\\beta_1\\bar x\n\\] \\[\n\\hat\\beta_1 = \\frac{\\sum^n_{i=1}(y_i-\\bar y)(x_i-\\bar x)}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\] \\[\n\\hat\\sigma^2 = \\frac{1}{n-2}\\sum^n_{i=1}(y_i-\\hat y_i)^2\n\\]"
-  },
-  {
-    "objectID": "lectures/15b.html#standard-errors-of-betas-1",
-    "href": "lectures/15b.html#standard-errors-of-betas-1",
-    "title": "Simple Linear Regression",
-    "section": "Standard Errors of \\(\\beta\\)’s",
-    "text": "Standard Errors of \\(\\beta\\)’s\n\\[\nSE(\\hat\\beta_0)=\\sqrt{\\frac{\\sum^n_{i=1}x_i^2\\hat\\sigma^2}{n\\sum^n_{i=1}(x_i-\\bar x)^2}}\n\\]\n\\[\nSE(\\hat\\beta_1)=\\sqrt\\frac{\\hat\\sigma^2}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\]"
-  },
-  {
-    "objectID": "lectures/15b.html#distributions",
-    "href": "lectures/15b.html#distributions",
-    "title": "Simple Linear Regression",
-    "section": "Distributions",
-    "text": "Distributions"
-  },
-  {
-    "objectID": "lectures/15b.html#standard-error-of-beta_0",
-    "href": "lectures/15b.html#standard-error-of-beta_0",
-    "title": "Simple Linear Regression",
-    "section": "Standard Error of \\(\\beta_0\\)",
-    "text": "Standard Error of \\(\\beta_0\\)"
-  },
-  {
-    "objectID": "lectures/1b.html#random-variables",
-    "href": "lectures/1b.html#random-variables",
-    "title": "Review:",
-    "section": "Random Variables",
-    "text": "Random Variables\nA random variable is function that maps the sample space to real value."
-  },
-  {
-    "objectID": "lectures/1b.html#discrete-random-variables-1",
-    "href": "lectures/1b.html#discrete-random-variables-1",
-    "title": "Review:",
-    "section": "Discrete Random Variables",
-    "text": "Discrete Random Variables\nA random variable is considered to be discrete if it can only map to a finite or countably infinite number of distinct values."
-  },
-  {
-    "objectID": "lectures/1b.html#pmf",
-    "href": "lectures/1b.html#pmf",
-    "title": "Review:",
-    "section": "PMF",
-    "text": "PMF\nThe probability mass function of discrete variable can be represented by a formula, table, or a graph. The Probability of a random variable Y can be expressed as \\(P(Y=y)\\) for all values of \\(y\\)."
-  },
-  {
-    "objectID": "lectures/1b.html#cdf",
-    "href": "lectures/1b.html#cdf",
-    "title": "Review:",
-    "section": "CDF",
-    "text": "CDF\nThe cumulative distribution function provides the \\(P(Y\\leq y)\\) for a random variable \\(Y\\)."
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value",
-    "href": "lectures/1b.html#expected-value",
-    "title": "Review:",
-    "section": "Expected Value",
-    "text": "Expected Value\nThe expected value is the value we expect when we randomly sample from population that follows a specific distribution. The expected value of Y is\n\\[\nE(Y)=\\sum_y yP(y)\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#variance",
-    "href": "lectures/1b.html#variance",
-    "title": "Review:",
-    "section": "Variance",
-    "text": "Variance\nThe variance is the expected squared difference between the random variable and expected value.\n\\[\nVar(Y)=\\sum_y\\{y-E(Y)\\}^2P(y)\n\\]\n\\[\nVar(Y) = E(X^2) - E(X)^2\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#known-distributions",
-    "href": "lectures/1b.html#known-distributions",
-    "title": "Review:",
-    "section": "Known Distributions",
-    "text": "Known Distributions\n\n\n\n\n\n\n\n\nDistribution\nParameter(s)\nPMF \\(P(Y=y)\\)\n\n\n\n\nBernoulli\n\\(p\\)\n\\(p\\)\n\n\nBinomial\n\\(n\\) and \\(p\\)\n\\((^n_y)p^y(1-p)^{n-p}\\)\n\n\nGeometric\n\\(p\\)\n\\((1-p)^{y-1}p\\)\n\n\nNegative Binomial\n\\(r\\) and \\(p\\)\n\\((^{y-1}_{r-1})p^{r-1}(1-p)^{y-r}\\)\n\n\nHypergeometric\n\\(N\\), \\(n\\), and \\(r\\)\n\\(\\frac{(^r_y)(^{N-r}_{n-y})}{(^N_n)}\\)\n\n\nPoisson\n\\(\\lambda\\)\n\\(\\frac{\\lambda^y}{y!} e^{-\\lambda}\\)"
-  },
-  {
-    "objectID": "lectures/1b.html#binomial-distribution-1",
-    "href": "lectures/1b.html#binomial-distribution-1",
-    "title": "Review:",
-    "section": "Binomial Distribution",
-    "text": "Binomial Distribution\nAn experiment is said to follow a binomial distribution if\n\nFixed \\(n\\)\nEach trial has 2 outcomes\nThe probability of success is a constant \\(p\\)\nThe trials are independent of each\n\n\n\\(P(X=x)=(^n_x)p^x(1-p)^{n-x}\\)"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-of-a-binomial-distribution",
-    "href": "lectures/1b.html#expected-value-of-a-binomial-distribution",
-    "title": "Review:",
-    "section": "Expected Value of a Binomial Distribution",
-    "text": "Expected Value of a Binomial Distribution"
-  },
-  {
-    "objectID": "lectures/1b.html#continued",
-    "href": "lectures/1b.html#continued",
-    "title": "Review:",
-    "section": "Continued",
-    "text": "Continued"
-  },
-  {
-    "objectID": "lectures/1b.html#poisson-distribution-1",
-    "href": "lectures/1b.html#poisson-distribution-1",
-    "title": "Review:",
-    "section": "Poisson Distribution",
-    "text": "Poisson Distribution\nThe poisson distribution describes an experiment that measures that occurrence of an event at specific point and/or time period.\n\n\\(P(X=x)=\\frac{\\lambda^x}{x!}e^{-\\lambda}\\)"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-of-a-poisson-distribution",
-    "href": "lectures/1b.html#expected-value-of-a-poisson-distribution",
-    "title": "Review:",
-    "section": "Expected Value of a Poisson Distribution",
-    "text": "Expected Value of a Poisson Distribution"
-  },
-  {
-    "objectID": "lectures/1b.html#continuous-random-variables-1",
-    "href": "lectures/1b.html#continuous-random-variables-1",
-    "title": "Review:",
-    "section": "Continuous Random Variables",
-    "text": "Continuous Random Variables\nA random variable \\(X\\) is considered continuous if the \\(P(X=x)\\) does not exist."
-  },
-  {
-    "objectID": "lectures/1b.html#cdf-1",
-    "href": "lectures/1b.html#cdf-1",
-    "title": "Review:",
-    "section": "CDF",
-    "text": "CDF\nThe cumulative distribution function of \\(X\\) provides the \\(P(X\\leq x)\\), denoted by \\(F(x)\\), for the domain of \\(X\\).\nProperties of the CDF of \\(X\\):\n\n\\(F(-\\infty)\\equiv \\lim_{y\\rightarrow -\\infty}F(y)=0\\)\n\\(F(\\infty)\\equiv \\lim_{y\\rightarrow \\infty}F(y)=1\\)\n\\(F(x)\\) is a nondecreaseing function"
-  },
-  {
-    "objectID": "lectures/1b.html#pdf",
-    "href": "lectures/1b.html#pdf",
-    "title": "Review:",
-    "section": "PDF",
-    "text": "PDF\nThe probability density function of the random variable \\(X\\) is given by\n\\[\nf(x)=\\frac{dF(x)}{d(x)}=F^\\prime(x)\n\\]\nwherever the derivative exists.\nProperties of pdfs:\n\n\\(f(x)\\geq 0\\)\n\\(\\int^\\infty_{-\\infty}f(x)dx=1\\)\n\\(P(a\\leq X\\leq b) = P(a&lt;X&lt;b)=\\int^b_af(x)dx\\)"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-1",
-    "href": "lectures/1b.html#expected-value-1",
-    "title": "Review:",
-    "section": "Expected Value",
-    "text": "Expected Value\nThe expected value for a continuous distribution is defined as\n\\[\nE(X)=\\int x f(x)dx\n\\]\nThe expectation of a function \\(g(X)\\) is defined as\n\\[\nE\\{g(X)\\}=\\int g(x)f(x)dx\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-properties",
-    "href": "lectures/1b.html#expected-value-properties",
-    "title": "Review:",
-    "section": "Expected Value Properties",
-    "text": "Expected Value Properties\n\n\\(E(c)=c\\), where \\(c\\) is constant\n\\(E\\{cg(X)\\}=cE\\{g(X)\\}\\)\n\\(E\\{g_1(X)+g_2(X)+\\cdots+g_n(X)\\}=E\\{g_1(X)\\}+E\\{g_2(X)\\}+\\cdots+E\\{g_n(X)\\}\\)"
-  },
-  {
-    "objectID": "lectures/1b.html#variance-1",
-    "href": "lectures/1b.html#variance-1",
-    "title": "Review:",
-    "section": "Variance",
-    "text": "Variance\nThe variance of continuous variable is defined as\n\\[\nVar(X) =  E[\\{X-E(X)\\}^2] = \\int \\{X-E(X)\\}^2 f(x)dx\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#uniform-distribution-1",
-    "href": "lectures/1b.html#uniform-distribution-1",
-    "title": "Review:",
-    "section": "Uniform Distribution",
-    "text": "Uniform Distribution\nA random variable is said to follow uniform distribution if the density function is constant between two parameters.\n\n\\[\nf(x) = \\left\\{\\begin{array}{cc}\n\\frac{1}{b-a} & a \\leq x \\leq b\\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\\right.\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-2",
-    "href": "lectures/1b.html#expected-value-2",
-    "title": "Review:",
-    "section": "Expected Value",
-    "text": "Expected Value"
-  },
-  {
-    "objectID": "lectures/1b.html#normal-distribution-1",
-    "href": "lectures/1b.html#normal-distribution-1",
-    "title": "Review:",
-    "section": "Normal Distribution",
-    "text": "Normal Distribution\nA random variable is said to follow a normal distribution if the the frequency of occurrence follow a Gaussian function.\n\n\\[\nf(x)=\\frac{1}{\\sqrt{2\\pi \\sigma^2}}\\exp\\left\\{-\\frac{(x-\\mu)^2}{2\\sigma^2}\\right\\}\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-3",
-    "href": "lectures/1b.html#expected-value-3",
-    "title": "Review:",
-    "section": "Expected Value",
-    "text": "Expected Value"
-  },
-  {
-    "objectID": "lectures/1b.html#continued-1",
-    "href": "lectures/1b.html#continued-1",
-    "title": "Review:",
-    "section": "Continued",
-    "text": "Continued"
-  },
-  {
-    "objectID": "lectures/3a.html#function-of-random-variables-1",
-    "href": "lectures/3a.html#function-of-random-variables-1",
-    "title": "Functions of Random Variables",
-    "section": "Function of Random Variables",
-    "text": "Function of Random Variables"
-  },
-  {
-    "objectID": "lectures/3a.html#using-the-distribution-function",
-    "href": "lectures/3a.html#using-the-distribution-function",
-    "title": "Functions of Random Variables",
-    "section": "Using the Distribution Function",
-    "text": "Using the Distribution Function\nLet there be a random variable \\(X\\) with a known distribution function \\(F_X(x)\\), the density function for the random variable \\(Y=g(X)\\) can be found with the following steps\n\n\nFind the region of \\(Y\\) in the space of \\(X\\), find \\(g^{-1}(y)\\)\nFind the region of \\(Y\\le y\\)\nFind \\(F_Y(y)=P(Y\\le y)\\) using the probability density function of \\(X\\) over region \\(Y\\le y\\)\nFind \\(f_Y(y)\\) by differentiating \\(F_Y(y)\\)"
-  },
-  {
-    "objectID": "lectures/3a.html#example-1",
-    "href": "lectures/3a.html#example-1",
-    "title": "Functions of Random Variables",
-    "section": "Example 1",
-    "text": "Example 1\nLet \\(X\\) have the following probability density function:\n\\[\nf_X(x)=\\left\\{\\begin{array}{cc}\n2x & 0\\le x \\le 1 \\\\\n0 & \\mathrm{otherwise}\n\\end{array}\n\\right.\n\\]\nFind the probability density function of \\(Y=3X-1\\)?"
-  },
-  {
-    "objectID": "lectures/3a.html#using-the-pdf",
-    "href": "lectures/3a.html#using-the-pdf",
-    "title": "Functions of Random Variables",
-    "section": "Using the PDF",
-    "text": "Using the PDF\nLet there be a random variable \\(X\\) with a known distribution function \\(F_X(x)\\), if the random variable \\(Y=g(X)\\) is either increasing or decreasing, than the probability density function can be found as\n\\[\nf_Y(y) = f_X\\{g^{-1}(y)\\}\\left|\\frac{dg^{-1}(y)}{dy}\\right|\n\\]"
-  },
-  {
-    "objectID": "lectures/3a.html#example-2",
-    "href": "lectures/3a.html#example-2",
-    "title": "Functions of Random Variables",
-    "section": "Example 2",
-    "text": "Example 2\nLet \\(X\\) have the following probability density function:\n\\[\nf_X(x)=\\left\\{\\begin{array}{cc}\n\\frac{3}{2}x^2 + x & 0\\le y \\le 1 \\\\\n0 & \\mathrm{otherwise}\n\\end{array}\n\\right.\n\\]\nFind the probability density function of \\(Y=5-(X/2)\\)?"
-  },
-  {
-    "objectID": "lectures/3a.html#using-the-mgf",
-    "href": "lectures/3a.html#using-the-mgf",
-    "title": "Functions of Random Variables",
-    "section": "Using the MGF",
-    "text": "Using the MGF\nUsing the uniqueness property of Moment Generating Functions, for a random variable \\(X\\) with a known distribution function \\(F_X(x)\\) and random variable \\(Y=g(X)\\), the distribution of \\(Y\\) can be found by:\n\nFind the moment generating function of \\(Y\\), \\(M_Y(t)\\).\nCompare \\(M_Y(t)\\), with known moment generating functions. If \\(M_Y(t)=M_V(t)\\), for all values \\(t\\), them \\(Y\\) and \\(V\\) have identical distributions."
-  },
-  {
-    "objectID": "lectures/3a.html#example-3",
-    "href": "lectures/3a.html#example-3",
-    "title": "Functions of Random Variables",
-    "section": "Example 3",
-    "text": "Example 3\nLet \\(X\\) follow a normal distribution with mean \\(\\mu\\) and variance \\(\\sigma^2\\). Find the distribution of \\(Z=\\frac{X-\\mu}{\\sigma}\\)."
-  },
-  {
-    "objectID": "lectures/3a.html#example-4",
-    "href": "lectures/3a.html#example-4",
-    "title": "Functions of Random Variables",
-    "section": "Example 4",
-    "text": "Example 4\nLet \\(Z\\) follow a standard normal distribution with mean \\(0\\) and variance \\(1\\). Find the distribution of \\(Y=Z^2\\)"
-  },
-  {
-    "objectID": "lectures/4a.html#independent-random-variables",
-    "href": "lectures/4a.html#independent-random-variables",
-    "title": "Joint Distribution Functions",
-    "section": "Independent Random Variables",
-    "text": "Independent Random Variables\nRandom variables are considered independent of each other if the probability of one variable does not affect the probability of another variable."
-  },
-  {
-    "objectID": "lectures/4a.html#discrete-independent-random-variables",
-    "href": "lectures/4a.html#discrete-independent-random-variables",
-    "title": "Joint Distribution Functions",
-    "section": "Discrete Independent Random Variables",
-    "text": "Discrete Independent Random Variables\nLet \\(X_1\\) and \\(X_2\\) be 2 discrete random variables, with a joint density function of \\(p_{X_1,X_2}(x_1,x_2)\\). \\(X_1\\) is independent of \\(X_2\\) if and only if\n\\[\np_{X_1,X_2}(x_1,x_2) = p_{X_1}(x_1)p_{X_2}(x_2)\n\\]"
-  },
-  {
-    "objectID": "lectures/4a.html#continuous-independent-random-variables",
-    "href": "lectures/4a.html#continuous-independent-random-variables",
-    "title": "Joint Distribution Functions",
-    "section": "Continuous Independent Random Variables",
-    "text": "Continuous Independent Random Variables\nLet \\(X_1\\) and \\(X_2\\) be 2 continuous random variables, with a joint density function of \\(f_{X_1,X_2}(x_1,x_2)\\). \\(X_1\\) is independent of \\(X_2\\) if and only if\n\\[\nf_{X_1,X_2}(x_1,x_2) = f_{X_1}(x_1)f_{X_2}(x_2)\n\\]"
-  },
-  {
-    "objectID": "lectures/4a.html#matrix-algebra",
-    "href": "lectures/4a.html#matrix-algebra",
-    "title": "Joint Distribution Functions",
-    "section": "Matrix Algebra",
-    "text": "Matrix Algebra\n\\[\nA = \\left(\\begin{array}{cc}\na_1 & 0\\\\\n0 & a_2\n\\end{array}\\right)\n\\]\n\\[\n\\det(A) = a_1a_2\n\\]\n\\[\nA^{-1}=\\left(\\begin{array}{cc}\n1/a_1 & 0 \\\\\n0 & 1/a_2\n\\end{array}\\right)\n\\]"
-  },
-  {
-    "objectID": "lectures/4a.html#example",
-    "href": "lectures/4a.html#example",
-    "title": "Joint Distribution Functions",
-    "section": "Example",
-    "text": "Example\n\\[\n\\left(\\begin{array}{c}\nX\\\\\nY\n\\end{array}\\right)\\sim N \\left\\{\n\\left(\\begin{array}{c}\n\\mu_x\\\\\n\\mu_y\n\\end{array}\\right),\\left(\\begin{array}{cc}\n\\sigma_x^2 & 0\\\\\n0 & \\sigma_y^2\n\\end{array}\\right)\n\\right\\}\n\\]\nShow that \\(X\\perp Y\\).\n\\[\nf_{X,Y}(x,y)=\\det(2\\pi\\Sigma)^{-1/2}\\exp\\left\\{-\\frac{1}{2}(\\boldsymbol{w}-\\boldsymbol\\mu)^T\\Sigma^{-1}(\\boldsymbol w-\\boldsymbol\\mu)\\right\\}\n\\]\nwhere \\(\\Sigma=\\left(\\begin{array}{cc}\\sigma_y^2 & 0\\\\0 & \\sigma_y^2\\end{array}\\right)\\), \\(\\boldsymbol \\mu = \\left(\\begin{array}{cc}\\mu_x\\\\ \\mu_y \\end{array}\\right)\\), and \\(\\boldsymbol w = \\left(\\begin{array}{cc} x\\\\ y \\end{array}\\right)\\)"
-  },
-  {
-    "objectID": "lectures/4a.html#expectations-1",
-    "href": "lectures/4a.html#expectations-1",
-    "title": "Joint Distribution Functions",
-    "section": "Expectations",
-    "text": "Expectations\nLet \\(X_1, X_2, \\ldots,X_n\\) be a set of random variables, the expectation of a function \\(g(X_1,\\ldots, X_n)\\) is defined as\n\\[\nE\\{g(X_1,\\ldots, X_n)\\} = \\sum_{x_1\\in X_1}\\cdots\\sum_{x_n\\in X_n}g(X_1,\\ldots, X_n)p(x_1,\\ldots,x_n)\n\\]\nor\n\\[\nE\\{g(\\boldsymbol X)\\} = \\int_{x_1\\in X_1}\\cdots\\int_{x_n\\in X_n}g(\\boldsymbol X)f(\\boldsymbol X)dx_n \\cdots dx_1\n\\]\n\n\\(\\boldsymbol X = (X_1,\\cdots, X_n)\\)"
-  },
-  {
-    "objectID": "lectures/4a.html#expected-value-and-variance-of-linear-functions",
-    "href": "lectures/4a.html#expected-value-and-variance-of-linear-functions",
-    "title": "Joint Distribution Functions",
-    "section": "Expected Value and Variance of Linear Functions",
-    "text": "Expected Value and Variance of Linear Functions\nLet \\(X_1,\\ldots,X_n\\) and \\(Y_1,\\ldots,Y_m\\) be random variables with \\(E(X_i)=\\mu_i\\) and \\(E(Y_j)=\\tau_j\\). Furthermore, let \\(U = \\sum^n_{i=1}a_iX_i\\) and \\(V=\\sum^m_{j=1}b_jY_j\\) where \\(\\{a_i\\}^n_{i=1}\\) and \\(\\{b_j\\}_{j=1}^m\\) are constants. We have the following properties:\n\n\\(E(U)=\\sum_{i=1}^na_i\\mu_i\\)\n\\(Var(U)=\\sum^n_{i=1}a_i^2Var(X_i)+2\\underset{i&lt;j}{\\sum\\sum}a_ia_jCov(X_i,X_j)\\)\n\\(Cov(U,V)=\\sum^n_{i=1}\\sum^m_{j=1}Cov(X_i,Y_j)\\)"
-  },
-  {
-    "objectID": "lectures/4a.html#expectation-of-product",
-    "href": "lectures/4a.html#expectation-of-product",
-    "title": "Joint Distribution Functions",
-    "section": "Expectation of Product",
-    "text": "Expectation of Product\nLet \\(X\\) and \\(Y\\) be independent random variables with Joint Function \\(f_{XY}(x,y)\\), then\n\\[\nE(XY) = E(X)E(Y)\n\\]\n\nProve it!"
-  },
-  {
-    "objectID": "lectures/4a.html#conditional-expectations",
-    "href": "lectures/4a.html#conditional-expectations",
-    "title": "Joint Distribution Functions",
-    "section": "Conditional Expectations",
-    "text": "Conditional Expectations\nLet \\(X_1\\) and \\(X_2\\) be two random variables, the conditional expectation of \\(g(X_1)\\), given \\(X_2=x_2\\), is defined as\n\\[\nE\\{g(X_1)|X_2=x_2\\}=\\sum_{x_1}g(x_1)p(x_1|x_2)\n\\]\nor\n\\[\nE\\{g(X_1)|X_2=x_2\\}=\\int_{x_1}g(x_1)f(x_1|x_2)dx_1.\n\\]"
-  },
-  {
-    "objectID": "lectures/4a.html#conditional-expectations-1",
-    "href": "lectures/4a.html#conditional-expectations-1",
-    "title": "Joint Distribution Functions",
-    "section": "Conditional Expectations",
-    "text": "Conditional Expectations\nFurthermore,\n\\[\nE(X_1)=E_{X_2}\\{E_{X_1|X_2}(X_1|X_2)\\}\n\\]\nand\n\\[\nVar(X_1) = E_{X_2}\\{Var_{X_1|X_2}(X_1|X_2)\\} + Var_{X_2}\\{E_{X_1|X_2}(X_1|X_2)\\}\n\\]"
-  },
-  {
-    "objectID": "lectures/4a.html#covariance-1",
-    "href": "lectures/4a.html#covariance-1",
-    "title": "Joint Distribution Functions",
-    "section": "Covariance",
-    "text": "Covariance\nLet \\(X_1\\) and \\(X_2\\) be 2 random variables with mean \\(E(X_1)=\\mu_1\\) and \\(E(X_2)=\\mu_2\\), respectively. The covariance of \\(X_1\\) and \\(X_2\\) is defined as\n\\[\n\\begin{eqnarray*}\nCov(X_1,X_2) & = & E\\{(X_1-\\mu_1)(X_2-\\mu_2)\\}\\\\\n& =& E(X_1X_2)-\\mu_1\\mu_2\n\\end{eqnarray*}\n\\]\nIf \\(X_1\\) and \\(X_2\\) are independent random variables, then\n\\[\nCov(X_1,X_2)=0\n\\]"
-  },
-  {
-    "objectID": "lectures/4a.html#correlation",
-    "href": "lectures/4a.html#correlation",
-    "title": "Joint Distribution Functions",
-    "section": "Correlation",
-    "text": "Correlation\nThe correlation of \\(X_1\\) and \\(X_2\\) is defined as\n\\[\n\\rho = Cor(X_1,X_2) = \\frac{Cov(X_1,X_2)}{\\sqrt{Var(X_1)Var(X_2)}}\n\\]"
-  },
-  {
-    "objectID": "lectures/4a.html#mgf-property-independence",
-    "href": "lectures/4a.html#mgf-property-independence",
-    "title": "Joint Distribution Functions",
-    "section": "MGF Property: Independence",
-    "text": "MGF Property: Independence\nLet \\(X\\) and \\(Y\\) be independent random variables. Let \\(Z = X+Y\\), the MGF of Z is\n\\[\nM_Z(t) = M_X(t)M_Y(t)\n\\]"
-  },
-  {
-    "objectID": "lectures/4a.html#examples-1",
-    "href": "lectures/4a.html#examples-1",
-    "title": "Joint Distribution Functions",
-    "section": "Examples",
-    "text": "Examples\nLet \\(X_1\\sim Bin(n_1,p)\\) and \\(X_2\\sim Bin(n_2, p)\\). Find the distribution function of \\(Y=X_1 + X_2\\). Assume \\(X_1\\perp X_2\\)."
-  },
-  {
-    "objectID": "lectures/4a.html#examples-2",
-    "href": "lectures/4a.html#examples-2",
-    "title": "Joint Distribution Functions",
-    "section": "Examples",
-    "text": "Examples\nLet \\(X_1\\sim N(\\mu_1,\\sigma_1^2)\\) and \\(X_2\\sim N(\\mu_2,\\sigma_2^2)\\). Find the distribution function of \\(Y=X_1 + X_2\\). Assume \\(X_1\\perp X_2\\)."
-  },
-  {
-    "objectID": "lectures/5a.html#s2",
-    "href": "lectures/5a.html#s2",
+    "objectID": "lectures/4b.html#s2",
+    "href": "lectures/4b.html#s2",
     "title": "Sampling Distributions",
     "section": "\\(s^2\\)",
     "text": "\\(s^2\\)"
   },
   {
-    "objectID": "lectures/5a.html#t-distribution",
-    "href": "lectures/5a.html#t-distribution",
+    "objectID": "lectures/4b.html#t-distribution",
+    "href": "lectures/4b.html#t-distribution",
     "title": "Sampling Distributions",
     "section": "t-distribution",
     "text": "t-distribution\nLet \\(Z\\sim N(0,1)\\), \\(W\\sim \\chi^2_\\nu\\), \\(Z\\perp W\\); therefore:\n\\[\nT=\\frac{Z}{\\sqrt{W/\\nu}} \\sim t_\\nu\n\\]"
   },
   {
-    "objectID": "lectures/5a.html#f-distribution",
-    "href": "lectures/5a.html#f-distribution",
+    "objectID": "lectures/4b.html#f-distribution",
+    "href": "lectures/4b.html#f-distribution",
     "title": "Sampling Distributions",
     "section": "F-distribution",
     "text": "F-distribution\nLet \\(W_1\\sim\\chi^2_{\\nu_1}\\) \\(W_2\\sim\\chi^2_{\\nu_2}\\), and \\(W_1\\perp W_2\\); therefore:\n\\[\nF = \\frac{W_1/\\nu_1}{W_2/\\nu_2}\\sim F_{\\nu_1,\\nu_2}\n\\]"
   },
   {
-    "objectID": "lectures/5a.html#central-limit-theorem-1",
-    "href": "lectures/5a.html#central-limit-theorem-1",
+    "objectID": "lectures/4b.html#central-limit-theorem-1",
+    "href": "lectures/4b.html#central-limit-theorem-1",
     "title": "Sampling Distributions",
     "section": "Central Limit Theorem",
     "text": "Central Limit Theorem\nLet \\(X_1, X_2, \\ldots, X_n\\) be identical and independent distributed random variables with \\(E(X_i)=\\mu\\) and \\(Var(X_i) = \\sigma²\\). We define\n\\[\nY_n = \\sqrt n \\left(\\frac{\\bar X-\\mu}{\\sigma}\\right) \\mathrm{ where }\\ \\bar X = x\\frac{1}{n}\\sum^n_{i=1}X_i.\n\\]\nThen, the distribution of the function \\(Y_n\\) converges to a standard normal distribution function as \\(n\\rightarrow \\infty\\)."
   },
   {
-    "objectID": "lectures/5a.html#central-limit-theorem-2",
-    "href": "lectures/5a.html#central-limit-theorem-2",
+    "objectID": "lectures/4b.html#central-limit-theorem-2",
+    "href": "lectures/4b.html#central-limit-theorem-2",
     "title": "Sampling Distributions",
     "section": "Central Limit Theorem",
     "text": "Central Limit Theorem\n\\[\n\\bar X \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right)\n\\]"
   },
   {
-    "objectID": "lectures/5a.html#example",
-    "href": "lectures/5a.html#example",
+    "objectID": "lectures/4b.html#example",
+    "href": "lectures/4b.html#example",
     "title": "Sampling Distributions",
     "section": "Example",
     "text": "Example\nLet \\(X_1, \\ldots, X_n \\overset{iid}{\\sim} \\chi^2_p\\), the MGF is \\(M(t)=(1-2t)^{-p/2}\\). Find the distribution of \\(\\bar X\\) as \\(n \\rightarrow \\infty\\)."
   },
   {
-    "objectID": "lectures/5a.html#order-statistics-1",
-    "href": "lectures/5a.html#order-statistics-1",
+    "objectID": "lectures/5b.html#central-limit-theorem-1",
+    "href": "lectures/5b.html#central-limit-theorem-1",
+    "title": "Sampling Distributions",
+    "section": "Central Limit Theorem",
+    "text": "Central Limit Theorem\nLet \\(X_1, X_2, \\ldots, X_n\\) be identical and independent distributed random variables with \\(E(X_i)=\\mu\\) and \\(Var(X_i) = \\sigma²\\). We define\n\\[\nY_n = \\sqrt n \\left(\\frac{\\bar X-\\mu}{\\sigma}\\right) \\mathrm{ where }\\ \\bar X = x\\frac{1}{n}\\sum^n_{i=1}X_i.\n\\]\nThen, the distribution of the function \\(Y_n\\) converges to a standard normal distribution function as \\(n\\rightarrow \\infty\\)."
+  },
+  {
+    "objectID": "lectures/5b.html#central-limit-theorem-2",
+    "href": "lectures/5b.html#central-limit-theorem-2",
+    "title": "Sampling Distributions",
+    "section": "Central Limit Theorem",
+    "text": "Central Limit Theorem\n\\[\n\\bar X \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right)\n\\]"
+  },
+  {
+    "objectID": "lectures/5b.html#example",
+    "href": "lectures/5b.html#example",
+    "title": "Sampling Distributions",
+    "section": "Example",
+    "text": "Example\nLet \\(X_1, \\ldots, X_n \\overset{iid}{\\sim} \\chi^2_p\\), the MGF is \\(M(t)=(1-2t)^{-p/2}\\). Find the distribution of \\(\\bar X\\) as \\(n \\rightarrow \\infty\\)."
+  },
+  {
+    "objectID": "lectures/5b.html#order-statistics-1",
+    "href": "lectures/5b.html#order-statistics-1",
     "title": "Sampling Distributions",
     "section": "Order Statistics",
     "text": "Order Statistics\nOrder statistics are a fundamental concept in statistics and probability, dealing with the properties of sorted random variables. They provide insights into the distribution and behavior of sample data, such as minimum, maximum, and quantiles. Understanding order statistics is crucial in various fields such as risk management, quality control, and data analysis."
   },
   {
-    "objectID": "lectures/5a.html#order-statistics-2",
-    "href": "lectures/5a.html#order-statistics-2",
+    "objectID": "lectures/5b.html#order-statistics-2",
+    "href": "lectures/5b.html#order-statistics-2",
     "title": "Sampling Distributions",
     "section": "Order Statistics",
     "text": "Order Statistics\nLet \\(X_1, X_2, \\ldots, X_n\\) be a sample of \\(n\\) independent and identically distributed (i.i.d.) random variables with a common probability density function \\(f(x)\\). The order statistics are the sorted values of this sample, denoted as:\n\\[\n  X_{(1)} \\leq X_{(2)} \\leq \\cdots \\leq X_{(n)}\n  \\]\nHere, \\(X_{(1)}\\) is the minimum, and \\(X_{(n)}\\) is the maximum of the sample."
   },
   {
-    "objectID": "lectures/5a.html#order-statistics-3",
-    "href": "lectures/5a.html#order-statistics-3",
+    "objectID": "lectures/5b.html#order-statistics-3",
+    "href": "lectures/5b.html#order-statistics-3",
     "title": "Sampling Distributions",
     "section": "Order Statistics",
     "text": "Order Statistics\n\n\\(X_{(k)}\\): The \\(k\\)-th order statistic, representing the \\(k\\)-th smallest value in the sample.\n\\(X_{(1)}, X_{(n)}\\): The minimum and maximum of the sample, respectively."
   },
   {
-    "objectID": "lectures/5a.html#distribution-of-order-statistic",
-    "href": "lectures/5a.html#distribution-of-order-statistic",
+    "objectID": "lectures/5b.html#distribution-of-order-statistic",
+    "href": "lectures/5b.html#distribution-of-order-statistic",
     "title": "Sampling Distributions",
     "section": "Distribution of Order Statistic",
     "text": "Distribution of Order Statistic\nThe distribution of the \\(k\\)-th order statistic \\(X_{(k)}\\) can be derived using combinatorial arguments. Its PDF is given by: \\[\n  f_{X_{(k)}}(x) = \\frac{n!}{(k-1)!(n-k)!} [F(x)]^{k-1} [1 - F(x)]^{n-k} f(x)\n  \\]\nThis formula shows how the distribution of \\(X_{(k)}\\) depends on the underlying distribution of the sample and its position \\(k\\)."
   },
   {
-    "objectID": "lectures/6a.html#estimators-1",
-    "href": "lectures/6a.html#estimators-1",
-    "title": "Statistical Estimators",
+    "objectID": "lectures/5b.html#estimators-1",
+    "href": "lectures/5b.html#estimators-1",
+    "title": "Sampling Distributions",
     "section": "Estimators",
     "text": "Estimators\nAn estimator is an operation computing the value of an estimate, that targets the parameter, using measurements from a sample."
   },
   {
-    "objectID": "lectures/6a.html#unbiased-estimator",
-    "href": "lectures/6a.html#unbiased-estimator",
-    "title": "Statistical Estimators",
+    "objectID": "lectures/5b.html#unbiased-estimator",
+    "href": "lectures/5b.html#unbiased-estimator",
+    "title": "Sampling Distributions",
     "section": "Unbiased Estimator",
     "text": "Unbiased Estimator\nAn unbiased estimator \\(\\hat\\theta\\) is an estimator that satisfies the following condition:\n\\[\nE(\\hat\\theta) = \\theta\n\\]"
   },
   {
-    "objectID": "lectures/6a.html#bias",
-    "href": "lectures/6a.html#bias",
-    "title": "Statistical Estimators",
+    "objectID": "lectures/5b.html#bias",
+    "href": "lectures/5b.html#bias",
+    "title": "Sampling Distributions",
     "section": "Bias",
     "text": "Bias\nThe bias of an estimator is defined as\n\\[\nB(\\hat\\theta) = E(\\hat\\theta)-\\theta\n\\]"
   },
   {
-    "objectID": "lectures/6a.html#mean-square-error",
-    "href": "lectures/6a.html#mean-square-error",
-    "title": "Statistical Estimators",
+    "objectID": "lectures/5b.html#mean-square-error",
+    "href": "lectures/5b.html#mean-square-error",
+    "title": "Sampling Distributions",
     "section": "Mean Square Error",
     "text": "Mean Square Error\nThe mean square of an estimator is \\(\\hat\\theta\\) is given as\n\\[\n\\begin{eqnarray}\nMSE(\\hat\\theta) & = & E\\{(\\hat\\theta-\\theta)^2\\} \\\\\n& = & Var(\\hat\\theta) + B(\\hat\\theta)^2\n\\end{eqnarray}\n\\]"
   },
   {
-    "objectID": "lectures/6a.html#is-bar-x-an-unbiased-estimator-of-mu",
-    "href": "lectures/6a.html#is-bar-x-an-unbiased-estimator-of-mu",
-    "title": "Statistical Estimators",
+    "objectID": "lectures/5b.html#is-bar-x-an-unbiased-estimator-of-mu",
+    "href": "lectures/5b.html#is-bar-x-an-unbiased-estimator-of-mu",
+    "title": "Sampling Distributions",
     "section": "Is \\(\\bar X\\) an unbiased estimator of \\(\\mu\\)?",
     "text": "Is \\(\\bar X\\) an unbiased estimator of \\(\\mu\\)?\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\), find the bias of \\(\\bar X\\)."
   },
   {
-    "objectID": "lectures/6a.html#why-is-s²-divided-by-n-1-instead-of-n",
-    "href": "lectures/6a.html#why-is-s²-divided-by-n-1-instead-of-n",
-    "title": "Statistical Estimators",
+    "objectID": "lectures/5b.html#why-is-s²-divided-by-n-1-instead-of-n",
+    "href": "lectures/5b.html#why-is-s²-divided-by-n-1-instead-of-n",
+    "title": "Sampling Distributions",
     "section": "Why is \\(S²\\) divided by \\(n-1\\) instead of \\(n\\)?",
     "text": "Why is \\(S²\\) divided by \\(n-1\\) instead of \\(n\\)?\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\), find the bias of \\(S²\\)."
   },
   {
-    "objectID": "lectures/6a.html#problem",
-    "href": "lectures/6a.html#problem",
-    "title": "Statistical Estimators",
+    "objectID": "lectures/5b.html#problem",
+    "href": "lectures/5b.html#problem",
+    "title": "Sampling Distributions",
     "section": "Problem",
-    "text": "Problem\nLet \\(X_1,X_2,X_3\\) follow and exponential distribution with mean and variance \\(\\lambda\\) and \\(\\lambda²\\), respectively. Using the following estimators:\n\n\\(\\hat\\theta_1 = X_1\\)\n\\(\\hat\\theta_2 = \\frac{X_1+X_2}{2}\\)\n\\(\\hat\\theta_3 = \\frac{X_1+2X_2}{3}\\)\n\\(\\hat\\theta_4 = \\frac{X_1+X_2+X_3}{3}\\)\n\nIdentify which estimator:\n\nIs unbiased?\nHas the smallest variance?"
+    "text": "Problem\nLet \\(X_1,X_2,X_3\\) follow and exponential distribution with mean and variance \\(\\lambda\\) and \\(\\lambda²\\), respectively. Using the following estimators:\n\n\\(\\hat\\theta_1 = X_1\\)\n\\(\\hat\\theta_2 = \\frac{X_1+X_2}{2}\\)\n\\(\\hat\\theta_3 = \\frac{X_1+2X_2}{3}\\)\n\\(\\hat\\theta_4 = \\frac{X_1+X_2+X_3}{3}\\)\n\nIdentify which estimator\n\nIs unbiased?\nHas the lowest variance?"
   },
   {
-    "objectID": "lectures/6a.html#likelihood-function-1",
-    "href": "lectures/6a.html#likelihood-function-1",
-    "title": "Statistical Estimators",
+    "objectID": "lectures/7a.html#likelihood-function",
+    "href": "lectures/7a.html#likelihood-function",
+    "title": "Maximum Likelihood Estimators",
     "section": "Likelihood Function",
     "text": "Likelihood Function\nUsing the joint pdf or pmf of the sample \\(\\boldsymbol X\\), the likelihood function is a function of \\(\\boldsymbol \\theta\\), given the observed data \\(\\boldsymbol X =\\boldsymbol x\\), defined as\n\\[\nL(\\boldsymbol \\theta|\\boldsymbol x)=f(\\boldsymbol x|\\boldsymbol \\theta)\n\\]\nIf the data is iid, then\n\\[\nf(\\boldsymbol x|\\boldsymbol \\theta) = \\prod^n_{i=1}f(x_i|\\boldsymbol\\theta)\n\\]"
   },
   {
-    "objectID": "lectures/6a.html#likelihood-function-2",
-    "href": "lectures/6a.html#likelihood-function-2",
-    "title": "Statistical Estimators",
+    "objectID": "lectures/7a.html#likelihood-function-1",
+    "href": "lectures/7a.html#likelihood-function-1",
+    "title": "Maximum Likelihood Estimators",
     "section": "Likelihood Function",
     "text": "Likelihood Function\nUsing the joint pdf or pmf of the sample \\(\\boldsymbol X\\), the likelihood function is a function of \\(\\boldsymbol \\theta\\), given the observed data \\(\\boldsymbol X =\\boldsymbol x\\), defined as\n\\[\nL(\\boldsymbol \\theta|\\boldsymbol x)=f(\\boldsymbol x|\\boldsymbol \\theta)\n\\]\nIf the data is iid, then\n\\[\nf(\\boldsymbol x|\\boldsymbol \\theta) = \\prod^n_{i=1}f(x_i|\\boldsymbol\\theta)\n\\]"
   },
   {
-    "objectID": "lectures/6a.html#log-likelihood-function",
-    "href": "lectures/6a.html#log-likelihood-function",
-    "title": "Statistical Estimators",
+    "objectID": "lectures/7a.html#log-likelihood-function",
+    "href": "lectures/7a.html#log-likelihood-function",
+    "title": "Maximum Likelihood Estimators",
     "section": "Log-Likelihood Function",
     "text": "Log-Likelihood Function\nIf \\(\\ln\\{L(\\boldsymbol \\theta)\\}\\) is monotone of \\(\\boldsymbol \\theta\\), then maximizing \\(\\ell(\\boldsymbol\\theta) = \\ln\\{L(\\boldsymbol \\theta)\\}\\) will yield the maximum likelihood estimators."
   },
   {
-    "objectID": "lectures/6a.html#maximum-log-likelihood-estimator",
-    "href": "lectures/6a.html#maximum-log-likelihood-estimator",
-    "title": "Statistical Estimators",
+    "objectID": "lectures/7a.html#maximum-log-likelihood-estimator",
+    "href": "lectures/7a.html#maximum-log-likelihood-estimator",
+    "title": "Maximum Likelihood Estimators",
     "section": "Maximum log-Likelihood Estimator",
     "text": "Maximum log-Likelihood Estimator\nThe maximum likelihood estimator are the estimates of \\(\\boldsymbol \\theta\\) that maximize \\(\\ell(\\boldsymbol\\theta)\\)."
   },
   {
-    "objectID": "lectures/6a.html#poisson-distribution",
-    "href": "lectures/6a.html#poisson-distribution",
-    "title": "Statistical Estimators",
+    "objectID": "lectures/7a.html#poisson-distribution",
+    "href": "lectures/7a.html#poisson-distribution",
+    "title": "Maximum Likelihood Estimators",
     "section": "Poisson Distribution",
     "text": "Poisson Distribution\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}\\mathrm{Pois}(\\lambda)\\), show that the MLE of \\(\\lambda\\) is \\(\\bar x\\)."
   },
   {
-    "objectID": "lectures/6a.html#normal-distribution",
-    "href": "lectures/6a.html#normal-distribution",
-    "title": "Statistical Estimators",
+    "objectID": "lectures/7a.html#normal-distribution",
+    "href": "lectures/7a.html#normal-distribution",
+    "title": "Maximum Likelihood Estimators",
     "section": "Normal Distribution",
     "text": "Normal Distribution\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\). Show that the MLE’s of \\(\\mu\\) and \\(\\sigma^2\\) are \\(\\bar x\\) and \\(\\frac{n-1}{n}s^2\\), respectively."
   },
   {
-    "objectID": "lectures/6a.html#exponential-distribution",
-    "href": "lectures/6a.html#exponential-distribution",
-    "title": "Statistical Estimators",
+    "objectID": "lectures/7a.html#exponential-distribution",
+    "href": "lectures/7a.html#exponential-distribution",
+    "title": "Maximum Likelihood Estimators",
     "section": "Exponential Distribution",
     "text": "Exponential Distribution\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}Exp(\\lambda)\\). Find the MLE of \\(\\lambda\\)"
   },
   {
-    "objectID": "lectures/7b.html#estimators",
-    "href": "lectures/7b.html#estimators",
-    "title": "Method of Moment Estimator",
-    "section": "Estimators",
-    "text": "Estimators\nAn estimator is an operation computing the value of an estimate, that targets the parameter, using measurements from a sample."
-  },
-  {
-    "objectID": "lectures/7b.html#data",
-    "href": "lectures/7b.html#data",
-    "title": "Method of Moment Estimator",
-    "section": "Data",
-    "text": "Data\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}F(\\boldsymbol \\theta)\\) where \\(F(\\cdot)\\) is a known distribution function and \\(\\boldsymbol\\theta\\) is a vector of parameters. Let \\(\\boldsymbol X = (X_1,\\ldots, X_n)^\\mathrm{T}\\), be the sample collected."
-  },
-  {
-    "objectID": "lectures/7b.html#method-of-moments",
-    "href": "lectures/7b.html#method-of-moments",
-    "title": "Method of Moment Estimator",
-    "section": "Method of Moments",
-    "text": "Method of Moments\nLet the \\(k\\)th moment be defined as \\(\\mu_k\\) and the corresponding \\(k\\)th moment average \\(\\frac{1}{n}\\sum^n_{i=1}X_i^{k}\\):\n\\[\n\\mu_k = \\frac{1}{n}\\sum^n_{i=1}X_i^k.\n\\]\nThe parameter estimates are for \\(t\\) parameters are the solutions for \\(\\mu_k\\) for \\(k=1,\\ldots,t\\)."
-  },
-  {
-    "objectID": "lectures/7b.html#bernoulli-distribution",
-    "href": "lectures/7b.html#bernoulli-distribution",
-    "title": "Method of Moment Estimator",
-    "section": "Bernoulli Distribution",
-    "text": "Bernoulli Distribution\nLet \\(X_1, \\ldots,X_n\\overset{iid}{\\sim}\\mathrm{Bin}(n,p)\\), find the method of moments estimator for \\(p\\)."
-  },
-  {
-    "objectID": "lectures/7b.html#poisson-distribution",
-    "href": "lectures/7b.html#poisson-distribution",
-    "title": "Method of Moment Estimator",
-    "section": "Poisson Distribution",
-    "text": "Poisson Distribution\nLet \\(X_1, \\ldots,X_n\\overset{iid}{\\sim}\\mathrm{Pois}(\\lambda)\\), find the method of moments estimator for \\(\\lambda\\)."
-  },
-  {
-    "objectID": "lectures/7b.html#uniform-distribution",
-    "href": "lectures/7b.html#uniform-distribution",
-    "title": "Method of Moment Estimator",
-    "section": "Uniform Distribution",
-    "text": "Uniform Distribution\nLet \\(X_1, \\ldots,X_n\\overset{iid}{\\sim}U(1,\\theta)\\), find the method of moments estimator for \\(\\theta\\)."
-  },
-  {
-    "objectID": "lectures/7b.html#gamma-distribution",
-    "href": "lectures/7b.html#gamma-distribution",
-    "title": "Method of Moment Estimator",
-    "section": "Gamma Distribution",
-    "text": "Gamma Distribution\nLet \\(X_1, \\ldots,X_n\\overset{iid}{\\sim}\\mathrm{Gamma}(\\alpha,\\beta)\\), find the method of moments estimator for \\(\\alpha\\) and \\(\\beta\\)."
-  },
-  {
-    "objectID": "lectures/7b.html#nomal-distribution",
-    "href": "lectures/7b.html#nomal-distribution",
-    "title": "Method of Moment Estimator",
-    "section": "Nomal Distribution",
-    "text": "Nomal Distribution\nLet \\(X_1, \\ldots,X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\), find the method of moments estimator for \\(\\mu\\) and \\(\\sigma^2\\)."
-  },
-  {
-    "objectID": "lectures/8b.html#learning-outcomes",
-    "href": "lectures/8b.html#learning-outcomes",
+    "objectID": "lectures/8a.html#learning-outcomes",
+    "href": "lectures/8a.html#learning-outcomes",
     "title": "Goodness of Estimators",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nInformation\nEfficiency\nCramér-Rao Inequality\nRelative Efficiency\nLaw of Large Numbers"
+    "text": "Learning Outcomes\n\nConsistency\nSufficiency\nInformation\nEfficiency"
   },
   {
-    "objectID": "lectures/8b.html#information-1",
-    "href": "lectures/8b.html#information-1",
+    "objectID": "lectures/8a.html#consistency-1",
+    "href": "lectures/8a.html#consistency-1",
     "title": "Goodness of Estimators",
-    "section": "Information",
-    "text": "Information\nIn Statistics, information is thought of as how much does the data tell you about a parameter \\(\\theta\\). In general, the more data is provided, the more information is provided to estimate \\(\\theta\\)."
+    "section": "Consistency",
+    "text": "Consistency\nAn estimator is considered a consistent estimator of \\(\\theta\\) if the estimator, on average, converges to \\(\\theta\\) as \\(n\\rightarrow\\infty\\)."
   },
   {
-    "objectID": "lectures/8b.html#information-2",
-    "href": "lectures/8b.html#information-2",
-    "title": "Goodness of Estimators",
-    "section": "Information",
-    "text": "Information\nInformation can be quantified using Fisher’s Information \\(I(\\theta)\\). For a single observation, Fisher’s Information is defined as\n\\[\nI(\\theta)=E\\left[-\\frac{\\partial^2}{\\partial\\theta^2}\\log\\{f(X;\\theta)\\}\\right],\n\\]\nwhere \\(f(X;\\theta)\\) is either the PMF or PDF of the random variable \\(X\\)."
-  },
-  {
-    "objectID": "lectures/8b.html#information-3",
-    "href": "lectures/8b.html#information-3",
-    "title": "Goodness of Estimators",
-    "section": "Information",
-    "text": "Information\nFurthermore, \\(I(\\theta)\\) can be defined as\n\\[\nI(\\theta)=Var\\left\\{\\frac{\\partial}{\\partial\\theta}\\log f(X;\\theta)\\right\\}.\n\\]"
-  },
-  {
-    "objectID": "lectures/8b.html#proof",
-    "href": "lectures/8b.html#proof",
-    "title": "Goodness of Estimators",
-    "section": "Proof",
-    "text": "Proof\nShow the following property:\n\\[\nE\\left[-\\frac{\\partial^2}{\\partial\\theta^2}\\log\\{f(X;\\theta)\\}\\right] = Var\\left\\{\\frac{\\partial}{\\partial\\theta}\\log f(X;\\theta)\\right\\}\n\\]"
-  },
-  {
-    "objectID": "lectures/8b.html#efficiency-1",
-    "href": "lectures/8b.html#efficiency-1",
-    "title": "Goodness of Estimators",
-    "section": "Efficiency",
-    "text": "Efficiency\nEfficiency of an estimator \\(T\\) is the ratio of variation compared to the lowest possible variance."
-  },
-  {
-    "objectID": "lectures/8b.html#efficiency-2",
-    "href": "lectures/8b.html#efficiency-2",
-    "title": "Goodness of Estimators",
-    "section": "Efficiency",
-    "text": "Efficiency\nThe efficiency of an estimator \\(T\\), where \\(T\\) is an unbiased estimator of \\(\\theta\\), is defined as\n\\[\nefficiency\\ of\\ T = \\frac{1}{Var(T)nI(\\theta)}\n\\]"
-  },
-  {
-    "objectID": "lectures/8b.html#example",
-    "href": "lectures/8b.html#example",
-    "title": "Goodness of Estimators",
-    "section": "Example",
-    "text": "Example\nLet \\(X_1,\\ldots, X_n\\overset{iid}{\\sim}Unif(0,\\theta)\\) and \\(\\hat\\theta=2\\bar X\\). Find the efficiency of \\(\\hat \\theta\\)."
-  },
-  {
-    "objectID": "lectures/8b.html#cramér-rao-inequality",
-    "href": "lectures/8b.html#cramér-rao-inequality",
-    "title": "Goodness of Estimators",
-    "section": "Cramér-Rao Inequality",
-    "text": "Cramér-Rao Inequality\nLet \\(f(x_1, \\ldots, x_n;\\theta)\\) be the joint PMF of PDF of \\(X_1, \\ldots,X_n\\) and \\(T=t(X_1,\\ldots,X_n)\\) be an unbiased estimator of \\(\\theta\\). Then\n\\[\nVar(T) \\ge \\frac{1}{nI(\\theta)}\n\\]\nIf \\(Var(T)=\\frac{1}{nI(\\theta)}\\), then \\(T\\) is considered an efficient estimator of \\(\\theta\\)."
-  },
-  {
-    "objectID": "lectures/8b.html#example-1",
-    "href": "lectures/8b.html#example-1",
-    "title": "Goodness of Estimators",
-    "section": "Example",
-    "text": "Example\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}Pois(\\lambda)\\), show that \\(\\bar X\\) is an efficient estimator of \\(\\lambda\\)."
-  },
-  {
-    "objectID": "lectures/8b.html#example-2",
-    "href": "lectures/8b.html#example-2",
-    "title": "Goodness of Estimators",
-    "section": "Example",
-    "text": "Example\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\), show that \\(\\bar X\\) is an efficient estimator of \\(\\mu\\)."
-  },
-  {
-    "objectID": "lectures/8b.html#relative-efficiency",
-    "href": "lectures/8b.html#relative-efficiency",
-    "title": "Goodness of Estimators",
-    "section": "Relative Efficiency",
-    "text": "Relative Efficiency\nGiven 2 unbiased estimators \\(\\hat\\theta_1\\) and \\(\\hat\\theta_2\\) of a parameter \\(\\theta\\) , with variances \\(V(\\hat\\theta_1)\\) and \\(V(\\hat\\theta_2)\\), respectively, then the efficiency of \\(\\hat\\theta_1\\) relative to \\(\\hat\\theta_2\\) is defined as\n\\[\nreleff(\\hat\\theta_1,\\hat\\theta_2)=\\frac{V(\\hat\\theta_1)}{V(\\hat\\theta_2)}\n\\]"
-  },
-  {
-    "objectID": "lectures/8b.html#example-3",
-    "href": "lectures/8b.html#example-3",
-    "title": "Goodness of Estimators",
-    "section": "Example",
-    "text": "Example\nLet \\(X_1,\\ldots,X_n\\) be a random sample from a population with mean \\(\\mu\\) and variance \\(\\sigma^2\\).\n\n\\(\\hat\\mu_1=(X_1+X_2)/2\\)\n\\(\\hat\\mu_2=X_1/4+\\frac{\\sum^{n-1}_{i=2}X_i}{2(n-2)}+X_n/4\\)\n\\(\\hat\\mu_3=\\bar X\\)\n\nFind the relative efficiency of \\(\\hat\\mu_3\\) with respect to \\(\\hat\\mu_1\\) and \\(\\hat\\mu_2\\)."
-  },
-  {
-    "objectID": "lectures/8b.html#consistency",
-    "href": "lectures/8b.html#consistency",
+    "objectID": "lectures/8a.html#consistency-2",
+    "href": "lectures/8a.html#consistency-2",
     "title": "Goodness of Estimators",
     "section": "Consistency",
     "text": "Consistency\nLet \\(X_1,\\ldots,X_n\\) be a random sample from a distribution with parameter \\(\\theta\\). The estimator \\(\\hat \\theta\\) is a consistent estimator of the \\(\\theta\\) if\n\n\\(E\\{(\\hat\\theta-\\theta)^2\\}\\rightarrow0\\) as \\(n\\rightarrow \\infty\\)\n\\(P(|\\hat\\theta-\\theta|\\ge \\epsilon)\\rightarrow0\\) as \\(n\\rightarrow \\infty\\) for every \\(\\epsilon&gt;0\\)"
   },
   {
-    "objectID": "lectures/8b.html#weak-law-of-large-numbers",
-    "href": "lectures/8b.html#weak-law-of-large-numbers",
+    "objectID": "lectures/8a.html#sufficiency-1",
+    "href": "lectures/8a.html#sufficiency-1",
     "title": "Goodness of Estimators",
-    "section": "Weak Law of Large Numbers",
-    "text": "Weak Law of Large Numbers\nLet \\(X_1,\\ldots,X_n\\) be iid random variables with \\(E(X_i)=\\mu\\) and \\(Var(X_i)=\\sigma^2&lt;\\infty\\). Let \\(\\bar X_n=\\frac{1}{n}\\sum^n_{i=1}X_i\\), for every, \\(\\epsilon&gt;0\\),\n\\[\n\\lim_{n\\rightarrow\\infty} P(|\\bar X-\\mu|&lt;\\epsilon) = 1\n\\]\nthat is, \\(\\bar X_n\\) converges in probability to \\(\\mu\\)."
+    "section": "Sufficiency",
+    "text": "Sufficiency\nSufficiency evaluates whether a statistic (or estimator) contains enough information of a parameter \\(\\theta\\). In essence a statistic is considered sufficient to infer \\(\\theta\\) if it provides enough information about \\(\\theta\\)."
   },
   {
-    "objectID": "lectures/8b.html#strong-law-of-large-numbers",
-    "href": "lectures/8b.html#strong-law-of-large-numbers",
+    "objectID": "lectures/8a.html#sufficiency-2",
+    "href": "lectures/8a.html#sufficiency-2",
     "title": "Goodness of Estimators",
-    "section": "Strong Law of Large Numbers",
-    "text": "Strong Law of Large Numbers\nLet \\(X_1,\\ldots,X_n\\) be iid random variables with \\(E(X_i)=\\mu\\) and \\(Var(X_i)=\\sigma^2&lt;\\infty\\). Let \\(\\bar X_n=\\frac{1}{n}\\sum^n_{i=1}X_i\\), for every, \\(\\epsilon&gt;0\\),\n\\[\nP(\\lim_{n\\rightarrow\\infty} |\\bar X-\\mu|&lt;\\epsilon) = 1\n\\]\nthat is, \\(\\bar X_n\\) converges almost surely to \\(\\mu\\)."
+    "section": "Sufficiency",
+    "text": "Sufficiency\nLet \\(X_1,\\ldots,X_n\\) be a random sample from a distribution with parameter \\(\\theta\\). A statistic \\(T=t(X_1,\\ldots,X_n)\\) is said to be sufficient for making inferences of a parameter \\(\\theta\\) if condition joint distribution of \\(X_1,\\ldots,X_n\\) given \\(T=t\\) does not depend on \\(\\theta\\)."
   },
   {
-    "objectID": "posts/week_10.html",
-    "href": "posts/week_10.html",
-    "title": "Week 10",
-    "section": "",
-    "text": "Lecture\nSlides\nVideos\n\n\n\n\nMonday\nNotes\nVideo\n\n\nWednesday\nNotes\nVideo"
+    "objectID": "lectures/8a.html#factorization-theorem",
+    "href": "lectures/8a.html#factorization-theorem",
+    "title": "Goodness of Estimators",
+    "section": "Factorization Theorem",
+    "text": "Factorization Theorem\nThe Factorization Theorem provides a condition for a statistic \\(T(X)\\) to be sufficient for a parameter \\(\\theta\\) given a probability density function or probability mass function."
   },
   {
-    "objectID": "posts/week_10.html#resources",
-    "href": "posts/week_10.html#resources",
-    "title": "Week 10",
-    "section": "",
-    "text": "Lecture\nSlides\nVideos\n\n\n\n\nMonday\nNotes\nVideo\n\n\nWednesday\nNotes\nVideo"
+    "objectID": "lectures/8a.html#factorization-theorem-1",
+    "href": "lectures/8a.html#factorization-theorem-1",
+    "title": "Goodness of Estimators",
+    "section": "Factorization Theorem",
+    "text": "Factorization Theorem\nLet \\(X = (X_1, X_2, \\dots, X_n)\\) be a random sample with joint probability density (or mass) function \\(f(x|\\theta)\\), where \\(\\theta\\) is a parameter.\nTheorem: A statistic \\(T(X)\\) is sufficient for \\(\\theta\\) if and only if the joint density (or mass) function \\(f(x|\\theta)\\) can be factored into the form\n\\[\nf(x|\\theta) = g(T(x), \\theta) \\cdot h(x)\n\\]\nwhere:\n\n\\(g(T(x), \\theta)\\) is a function that depends on \\(T(x)\\) and \\(\\theta\\),\n\\(h(x)\\) is a function that does not depend on \\(\\theta\\)."
   },
   {
-    "objectID": "posts/week_13.html",
-    "href": "posts/week_13.html",
-    "title": "Week 13",
-    "section": "",
-    "text": "Lecture\nSlides\nVideos\n\n\n\n\nMonday\nNotes\nVideo\n\n\nWednesday\nNotes\nVideo"
+    "objectID": "lectures/8a.html#factorization-theorem-2",
+    "href": "lectures/8a.html#factorization-theorem-2",
+    "title": "Goodness of Estimators",
+    "section": "Factorization Theorem",
+    "text": "Factorization Theorem\nIn other words, \\(f(x|\\theta)\\) can be written as a product of two functions, where only one function depends on the parameter \\(\\theta\\) and the sufficient statistic \\(T(X)\\).\nImplications: The Factorization Theorem is useful for identifying sufficient statistics, which summarize all necessary information from a sample about the parameter \\(\\theta\\)."
   },
   {
-    "objectID": "posts/week_13.html#resources",
-    "href": "posts/week_13.html#resources",
-    "title": "Week 13",
-    "section": "",
-    "text": "Lecture\nSlides\nVideos\n\n\n\n\nMonday\nNotes\nVideo\n\n\nWednesday\nNotes\nVideo"
+    "objectID": "lectures/8a.html#example",
+    "href": "lectures/8a.html#example",
+    "title": "Goodness of Estimators",
+    "section": "Example",
+    "text": "Example\nLet \\(X_1,\\ldots, X_n\\overset{iid}{\\sim}Bernoulli(p)\\) and \\(Y_n=\\sum^n_{i=1}X_i\\). Show that \\(Y_n\\) is a sufficient statistic for \\(p\\)."
   },
   {
-    "objectID": "posts/week_15.html",
-    "href": "posts/week_15.html",
-    "title": "Week 15",
-    "section": "",
-    "text": "Simple Linear Regression\n\n\n\n\n\nSimple Linear Regression"
+    "objectID": "lectures/8a.html#example-1",
+    "href": "lectures/8a.html#example-1",
+    "title": "Goodness of Estimators",
+    "section": "Example",
+    "text": "Example\nLet \\(X_1,\\ldots, X_n\\overset{iid}{\\sim}Normal(\\mu,\\sigma^2)\\) and \\(Y_n=\\sum^n_{i=1}X_i\\). Show that \\(Y_n\\) is a sufficient statistic for \\(\\mu\\). Assume \\(\\sigma^2\\) is known."
   },
   {
-    "objectID": "posts/week_15.html#learning-outcomes",
-    "href": "posts/week_15.html#learning-outcomes",
-    "title": "Week 15",
-    "section": "",
-    "text": "Simple Linear Regression\n\n\n\n\n\nSimple Linear Regression"
+    "objectID": "lectures/8a.html#information-1",
+    "href": "lectures/8a.html#information-1",
+    "title": "Goodness of Estimators",
+    "section": "Information",
+    "text": "Information\nIn Statistics, information is thought of as how much does the data tell you about a parameter \\(\\theta\\). In general, the more data is provided, the more information is provided to estimate \\(\\theta\\)."
   },
   {
-    "objectID": "posts/week_15.html#resources",
-    "href": "posts/week_15.html#resources",
-    "title": "Week 15",
-    "section": "Resources",
-    "text": "Resources\n\n\n\nLecture\nSlides\nVideos\n\n\n\n\nMonday\nSlides\n\n\n\nWednesday\nSlides"
+    "objectID": "lectures/8a.html#information-2",
+    "href": "lectures/8a.html#information-2",
+    "title": "Goodness of Estimators",
+    "section": "Information",
+    "text": "Information\nInformation can be quantified using Fisher’s Information \\(I(\\theta)\\). For a single observation, Fisher’s Information is defined as\n\\[\nI(\\theta)=E\\left[-\\frac{\\partial^2}{\\partial\\theta^2}\\log\\{f(X;\\theta)\\}\\right],\n\\]\nwhere \\(f(X;\\theta)\\) is either the PMF or PDF of the random variable \\(X\\)."
   },
   {
-    "objectID": "posts/week_3.html#resources",
-    "href": "posts/week_3.html#resources",
-    "title": "Week 3",
-    "section": "Resources",
-    "text": "Resources\nYou must log on to your CI Google account to access the video.\n\n\n\nLecture\nSlides\nVideos\n\n\n\n\nMonday\nSlides\nVideo\n\n\nWednesday\nSlides\nAudio Only"
+    "objectID": "lectures/8a.html#information-3",
+    "href": "lectures/8a.html#information-3",
+    "title": "Goodness of Estimators",
+    "section": "Information",
+    "text": "Information\nFurthermore, \\(I(\\theta)\\) can be defined as\n\\[\nI(\\theta)=Var\\left\\{\\frac{\\partial}{\\partial\\theta}\\log f(X;\\theta)\\right\\}.\n\\]"
   },
   {
-    "objectID": "posts/week_5.html",
-    "href": "posts/week_5.html",
-    "title": "Week 5",
-    "section": "",
-    "text": "Central Limit Theorem\nOrder Statistics\n\n\n\n\n\nBias and Mean Square Error\nUnbiased Point Estimator"
+    "objectID": "lectures/8a.html#proof",
+    "href": "lectures/8a.html#proof",
+    "title": "Goodness of Estimators",
+    "section": "Proof",
+    "text": "Proof\nShow the following property:\n\\[\nE\\left[-\\frac{\\partial^2}{\\partial\\theta^2}\\log\\{f(X;\\theta)\\}\\right] = Var\\left\\{\\frac{\\partial}{\\partial\\theta}\\log f(X;\\theta)\\right\\}\n\\]"
   },
   {
-    "objectID": "posts/week_5.html#learning-outcomes",
-    "href": "posts/week_5.html#learning-outcomes",
-    "title": "Week 5",
-    "section": "",
-    "text": "Central Limit Theorem\nOrder Statistics\n\n\n\n\n\nBias and Mean Square Error\nUnbiased Point Estimator"
+    "objectID": "lectures/8a.html#efficiency-1",
+    "href": "lectures/8a.html#efficiency-1",
+    "title": "Goodness of Estimators",
+    "section": "Efficiency",
+    "text": "Efficiency\nEfficiency of an estimator \\(T\\) is the ratio of variation compared to the lowest possible variance."
   },
   {
-    "objectID": "posts/week_5.html#resources",
-    "href": "posts/week_5.html#resources",
-    "title": "Week 5",
-    "section": "Resources",
-    "text": "Resources\nYou must log on to your CI Google account to access the video.\nPress the “b” key to access hidden notes.\n\n\n\nLecture\nSlides\nVideos\n\n\n\n\nMonday\nSlides\nVideo\n\n\nWednesday\nSlides"
+    "objectID": "lectures/8a.html#efficiency-2",
+    "href": "lectures/8a.html#efficiency-2",
+    "title": "Goodness of Estimators",
+    "section": "Efficiency",
+    "text": "Efficiency\nThe efficiency of an estimator \\(T\\), where \\(T\\) is an unbiased estimator of \\(\\theta\\), is defined as\n\\[\nefficiency\\ of\\ T = \\frac{1}{Var(T)nI(\\theta)}\n\\]"
   },
   {
-    "objectID": "posts/week_7.html",
-    "href": "posts/week_7.html",
-    "title": "Week 7",
-    "section": "",
-    "text": "MLE\n\n\n\n\n\nMoM"
-  },
-  {
-    "objectID": "posts/week_7.html#learning-outcomes",
-    "href": "posts/week_7.html#learning-outcomes",
-    "title": "Week 7",
-    "section": "",
-    "text": "MLE\n\n\n\n\n\nMoM"
-  },
-  {
-    "objectID": "posts/week_7.html#resources",
-    "href": "posts/week_7.html#resources",
-    "title": "Week 7",
-    "section": "Resources",
-    "text": "Resources\nYou must log on to your CI Google account to access the video.\nPress the “b” key to access hidden notes.\n\n\n\nLecture\nSlides\nVideos\n\n\n\n\nMonday\nSlides\nVideo\n\n\nWednesday\nSlides\nVideo"
-  },
-  {
-    "objectID": "posts/week_9.html",
-    "href": "posts/week_9.html",
-    "title": "Week 9",
-    "section": "",
-    "text": "Lecture\nSlides\nVideos\n\n\n\n\nMonday\nNotes\nVideo\n\n\nWednesday\nNotes\nVideo"
-  },
-  {
-    "objectID": "posts/week_9.html#resources",
-    "href": "posts/week_9.html#resources",
-    "title": "Week 9",
-    "section": "",
-    "text": "Lecture\nSlides\nVideos\n\n\n\n\nMonday\nNotes\nVideo\n\n\nWednesday\nNotes\nVideo"
+    "objectID": "lectures/8a.html#example-2",
+    "href": "lectures/8a.html#example-2",
+    "title": "Goodness of Estimators",
+    "section": "Example",
+    "text": "Example\nLet \\(X_1,\\ldots, X_n\\overset{iid}{\\sim}Unif(0,\\theta)\\) and \\(\\hat\\theta=2\\bar X\\). Find the efficiency of \\(\\hat \\theta\\)."
   }
 ]

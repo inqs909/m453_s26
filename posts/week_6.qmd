@@ -3,8 +3,8 @@ title: "Week 6"
 date: 09-30-24
 description: |
   This week focuses on statistical estimators
-editor: visual
-draft: false
+editor: source
+draft: true
 ---
 
 ## Learning Outcomes
@@ -25,7 +25,7 @@ You must log on to your CI Google account to access the video.
 
 Press the "b" key to access hidden notes.
 
-| Lecture   | Slides                                       | Videos                                |
-|-----------|----------------------------------------------|---------------------------------------|
-| Monday    | [Slides](https://m453.inqs.info/lectures/6a) | [Video](https://youtu.be/Nrz1ZDB7lUo) |
-| Wednesday |                                              |                                       |
+| Lecture | Slides | Videos |
+|---------------|-------------------------------|--------------------------|
+| Monday | [Slides](https://m453.inqs.info/lectures/6a) | [Video](https://youtu.be/Nrz1ZDB7lUo) |
+| Wednesday |  |  |
