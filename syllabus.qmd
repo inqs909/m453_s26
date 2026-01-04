@@ -62,6 +62,15 @@ At the end of the quarter, course grades will be assigned according to the follo
 | **A** | 93 -- \<98 | **B** | 83 -- \<87 | **C** | 73 -- \<77 | **D** | 63 -- \<67 | **F** | \< 60 |
 | **A--** | 90 - \<93 | **B-** | 80 -- \<83 | **C--** | 70 -- \<73 | **D--** | 60 -- \<63 |  |  |
 
+### Class Attendance
+
+Students are expected to attend in-person to class to learn the material.
+
+### Canvas
+
+Students are expected to check the course Canvas page 3-4 times a week to view assignments, announcements, and other course-related materials.
+
+
 #### Homework
 
 Homework will be assigned on a regular basis and posted on <https://m453.inqs.info/hw.html> and CANVAS. All homework assignments are due at the beginning of class. The homework is to help you practice the concepts learned in lecture and to help you study. You must turn in your own individual homework and show your understanding of the material. At the end of the semester, the three lowest homework grades will be dropped.
@@ -70,11 +79,11 @@ Homework will be assigned on a regular basis and posted on <https://m453.inqs.in
 
 There will be three exams and Final.
 
-Exam #1 will most likely be during the 6th week of the semester. Exam #2 will most likely be during the 11th week of the semester. **Exam #3 will be on December 9, 2024 10:30 AM - 12:30 PM.**
+Exam #1 will most likely be during the 6th week of the semester. Exam #2 will most likely be during the 11th week of the semester. **Exam #3 will be on MAY X, 2026 .**
 
 While the exams are not considered cumulative, the material builds on each other. Developing a strong understanding of the material through out the course is important for your success.
 
-At the end of the semester, your lowest exam grade will be replaced by your median average exam grade.
+At the end of the semester, your lowest exam grade will be replaced by your median average of all exam grades.
 
 This course will operate under a zero-tolerance policy. Talking during the time of the exam, sharing materials, looking at another students' exam, or not following directions given will be subject to the
 
@@ -82,56 +91,98 @@ University's academic integrity policy.
 
 #### Extra Credit
 
-There will be 4 extra credit opportunities worth a total of 10% of your overall grade. (There are no make-ups for missed extra credit assignments!) More information will be provided on the extra credit assignments on a later date.
+There will be 3 extra credit opportunities worth a total of 5% of your overall grade. (There are no make-ups for missed extra credit assignments!) More information will be provided on the extra credit assignments on a later date.
 
 ### Class Schedule
 
 The following outline may be subject to change. Any changes will be announced in class.
 
 | Week | Lecture | Topic | Reading |
-|----------------|----------------|------------------------|----------------|
-| **1** 8/26-8/30 | 1 Monday | Introduction to Statistics | 1.1-1.4 |
-|  | 2 Wednesday | Review: RV and Distribution Function | 3.1, 3.5-3.7, 4.1, 4.3-4.5 |
-| **2** 9/2-9/6 | 3 Labor Day |  |  |
-|  | 4 Wednesday | Review: Moment Generating Functions | 3.4, 4.2 |
-| **3** 9/9-9/13 | 5 Monday | Transonformation of Random Variables | 4.7 |
-|  | 6 Wednesday | Joint Distributions | 5.1, 5.2 |
-| **4** 9/16- 9/20 | 7 Monday | Linear Combinations and Conditional Distributions | 5.3, 5.4 |
-|  | 8 Wednesday | Functions of RV's and Order Statistics | 5.6, 5.7 |
-| **5** 9/23-9/27 | 9 Monday | Sampling Distributions | 6.1, 6.2 |
-|  | 10 Wednesday | Common Sampling Distributions | 6.3, 6.4 |
-| **6** 9/30-10/4 | 11 Monday | Exam #1 |  |
-|  | 12 Wednesday | Point Estimation | 7.1 |
-| **7** 10/7-10/11 | 13 Monday | Maximum Likelihood Estimator | 7.2 |
-|  | 14 Wednesday | Method of Moments Estimator | 7.2 |
-| **8** 10/14-10/18 | 15 Monday | Sufficiency | 7.3 |
-|  | 16 Wednesday | Information and Efficiency | 7.4 |
-| **9** 10/21-10/25 | 17 Monday | Confidence Intervals | 8.1 |
-|  | 18 Wednesday | Single Sample Intervals | 8.2 |
-| **10** 10/28-11/1 | 19 Monday | Proportion Intervals | 8.3 |
-|  | 20 Wednesday | Intervals for Variances | 8.4 |
-| **11** 11/4-11/6 | 21 Monday | Bootstrap-based Intervals | 8.5 |
-|  | 22 Wednesday | Exam #2 |  |
-| **12** 11/11-11/15 | 23 Monday | Veteran's Day |  |
-|  | 24 Wednesday | Hypothesis Testing | 9.1 |
-| **13** 11/18-11/22 | 25 Monday | Tests for Population Mean | 9.2 |
-|  | 26 Wednesday | Tests for Population Porportion | 9.3 |
-| **14** 11/25-11/29 | 27 Monday | P-Value | 9.4 |
-|  | 28 Wednesday | Neyman-Pearson Lemma and Likelihood Ratio Test (Virtual Class) | 9.5 |
-| **15** 12/2-12/6 | 29 Monday | Simple Linear Regression | 12.1 |
-|  | 30 Wednesday | Estimation and Inference | 12.2-12.4 |
-| **16** 12/9 |  | Exam #3 |  |
+|---------------|----------------|------------------------|----------------|
+| **1** 1/26-1/30 | 1 Tuesday | Introduction to Statistics | 1.1-1.4 |
+|  | 2 Thursday | Review: RV and Distribution Function | 3.1, 3.5-3.7, 4.1, 4.3-4.5 |
+| **2** 2/2-2/6 | 3 Tuesday | Review: Moment Generating Functions | 3.4, 4.2 |
+|  | 4 Thursday | Transonformation of Random Variables | 4.7 |
+| **3** 2/9-2/13 | 5 Tuesday | Joint Distributions | 5.1, 5.2 |
+|  | 6 Thursday | Linear Combinations and Conditional Distributions | 5.3, 5.4 |
+| **4** 2/16- 2/20 | 7 Tuesday | Functions of RV's and Order Statistics | 5.6, 5.7 |
+|  | 8 Thursday | Sampling Distributions | 6.1, 6.2 |
+| **5** 2/23-2/27 | 9 Tuesday | Common Sampling Distributions | 6.3, 6.4 |
+|  | 10 Thursday |  Exam #1 |  |
+| **6** 3/2-3/6 | 11 Tuesday | Point Estimation | 7.1 |
+|  | 12 Thursday | Maximum Likelihood Estimator | 7.2 |
+| **7** 3/9-3/13 | 13 Tuesday | Method of Moments Estimator | 7.2 |
+|  | 14 Thursday | Bayesian Estimators | 15.2 | 
+| 3/16-3/20 | **Spring Break** | | |
+| **8** 3/23-3/27  | 15 Tuesday | Sufficiency | 7.3 |
+|  | 16 Thursday | Information and Efficiency | 7.4 |
+| **9** 3/30-4/3 | 17 Tuesday | Holiday | 8.1 |
+|  | 18 Thursday | Confidence Intervals | 8.1 |
+| **10** 4/6-4/10 | 19 Tuesday | Single Sample Intervals | 8.2 |
+|  | 20 Thursday | Proportion Intervals | 8.3 |
+| **11** 4/13-4/17 | 21 Tuesday | Intervals for Variance | 8.4 |
+|  | 22 Thursday | Exam #2 |  |
+| **12** 4/20-4/24 | 23 Tuesday | Hypothesis Testing | 9.1 |
+|  | 24 Thursday | Tests for Population Mean | 9.2 |
+| **13** 4/27-5/1 | 25 Tuesday | Tests for Population Porportion | 9.3 |
+|  | 26 Thursday | P-Value | 9.4 |
+| **14** 5/4-5/8 | 27 Tuesday | Neyman-Pearson Lemma and Likelihood Ratio Test | 9.5 |
+|  | 28 Thursday | Two-Sample Tests | 10.1-10.2|
+| **15** 5/11-5/15 | 29 Tuesday | Simple Linear Regression | 12.1 |
+|  | 30 Thursday | Estimation and Inference | 12.2-12.4 |
+| **16** 5/18 |  | Exam #3 |  |
 
-### University Policies
+### Generative Artificial Intelligence Policy
 
-1.  **Academic Honesty**:
+The use of generative artificial intelligence (AI) in an ethical manner is permitted for this course.
 
-    Please conduct yourself with honesty and integrity. Do not submit others' work as your own. For assignments and quizzes that allow you to work with a group, only put your name on what the group submits if you genuinely contributed to the work. Work completely independently on exams, using only the materials that are indicated as allowed. Failure to observe academic honesty results in substantial penalties that can include failing the course.
+#### Permitted Uses
 
-2.  **Disabilities:**
+You may use AI for:
 
-    If you are a student with a disability requesting reasonable accommodations in this course, you need to contact Disability Accommodations and Support Services (DASS) located on the second floor of Arroyo Hall, via email accommodations\@csuci.edu or call 805-437-3331. All requests for reasonable accommodations require registration with DASS in advance of need: <https://www.csuci.edu/dass/students/apply-for-services.htm>. Faculty, students and DASS will work together regarding classroom accommodations. You are encouraged to discuss approved.
+- Obtain clarification 
 
-3.  **Emergency Procedure Notice to Students:**
+- Brainstorming ideas, examples, outlines, and strategies
 
-    CSUCI is following guidelines and public orders from the California Department of Public Health and Ventura County Public Health for the COVID-19 pandemic as it pertains to CSUCI students, employees and visitors on the campus. Students are expected to adhere to all health and safety requirements as noted on the University's Fall 2022 Semester [website](https://www.csuci.edu/news/campus-updates/covid-19/index.htm) or they may be subject to removal from the classroom.
+- Generating questions for practice or exploration
+
+- Identifying keywords or phrasing to match professional goals
+
+#### Prohibited Uses
+
+You may not:
+
+- Submit AI-generated work 
+
+- Use AI to complete assignments, quizzes, exams, or other assessments meant to reflect only your own work
+
+- Use AI to generate code
+
+Any AI-generated work will receive a 0 in the class. Severe cases will be reported to Academic Misconduct.
+
+**You may not upload any course material to any AI platforms such as ChatGPT, Claude, Meta AI, and Google Gemini.  Exceptions are allowed for [DASS](https://www.csuci.edu/dass/)-approved services.**
+
+## University Policies
+
+### Syllabus Policies and Assistance
+
+CSUCI’s [Syllabus Policies and Assistance Website](https://www.csuci.edu/studentsupport/syllabus.htm) provides important details about academic policies, campus expectations, and student support services that are all highly applicable to your success as a student both in and outside of the classroom. Ensure that you review this site on a regular basis to stay informed about the policies and resources that support your success, as campus resources or policies may change semester to semester.
+
+### Academic Honesty
+
+Conduct yourself with honesty and integrity. Do not submit others' work as your own. Foassignments and quizzes that allow you to work with a group, only put your name on what the group submits if you genuinely contributed to the work. Work completely independently on exams, using only the materials that are indicated as allowed. Failure to observe academic honesty results in substantial penalties that can include failing the course.
+
+### CSUCI Basic Need
+
+Please use the link to the Basic Needs Program on the Syllabus Policies and Assistance website (<go.csuci.edu/syllabuspolicies>) for information on emergency food, housing accommodations, toiletries, and connections to critical resources. 
+
+
+### CSUCI Disability Statement
+
+If you are a student with a disability requesting reasonable accommodations in this course, you need to contact Disability Accommodations and Support Services (DASS) located on the second floor of Arroyo Hall, via email accommodations\@csuci.edu or call 805-437-3331. All requests for reasonable accommodations require registration with DASS in advance of need: <https://www.csuci.edu/dass/students/apply-for-services.htm>. Faculty, students and DASS will work together regarding classroom accommodations. You are encouraged to discuss approved.
+
+### Disruption
+
+1.  **If I Am Out:** I will communicate via email and will hold classes asynchronously.
+2.  **If You Are Out:** Contact me as soon as possible to talk about your options. Reasonable accommodations will be provided for a brief absence. With proper documentation, extended accommodations will be provided.
+

@@ -45,8 +45,6 @@ editor: source
 
 A random variable is function that maps the sample space to real value.
 
-
-
 # Discrete Random Variables
 
 ## Discrete Random Variables
