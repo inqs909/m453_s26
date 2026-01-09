@@ -21,7 +21,7 @@ execute:
 
 website:
   repo-url: https://github.com/inqs909/m453_s26
-  title: "MATH 453: Mathematical Statistics"
+  title: "MATH 453"
   site-url: www.inqs.info/m453_s26
   favicon: img/logo.png
   navbar:
