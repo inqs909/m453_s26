@@ -49,10 +49,10 @@ This course is an introduction to mathematical statistics with an emphasis on st
 
 | Category | Percentage |
 |:---------|:-----------|
-| Homework | 25%        |
-| Exam 1   | 25%        |
-| Exam 2   | 25%        |
-| Exam 3   | 25%        |
+| Homework | 40%        |
+| Exam 1   | 20%        |
+| Exam 2   | 20%        |
+| Exam 3   | 20%        |
 
 At the end of the quarter, course grades will be assigned according to the following scale:
 
@@ -79,13 +79,7 @@ Homework will be assigned on a regular basis and posted on <https://m453.inqs.in
 
 There will be three exams and Final.
 
-Exam #1 will most likely be during the 6th week of the semester. Exam #2 will most likely be during the 11th week of the semester. **Exam #3 will be on MAY X, 2026 .**
-
-While the exams are not considered cumulative, the material builds on each other. Developing a strong understanding of the material through out the course is important for your success.
-
-At the end of the semester, your lowest exam grade will be replaced by your median average of all exam grades.
-
-This course will operate under a zero-tolerance policy. Talking during the time of the exam, sharing materials, looking at another students' exam, or not following directions given will be subject to the
+Exam #1 will most likely be during the 6th week of the semester. Exam #2 will most likely be during the 11th week of the semester. **Exam #3 will be on MAY 21, 2026 from 1 PM to 3 PM.** While the exams are not considered cumulative, the material builds on each other. Developing a strong understanding of the material through out the course is important for your success. At the end of the semester, your lowest exam grade will be replaced by your median average of all exam grades. This course will operate under a zero-tolerance policy. Talking during the time of the exam, sharing materials, looking at another students' exam, or not following directions given will be subject to the
 
 University's academic integrity policy.
 
