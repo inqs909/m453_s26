@@ -2,7 +2,7 @@
 title: "Extra Credit"
 editor: source
 listing:
-  contents: ec
+  contents: exc
   type: default
 ---
 

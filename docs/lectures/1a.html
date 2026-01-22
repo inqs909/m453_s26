@@ -8,17 +8,13 @@
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/quarto-contrib/reveal-header-1.0.0/add_header.js" defer="true"></script>
-<link href="../site_libs/quarto-contrib/reveal-header-1.0.0/add_header.css" rel="stylesheet">
 <script src="../site_libs/quarto-contrib/jquery-3.6.3/jquery-3.6.3.min.js"></script>
 <script src="../site_libs/quarto-contrib/code-fullscreen-1.0.0/code-fullscreen.js" defer="true"></script>
 <link href="../site_libs/quarto-contrib/code-fullscreen-1.0.0/code-fullscreen.css" rel="stylesheet">
-<script src="../site_libs/quarto-contrib/sc-sb-title-1.0.0/sc_sb_title.js" defer="true"></script>
-<link href="../site_libs/quarto-contrib/grid-no-htext-1.0.0/grid_no_htext.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.26">
 
-  <title>MATH 453 – Math 453</title>
+  <title>MATH 453 – Math 408</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -57,7 +53,6 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
-      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -134,163 +129,53 @@
       margin-right: 0; 
     }
   </style>
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      TeX: {
-        Macros: {
-          //Bold Lowecase Greek Letters
-          'balpha': '\\boldsymbol \\alpha',
-          'bbeta': '\\boldsymbol \\beta',
-          'bgamma': '\\boldsymbol \\gamma', 
-          'bdelta': '\\boldsymbol \\delta',
-          'bepsilon': '\\boldsymbol \\epsilon',
-          'bzeta': '\\boldsymbol \\zeta',
-          'boeta': '\\boldsymbol \\eta',
-          'btheta': '\\boldsymbol \\theta',
-          'biota': '\\boldsymbol \\iota',
-          'bkappa': '\\boldsymbol \\kappa',
-          'blambda': '\\boldsymbol \\lambda',
-          'bmu': '\\boldsymbol \\mu',
-          'bnu': '\\boldsymbol \\nu',
-          'bxi': '\\boldsymbol \\xi',
-          'bomicron': '\\boldsymbol \\omicron',
-          'bpi': '\\boldsymbol \\pi',
-          'brho': '\\boldsymbol \\rho',
-          'bsigma': '\\boldsymbol \\sigma',
-          'btau': '\\boldsymbol \\tau',
-          'bupsilon': '\\boldsymbol \\upsilon',
-          'bphi': '\\boldsymbol \\phi',
-          'bchi': '\\boldsymbol \\chi',
-          'bpsi': '\\boldsymbol \\psi',
-          'bomega': '\\boldsymbol \\omega',
-          //Bold Uppercase Greek Letters
-          'bGamma': '\\boldsymbol \\Gamma', 
-          'bDelta': '\\boldsymbol \\Delta',
-          'bTheta': '\\boldsymbol \\Theta',
-          'bLambda': '\\boldsymbol \\Lambda',
-          'bXi': '\\boldsymbol \\Xi',
-          'bPi': '\\boldsymbol \\Pi',
-          'bSigma': '\\boldsymbol \\Sigma',
-          'bPhi': '\\boldsymbol \\Phi',
-          'bPsi': '\\boldsymbol \\Psi',
-          'bOmega': '\\boldsymbol \\Omega',
-          // Bold Vars
-          'bvarphi': '\\boldsymbol \\varphi',
-          'bvarrho': '\\boldsymbol \\varrho',
-          'bvartheta': '\\boldsymbol \\vartheta',
-          // Math Remove
-          'mrT': '\\mathrm T',
-          'mrth': '\\mathrm{th}',
-          'inv': '\^{-1}',
-          'tr': '\\mathrm{tr}',
-          'Cov': '\\mathrm{Cov}',
-          'Cor': '\\mathrm{Cor}',
-          'Var': '\\mathrm{Var}',
-          'E': '\\mathrm{E}',
-          'mrTr': '\^\\mathrm T',
-          // Bold Letters
-          'bX': '\\boldsymbol X',
-          'bx': '\\boldsymbol x',
-          'bF': '\\boldsymbol F',
-          'bY': '\\boldsymbol Y',
-          'by': '\\boldsymbol y',
-          'bK': '\\boldsymbol K',
-          'bZ': '\\boldsymbol Z',
-          'bT': '\\boldsymbol T',
-          'bz': '\\boldsymbol z',
-          'bB': '\\boldsymbol B',
-          'ba': '\\boldsymbol a',
-          'bb': '\\boldsymbol b',
-          'bI': '\\boldsymbol I',
-          'bR': '\\boldsymbol R',
-          'bc': '\\boldsymbol c',
-          'bW': '\\boldsymbol W',
-          'bt': '\\boldsymbol t',
-          'bd': '\\boldsymbol d',
-          'bD': '\\boldsymbol D',
-          'bG': '\\boldsymbol G',
-          'bJ': '\\boldsymbol J',
-          'bS': '\\boldsymbol S',
-          'bV': '\\boldsymbol V',
-          'bH': '\\boldsymbol H',
-          'bA': '\\boldsymbol A',
-          'bU': '\\boldsymbol U',
-          'bu': '\\boldsymbol u',
-          'bv': '\\boldsymbol v',
-          'bP': '\\boldsymbol P',
-          'bw': '\\boldsymbol w',
-          'br': '\\boldsymbol r',
-          // MathCal
-          // Regular
-          'mcA': '\\mathcal{A}',
-          'mcB': '\\mathcal{B}',
-          'mcC': '\\mathcal{C}',
-          'mcD': '\\mathcal{D}',
-          'mcJ': '\\mathcal{J}',
-          'mcL': '\\mathcal{L}',
-          'mcM': '\\mathcal{M}',
-          'mcR': '\\mathcal{R}',
-          'mcP': '\\mathcal{P}',
-          'mcX': '\\mathcal{X}',
-          'mcZ': '\\mathcal{Z}',
-          'mcb': '\\mathcal{b}',
-          'mcp': '\\mathcal{p}',
-          // bold
-          'bmcH': '\\boldsymbol{\\mathcal{H}}',
-          'bmcS': '\\boldsymbol{\\mathcal{S}}',
-          'bmcV': '\\boldsymbol{\\mathcal{V}}',
-          'bmcX': '\\boldsymbol{\\mathcal{X}}',
-          'bmcD': '\\boldsymbol{\\mathcal{D}}',
-          'bmcU': '\\boldsymbol{\\mathcal{U}}',
-          'bmcG': '\\boldsymbol{\\mathcal{G}}',
-          'bmcI': '\\boldsymbol{\\mathcal{I}}',
-          'bmcZ': '\\boldsymbol{\\mathcal{Z}}',
-          'bmcb': '\\mathbcal{\\boldsymbol{b}}',
-          'bmcp': '\\mathbcal{\\boldsymbol{p}}',
-          
-          // Script Fonts
-          'msL': '\\mathscr{L}',
-          'msF': '\\mathscr{F}',
-          'msG': '\\mathscr{G}',
-          'msP': '\\mathscr{P}',
-          'msV': '\\mathscr{V}',
-          'msX': '\\mathscr{X}',
-          'msY': '\\mathscr{Y}',
-          'msZ': '\\mathscr{Z}',
-          
-          // Fraktur Fonts
-          'mfL': '\\mathfrak{L}',
-          'mfF': '\\mathfrak{F}',
-          'mfG': '\\mathfrak{G}',
-          'mfP': '\\mathfrak{P}',
-          'mfV': '\\mathfrak{V}',
-          'mfX': '\\mathfrak{X}',
-          'mfY': '\\mathfrak{Y}',
-          'mfZ': '\\mathfrak{Z}',
-          
-          //Bold Numbers
-          'bzero': '\\boldsymbol{0}',
-          'bone': '\\boldsymbol{1}',
-
-        }
-      }
-    });
-  </script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Math 453</h1>
-  <p class="subtitle">Mathematical Statistics</p>
+  <h1 class="title">Math 408</h1>
+  <p class="subtitle">Machine Learning</p>
 
 <div class="quarto-title-authors">
 </div>
 
 </section>
-<section id="introduction" class="slide level2">
-<h2>Introduction</h2>
+<section>
+<section id="introductions" class="title-slide slide level1 agenda-slide center">
+<h1>Introductions</h1>
+<div class="agenda">
+<ul>
+<li><div class="agenda-active">
+<p>Introductions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Class Setup</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Generative AI</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Extra Credits</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Fundamental of Statistics</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Fundamentals of Statistical Inference</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Sampling Techniques</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Field Trip</p>
+</div></li>
+</ul>
+</div>
+</section>
+<section id="introductions-1" class="slide level2">
+<h2>Introductions</h2>
 <ul>
 <li><p>San Bernardino, CA</p></li>
 <li><p>CSU Monterey Bay</p>
@@ -307,7 +192,7 @@
 </ul></li>
 </ul>
 </section>
-<section id="introductions" class="slide level2">
+<section id="introductions-2" class="slide level2">
 <h2>Introductions</h2>
 <ul>
 <li><p>Name</p></li>
@@ -316,26 +201,299 @@
 <li><p>Fun Fact</p></li>
 <li><p>Career Goal</p></li>
 </ul>
-</section>
-<section id="learning-objectives" class="slide level2">
-<h2>Learning Objectives</h2>
+</section></section>
+<section>
+<section id="class-setup" class="title-slide slide level1 agenda-slide center">
+<h1>Class Setup</h1>
+<div class="agenda">
 <ul>
-<li><p>Define and identify population, sample, parameter, and statistics</p></li>
-<li><p>Define and identify different variable types (quantitative and categorical)</p></li>
-<li><p>Define concept of random samples and sampling methods</p></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Introductions</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Class Setup</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Generative AI</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Extra Credits</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Fundamental of Statistics</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Fundamentals of Statistical Inference</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Sampling Techniques</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Field Trip</p>
+</div></li>
+</ul>
+</div>
+</section>
+<section id="class-setup-1" class="slide level2">
+<h2>Class Setup</h2>
+<ul>
+<li>Homework Assignments</li>
+<li>Final Presentation</li>
+<li>Final Write Up</li>
+<li>Extra Credit</li>
 </ul>
 </section>
-<section id="website-and-syllabus" class="slide level2">
-<h2>Website and Syllabus</h2>
+<section id="syllabus" class="slide level2">
+<h2>Syllabus</h2>
+<p><a href="https://www.inqs.info/m453_s26/syllabus">m453.inqs.info/syllabus</a></p>
 </section>
-<section id="outline" class="slide level2">
-<h2>Outline</h2>
+<section id="learning-outcomes" class="slide level2">
+<h2>Learning Outcomes</h2>
+<ol type="1">
+<li>Demonstrate statistical knowledge and apply it to various data sets.</li>
+<li>Use basic principles of statistical inference (both Bayesian and frequentist).</li>
+<li>Build a starter statistical toolbox and discuss the utility and limitations of these techniques.</li>
+<li>Use software and simulation to do statistics.</li>
+<li>Demonstrate ability to discuss statistical information in oral and written form.</li>
+</ol>
 </section>
+<section id="recommended-texts" class="slide level2">
+<h2>Recommended Texts</h2>
+<ol type="1">
+<li>Modern Mathematical Statistics (MMS) with Applications, by Jay L. Devore and Kenneth N. Berk , <strong>Third Edition</strong>, Springer, 2021. (available online for free through the Broome Library).</li>
+</ol>
+</section></section>
+<section>
+<section id="generative-ai" class="title-slide slide level1 agenda-slide center">
+<h1>Generative AI</h1>
+<div class="agenda">
+<ul>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Introductions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Class Setup</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Generative AI</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Extra Credits</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Fundamental of Statistics</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Fundamentals of Statistical Inference</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Sampling Techniques</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Field Trip</p>
+</div></li>
+</ul>
+</div>
+</section>
+<section id="use-of-generative-ai-policy" class="slide level2">
+<h2>Use of Generative AI Policy</h2>
+<p>The use of generative artificial intelligence (AI) to complete any part or all of an assignment/exam is strictly prohibited in this class. This includes, but not limited to, ChatGPT, Claude, Meta AI, and Google Gemini.</p>
+<div class="fragment">
+<p>You may use AI to enhance you understanding of the material.</p>
+</div>
+<div class="fragment">
+<p>You may not use AI to complete assignments.</p>
+</div>
+<div class="fragment">
+<p>You may not upload any course material to any AI platforms such as ChatGPT, Claude, Meta AI, and Google Gemini. Exceptions are allowed for <a href="https://www.csuci.edu/dass/">DASS</a>-approved services.</p>
+</div>
+</section>
+<section id="use-of-ai" class="slide level2">
+<h2>Use of AI</h2>
+<p>There are consequences when you use of AI:</p>
+<ul>
+<li>Educational Mislearning</li>
+<li>Trusting AI</li>
+<li>Stolen Work</li>
+<li>Privacy Concerns</li>
+<li>Environmental Impacts</li>
+<li>Working Exploitation</li>
+</ul>
+</section>
+<section id="educational-mislearning" class="slide level2">
+<h2>Educational Mislearning</h2>
+<p>The purpose of this class, and college, is for you to learn about critical thinking skills and perseverance. Using AI will only teach you how to get an answer, which may or may not be correct.</p>
+<div class="fragment">
+<p>You will not develop the skills needed to problem solve a challenge. Additionally, developing grit is essential to become successful in college and life. There is no easy way out and AI is an illusion to your success in life.</p>
+</div>
+<div class="fragment">
+<p>To learn something, it requires hours of work! If not years!</p>
+</div>
+</section>
+<section id="trusting-ai" class="slide level2">
+<h2>Trusting AI</h2>
+<p>When using AI, you must acknowledge its limitations:</p>
+<ul>
+<li class="fragment"><p>Responses provided may be incorrect</p></li>
+<li class="fragment"><p>Responses may not be fair</p></li>
+<li class="fragment"><p>Companies may manipulate responses and/or terms of service for their benefit</p></li>
+<li class="fragment"><p>Companies may not have your best interst in mind</p></li>
+</ul>
+<div class="fragment">
+<p><strong>You should always proceed with caution utilizing these tools!</strong></p>
+</div>
+</section>
+<section id="stolen-work" class="slide level2">
+<h2>Stolen Work</h2>
+<div class="fragment">
+<p>Additionally, all these individuals are not receiving any royalties for the work to be used in creating generative AI models.</p>
+</div>
+<div class="fragment">
+<p><a href="https://www.insidehighered.com/news/faculty-issues/research/2024/07/29/taylor-francis-ai-deal-sets-worrying-precedent">Inside Higher Ed</a> and <a href="https://www.newyorker.com/culture/infinite-scroll/is-ai-art-stealing-from-artists">The New Yorker</a> highlight individual’s concern of their work being used to train AI models.</p>
+</div>
+</section>
+<section id="privacy-concerns" class="slide level2">
+<h2>Privacy Concerns</h2>
+<p>The use of generative AI raises concerns of what data is being harvested from us, possibly without informed consent or knowledge of impacts.</p>
+<div class="fragment">
+<p>When you use any large language models, you do not know what information is being harvested from you.</p>
+</div>
+<div class="fragment">
+<p>Do you want to upload your thoughts and ideas to a company that can monetize, and possibly exploit you.</p>
+</div>
+<div class="fragment">
+<p>Does your Professors consent with you uploading their assignments to large language models?</p>
+</div>
+<div class="fragment">
+<p>Stanford provided a <a href="https://hai.stanford.edu/news/privacy-ai-era-how-do-we-protect-our-personal-information">report</a> highlighting the risks of our personal data use in large language models.</p>
+</div>
+</section>
+<section id="environmental-impact" class="slide level2">
+<h2>Environmental Impact</h2>
+<p>In order to run these large language models, companies need to use a large amounts of energy. This is because large servers are needed to both train and execute a model.</p>
+<div class="fragment">
+<p>The <a href="https://www.latimes.com/opinion/story/2024-08-15/editorial-generative-ai-is-a-leading-contributor-to-our-energy-consumption-how-will-this-impact-our-climate">LA Times</a> reports the potential impact that running AI models in California.</p>
+</div>
+<div class="fragment">
+<p>Additionally, <a href="https://time.com/6987773/ai-data-centers-energy-usage-climate-change/">Time</a> reports that a ChatGPT query uses ten times more energy than a Google search query, and global AI demands can consume of 1 trillion gallons of water by 2027.</p>
+</div>
+<div class="fragment">
+<p>There are also environmental justice questions about where these data centers are constructed.</p>
+</div>
+</section>
+<section id="worker-exploitation" class="slide level2">
+<h2>Worker Exploitation</h2>
+<p>The <a href="https://www.washingtonpost.com/world/2023/08/28/scale-ai-remotasks-philippines-artificial-intelligence/">Washington Post</a> and Time (<a href="https://time.com/6147458/facebook-africa-content-moderation-employee-treatment/">Article 1</a> and <a href="https://time.com/6247678/openai-chatgpt-kenya-workers/">Article 2</a>) reported that AI companies utilize “digital sweatshops” to classify data points for model training.</p>
+<div class="fragment">
+<p>There is a human cost from the Global South, both financially and mentally, to develop the AI models for users in the United States and Europe.</p>
+</div>
+<div class="fragment">
+<p>We must be conscious consumers and demand more from these companies to provide safe working conditions and livable wages.</p>
+</div>
+</section>
+<section id="is-using-ai-bad" class="slide level2">
+<h2>Is Using AI Bad?</h2>
+<div class="fragment">
+<p>Yes/No/I don’t know</p>
+</div>
+</section>
+<section id="privacy-concerns-links" class="slide level2">
+<h2>Privacy Concerns Links</h2>
+<ul>
+<li><a href="https://futurism.com/openai-scanning-conversations-police">OpenAI Says It’s Scanning Users’ ChatGPT Conversations and Reporting Content to the Police</a></li>
+<li><a href="https://hai.stanford.edu/news/privacy-ai-era-how-do-we-protect-our-personal-information">Privacy in an AI Era: How Do We Protect Our Personal Information?</a></li>
+</ul>
+</section>
+<section id="labor-violations-links" class="slide level2">
+<h2>Labor Violations Links</h2>
+<ul>
+<li><a href="https://data-workers.org/michael/">The Emotional Labor Behind AI Intimacy</a></li>
+<li><a href="https://www.theguardian.com/technology/2025/sep/11/google-gemini-ai-training-humans">How thousands of ‘overworked, underpaid’ humans train Google’s AI to seem smart</a></li>
+</ul>
+</section>
+<section id="affecting-communities-links" class="slide level2">
+<h2>Affecting Communities Links</h2>
+<ul>
+<li><p><a href="https://africainfact.com/ai-surveillance-and-data-colonialism-shape-african-conflicts/">AI surveillance and data colonialism shape African conflicts</a></p></li>
+<li><p><a href="https://www.aljazeera.com/opinions/2025/4/1/african-workers-are-taking-on-meta-and-the-world-should-pay-attention">African workers are taking on Meta and the world should pay attention</a></p></li>
+<li><p><a href="https://www.theguardian.com/technology/2023/aug/02/ai-chatbot-training-human-toll-content-moderator-meta-openai">‘It’s destroyed me completely’: Kenyan moderators decry toll of training of AI models</a></p></li>
+<li><p><a href="https://futurism.com/artificial-intelligence/ai-industry-traumatizing-contractors">The AI Industry Is Traumatizing Desperate Contractors in the Developing World for Pennies</a></p></li>
+<li><p><a href="https://thenextweb.com/news/chatgpt-advises-women-to-ask-for-lower-salaries-finds-new-study">ChatGPT advises women to ask for lower salaries, study finds</a></p></li>
+<li><p><a href="https://www.nycbar.org/reports/the-impact-of-the-use-of-ai-on-people-with-disabilities/">The Impact of the Use of AI on People with Disabilities</a></p></li>
+</ul>
+</section>
+<section id="ideas-and-learning-links" class="slide level2">
+<h2>Ideas and Learning Links</h2>
+<ul>
+<li><p><a href="https://refusal.blog/2025/08/29/a-students-right-to-refuse-generative-ai/">Student’s Right to Refuse AI</a></p></li>
+<li><p><a href="https://www.newyorker.com/culture/infinite-scroll/ai-is-homogenizing-our-thoughts?utm_source=facebook&amp;utm_medium=social&amp;utm_campaign=dhfacebook&amp;utm_content=app.dashsocial.com/newyorkermag/library/media/546600666">AI is homogenizing your thoughts</a></p></li>
+<li><p><a href="https://cooperlund.medium.com/the-incuriosity-engine-16bdf41e229d">The Incuriosity Engine</a></p></li>
+<li><p><a href="https://nmn.gl/blog/ai-and-learning">New Junior Developers Can’t Actually Code</a></p></li>
+</ul>
+</section>
+<section id="environmental-costs" class="slide level2">
+<h2>Environmental Costs</h2>
+<ul>
+<li><a href="https://www.bbc.com/news/articles/cy8gy7lv448o">‘I can’t drink the water’ - life next to a US data centre</a></li>
+</ul>
+</section></section>
+<section>
+<section id="extra-credits" class="title-slide slide level1 agenda-slide center">
+<h1>Extra Credits</h1>
+<div class="agenda">
+<ul>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Introductions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Class Setup</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Generative AI</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Extra Credits</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Fundamental of Statistics</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Fundamentals of Statistical Inference</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Sampling Techniques</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Field Trip</p>
+</div></li>
+</ul>
+</div>
+</section>
+<section id="extra-credits-1" class="slide level2">
+<h2>Extra Credits</h2>
+<ul>
+<li><a href="https://m453.inqs.info/exc/exc_1">Extra Credit 1</a></li>
+<li><a href="https://m453.inqs.info/exc/exc_2">Extra Credit 2</a></li>
+<li><a href="https://m453.inqs.info/exc/exc_3">Extra Credit 3</a></li>
+</ul>
+</section></section>
 <section>
 <section id="fundamental-of-statistics" class="title-slide slide level1 agenda-slide center">
 <h1>Fundamental of Statistics</h1>
 <div class="agenda">
 <ul>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Introductions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Class Setup</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Generative AI</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Extra Credits</p>
+</div></li>
 <li><div class="agenda-active">
 <p>Fundamental of Statistics</p>
 </div></li>
@@ -344,6 +502,9 @@
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
 <p>Sampling Techniques</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Field Trip</p>
 </div></li>
 </ul>
 </div>
@@ -388,6 +549,18 @@
 <div class="agenda">
 <ul>
 <li><div class="agenda-inactive agenda-pre-active">
+<p>Introductions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Class Setup</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Generative AI</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Extra Credits</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
 <p>Fundamental of Statistics</p>
 </div></li>
 <li><div class="agenda-active">
@@ -395,6 +568,9 @@
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
 <p>Sampling Techniques</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Field Trip</p>
 </div></li>
 </ul>
 </div>
@@ -437,6 +613,18 @@
 <div class="agenda">
 <ul>
 <li><div class="agenda-inactive agenda-pre-active">
+<p>Introductions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Class Setup</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Generative AI</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Extra Credits</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
 <p>Fundamental of Statistics</p>
 </div></li>
 <li><div class="agenda-inactive agenda-pre-active">
@@ -444,6 +632,9 @@
 </div></li>
 <li><div class="agenda-active">
 <p>Sampling Techniques</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Field Trip</p>
 </div></li>
 </ul>
 </div>
@@ -456,23 +647,40 @@
 <li><p>Cluster Sampling</p></li>
 <li><p>Multistage Sampling</p></li>
 </ul>
-
-
-<div class="reveal-header">
-<div class="header-logo">
-<img data-src="">
-</div>
-<div class="sc-title">
-<p> </p>
-</div>
-<div class="header-text">
-<p> </p>
-</div>
-<div class="sb-title">
-<p> </p>
-</div>
-</div>
 </section></section>
+<section id="field-trip" class="title-slide slide level1 agenda-slide center">
+<h1>Field Trip</h1>
+<div class="agenda">
+<ul>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Introductions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Class Setup</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Generative AI</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Extra Credits</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Fundamental of Statistics</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Fundamentals of Statistical Inference</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Sampling Techniques</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Field Trip</p>
+</div></li>
+</ul>
+</div>
+
+
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
@@ -637,7 +845,7 @@
         hideCursorTime: 5000,
 
         // Opens links in an iframe preview overlay
-        previewLinks: false,
+        previewLinks: true,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
         transition: 'none',

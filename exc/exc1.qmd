@@ -1,7 +1,7 @@
 ---
 title: "Extra Credit 1"
 description: Instructions for extra credit one.
-date: 08-20-2024
+date: 01-22-2026
 editor: source
 draft: true
 ---
@@ -16,4 +16,4 @@ Report guidelines
 
 -   12 point font
 
--   Due 9/14/2024
+-   Due 2/15/2026

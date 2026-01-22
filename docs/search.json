@@ -784,11 +784,109 @@
     "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "ec.html",
-    "href": "ec.html",
+    "objectID": "exc/exc2.html",
+    "href": "exc/exc2.html",
+    "title": "Extra Credit 2",
+    "section": "",
+    "text": "After reading one book below, create a video essay that summarizes the book, provide a brief analysis in supporting or opposing the book, and connect key elements of the book to your every day life. The video essay should be 10 minutes being narrated by your own voice. Use visual aids, such as a powerpoint presentation, to highlight your main findings, and how it relates to your own life. All books should be available through the Broome Library.\nMATH 408 STUDENTS: You must choose a different book from Math 408 in order to receive credit.\nBooks:\n\nEmpire of AI\n\nKaren Hao\n\nThe Last Human Job\n\nAllison Pugh\n\nThe Book of Why\n\nJudea Pearl\n\nAlgorithms of Oppression\n\nSafiya Umoja Noble\n\nData Feminism\n\nCatherine D’Ignazio and Lauren Klein\n\nWeapons of Math Destruction\n\nCathy O’Niel\n\nInvisible Women: Data bias in a world designed for men\n\nCaroline Criado Perez\n\nFactfulness: Ten Reasons We’re Wrong About the World… and Why Things are Better Than You Think\n\nHans Rosling\n\nArtificial Unintelligence: How Computers Misunderstand the World\n\nMerideth Broussard\n\nTechnically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech\n\nSara Wachter-Boettcher\n\nUnmasking AI\n\nJoy Buolamwini\n\nRace After Technology\n\nRuha Benjamin\n\nCloud Ethics\n\nLouise Amoore\n\nMore than a Glitch\n\nMeridith Broussard\n\nDigitizing Race\n\nLisa Nakamura\n\nData Action\n\nSarah Williams\n\nOR ANY Book Approved By Me (Deadline for Approval by March 29, 2026)\n\nVideo Essay Guidelines:\n\n10 Minutes Long\nUse of visual aids\nNarrated by your own voice\nDue 5/15/2026\n\nWorth 2 final grade percentage points."
+  },
+  {
+    "objectID": "exc.html",
+    "href": "exc.html",
     "title": "Extra Credit",
     "section": "",
-    "text": "Extra Credit is designed to expand on different topics that related to Probability and Statistics, but are not necessarily required for the course. Additionally, these opportunities provide students relief when unexpected situations occur during the semester. While it is not required, I encourage everyone to attempt each opportunity.\nBelow is more information on each assignment.\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Extra Credit is designed to expand on different topics that related to Probability and Statistics, but are not necessarily required for the course. Additionally, these opportunities provide students relief when unexpected situations occur during the semester. While it is not required, I encourage everyone to attempt each opportunity.\nBelow is more information on each assignment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 2\n\n\nInstructions for extra credit two.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 3\n\n\nInstructions for extra credit three.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Books",
+    "section": "",
+    "text": "A list of recommended books to learn more about Statistics, the majority are freely available from the Broome Library:"
+  },
+  {
+    "objectID": "books.html#basics",
+    "href": "books.html#basics",
+    "title": "Books",
+    "section": "Basics",
+    "text": "Basics\n\nIntroduction to Statistics and Data Analysis\n\nHeumann and Shalabh\n\nStatistical Foundations, Reasoning and Inference\n\nKauermann, Küchenhoff, and Heumann"
+  },
+  {
+    "objectID": "books.html#regression",
+    "href": "books.html#regression",
+    "title": "Books",
+    "section": "Regression",
+    "text": "Regression\n\nGeneralized Linear Models With Examples in R\n\nDunn and Smyth\nGraduate\n\nLinear and Generalized Linear Mixed Models and Their Applications (2nd Edition)\n\nJiang and Nguyen\nGraudate\n\nRegression Modeling Strategies\n\nHarrell\nUndergraduate\n\nVector Generalized Linear and Additive Models\n\nYee\nGraduate"
+  },
+  {
+    "objectID": "books.html#nonparametric",
+    "href": "books.html#nonparametric",
+    "title": "Books",
+    "section": "Nonparametric",
+    "text": "Nonparametric\n\nSemiparametric Regression with R\n\nHarezlak, Ruppert, and Wand\nGraduate"
+  },
+  {
+    "objectID": "books.html#computational",
+    "href": "books.html#computational",
+    "title": "Books",
+    "section": "Computational",
+    "text": "Computational\n\nBootstrap Methods with applications in R\n\nDikta and Scheer\nGraduate\n\nModern Optimization with R (2nd Edition)\n\nCortez\nGraduate\n\nComputational Statistics\n\nGentle\n\nMonte Carlo and Quasi-Monte Carlo Sampling\n\nLemieux\n\nStatistics With Julia\n\nNazarathy andKlok\n\nIntroducing Monte Carlo Methods in R\n\nRobert and Casella\n\nPermutation Statistical Methods with R\n\nBerry, Kvamme, Johnston, and Mielke\n\nMonte Carlo Strategies in Scientific Computing\n\nLiu"
+  },
+  {
+    "objectID": "books.html#bayesian",
+    "href": "books.html#bayesian",
+    "title": "Books",
+    "section": "Bayesian",
+    "text": "Bayesian\n\nIntroduction to Bayesian Inference, Methods and Computation\n\nHeard\n\nApplied Bayesian Statistics\n\nCowles\n\nBayesian Statistical Modeling with Stan, R, and Python\n\nMatsuura\n\nBayesian Essentials in R\n\nMarin and Robert"
+  },
+  {
+    "objectID": "books.html#theoretical",
+    "href": "books.html#theoretical",
+    "title": "Books",
+    "section": "Theoretical",
+    "text": "Theoretical\n\nEssentials of Stochastic Processes (3rd Edition)\n\nDurrett\nGraduate\n\nA Concise Introduction to Measure Theory\n\nShirali\nGraduate\n\nLarge Sample Techniques for Statistics (2nd Edition)\n\nJiang\nGraduate\n\nA Course in Mathematical Statistics and Large Sample Theory\n\nBhattacharya, Lin, and Patrangenaru\nGraduate\n\nMixture and Hidden Markov Models with R\n\nVisser and Speekenbrink\nUndergraduate\n\nModern Mathematical Statistics (3rd Edition)\n\nDevore, Berk, and Carlton\nUndergraduate\n\nProbability Theory (3rd Edition)\n\nKlenke\nGraduate\n\nTesting Statistical Hypotheses (4th Edition)\n\nLehmann and Romano\nGraduate\n\nTheory of Point Estimation\n\nLehmann and Casella\nGraduate\nMay not be available"
+  },
+  {
+    "objectID": "books.html#longitudinal-data-analysis",
+    "href": "books.html#longitudinal-data-analysis",
+    "title": "Books",
+    "section": "Longitudinal Data Analysis",
+    "text": "Longitudinal Data Analysis\n\nLongitudinal Categorical Data Analysis\n\nSutradhar"
+  },
+  {
+    "objectID": "books.html#survival-analysis",
+    "href": "books.html#survival-analysis",
+    "title": "Books",
+    "section": "Survival Analysis",
+    "text": "Survival Analysis\n\nStatistical Modelling of Survival Data with Random Effects\n\nHa, Jeong, and Lee\n\nSurvival Analysis (3rd Edition)\n\nKleinbaum and Klein\n\nApplied Survival Analysis in R\n\nMoore\n\nBayesian Survival Analysis\n\nIbrahim, Chen, and Sinha\n\nSurvival Analysis Techniques for Censored and Truncated Data (2nd Edition)\n\nKlein and Moeschberger"
+  },
+  {
+    "objectID": "books.html#machine-learning",
+    "href": "books.html#machine-learning",
+    "title": "Books",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\nFundamental of High-Dimensional Statistics\n\nLederer\n\nAn Introduction to Statistical Learning (2nd Edition)\n\nJames, Witten, Hastie and Tibshirani\n\nStatistical Learning from a Regression Perspective (2nd Edition)\n\nBerk\n\nElements of Statistical Learning\n\nHastie, Friedman, and Tibshirani\n\nStatistics for High Dimensional Data\n\nBühlmann and van der Geer\n\nProbability and Statistics for Machine Learning\n\nDas Gupta"
+  },
+  {
+    "objectID": "books.html#time-series",
+    "href": "books.html#time-series",
+    "title": "Books",
+    "section": "Time-Series",
+    "text": "Time-Series\n\nIntroduction to Time Series and Forcasting (3rd Edition)\n\nBrockwell and Davis\n\nTime Series Analysis and Its Applications\n\nShumway and Stoffer\n\nTime Series Analysis for the State-Space Model with R/Stan\n\nHagiwara"
+  },
+  {
+    "objectID": "books.html#study-desing-and-causal-inference",
+    "href": "books.html#study-desing-and-causal-inference",
+    "title": "Books",
+    "section": "Study Desing and Causal Inference",
+    "text": "Study Desing and Causal Inference\n\nCausal Inference What IF\n\nHernán and Robins\n\nDesign of Observational Studies\n\nRosenbaum\n\n\nBolded Titles, I have read thoroughly."
+  },
+  {
+    "objectID": "exc/exc3.html",
+    "href": "exc/exc3.html",
+    "title": "Extra Credit 3",
+    "section": "",
+    "text": "After learning about a topic below, create a video essay explaining more about the topic.\n\nMonte Carlo Methods\nMonte Carlo Methods are a class of computational algorithms that rely on random sampling to obtain numerical results. These methods use statistical sampling techniques to approximate complex mathematical problems, particularly those with deterministic or probabilistic aspects. The name “Monte Carlo” is derived from the Monte Carlo Casino in Monaco, known for its games of chance and randomness.\nIn Monte Carlo Methods, random samples are generated to simulate the behavior of a system or process, and the results are analyzed to estimate desired quantities or solve problems. These methods find applications in various fields, such as physics, finance, engineering, and statistics. Monte Carlo simulations are particularly useful for solving problems with a large number of variables or complex interactions, where analytical solutions may be challenging or impossible to obtain.\n\nResources\n\nhttps://towardsdatascience.com/an-overview-of-monte-carlo-methods-675384eb1694\nhttps://towardsdatascience.com/monte-carlo-simulation-a-practical-guide-85da45597f0e\n\n\n\n\nSurvival Analysis\nSurvival analysis is a statistical method used to analyze the time until an event of interest occurs. This type of analysis is commonly employed in medical research, epidemiology, and other fields to study the duration until a specific event, often referred to as a “failure” or “survival” event. The event could be anything from the onset of a disease, death, relapse, or any other occurrence of interest.\nSurvival analysis is conducted using various statistical models, with the Cox proportional hazards model being one of the most widely used. These analyses help researchers understand factors influencing the time to an event, identify risk factors, and estimate survival probabilities over time.\nMake sure to provide a brief history of survival analysis and prominent methods such as Kaplan-Meier curves and Cox proportional hazard models.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2394262/\nhttps://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_survival/BS704_Survival_print.html\n\n\n\n\nBayesian Analysis\nBayesian analysis is a statistical approach that involves updating probabilities for hypotheses based on new evidence or data. It is rooted in Bayes’ theorem, which describes how beliefs about the probability of a hypothesis should change in light of new information. In Bayesian analysis, the prior probability (initial belief) is combined with the likelihood of observing the data given the hypothesis and results in the posterior probability (updated belief).\nBayesian methods are particularly valuable in situations with limited data or when incorporating prior knowledge is crucial. These methods provide a flexible framework for modeling uncertainty and updating beliefs as more information becomes available. Bayesian analysis is applied across various fields, including statistics, machine learning, physics, biology, and finance. Markov Chain Monte Carlo (MCMC) methods are often used to simulate samples from the posterior distribution in complex Bayesian models.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6406060/\nhttps://www.statlect.com/fundamentals-of-statistics/Bayesian-inference\n\n\n\n\nCausal Inference\nCausal inference is a field within statistics and epidemiology that focuses on understanding and estimating the causal relationships between variables or events. The goal is to determine whether a particular factor or intervention has a causal impact on an outcome. Causal inference involves identifying and controlling for confounding factors, which are variables that may influence both the cause and the effect, leading to potential bias in estimating causal relationships.\nCausal inference is essential for making informed decisions in fields such as medicine, public health, economics, and social sciences. It helps researchers draw valid conclusions about the effectiveness of interventions, policies, or treatments by accounting for potential sources of bias and confounding. Advances in causal inference methodologies contribute to a more rigorous understanding of cause-and-effect relationships in complex systems.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2836213/\nhttps://web.stanford.edu/~swager/stats361.pdf\n\nVideo Essay Guidelines:\n\n10 Minutes Long\nUse of visual aids\nNarrated by your own voice\nDue 5/15/2026\n\nWorth 2 final grade percentage points."
   },
   {
     "objectID": "hw.html",
@@ -903,93 +1001,205 @@
     "text": "\\(E(\\beta_0)\\)"
   },
   {
-    "objectID": "lectures/1a.html#introduction",
-    "href": "lectures/1a.html#introduction",
-    "title": "Math 453",
-    "section": "Introduction",
-    "text": "Introduction\n\nSan Bernardino, CA\nCSU Monterey Bay\n\nBS Biology\n\nSan Diego State University\n\nMaster’s in Public Health\n\nUC Riverside\n\nPhD in Applied Statistics"
+    "objectID": "lectures/1a.html#introductions-1",
+    "href": "lectures/1a.html#introductions-1",
+    "title": "Math 408",
+    "section": "Introductions",
+    "text": "Introductions\n\nSan Bernardino, CA\nCSU Monterey Bay\n\nBS Biology\n\nSan Diego State University\n\nMaster’s in Public Health\n\nUC Riverside\n\nPhD in Applied Statistics"
   },
   {
-    "objectID": "lectures/1a.html#introductions",
-    "href": "lectures/1a.html#introductions",
-    "title": "Math 453",
+    "objectID": "lectures/1a.html#introductions-2",
+    "href": "lectures/1a.html#introductions-2",
+    "title": "Math 408",
     "section": "Introductions",
     "text": "Introductions\n\nName\nYear\nMajor\nFun Fact\nCareer Goal"
   },
   {
-    "objectID": "lectures/1a.html#learning-objectives",
-    "href": "lectures/1a.html#learning-objectives",
-    "title": "Math 453",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\n\nDefine and identify population, sample, parameter, and statistics\nDefine and identify different variable types (quantitative and categorical)\nDefine concept of random samples and sampling methods"
+    "objectID": "lectures/1a.html#class-setup-1",
+    "href": "lectures/1a.html#class-setup-1",
+    "title": "Math 408",
+    "section": "Class Setup",
+    "text": "Class Setup\n\nHomework Assignments\nFinal Presentation\nFinal Write Up\nExtra Credit"
   },
   {
-    "objectID": "lectures/1a.html#website-and-syllabus",
-    "href": "lectures/1a.html#website-and-syllabus",
-    "title": "Math 453",
-    "section": "Website and Syllabus",
-    "text": "Website and Syllabus"
+    "objectID": "lectures/1a.html#syllabus",
+    "href": "lectures/1a.html#syllabus",
+    "title": "Math 408",
+    "section": "Syllabus",
+    "text": "Syllabus\nm453.inqs.info/syllabus"
   },
   {
-    "objectID": "lectures/1a.html#outline",
-    "href": "lectures/1a.html#outline",
-    "title": "Math 453",
-    "section": "Outline",
-    "text": "Outline"
+    "objectID": "lectures/1a.html#learning-outcomes",
+    "href": "lectures/1a.html#learning-outcomes",
+    "title": "Math 408",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nDemonstrate statistical knowledge and apply it to various data sets.\nUse basic principles of statistical inference (both Bayesian and frequentist).\nBuild a starter statistical toolbox and discuss the utility and limitations of these techniques.\nUse software and simulation to do statistics.\nDemonstrate ability to discuss statistical information in oral and written form."
+  },
+  {
+    "objectID": "lectures/1a.html#recommended-texts",
+    "href": "lectures/1a.html#recommended-texts",
+    "title": "Math 408",
+    "section": "Recommended Texts",
+    "text": "Recommended Texts\n\nModern Mathematical Statistics (MMS) with Applications, by Jay L. Devore and Kenneth N. Berk , Third Edition, Springer, 2021. (available online for free through the Broome Library)."
+  },
+  {
+    "objectID": "lectures/1a.html#use-of-generative-ai-policy",
+    "href": "lectures/1a.html#use-of-generative-ai-policy",
+    "title": "Math 408",
+    "section": "Use of Generative AI Policy",
+    "text": "Use of Generative AI Policy\nThe use of generative artificial intelligence (AI) to complete any part or all of an assignment/exam is strictly prohibited in this class. This includes, but not limited to, ChatGPT, Claude, Meta AI, and Google Gemini.\n\nYou may use AI to enhance you understanding of the material.\n\n\nYou may not use AI to complete assignments.\n\n\nYou may not upload any course material to any AI platforms such as ChatGPT, Claude, Meta AI, and Google Gemini. Exceptions are allowed for DASS-approved services."
+  },
+  {
+    "objectID": "lectures/1a.html#use-of-ai",
+    "href": "lectures/1a.html#use-of-ai",
+    "title": "Math 408",
+    "section": "Use of AI",
+    "text": "Use of AI\nThere are consequences when you use of AI:\n\nEducational Mislearning\nTrusting AI\nStolen Work\nPrivacy Concerns\nEnvironmental Impacts\nWorking Exploitation"
+  },
+  {
+    "objectID": "lectures/1a.html#educational-mislearning",
+    "href": "lectures/1a.html#educational-mislearning",
+    "title": "Math 408",
+    "section": "Educational Mislearning",
+    "text": "Educational Mislearning\nThe purpose of this class, and college, is for you to learn about critical thinking skills and perseverance. Using AI will only teach you how to get an answer, which may or may not be correct.\n\nYou will not develop the skills needed to problem solve a challenge. Additionally, developing grit is essential to become successful in college and life. There is no easy way out and AI is an illusion to your success in life.\n\n\nTo learn something, it requires hours of work! If not years!"
+  },
+  {
+    "objectID": "lectures/1a.html#trusting-ai",
+    "href": "lectures/1a.html#trusting-ai",
+    "title": "Math 408",
+    "section": "Trusting AI",
+    "text": "Trusting AI\nWhen using AI, you must acknowledge its limitations:\n\nResponses provided may be incorrect\nResponses may not be fair\nCompanies may manipulate responses and/or terms of service for their benefit\nCompanies may not have your best interst in mind\n\n\nYou should always proceed with caution utilizing these tools!"
+  },
+  {
+    "objectID": "lectures/1a.html#stolen-work",
+    "href": "lectures/1a.html#stolen-work",
+    "title": "Math 408",
+    "section": "Stolen Work",
+    "text": "Stolen Work\n\nAdditionally, all these individuals are not receiving any royalties for the work to be used in creating generative AI models.\n\n\nInside Higher Ed and The New Yorker highlight individual’s concern of their work being used to train AI models."
+  },
+  {
+    "objectID": "lectures/1a.html#privacy-concerns",
+    "href": "lectures/1a.html#privacy-concerns",
+    "title": "Math 408",
+    "section": "Privacy Concerns",
+    "text": "Privacy Concerns\nThe use of generative AI raises concerns of what data is being harvested from us, possibly without informed consent or knowledge of impacts.\n\nWhen you use any large language models, you do not know what information is being harvested from you.\n\n\nDo you want to upload your thoughts and ideas to a company that can monetize, and possibly exploit you.\n\n\nDoes your Professors consent with you uploading their assignments to large language models?\n\n\nStanford provided a report highlighting the risks of our personal data use in large language models."
+  },
+  {
+    "objectID": "lectures/1a.html#environmental-impact",
+    "href": "lectures/1a.html#environmental-impact",
+    "title": "Math 408",
+    "section": "Environmental Impact",
+    "text": "Environmental Impact\nIn order to run these large language models, companies need to use a large amounts of energy. This is because large servers are needed to both train and execute a model.\n\nThe LA Times reports the potential impact that running AI models in California.\n\n\nAdditionally, Time reports that a ChatGPT query uses ten times more energy than a Google search query, and global AI demands can consume of 1 trillion gallons of water by 2027.\n\n\nThere are also environmental justice questions about where these data centers are constructed."
+  },
+  {
+    "objectID": "lectures/1a.html#worker-exploitation",
+    "href": "lectures/1a.html#worker-exploitation",
+    "title": "Math 408",
+    "section": "Worker Exploitation",
+    "text": "Worker Exploitation\nThe Washington Post and Time (Article 1 and Article 2) reported that AI companies utilize “digital sweatshops” to classify data points for model training.\n\nThere is a human cost from the Global South, both financially and mentally, to develop the AI models for users in the United States and Europe.\n\n\nWe must be conscious consumers and demand more from these companies to provide safe working conditions and livable wages."
+  },
+  {
+    "objectID": "lectures/1a.html#is-using-ai-bad",
+    "href": "lectures/1a.html#is-using-ai-bad",
+    "title": "Math 408",
+    "section": "Is Using AI Bad?",
+    "text": "Is Using AI Bad?\n\nYes/No/I don’t know"
+  },
+  {
+    "objectID": "lectures/1a.html#privacy-concerns-links",
+    "href": "lectures/1a.html#privacy-concerns-links",
+    "title": "Math 408",
+    "section": "Privacy Concerns Links",
+    "text": "Privacy Concerns Links\n\nOpenAI Says It’s Scanning Users’ ChatGPT Conversations and Reporting Content to the Police\nPrivacy in an AI Era: How Do We Protect Our Personal Information?"
+  },
+  {
+    "objectID": "lectures/1a.html#labor-violations-links",
+    "href": "lectures/1a.html#labor-violations-links",
+    "title": "Math 408",
+    "section": "Labor Violations Links",
+    "text": "Labor Violations Links\n\nThe Emotional Labor Behind AI Intimacy\nHow thousands of ‘overworked, underpaid’ humans train Google’s AI to seem smart"
+  },
+  {
+    "objectID": "lectures/1a.html#affecting-communities-links",
+    "href": "lectures/1a.html#affecting-communities-links",
+    "title": "Math 408",
+    "section": "Affecting Communities Links",
+    "text": "Affecting Communities Links\n\nAI surveillance and data colonialism shape African conflicts\nAfrican workers are taking on Meta and the world should pay attention\n‘It’s destroyed me completely’: Kenyan moderators decry toll of training of AI models\nThe AI Industry Is Traumatizing Desperate Contractors in the Developing World for Pennies\nChatGPT advises women to ask for lower salaries, study finds\nThe Impact of the Use of AI on People with Disabilities"
+  },
+  {
+    "objectID": "lectures/1a.html#ideas-and-learning-links",
+    "href": "lectures/1a.html#ideas-and-learning-links",
+    "title": "Math 408",
+    "section": "Ideas and Learning Links",
+    "text": "Ideas and Learning Links\n\nStudent’s Right to Refuse AI\nAI is homogenizing your thoughts\nThe Incuriosity Engine\nNew Junior Developers Can’t Actually Code"
+  },
+  {
+    "objectID": "lectures/1a.html#environmental-costs",
+    "href": "lectures/1a.html#environmental-costs",
+    "title": "Math 408",
+    "section": "Environmental Costs",
+    "text": "Environmental Costs\n\n‘I can’t drink the water’ - life next to a US data centre"
+  },
+  {
+    "objectID": "lectures/1a.html#extra-credits-1",
+    "href": "lectures/1a.html#extra-credits-1",
+    "title": "Math 408",
+    "section": "Extra Credits",
+    "text": "Extra Credits\n\nExtra Credit 1\nExtra Credit 2\nExtra Credit 3"
   },
   {
     "objectID": "lectures/1a.html#fundamental-of-statistics-1",
     "href": "lectures/1a.html#fundamental-of-statistics-1",
-    "title": "Math 453",
+    "title": "Math 408",
     "section": "Fundamental of Statistics",
     "text": "Fundamental of Statistics\n\nObservational Unit\nVariable\n\nTypes of Variables\n\nQuantitative\nCategorical\n\nRoles of Variables\n\nPredictors\nOutcome"
   },
   {
     "objectID": "lectures/1a.html#observational-unit",
     "href": "lectures/1a.html#observational-unit",
-    "title": "Math 453",
+    "title": "Math 408",
     "section": "Observational Unit",
     "text": "Observational Unit"
   },
   {
     "objectID": "lectures/1a.html#type-of-variable---quantitative",
     "href": "lectures/1a.html#type-of-variable---quantitative",
-    "title": "Math 453",
+    "title": "Math 408",
     "section": "Type of Variable - Quantitative",
     "text": "Type of Variable - Quantitative"
   },
   {
     "objectID": "lectures/1a.html#type-of-variable---qualitative",
     "href": "lectures/1a.html#type-of-variable---qualitative",
-    "title": "Math 453",
+    "title": "Math 408",
     "section": "Type of Variable - Qualitative",
     "text": "Type of Variable - Qualitative"
   },
   {
     "objectID": "lectures/1a.html#predictor-variables",
     "href": "lectures/1a.html#predictor-variables",
-    "title": "Math 453",
+    "title": "Math 408",
     "section": "Predictor Variables",
     "text": "Predictor Variables"
   },
   {
     "objectID": "lectures/1a.html#outcomes",
     "href": "lectures/1a.html#outcomes",
-    "title": "Math 453",
+    "title": "Math 408",
     "section": "Outcomes",
     "text": "Outcomes"
   },
   {
     "objectID": "lectures/1a.html#fundamental-of-statistical-inference",
     "href": "lectures/1a.html#fundamental-of-statistical-inference",
-    "title": "Math 453",
+    "title": "Math 408",
     "section": "Fundamental of Statistical Inference",
     "text": "Fundamental of Statistical Inference\n\n\n\nCategorical Variables\n\nProportions\n\np or \\(\\pi\\)\n\\(\\hat p\\)\n\n\n\n\n\nContinuous Variables\n\nMeans or Averages\n\n\\(\\mu\\)\n\\(\\hat \\mu\\) or \\(\\bar X\\)\n\nVariances\n\n\\(\\sigma^2\\)\n\\(\\hat \\sigma^2\\) or \\(s^2\\)"
   },
   {
     "objectID": "lectures/1a.html#sampling-techniques-1",
     "href": "lectures/1a.html#sampling-techniques-1",
-    "title": "Math 453",
+    "title": "Math 408",
     "section": "Sampling Techniques",
     "text": "Sampling Techniques\n\nSimple Random Sampling\nStratified Sampling\nCluster Sampling\nMultistage Sampling"
   },

@@ -6,8 +6,11 @@
     ]
   },
   {
-    "listing": "/ec.html",
-    "items": []
+    "listing": "/exc.html",
+    "items": [
+      "/exc/exc2.html",
+      "/exc/exc3.html"
+    ]
   },
   {
     "listing": "/hw.html",
