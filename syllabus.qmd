@@ -41,7 +41,7 @@ This course is an introduction to mathematical statistics with an emphasis on st
 4.  Use software and simulation to do statistics.
 5.  Demonstrate ability to discuss statistical information in oral and written form.
 
-### Required Texts
+### Recommended Texts
 
 1.  Modern Mathematical Statistics (MMS) with Applications, by Jay L. Devore and Kenneth N. Berk , **Third Edition**, Springer, 2021. (available online for free through the Broome Library).
 
