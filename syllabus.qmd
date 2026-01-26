@@ -1,6 +1,7 @@
 ---
 title: "Syllabus"
 editor: source
+navbar: false
 format:
   html: 
     code-fold: true
@@ -24,6 +25,9 @@ format:
 **Office Location:** Marin 2326
 
 **Office Hours:** 
+
+- T/TH 1-2:30 PM
+- Wed 4-5 PM
 
 **Lecture:** 
 

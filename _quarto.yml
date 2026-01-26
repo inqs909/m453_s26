@@ -31,12 +31,12 @@ website:
       - hw.qmd
       - ec.qmd
       - books.qmd
-  announcement: 
-    icon: info-circle
-    dismissable: false
-    content: "**Alert** - this course is still under construction"
-    type: danger
-    position: below-navbar
+  # announcement: 
+  #   icon: info-circle
+  #   dismissable: false
+  #   content: "**Alert** - this course is still under construction"
+  #   type: danger
+  #   position: below-navbar
 
 format:
   html:
