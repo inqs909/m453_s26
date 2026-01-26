@@ -1,6 +1,6 @@
 ---
-title: "Math 408"
-subtitle: "Machine Learning"
+title: "Math 453"
+subtitle: "Mathematical Statistics"
 format:
   revealjs:
     width: 1200
@@ -282,9 +282,9 @@ Yes/No/I don't know
 - [Extra Credit 2](https://m453.inqs.info/exc/exc_2)
 - [Extra Credit 3](https://m453.inqs.info/exc/exc_3)
 
-# Fundamental of Statistics
+# Fundamentals of Statistics
 
-## Fundamental of Statistics
+## Fundamentals of Statistics
 
 -   Observational Unit
 
