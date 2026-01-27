@@ -293,9 +293,9 @@ Yes/No/I don't know
 
 ## Extra Credits
 
-- [Extra Credit 1](https://m453.inqs.info/exc/exc_1)
-- [Extra Credit 2](https://m453.inqs.info/exc/exc_2)
-- [Extra Credit 3](https://m453.inqs.info/exc/exc_3)
+- [Extra Credit 1](https://m453.inqs.info/exc/exc1)
+- [Extra Credit 2](https://m453.inqs.info/exc/exc2)
+- [Extra Credit 3](https://m453.inqs.info/exc/exc3)
 
 # Fundamentals of Statistics
 
