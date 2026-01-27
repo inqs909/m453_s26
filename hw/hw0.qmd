@@ -1,0 +1,69 @@
+---
+title: "Homework 0"
+editor: source
+draft: false
+format:
+  html: 
+    code-fold: true
+    html-math-method: katex
+---
+
+
+### Problem 1
+
+Set the equation to 0 and solve for $x$:
+
+1.  $\ln(x^2+5)$
+2.  $x^2+6x+7$
+3.  $3x^2-5x+2$
+4.  $e^{x^2-4}$
+5.  $\ln(5x) + 3$
+
+### Problem 2
+
+Complete the following derivatives:
+
+1.  $f(x)=e^x$
+
+2.  $f(x) = e^{x^2}$
+
+3.  $f(x) = e^x x^2$
+
+4.  $f(x) = \frac{\ln(x^2)}{x^2+3x}$
+
+5.  $f(x) = \ln(x)$
+
+### Problem 3
+
+Complete the following integrals:
+
+1.  $\int-\frac{9}{x^4}dx$
+2.  $\int x^2\ln(x) dx$
+3.  $\int x^2\sqrt x dx$
+4.  $\int x^2e^{-x^3}dx$
+5.  $\int2x(x^2+1)^4dx$
+
+### Problem 4
+
+Evaluate the following identities[^1]:
+
+[^1]: Either convert to summation notation or evaluate the summation.
+
+1.  $(x+y)^n$
+2.  $\sum^\infty_{i=1}r^i$; $|r|<1$  
+3.  $\sum^{m}_{i=1}r^i$; $|r|<1$
+4.  $\sum^\infty_{i=0}\frac{x^i}{i!}$
+5.  $\frac{n!}{(n-1)!}$
+
+### Problem 5
+
+Evaluate the following integrals:
+
+1. $\int_{-\infty}^{\infty} \frac{x}{\sqrt{2\pi}}e^{-x^2/2}dx$
+2. $\int_{0}^{\infty} x \lambda e^{-\lambda x}dx$
+
+### Problem 6
+
+Find the derivative with respect to $\mu$:
+
+1. $\log{\prod^n_{i=1}\frac{1}{\sqrt{2\pi}}}e^{-\frac{(x_i - \mu)^2}{2}}$

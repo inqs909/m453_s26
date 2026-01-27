@@ -1,5 +1,5 @@
 ---
-title: "Functions of Random Variables"
+title: "Transformations of Random Variables"
 format:
   revealjs:
     scrollable: true
@@ -32,9 +32,9 @@ editor: source
 ---
 
 
-# Function of Random Variables
+# Transformation of Random Variables
 
-## Function of Random Variables
+## Transformation of Random Variables
 
 # Obtaining the PDFs
 

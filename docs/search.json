@@ -4,14 +4,14 @@
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Term: Spring 2026\nInstructor: Isaac Quintanilla Salinas\nContact: isaac.qs@csuci.edu\nOffice Location: Marin 2326\nOffice Hours:\n\nT/TH 1-2:30 PM\nWed 4-5 PM\n\nLecture:\nGateway 3550 T/TH 3-4:15 PM\nPre-Requisites: MATH 201 or MATH 202/PSY 202 or MATH 300 or MATH 352\n\n\n\nThis course is an introduction to mathematical statistics with an emphasis on statistical estimation and hypothesis testing. The course will be comprised of both theory and applications. We begin with a condensed review of fundamental concepts from Math 352; particularly, we briefly review important discrete and continuous probability distributions. We will then begin our discussion on the main topic of this course, statistical inference, through the study of distributions of functions of random variables using the method of moment-generating functions and order statistics. We then discuss ideas of convergence with sampling distributions and the central limit theorem. Next, we consider the topics of estimation, properties of point estimators, and methods of estimation. Finally, we study the theory of statistical tests and likelihood ratio tests. Depending on time, other topics may be added or removed.\n\n\n\n\nDemonstrate statistical knowledge and apply it to various data sets.\nUse basic principles of statistical inference (both Bayesian and frequentist).\nBuild a starter statistical toolbox and discuss the utility and limitations of these techniques.\nUse software and simulation to do statistics.\nDemonstrate ability to discuss statistical information in oral and written form.\n\n\n\n\n\nModern Mathematical Statistics (MMS) with Applications, by Jay L. Devore and Kenneth N. Berk , Third Edition, Springer, 2021. (available online for free through the Broome Library).\n\n\n\n\n\n\n\nCategory\nPercentage\n\n\n\n\nHomework\n40%\n\n\nExam 1\n20%\n\n\nExam 2\n20%\n\n\nExam 3\n20%\n\n\n\nAt the end of the quarter, course grades will be assigned according to the following scale:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA+\n98 – 100\nB+\n87 – &lt;90\nC+\n77 – &lt;80\nD+\n67 – &lt;70\n\n\n\n\nA\n93 – &lt;98\nB\n83 – &lt;87\nC\n73 – &lt;77\nD\n63 – &lt;67\nF\n&lt; 60\n\n\nA–\n90 - &lt;93\nB-\n80 – &lt;83\nC–\n70 – &lt;73\nD–\n60 – &lt;63\n\n\n\n\n\n\n\n\nStudents are expected to attend in-person to class to learn the material.\n\n\n\nStudents are expected to check the course Canvas page 3-4 times a week to view assignments, announcements, and other course-related materials.\n\n\nHomework will be assigned on a regular basis and posted on https://m453.inqs.info/hw.html and CANVAS. All homework assignments are due at the beginning of class. The homework is to help you practice the concepts learned in lecture and to help you study. You must turn in your own individual homework and show your understanding of the material. At the end of the semester, the three lowest homework grades will be dropped.\n\n\n\nThere will be three exams and Final.\nExam #1 will most likely be during the 6th week of the semester. Exam #2 will most likely be during the 11th week of the semester. Exam #3 will be on MAY 21, 2026 from 1 PM to 3 PM in Gateway 3550. While the exams are not considered cumulative, the material builds on each other. Developing a strong understanding of the material through out the course is important for your success. At the end of the semester, your lowest exam grade will be replaced by your median average of all exam grades. This course will operate under a zero-tolerance policy. Talking during the time of the exam, sharing materials, looking at another students’ exam, or not following directions given will be subject to the University’s academic integrity policy.\n\n\n\nThere will be 3 extra credit opportunities worth a total of 5% of your overall grade. (There are no make-ups for missed extra credit assignments!) More information will be provided on the extra credit assignments on a later date.\n\n\n\n\nThe following outline may be subject to change. Any changes will be announced in class.\n\n\n\n\n\n\n\n\n\nWeek\nLecture\nTopic\nReading\n\n\n\n\n1 1/26-1/30\n1 Tuesday\nIntroduction to Statistics\n1.1-1.4\n\n\n\n2 Thursday\nReview: RV and Distribution Function\n3.1, 3.5-3.7, 4.1, 4.3-4.5\n\n\n2 2/2-2/6\n3 Tuesday\nReview: Moment Generating Functions\n3.4, 4.2\n\n\n\n4 Thursday\nTransonformation of Random Variables\n4.7\n\n\n3 2/9-2/13\n5 Tuesday\nJoint Distributions\n5.1, 5.2\n\n\n\n6 Thursday\nLinear Combinations and Conditional Distributions\n5.3, 5.4\n\n\n4 2/16- 2/20\n7 Tuesday\nFunctions of RV’s and Order Statistics\n5.6, 5.7\n\n\n\n8 Thursday\nSampling Distributions\n6.1, 6.2\n\n\n5 2/23-2/27\n9 Tuesday\nCommon Sampling Distributions\n6.3, 6.4\n\n\n\n10 Thursday\nExam #1\n\n\n\n6 3/2-3/6\n11 Tuesday\nPoint Estimation\n7.1\n\n\n\n12 Thursday\nMaximum Likelihood Estimator\n7.2\n\n\n7 3/9-3/13\n13 Tuesday\nMethod of Moments Estimator\n7.2\n\n\n\n14 Thursday\nBayesian Estimators\n15.2\n\n\n3/16-3/20\nSpring Break\n\n\n\n\n8 3/23-3/27\n15 Tuesday\nSufficiency\n7.3\n\n\n\n16 Thursday\nInformation and Efficiency\n7.4\n\n\n9 3/30-4/3\n17 Tuesday\nHoliday\n8.1\n\n\n\n18 Thursday\nConfidence Intervals\n8.1\n\n\n10 4/6-4/10\n19 Tuesday\nSingle Sample Intervals\n8.2\n\n\n\n20 Thursday\nProportion Intervals\n8.3\n\n\n11 4/13-4/17\n21 Tuesday\nIntervals for Variance\n8.4\n\n\n\n22 Thursday\nExam #2\n\n\n\n12 4/20-4/24\n23 Tuesday\nHypothesis Testing\n9.1\n\n\n\n24 Thursday\nTests for Population Mean\n9.2\n\n\n13 4/27-5/1\n25 Tuesday\nTests for Population Porportion\n9.3\n\n\n\n26 Thursday\nP-Value\n9.4\n\n\n14 5/4-5/8\n27 Tuesday\nNeyman-Pearson Lemma and Likelihood Ratio Test\n9.5\n\n\n\n28 Thursday\nTwo-Sample Tests\n10.1-10.2\n\n\n15 5/11-5/15\n29 Tuesday\nSimple Linear Regression\n12.1\n\n\n\n30 Thursday\nEstimation and Inference\n12.2-12.4\n\n\n16 5/18\n\nExam #3\n\n\n\n\n\n\n\nThe use of generative artificial intelligence (AI) in an ethical manner is permitted for this course.\n\n\nYou may use AI for:\n\nObtain clarification\nBrainstorming ideas, examples, outlines, and strategies\nGenerating questions for practice or exploration\nIdentifying keywords or phrasing to match professional goals\n\n\n\n\nYou may not:\n\nSubmit AI-generated work\nUse AI to complete assignments, quizzes, exams, or other assessments meant to reflect only your own work\nUse AI to generate code\n\nAny AI-generated work will receive a 0 in the class. Severe cases will be reported to Academic Misconduct.\nYou may not upload any course material to any AI platforms such as ChatGPT, Claude, Meta AI, and Google Gemini. Exceptions are allowed for DASS-approved services."
+    "text": "Term: Spring 2026\nInstructor: Isaac Quintanilla Salinas\nContact: isaac.qs@csuci.edu\nOffice Location: Marin 2326\nOffice Hours:\n\nT/TH 1-2:30 PM\nWed 4-5 PM\n\nLecture:\nGateway 3550 T/TH 3-4:15 PM\nPre-Requisites: MATH 201 or MATH 202/PSY 202 or MATH 300 or MATH 352\n\n\n\nSampling distributions, estimation, bias, confidence intervals, efficiency, consistency, sufficiency, Cramer-Rao bound, maximum likelihood, hypothesis testing, Neyman-Pearson Lemma, linear models, regression, experiment design, ANOVA, analysis of categorical data, nonparametric methods, and Bayesian estimation. Application of statistical theory in the laboratory using modern computer software.\n\n\n\n\nDemonstrate statistical knowledge and apply it to various data sets.\nUse basic principles of statistical inference (both Bayesian and frequentist).\nBuild a starter statistical toolbox and discuss the utility and limitations of these techniques.\nUse software and simulation to do statistics.\nDemonstrate ability to discuss statistical information in oral and written form.\n\n\n\n\n\nModern Mathematical Statistics (MMS) with Applications, by Jay L. Devore and Kenneth N. Berk , Third Edition, Springer, 2021. (available online for free through the Broome Library).\n\n\n\n\n\n\n\nCategory\nPercentage\n\n\n\n\nHomework\n40%\n\n\nExam 1\n20%\n\n\nExam 2\n20%\n\n\nExam 3\n20%\n\n\n\nAt the end of the quarter, course grades will be assigned according to the following scale:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA+\n98 – 100\nB+\n87 – &lt;90\nC+\n77 – &lt;80\nD+\n67 – &lt;70\n\n\n\n\nA\n93 – &lt;98\nB\n83 – &lt;87\nC\n73 – &lt;77\nD\n63 – &lt;67\nF\n&lt; 60\n\n\nA–\n90 - &lt;93\nB-\n80 – &lt;83\nC–\n70 – &lt;73\nD–\n60 – &lt;63\n\n\n\n\n\n\n\n\nStudents are expected to attend in-person to class to learn the material.\n\n\n\nStudents are expected to check the course Canvas page 3-4 times a week to view assignments, announcements, and other course-related materials.\n\n\nHomework will be assigned on a regular basis and posted on https://m453.inqs.info/hw.html and CANVAS. All homework assignments are due at the beginning of class. The homework is to help you practice the concepts learned in lecture and to help you study. You must turn in your own individual homework and show your understanding of the material. At the end of the semester, the three lowest homework grades will be dropped.\n\n\n\nThere will be three exams and Final.\nExam #1 will most likely be during the 6th week of the semester. Exam #2 will most likely be during the 11th week of the semester. Exam #3 will be on MAY 21, 2026 from 1 PM to 3 PM in Gateway 3550. While the exams are not considered cumulative, the material builds on each other. Developing a strong understanding of the material through out the course is important for your success. At the end of the semester, your lowest exam grade will be replaced by your median average of all exam grades. This course will operate under a zero-tolerance policy. Talking during the time of the exam, sharing materials, looking at another students’ exam, or not following directions given will be subject to the University’s academic integrity policy.\n\n\n\nThere will be 3 extra credit opportunities worth a total of 5% of your overall grade. (There are no make-ups for missed extra credit assignments!) More information will be provided on the extra credit assignments on a later date.\n\n\n\n\nThe following outline may be subject to change. Any changes will be announced in class.\n\n\n\n\n\n\n\n\n\nWeek\nLecture\nTopic\nReading\n\n\n\n\n1 1/26-1/30\n1 Tuesday\nIntroduction to Statistics\n1.1-1.4\n\n\n\n2 Thursday\nReview: RV and Distribution Function\n3.1, 3.5-3.7, 4.1, 4.3-4.5\n\n\n2 2/2-2/6\n3 Tuesday\nReview: Moment Generating Functions\n3.4, 4.2\n\n\n\n4 Thursday\nTransonformation of Random Variables\n4.7\n\n\n3 2/9-2/13\n5 Tuesday\nJoint Distributions\n5.1, 5.2\n\n\n\n6 Thursday\nLinear Combinations and Conditional Distributions\n5.3, 5.4\n\n\n4 2/16- 2/20\n7 Tuesday\nFunctions of RV’s and Order Statistics\n5.6, 5.7\n\n\n\n8 Thursday\nSampling Distributions\n6.1, 6.2\n\n\n5 2/23-2/27\n9 Tuesday\nCommon Sampling Distributions\n6.3, 6.4\n\n\n\n10 Thursday\nExam #1\n\n\n\n6 3/2-3/6\n11 Tuesday\nPoint Estimation\n7.1\n\n\n\n12 Thursday\nMaximum Likelihood Estimator\n7.2\n\n\n7 3/9-3/13\n13 Tuesday\nMethod of Moments Estimator\n7.2\n\n\n\n14 Thursday\nBayesian Estimators\n15.2\n\n\n3/16-3/20\nSpring Break\n\n\n\n\n8 3/23-3/27\n15 Tuesday\nSufficiency\n7.3\n\n\n\n16 Thursday\nInformation and Efficiency\n7.4\n\n\n9 3/30-4/3\n17 Tuesday\nHoliday\n8.1\n\n\n\n18 Thursday\nConfidence Intervals\n8.1\n\n\n10 4/6-4/10\n19 Tuesday\nSingle Sample Intervals\n8.2\n\n\n\n20 Thursday\nProportion Intervals\n8.3\n\n\n11 4/13-4/17\n21 Tuesday\nIntervals for Variance\n8.4\n\n\n\n22 Thursday\nExam #2\n\n\n\n12 4/20-4/24\n23 Tuesday\nHypothesis Testing\n9.1\n\n\n\n24 Thursday\nTests for Population Mean\n9.2\n\n\n13 4/27-5/1\n25 Tuesday\nTests for Population Porportion\n9.3\n\n\n\n26 Thursday\nP-Value\n9.4\n\n\n14 5/4-5/8\n27 Tuesday\nNeyman-Pearson Lemma and Likelihood Ratio Test\n9.5\n\n\n\n28 Thursday\nTwo-Sample Tests\n10.1-10.2\n\n\n15 5/11-5/15\n29 Tuesday\nSimple Linear Regression\n12.1\n\n\n\n30 Thursday\nEstimation and Inference\n12.2-12.4\n\n\n16 5/18\n\nExam #3\n\n\n\n\n\n\n\nThe use of generative artificial intelligence (AI) in an ethical manner is permitted for this course.\n\n\nYou may use AI for:\n\nObtain clarification\nBrainstorming ideas, examples, outlines, and strategies\nGenerating questions for practice or exploration\nIdentifying keywords or phrasing to match professional goals\n\n\n\n\nYou may not:\n\nSubmit AI-generated work\nUse AI to complete assignments, quizzes, exams, or other assessments meant to reflect only your own work\nUse AI to generate code\n\nAny AI-generated work will receive a 0 in the class. Severe cases will be reported to Academic Misconduct.\nYou may not upload any course material to any AI platforms such as ChatGPT, Claude, Meta AI, and Google Gemini. Exceptions are allowed for DASS-approved services."
   },
   {
     "objectID": "syllabus.html#math-453-mathematical-statistics",
     "href": "syllabus.html#math-453-mathematical-statistics",
     "title": "Syllabus",
     "section": "",
-    "text": "Term: Spring 2026\nInstructor: Isaac Quintanilla Salinas\nContact: isaac.qs@csuci.edu\nOffice Location: Marin 2326\nOffice Hours:\n\nT/TH 1-2:30 PM\nWed 4-5 PM\n\nLecture:\nGateway 3550 T/TH 3-4:15 PM\nPre-Requisites: MATH 201 or MATH 202/PSY 202 or MATH 300 or MATH 352\n\n\n\nThis course is an introduction to mathematical statistics with an emphasis on statistical estimation and hypothesis testing. The course will be comprised of both theory and applications. We begin with a condensed review of fundamental concepts from Math 352; particularly, we briefly review important discrete and continuous probability distributions. We will then begin our discussion on the main topic of this course, statistical inference, through the study of distributions of functions of random variables using the method of moment-generating functions and order statistics. We then discuss ideas of convergence with sampling distributions and the central limit theorem. Next, we consider the topics of estimation, properties of point estimators, and methods of estimation. Finally, we study the theory of statistical tests and likelihood ratio tests. Depending on time, other topics may be added or removed.\n\n\n\n\nDemonstrate statistical knowledge and apply it to various data sets.\nUse basic principles of statistical inference (both Bayesian and frequentist).\nBuild a starter statistical toolbox and discuss the utility and limitations of these techniques.\nUse software and simulation to do statistics.\nDemonstrate ability to discuss statistical information in oral and written form.\n\n\n\n\n\nModern Mathematical Statistics (MMS) with Applications, by Jay L. Devore and Kenneth N. Berk , Third Edition, Springer, 2021. (available online for free through the Broome Library).\n\n\n\n\n\n\n\nCategory\nPercentage\n\n\n\n\nHomework\n40%\n\n\nExam 1\n20%\n\n\nExam 2\n20%\n\n\nExam 3\n20%\n\n\n\nAt the end of the quarter, course grades will be assigned according to the following scale:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA+\n98 – 100\nB+\n87 – &lt;90\nC+\n77 – &lt;80\nD+\n67 – &lt;70\n\n\n\n\nA\n93 – &lt;98\nB\n83 – &lt;87\nC\n73 – &lt;77\nD\n63 – &lt;67\nF\n&lt; 60\n\n\nA–\n90 - &lt;93\nB-\n80 – &lt;83\nC–\n70 – &lt;73\nD–\n60 – &lt;63\n\n\n\n\n\n\n\n\nStudents are expected to attend in-person to class to learn the material.\n\n\n\nStudents are expected to check the course Canvas page 3-4 times a week to view assignments, announcements, and other course-related materials.\n\n\nHomework will be assigned on a regular basis and posted on https://m453.inqs.info/hw.html and CANVAS. All homework assignments are due at the beginning of class. The homework is to help you practice the concepts learned in lecture and to help you study. You must turn in your own individual homework and show your understanding of the material. At the end of the semester, the three lowest homework grades will be dropped.\n\n\n\nThere will be three exams and Final.\nExam #1 will most likely be during the 6th week of the semester. Exam #2 will most likely be during the 11th week of the semester. Exam #3 will be on MAY 21, 2026 from 1 PM to 3 PM in Gateway 3550. While the exams are not considered cumulative, the material builds on each other. Developing a strong understanding of the material through out the course is important for your success. At the end of the semester, your lowest exam grade will be replaced by your median average of all exam grades. This course will operate under a zero-tolerance policy. Talking during the time of the exam, sharing materials, looking at another students’ exam, or not following directions given will be subject to the University’s academic integrity policy.\n\n\n\nThere will be 3 extra credit opportunities worth a total of 5% of your overall grade. (There are no make-ups for missed extra credit assignments!) More information will be provided on the extra credit assignments on a later date.\n\n\n\n\nThe following outline may be subject to change. Any changes will be announced in class.\n\n\n\n\n\n\n\n\n\nWeek\nLecture\nTopic\nReading\n\n\n\n\n1 1/26-1/30\n1 Tuesday\nIntroduction to Statistics\n1.1-1.4\n\n\n\n2 Thursday\nReview: RV and Distribution Function\n3.1, 3.5-3.7, 4.1, 4.3-4.5\n\n\n2 2/2-2/6\n3 Tuesday\nReview: Moment Generating Functions\n3.4, 4.2\n\n\n\n4 Thursday\nTransonformation of Random Variables\n4.7\n\n\n3 2/9-2/13\n5 Tuesday\nJoint Distributions\n5.1, 5.2\n\n\n\n6 Thursday\nLinear Combinations and Conditional Distributions\n5.3, 5.4\n\n\n4 2/16- 2/20\n7 Tuesday\nFunctions of RV’s and Order Statistics\n5.6, 5.7\n\n\n\n8 Thursday\nSampling Distributions\n6.1, 6.2\n\n\n5 2/23-2/27\n9 Tuesday\nCommon Sampling Distributions\n6.3, 6.4\n\n\n\n10 Thursday\nExam #1\n\n\n\n6 3/2-3/6\n11 Tuesday\nPoint Estimation\n7.1\n\n\n\n12 Thursday\nMaximum Likelihood Estimator\n7.2\n\n\n7 3/9-3/13\n13 Tuesday\nMethod of Moments Estimator\n7.2\n\n\n\n14 Thursday\nBayesian Estimators\n15.2\n\n\n3/16-3/20\nSpring Break\n\n\n\n\n8 3/23-3/27\n15 Tuesday\nSufficiency\n7.3\n\n\n\n16 Thursday\nInformation and Efficiency\n7.4\n\n\n9 3/30-4/3\n17 Tuesday\nHoliday\n8.1\n\n\n\n18 Thursday\nConfidence Intervals\n8.1\n\n\n10 4/6-4/10\n19 Tuesday\nSingle Sample Intervals\n8.2\n\n\n\n20 Thursday\nProportion Intervals\n8.3\n\n\n11 4/13-4/17\n21 Tuesday\nIntervals for Variance\n8.4\n\n\n\n22 Thursday\nExam #2\n\n\n\n12 4/20-4/24\n23 Tuesday\nHypothesis Testing\n9.1\n\n\n\n24 Thursday\nTests for Population Mean\n9.2\n\n\n13 4/27-5/1\n25 Tuesday\nTests for Population Porportion\n9.3\n\n\n\n26 Thursday\nP-Value\n9.4\n\n\n14 5/4-5/8\n27 Tuesday\nNeyman-Pearson Lemma and Likelihood Ratio Test\n9.5\n\n\n\n28 Thursday\nTwo-Sample Tests\n10.1-10.2\n\n\n15 5/11-5/15\n29 Tuesday\nSimple Linear Regression\n12.1\n\n\n\n30 Thursday\nEstimation and Inference\n12.2-12.4\n\n\n16 5/18\n\nExam #3\n\n\n\n\n\n\n\nThe use of generative artificial intelligence (AI) in an ethical manner is permitted for this course.\n\n\nYou may use AI for:\n\nObtain clarification\nBrainstorming ideas, examples, outlines, and strategies\nGenerating questions for practice or exploration\nIdentifying keywords or phrasing to match professional goals\n\n\n\n\nYou may not:\n\nSubmit AI-generated work\nUse AI to complete assignments, quizzes, exams, or other assessments meant to reflect only your own work\nUse AI to generate code\n\nAny AI-generated work will receive a 0 in the class. Severe cases will be reported to Academic Misconduct.\nYou may not upload any course material to any AI platforms such as ChatGPT, Claude, Meta AI, and Google Gemini. Exceptions are allowed for DASS-approved services."
+    "text": "Term: Spring 2026\nInstructor: Isaac Quintanilla Salinas\nContact: isaac.qs@csuci.edu\nOffice Location: Marin 2326\nOffice Hours:\n\nT/TH 1-2:30 PM\nWed 4-5 PM\n\nLecture:\nGateway 3550 T/TH 3-4:15 PM\nPre-Requisites: MATH 201 or MATH 202/PSY 202 or MATH 300 or MATH 352\n\n\n\nSampling distributions, estimation, bias, confidence intervals, efficiency, consistency, sufficiency, Cramer-Rao bound, maximum likelihood, hypothesis testing, Neyman-Pearson Lemma, linear models, regression, experiment design, ANOVA, analysis of categorical data, nonparametric methods, and Bayesian estimation. Application of statistical theory in the laboratory using modern computer software.\n\n\n\n\nDemonstrate statistical knowledge and apply it to various data sets.\nUse basic principles of statistical inference (both Bayesian and frequentist).\nBuild a starter statistical toolbox and discuss the utility and limitations of these techniques.\nUse software and simulation to do statistics.\nDemonstrate ability to discuss statistical information in oral and written form.\n\n\n\n\n\nModern Mathematical Statistics (MMS) with Applications, by Jay L. Devore and Kenneth N. Berk , Third Edition, Springer, 2021. (available online for free through the Broome Library).\n\n\n\n\n\n\n\nCategory\nPercentage\n\n\n\n\nHomework\n40%\n\n\nExam 1\n20%\n\n\nExam 2\n20%\n\n\nExam 3\n20%\n\n\n\nAt the end of the quarter, course grades will be assigned according to the following scale:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA+\n98 – 100\nB+\n87 – &lt;90\nC+\n77 – &lt;80\nD+\n67 – &lt;70\n\n\n\n\nA\n93 – &lt;98\nB\n83 – &lt;87\nC\n73 – &lt;77\nD\n63 – &lt;67\nF\n&lt; 60\n\n\nA–\n90 - &lt;93\nB-\n80 – &lt;83\nC–\n70 – &lt;73\nD–\n60 – &lt;63\n\n\n\n\n\n\n\n\nStudents are expected to attend in-person to class to learn the material.\n\n\n\nStudents are expected to check the course Canvas page 3-4 times a week to view assignments, announcements, and other course-related materials.\n\n\nHomework will be assigned on a regular basis and posted on https://m453.inqs.info/hw.html and CANVAS. All homework assignments are due at the beginning of class. The homework is to help you practice the concepts learned in lecture and to help you study. You must turn in your own individual homework and show your understanding of the material. At the end of the semester, the three lowest homework grades will be dropped.\n\n\n\nThere will be three exams and Final.\nExam #1 will most likely be during the 6th week of the semester. Exam #2 will most likely be during the 11th week of the semester. Exam #3 will be on MAY 21, 2026 from 1 PM to 3 PM in Gateway 3550. While the exams are not considered cumulative, the material builds on each other. Developing a strong understanding of the material through out the course is important for your success. At the end of the semester, your lowest exam grade will be replaced by your median average of all exam grades. This course will operate under a zero-tolerance policy. Talking during the time of the exam, sharing materials, looking at another students’ exam, or not following directions given will be subject to the University’s academic integrity policy.\n\n\n\nThere will be 3 extra credit opportunities worth a total of 5% of your overall grade. (There are no make-ups for missed extra credit assignments!) More information will be provided on the extra credit assignments on a later date.\n\n\n\n\nThe following outline may be subject to change. Any changes will be announced in class.\n\n\n\n\n\n\n\n\n\nWeek\nLecture\nTopic\nReading\n\n\n\n\n1 1/26-1/30\n1 Tuesday\nIntroduction to Statistics\n1.1-1.4\n\n\n\n2 Thursday\nReview: RV and Distribution Function\n3.1, 3.5-3.7, 4.1, 4.3-4.5\n\n\n2 2/2-2/6\n3 Tuesday\nReview: Moment Generating Functions\n3.4, 4.2\n\n\n\n4 Thursday\nTransonformation of Random Variables\n4.7\n\n\n3 2/9-2/13\n5 Tuesday\nJoint Distributions\n5.1, 5.2\n\n\n\n6 Thursday\nLinear Combinations and Conditional Distributions\n5.3, 5.4\n\n\n4 2/16- 2/20\n7 Tuesday\nFunctions of RV’s and Order Statistics\n5.6, 5.7\n\n\n\n8 Thursday\nSampling Distributions\n6.1, 6.2\n\n\n5 2/23-2/27\n9 Tuesday\nCommon Sampling Distributions\n6.3, 6.4\n\n\n\n10 Thursday\nExam #1\n\n\n\n6 3/2-3/6\n11 Tuesday\nPoint Estimation\n7.1\n\n\n\n12 Thursday\nMaximum Likelihood Estimator\n7.2\n\n\n7 3/9-3/13\n13 Tuesday\nMethod of Moments Estimator\n7.2\n\n\n\n14 Thursday\nBayesian Estimators\n15.2\n\n\n3/16-3/20\nSpring Break\n\n\n\n\n8 3/23-3/27\n15 Tuesday\nSufficiency\n7.3\n\n\n\n16 Thursday\nInformation and Efficiency\n7.4\n\n\n9 3/30-4/3\n17 Tuesday\nHoliday\n8.1\n\n\n\n18 Thursday\nConfidence Intervals\n8.1\n\n\n10 4/6-4/10\n19 Tuesday\nSingle Sample Intervals\n8.2\n\n\n\n20 Thursday\nProportion Intervals\n8.3\n\n\n11 4/13-4/17\n21 Tuesday\nIntervals for Variance\n8.4\n\n\n\n22 Thursday\nExam #2\n\n\n\n12 4/20-4/24\n23 Tuesday\nHypothesis Testing\n9.1\n\n\n\n24 Thursday\nTests for Population Mean\n9.2\n\n\n13 4/27-5/1\n25 Tuesday\nTests for Population Porportion\n9.3\n\n\n\n26 Thursday\nP-Value\n9.4\n\n\n14 5/4-5/8\n27 Tuesday\nNeyman-Pearson Lemma and Likelihood Ratio Test\n9.5\n\n\n\n28 Thursday\nTwo-Sample Tests\n10.1-10.2\n\n\n15 5/11-5/15\n29 Tuesday\nSimple Linear Regression\n12.1\n\n\n\n30 Thursday\nEstimation and Inference\n12.2-12.4\n\n\n16 5/18\n\nExam #3\n\n\n\n\n\n\n\nThe use of generative artificial intelligence (AI) in an ethical manner is permitted for this course.\n\n\nYou may use AI for:\n\nObtain clarification\nBrainstorming ideas, examples, outlines, and strategies\nGenerating questions for practice or exploration\nIdentifying keywords or phrasing to match professional goals\n\n\n\n\nYou may not:\n\nSubmit AI-generated work\nUse AI to complete assignments, quizzes, exams, or other assessments meant to reflect only your own work\nUse AI to generate code\n\nAny AI-generated work will receive a 0 in the class. Severe cases will be reported to Academic Misconduct.\nYou may not upload any course material to any AI platforms such as ChatGPT, Claude, Meta AI, and Google Gemini. Exceptions are allowed for DASS-approved services."
   },
   {
     "objectID": "syllabus.html#university-policies",
@@ -462,543 +462,172 @@
     "text": "Examples\nLet \\(X_1\\sim N(\\mu_1,\\sigma_1^2)\\) and \\(X_2\\sim N(\\mu_2,\\sigma_2^2)\\). Find the distribution function of \\(Y=X_1 + X_2\\). Assume \\(X_1\\perp X_2\\)."
   },
   {
-    "objectID": "lectures/3a.html#function-of-random-variables-1",
-    "href": "lectures/3a.html#function-of-random-variables-1",
-    "title": "Functions of Random Variables",
-    "section": "Function of Random Variables",
-    "text": "Function of Random Variables"
+    "objectID": "lectures/3a.html#transformation-of-random-variables-1",
+    "href": "lectures/3a.html#transformation-of-random-variables-1",
+    "title": "Transformations of Random Variables",
+    "section": "Transformation of Random Variables",
+    "text": "Transformation of Random Variables"
   },
   {
     "objectID": "lectures/3a.html#using-the-distribution-function",
     "href": "lectures/3a.html#using-the-distribution-function",
-    "title": "Functions of Random Variables",
+    "title": "Transformations of Random Variables",
     "section": "Using the Distribution Function",
     "text": "Using the Distribution Function\nLet there be a random variable \\(X\\) with a known distribution function \\(F_X(x)\\), the density function for the random variable \\(Y=g(X)\\) can be found with the following steps\n\n\nFind the region of \\(Y\\) in the space of \\(X\\), find \\(g^{-1}(y)\\)\nFind the region of \\(Y\\le y\\)\nFind \\(F_Y(y)=P(Y\\le y)\\) using the probability density function of \\(X\\) over region \\(Y\\le y\\)\nFind \\(f_Y(y)\\) by differentiating \\(F_Y(y)\\)"
   },
   {
     "objectID": "lectures/3a.html#example-1",
     "href": "lectures/3a.html#example-1",
-    "title": "Functions of Random Variables",
+    "title": "Transformations of Random Variables",
     "section": "Example 1",
     "text": "Example 1\nLet \\(X\\) have the following probability density function:\n\\[\nf_X(x)=\\left\\{\\begin{array}{cc}\n2x & 0\\le x \\le 1 \\\\\n0 & \\mathrm{otherwise}\n\\end{array}\n\\right.\n\\]\nFind the probability density function of \\(Y=3X-1\\)?"
   },
   {
     "objectID": "lectures/3a.html#using-the-pdf",
     "href": "lectures/3a.html#using-the-pdf",
-    "title": "Functions of Random Variables",
+    "title": "Transformations of Random Variables",
     "section": "Using the PDF",
     "text": "Using the PDF\nLet there be a random variable \\(X\\) with a known distribution function \\(F_X(x)\\), if the random variable \\(Y=g(X)\\) is either increasing or decreasing, than the probability density function can be found as\n\\[\nf_Y(y) = f_X\\{g^{-1}(y)\\}\\left|\\frac{dg^{-1}(y)}{dy}\\right|\n\\]"
   },
   {
     "objectID": "lectures/3a.html#example-2",
     "href": "lectures/3a.html#example-2",
-    "title": "Functions of Random Variables",
+    "title": "Transformations of Random Variables",
     "section": "Example 2",
     "text": "Example 2\nLet \\(X\\) have the following probability density function:\n\\[\nf_X(x)=\\left\\{\\begin{array}{cc}\n\\frac{3}{2}x^2 + x & 0\\le y \\le 1 \\\\\n0 & \\mathrm{otherwise}\n\\end{array}\n\\right.\n\\]\nFind the probability density function of \\(Y=5-(X/2)\\)?"
   },
   {
     "objectID": "lectures/3a.html#using-the-mgf",
     "href": "lectures/3a.html#using-the-mgf",
-    "title": "Functions of Random Variables",
+    "title": "Transformations of Random Variables",
     "section": "Using the MGF",
     "text": "Using the MGF\nUsing the uniqueness property of Moment Generating Functions, for a random variable \\(X\\) with a known distribution function \\(F_X(x)\\) and random variable \\(Y=g(X)\\), the distribution of \\(Y\\) can be found by:\n\nFind the moment generating function of \\(Y\\), \\(M_Y(t)\\).\nCompare \\(M_Y(t)\\), with known moment generating functions. If \\(M_Y(t)=M_V(t)\\), for all values \\(t\\), them \\(Y\\) and \\(V\\) have identical distributions."
   },
   {
     "objectID": "lectures/3a.html#example-3",
     "href": "lectures/3a.html#example-3",
-    "title": "Functions of Random Variables",
+    "title": "Transformations of Random Variables",
     "section": "Example 3",
     "text": "Example 3\nLet \\(X\\) follow a normal distribution with mean \\(\\mu\\) and variance \\(\\sigma^2\\). Find the distribution of \\(Z=\\frac{X-\\mu}{\\sigma}\\)."
   },
   {
     "objectID": "lectures/3a.html#example-4",
     "href": "lectures/3a.html#example-4",
-    "title": "Functions of Random Variables",
+    "title": "Transformations of Random Variables",
     "section": "Example 4",
     "text": "Example 4\nLet \\(Z\\) follow a standard normal distribution with mean \\(0\\) and variance \\(1\\). Find the distribution of \\(Y=Z^2\\)"
   },
   {
-    "objectID": "lectures/1b.html#random-variables",
-    "href": "lectures/1b.html#random-variables",
+    "objectID": "lectures/2a.html#learning-outcomes",
+    "href": "lectures/2a.html#learning-outcomes",
     "title": "Review:",
-    "section": "Random Variables",
-    "text": "Random Variables\nA random variable is function that maps the sample space to real value."
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nDefine Moment Generating Functions\nDiscuss Properties"
   },
   {
-    "objectID": "lectures/1b.html#discrete-random-variables-1",
-    "href": "lectures/1b.html#discrete-random-variables-1",
+    "objectID": "lectures/2a.html#moments",
+    "href": "lectures/2a.html#moments",
     "title": "Review:",
-    "section": "Discrete Random Variables",
-    "text": "Discrete Random Variables\nA random variable is considered to be discrete if it can only map to a finite or countably infinite number of distinct values."
+    "section": "Moments",
+    "text": "Moments\nThe \\(k\\)th moment is defined as the expectation of the random variable, raised to the \\(k\\)th power, defined as \\(E(X^k)\\)."
   },
   {
-    "objectID": "lectures/1b.html#pmf",
-    "href": "lectures/1b.html#pmf",
+    "objectID": "lectures/2a.html#moment-generating-functions-1",
+    "href": "lectures/2a.html#moment-generating-functions-1",
     "title": "Review:",
-    "section": "PMF",
-    "text": "PMF\nThe probability mass function of discrete variable can be represented by a formula, table, or a graph. The Probability of a random variable Y can be expressed as \\(P(Y=y)\\) for all values of \\(y\\)."
+    "section": "Moment Generating Functions",
+    "text": "Moment Generating Functions\nThe moment generating functions is used to obtain the \\(k\\)th moment. The mgf is defined as\n\\[\nm(t) = E(e^{tX})\n\\]\nThe \\(k\\)th moment can be obtained by taking the \\(k\\)th derivative of the mgf, with respect to \\(t\\), and setting \\(t\\) equal to 0:\n\\[\nE(X^k)=\\frac{d^km(t)}{dt}\\Bigg|_{t=0}\n\\]"
   },
   {
-    "objectID": "lectures/1b.html#cdf",
-    "href": "lectures/1b.html#cdf",
+    "objectID": "lectures/2a.html#mgf",
+    "href": "lectures/2a.html#mgf",
     "title": "Review:",
-    "section": "CDF",
-    "text": "CDF\nThe cumulative distribution function provides the \\(P(Y\\leq y)\\) for a random variable \\(Y\\)."
+    "section": "MGF",
+    "text": "MGF"
   },
   {
-    "objectID": "lectures/1b.html#expected-value",
-    "href": "lectures/1b.html#expected-value",
-    "title": "Review:",
-    "section": "Expected Value",
-    "text": "Expected Value\nThe expected value is the value we expect when we randomly sample from population that follows a specific distribution. The expected value of Y is\n\\[\nE(Y)=\\sum_y yP(y)\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#variance",
-    "href": "lectures/1b.html#variance",
-    "title": "Review:",
-    "section": "Variance",
-    "text": "Variance\nThe variance is the expected squared difference between the random variable and expected value.\n\\[\nVar(Y)=\\sum_y\\{y-E(Y)\\}^2P(y)\n\\]\n\\[\nVar(Y) = E(X^2) - E(X)^2\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#known-distributions",
-    "href": "lectures/1b.html#known-distributions",
-    "title": "Review:",
-    "section": "Known Distributions",
-    "text": "Known Distributions\n\n\n\n\n\n\n\n\nDistribution\nParameter(s)\nPMF \\(P(Y=y)\\)\n\n\n\n\nBernoulli\n\\(p\\)\n\\(p\\)\n\n\nBinomial\n\\(n\\) and \\(p\\)\n\\((^n_y)p^y(1-p)^{n-p}\\)\n\n\nGeometric\n\\(p\\)\n\\((1-p)^{y-1}p\\)\n\n\nNegative Binomial\n\\(r\\) and \\(p\\)\n\\((^{y-1}_{r-1})p^{r-1}(1-p)^{y-r}\\)\n\n\nHypergeometric\n\\(N\\), \\(n\\), and \\(r\\)\n\\(\\frac{(^r_y)(^{N-r}_{n-y})}{(^N_n)}\\)\n\n\nPoisson\n\\(\\lambda\\)\n\\(\\frac{\\lambda^y}{y!} e^{-\\lambda}\\)"
-  },
-  {
-    "objectID": "lectures/1b.html#binomial-distribution-1",
-    "href": "lectures/1b.html#binomial-distribution-1",
-    "title": "Review:",
-    "section": "Binomial Distribution",
-    "text": "Binomial Distribution\nAn experiment is said to follow a binomial distribution if\n\nFixed \\(n\\)\nEach trial has 2 outcomes\nThe probability of success is a constant \\(p\\)\nThe trials are independent of each\n\n\n\\(P(X=x)=(^n_x)p^x(1-p)^{n-x}\\)"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-of-a-binomial-distribution",
-    "href": "lectures/1b.html#expected-value-of-a-binomial-distribution",
-    "title": "Review:",
-    "section": "Expected Value of a Binomial Distribution",
-    "text": "Expected Value of a Binomial Distribution"
-  },
-  {
-    "objectID": "lectures/1b.html#continued",
-    "href": "lectures/1b.html#continued",
-    "title": "Review:",
-    "section": "Continued",
-    "text": "Continued"
-  },
-  {
-    "objectID": "lectures/1b.html#poisson-distribution-1",
-    "href": "lectures/1b.html#poisson-distribution-1",
-    "title": "Review:",
-    "section": "Poisson Distribution",
-    "text": "Poisson Distribution\nThe poisson distribution describes an experiment that measures that occurrence of an event at specific point and/or time period.\n\n\\(P(X=x)=\\frac{\\lambda^x}{x!}e^{-\\lambda}\\)"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-of-a-poisson-distribution",
-    "href": "lectures/1b.html#expected-value-of-a-poisson-distribution",
-    "title": "Review:",
-    "section": "Expected Value of a Poisson Distribution",
-    "text": "Expected Value of a Poisson Distribution"
-  },
-  {
-    "objectID": "lectures/1b.html#continuous-random-variables-1",
-    "href": "lectures/1b.html#continuous-random-variables-1",
-    "title": "Review:",
-    "section": "Continuous Random Variables",
-    "text": "Continuous Random Variables\nA random variable \\(X\\) is considered continuous if the \\(P(X=x)\\) does not exist."
-  },
-  {
-    "objectID": "lectures/1b.html#cdf-1",
-    "href": "lectures/1b.html#cdf-1",
-    "title": "Review:",
-    "section": "CDF",
-    "text": "CDF\nThe cumulative distribution function of \\(X\\) provides the \\(P(X\\leq x)\\), denoted by \\(F(x)\\), for the domain of \\(X\\).\nProperties of the CDF of \\(X\\):\n\n\\(F(-\\infty)\\equiv \\lim_{y\\rightarrow -\\infty}F(y)=0\\)\n\\(F(\\infty)\\equiv \\lim_{y\\rightarrow \\infty}F(y)=1\\)\n\\(F(x)\\) is a nondecreaseing function"
-  },
-  {
-    "objectID": "lectures/1b.html#pdf",
-    "href": "lectures/1b.html#pdf",
-    "title": "Review:",
-    "section": "PDF",
-    "text": "PDF\nThe probability density function of the random variable \\(X\\) is given by\n\\[\nf(x)=\\frac{dF(x)}{d(x)}=F^\\prime(x)\n\\]\nwherever the derivative exists.\nProperties of pdfs:\n\n\\(f(x)\\geq 0\\)\n\\(\\int^\\infty_{-\\infty}f(x)dx=1\\)\n\\(P(a\\leq X\\leq b) = P(a&lt;X&lt;b)=\\int^b_af(x)dx\\)"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-1",
-    "href": "lectures/1b.html#expected-value-1",
-    "title": "Review:",
-    "section": "Expected Value",
-    "text": "Expected Value\nThe expected value for a continuous distribution is defined as\n\\[\nE(X)=\\int x f(x)dx\n\\]\nThe expectation of a function \\(g(X)\\) is defined as\n\\[\nE\\{g(X)\\}=\\int g(x)f(x)dx\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-properties",
-    "href": "lectures/1b.html#expected-value-properties",
-    "title": "Review:",
-    "section": "Expected Value Properties",
-    "text": "Expected Value Properties\n\n\\(E(c)=c\\), where \\(c\\) is constant\n\\(E\\{cg(X)\\}=cE\\{g(X)\\}\\)\n\\(E\\{g_1(X)+g_2(X)+\\cdots+g_n(X)\\}=E\\{g_1(X)\\}+E\\{g_2(X)\\}+\\cdots+E\\{g_n(X)\\}\\)"
-  },
-  {
-    "objectID": "lectures/1b.html#variance-1",
-    "href": "lectures/1b.html#variance-1",
-    "title": "Review:",
-    "section": "Variance",
-    "text": "Variance\nThe variance of continuous variable is defined as\n\\[\nVar(X) =  E[\\{X-E(X)\\}^2] = \\int \\{X-E(X)\\}^2 f(x)dx\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#uniform-distribution-1",
-    "href": "lectures/1b.html#uniform-distribution-1",
-    "title": "Review:",
-    "section": "Uniform Distribution",
-    "text": "Uniform Distribution\nA random variable is said to follow uniform distribution if the density function is constant between two parameters.\n\n\\[\nf(x) = \\left\\{\\begin{array}{cc}\n\\frac{1}{b-a} & a \\leq x \\leq b\\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\\right.\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-2",
-    "href": "lectures/1b.html#expected-value-2",
+    "objectID": "lectures/2a.html#expected-value",
+    "href": "lectures/2a.html#expected-value",
     "title": "Review:",
     "section": "Expected Value",
     "text": "Expected Value"
   },
   {
-    "objectID": "lectures/1b.html#normal-distribution-1",
-    "href": "lectures/1b.html#normal-distribution-1",
+    "objectID": "lectures/2a.html#variance",
+    "href": "lectures/2a.html#variance",
     "title": "Review:",
-    "section": "Normal Distribution",
-    "text": "Normal Distribution\nA random variable is said to follow a normal distribution if the the frequency of occurrence follow a Gaussian function.\n\n\\[\nf(x)=\\frac{1}{\\sqrt{2\\pi \\sigma^2}}\\exp\\left\\{-\\frac{(x-\\mu)^2}{2\\sigma^2}\\right\\}\n\\]"
+    "section": "Variance",
+    "text": "Variance"
   },
   {
-    "objectID": "lectures/1b.html#expected-value-3",
-    "href": "lectures/1b.html#expected-value-3",
+    "objectID": "lectures/2a.html#variance-1",
+    "href": "lectures/2a.html#variance-1",
     "title": "Review:",
-    "section": "Expected Value",
-    "text": "Expected Value"
+    "section": "Variance",
+    "text": "Variance"
   },
   {
-    "objectID": "lectures/1b.html#continued-1",
-    "href": "lectures/1b.html#continued-1",
+    "objectID": "lectures/2a.html#mgf-1",
+    "href": "lectures/2a.html#mgf-1",
     "title": "Review:",
-    "section": "Continued",
-    "text": "Continued"
+    "section": "MGF",
+    "text": "MGF"
   },
   {
-    "objectID": "lectures/15b.html#learning-outcomes",
-    "href": "lectures/15b.html#learning-outcomes",
-    "title": "Simple Linear Regression",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nLinear Regression\nOrdinary Least Squares\nR Code"
+    "objectID": "lectures/2a.html#mgf-2",
+    "href": "lectures/2a.html#mgf-2",
+    "title": "Review:",
+    "section": "MGF",
+    "text": "MGF"
   },
   {
-    "objectID": "lectures/15b.html#r-packages",
-    "href": "lectures/15b.html#r-packages",
-    "title": "Simple Linear Regression",
-    "section": "R Packages",
-    "text": "R Packages\n\nlibrary(tidyverse)\npenguins &lt;- penguins |&gt; drop_na()"
+    "objectID": "lectures/2a.html#mgf-3",
+    "href": "lectures/2a.html#mgf-3",
+    "title": "Review:",
+    "section": "MGF",
+    "text": "MGF"
   },
   {
-    "objectID": "lectures/15b.html#linear-regression-1",
-    "href": "lectures/15b.html#linear-regression-1",
-    "title": "Simple Linear Regression",
-    "section": "Linear Regression",
-    "text": "Linear Regression\nLinear regression is used to model the association between a set of predictor variables (x’s) and an outcome variable (y). Linear regression will fit a line that best describes the data points."
+    "objectID": "lectures/2a.html#linearity",
+    "href": "lectures/2a.html#linearity",
+    "title": "Review:",
+    "section": "Linearity",
+    "text": "Linearity\nLet \\(X\\) follow a distribution \\(f\\), with the an MGF \\(M_X(t)\\), the MGF of \\(Y=aX+b\\) is given as\n\\[\nM_Y(t) = e^{tb}M_X(at)\n\\]"
   },
   {
-    "objectID": "lectures/15b.html#simple-linear-regression",
-    "href": "lectures/15b.html#simple-linear-regression",
-    "title": "Simple Linear Regression",
-    "section": "Simple Linear Regression",
-    "text": "Simple Linear Regression\nSimple linear regression will model the association between one predictor variable and an outcome:\n\\[\nY = \\beta_0 + \\beta_1 X + \\epsilon\n\\]\n\n\\(\\beta_0\\): Intercept term\n\\(\\beta_1\\): Slope term\n\\(\\epsilon\\sim N(0,\\sigma^2)\\)"
+    "objectID": "lectures/2a.html#derivation",
+    "href": "lectures/2a.html#derivation",
+    "title": "Review:",
+    "section": "Derivation",
+    "text": "Derivation"
   },
   {
-    "objectID": "lectures/15b.html#palmerpenguins",
-    "href": "lectures/15b.html#palmerpenguins",
-    "title": "Simple Linear Regression",
-    "section": "palmerpenguins",
-    "text": "palmerpenguins\nThe palmerpenguins data set contains 344 observations of 7 penguin characteristics. We will be looking at different association of the penguins"
+    "objectID": "lectures/2a.html#linearity-1",
+    "href": "lectures/2a.html#linearity-1",
+    "title": "Review:",
+    "section": "Linearity",
+    "text": "Linearity\nLet \\(X\\) and \\(Y\\) be two random variables with MGFs \\(M_X(t)\\) and \\(M_Y(t)\\), respectively, and are independent. The MGF of \\(U=X-Y\\)\n\\[\nM_U(t) = M_X(t)M_Y(-t)\n\\]"
   },
   {
-    "objectID": "lectures/15b.html#scatter-plot",
-    "href": "lectures/15b.html#scatter-plot",
-    "title": "Simple Linear Regression",
-    "section": "Scatter Plot",
-    "text": "Scatter Plot\n\nggplot(penguins, aes(y = flipper_len, x = body_mass)) +\n  geom_point() + theme_bw()"
+    "objectID": "lectures/2a.html#derivation-1",
+    "href": "lectures/2a.html#derivation-1",
+    "title": "Review:",
+    "section": "Derivation",
+    "text": "Derivation"
   },
   {
-    "objectID": "lectures/15b.html#scatter-plot-1",
-    "href": "lectures/15b.html#scatter-plot-1",
-    "title": "Simple Linear Regression",
-    "section": "Scatter Plot",
-    "text": "Scatter Plot\n\nggplot(sample_n(penguins,10), aes(y = flipper_len, x = body_mass)) +\n  geom_point() + theme_bw()"
+    "objectID": "lectures/2a.html#uniqueness",
+    "href": "lectures/2a.html#uniqueness",
+    "title": "Review:",
+    "section": "Uniqueness",
+    "text": "Uniqueness\nLet \\(X\\) and \\(Y\\) have the following distributions \\(F_X(x)\\) and \\(F_Y(y)\\) and MGFs \\(M_X(t)\\) and \\(M_Y(t)\\), respectively. \\(X\\) and \\(Y\\) have the same distribution \\(F_X(x)=F_Y(y)\\) if and only if \\(M_X(t)=M_Y(t)\\)."
   },
   {
-    "objectID": "lectures/15b.html#fitting-a-line",
-    "href": "lectures/15b.html#fitting-a-line",
-    "title": "Simple Linear Regression",
-    "section": "Fitting a Line",
-    "text": "Fitting a Line\n\npenguins |&gt; \n  ggplot(aes(y = flipper_len, x = body_mass)) +\n    geom_point() + \n    geom_smooth(method = \"lm\") +\n    theme_bw() + \n    annotate(\"text\", label = \"y=136.7+0.015x\", x=3250, y=230, size = 10)"
-  },
-  {
-    "objectID": "lectures/15b.html#interpretation",
-    "href": "lectures/15b.html#interpretation",
-    "title": "Simple Linear Regression",
-    "section": "Interpretation",
-    "text": "Interpretation\n\\[\n\\hat y = 136.73 + 0.015 x\n\\]"
-  },
-  {
-    "objectID": "lectures/15b.html#ordinary-least-squares-1",
-    "href": "lectures/15b.html#ordinary-least-squares-1",
-    "title": "Simple Linear Regression",
-    "section": "Ordinary Least Squares",
-    "text": "Ordinary Least Squares\nFor a data pair \\((X_i,Y_i)_{i=1}^n\\), the ordinary least squares estimator will find the estimates of \\(\\hat\\beta_0\\) and \\(\\hat\\beta_1\\) that minimize the following function:\n\\[\n\\sum^n_{i=1}\\{y_i-(\\beta_0+\\beta_1x_i)\\}^2\n\\]"
-  },
-  {
-    "objectID": "lectures/15b.html#estimates",
-    "href": "lectures/15b.html#estimates",
-    "title": "Simple Linear Regression",
-    "section": "Estimates",
-    "text": "Estimates\n\\[\n\\hat\\beta_0 = \\bar y - \\hat\\beta_1\\bar x\n\\] \\[\n\\hat\\beta_1 = \\frac{\\sum^n_{i=1}(y_i-\\bar y)(x_i-\\bar x)}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\] \\[\n\\hat\\sigma^2 = \\frac{1}{n-2}\\sum^n_{i=1}(y_i-\\hat y_i)^2\n\\]"
-  },
-  {
-    "objectID": "lectures/15b.html#standard-errors-of-betas-1",
-    "href": "lectures/15b.html#standard-errors-of-betas-1",
-    "title": "Simple Linear Regression",
-    "section": "Standard Errors of \\(\\beta\\)’s",
-    "text": "Standard Errors of \\(\\beta\\)’s\n\\[\nSE(\\hat\\beta_0)=\\sqrt{\\frac{\\sum^n_{i=1}x_i^2\\hat\\sigma^2}{n\\sum^n_{i=1}(x_i-\\bar x)^2}}\n\\]\n\\[\nSE(\\hat\\beta_1)=\\sqrt\\frac{\\hat\\sigma^2}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\]"
-  },
-  {
-    "objectID": "lectures/15b.html#distributions",
-    "href": "lectures/15b.html#distributions",
-    "title": "Simple Linear Regression",
-    "section": "Distributions",
-    "text": "Distributions"
-  },
-  {
-    "objectID": "lectures/15b.html#standard-error-of-beta_0",
-    "href": "lectures/15b.html#standard-error-of-beta_0",
-    "title": "Simple Linear Regression",
-    "section": "Standard Error of \\(\\beta_0\\)",
-    "text": "Standard Error of \\(\\beta_0\\)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to Course!",
-    "section": "",
-    "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "exc/exc2.html",
-    "href": "exc/exc2.html",
-    "title": "Extra Credit 2",
-    "section": "",
-    "text": "After reading one book below, create a video essay that summarizes the book, provide a brief analysis in supporting or opposing the book, and connect key elements of the book to your every day life. The video essay should be 10 minutes being narrated by your own voice. Use visual aids, such as a powerpoint presentation, to highlight your main findings, and how it relates to your own life. All books should be available through the Broome Library.\nMATH 408 STUDENTS: You must choose a different book from Math 408 in order to receive credit.\nBooks:\n\nEmpire of AI\n\nKaren Hao\n\nThe Last Human Job\n\nAllison Pugh\n\nThe Book of Why\n\nJudea Pearl\n\nAlgorithms of Oppression\n\nSafiya Umoja Noble\n\nData Feminism\n\nCatherine D’Ignazio and Lauren Klein\n\nWeapons of Math Destruction\n\nCathy O’Niel\n\nInvisible Women: Data bias in a world designed for men\n\nCaroline Criado Perez\n\nFactfulness: Ten Reasons We’re Wrong About the World… and Why Things are Better Than You Think\n\nHans Rosling\n\nArtificial Unintelligence: How Computers Misunderstand the World\n\nMerideth Broussard\n\nTechnically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech\n\nSara Wachter-Boettcher\n\nUnmasking AI\n\nJoy Buolamwini\n\nRace After Technology\n\nRuha Benjamin\n\nCloud Ethics\n\nLouise Amoore\n\nMore than a Glitch\n\nMeridith Broussard\n\nDigitizing Race\n\nLisa Nakamura\n\nData Action\n\nSarah Williams\n\nOR ANY Book Approved By Me (Deadline for Approval by March 29, 2026)\n\nVideo Essay Guidelines:\n\n10 Minutes Long\nUse of visual aids\nNarrated by your own voice\nDue 5/15/2026\n\nWorth 2 final grade percentage points."
-  },
-  {
-    "objectID": "exc.html",
-    "href": "exc.html",
-    "title": "Extra Credit",
-    "section": "",
-    "text": "Extra Credit is designed to expand on different topics that related to Probability and Statistics, but are not necessarily required for the course. Additionally, these opportunities provide students relief when unexpected situations occur during the semester. While it is not required, I encourage everyone to attempt each opportunity.\nBelow is more information on each assignment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 2\n\n\nInstructions for extra credit two.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 3\n\n\nInstructions for extra credit three.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "books.html",
-    "href": "books.html",
-    "title": "Books",
-    "section": "",
-    "text": "A list of recommended books to learn more about Statistics, the majority are freely available from the Broome Library:"
-  },
-  {
-    "objectID": "books.html#basics",
-    "href": "books.html#basics",
-    "title": "Books",
-    "section": "Basics",
-    "text": "Basics\n\nIntroduction to Statistics and Data Analysis\n\nHeumann and Shalabh\n\nStatistical Foundations, Reasoning and Inference\n\nKauermann, Küchenhoff, and Heumann"
-  },
-  {
-    "objectID": "books.html#regression",
-    "href": "books.html#regression",
-    "title": "Books",
-    "section": "Regression",
-    "text": "Regression\n\nGeneralized Linear Models With Examples in R\n\nDunn and Smyth\nGraduate\n\nLinear and Generalized Linear Mixed Models and Their Applications (2nd Edition)\n\nJiang and Nguyen\nGraudate\n\nRegression Modeling Strategies\n\nHarrell\nUndergraduate\n\nVector Generalized Linear and Additive Models\n\nYee\nGraduate"
-  },
-  {
-    "objectID": "books.html#nonparametric",
-    "href": "books.html#nonparametric",
-    "title": "Books",
-    "section": "Nonparametric",
-    "text": "Nonparametric\n\nSemiparametric Regression with R\n\nHarezlak, Ruppert, and Wand\nGraduate"
-  },
-  {
-    "objectID": "books.html#computational",
-    "href": "books.html#computational",
-    "title": "Books",
-    "section": "Computational",
-    "text": "Computational\n\nBootstrap Methods with applications in R\n\nDikta and Scheer\nGraduate\n\nModern Optimization with R (2nd Edition)\n\nCortez\nGraduate\n\nComputational Statistics\n\nGentle\n\nMonte Carlo and Quasi-Monte Carlo Sampling\n\nLemieux\n\nStatistics With Julia\n\nNazarathy andKlok\n\nIntroducing Monte Carlo Methods in R\n\nRobert and Casella\n\nPermutation Statistical Methods with R\n\nBerry, Kvamme, Johnston, and Mielke\n\nMonte Carlo Strategies in Scientific Computing\n\nLiu"
-  },
-  {
-    "objectID": "books.html#bayesian",
-    "href": "books.html#bayesian",
-    "title": "Books",
-    "section": "Bayesian",
-    "text": "Bayesian\n\nIntroduction to Bayesian Inference, Methods and Computation\n\nHeard\n\nApplied Bayesian Statistics\n\nCowles\n\nBayesian Statistical Modeling with Stan, R, and Python\n\nMatsuura\n\nBayesian Essentials in R\n\nMarin and Robert"
-  },
-  {
-    "objectID": "books.html#theoretical",
-    "href": "books.html#theoretical",
-    "title": "Books",
-    "section": "Theoretical",
-    "text": "Theoretical\n\nEssentials of Stochastic Processes (3rd Edition)\n\nDurrett\nGraduate\n\nA Concise Introduction to Measure Theory\n\nShirali\nGraduate\n\nLarge Sample Techniques for Statistics (2nd Edition)\n\nJiang\nGraduate\n\nA Course in Mathematical Statistics and Large Sample Theory\n\nBhattacharya, Lin, and Patrangenaru\nGraduate\n\nMixture and Hidden Markov Models with R\n\nVisser and Speekenbrink\nUndergraduate\n\nModern Mathematical Statistics (3rd Edition)\n\nDevore, Berk, and Carlton\nUndergraduate\n\nProbability Theory (3rd Edition)\n\nKlenke\nGraduate\n\nTesting Statistical Hypotheses (4th Edition)\n\nLehmann and Romano\nGraduate\n\nTheory of Point Estimation\n\nLehmann and Casella\nGraduate\nMay not be available"
-  },
-  {
-    "objectID": "books.html#longitudinal-data-analysis",
-    "href": "books.html#longitudinal-data-analysis",
-    "title": "Books",
-    "section": "Longitudinal Data Analysis",
-    "text": "Longitudinal Data Analysis\n\nLongitudinal Categorical Data Analysis\n\nSutradhar"
-  },
-  {
-    "objectID": "books.html#survival-analysis",
-    "href": "books.html#survival-analysis",
-    "title": "Books",
-    "section": "Survival Analysis",
-    "text": "Survival Analysis\n\nStatistical Modelling of Survival Data with Random Effects\n\nHa, Jeong, and Lee\n\nSurvival Analysis (3rd Edition)\n\nKleinbaum and Klein\n\nApplied Survival Analysis in R\n\nMoore\n\nBayesian Survival Analysis\n\nIbrahim, Chen, and Sinha\n\nSurvival Analysis Techniques for Censored and Truncated Data (2nd Edition)\n\nKlein and Moeschberger"
-  },
-  {
-    "objectID": "books.html#machine-learning",
-    "href": "books.html#machine-learning",
-    "title": "Books",
-    "section": "Machine Learning",
-    "text": "Machine Learning\n\nFundamental of High-Dimensional Statistics\n\nLederer\n\nAn Introduction to Statistical Learning (2nd Edition)\n\nJames, Witten, Hastie and Tibshirani\n\nStatistical Learning from a Regression Perspective (2nd Edition)\n\nBerk\n\nElements of Statistical Learning\n\nHastie, Friedman, and Tibshirani\n\nStatistics for High Dimensional Data\n\nBühlmann and van der Geer\n\nProbability and Statistics for Machine Learning\n\nDas Gupta"
-  },
-  {
-    "objectID": "books.html#time-series",
-    "href": "books.html#time-series",
-    "title": "Books",
-    "section": "Time-Series",
-    "text": "Time-Series\n\nIntroduction to Time Series and Forcasting (3rd Edition)\n\nBrockwell and Davis\n\nTime Series Analysis and Its Applications\n\nShumway and Stoffer\n\nTime Series Analysis for the State-Space Model with R/Stan\n\nHagiwara"
-  },
-  {
-    "objectID": "books.html#study-desing-and-causal-inference",
-    "href": "books.html#study-desing-and-causal-inference",
-    "title": "Books",
-    "section": "Study Desing and Causal Inference",
-    "text": "Study Desing and Causal Inference\n\nCausal Inference What IF\n\nHernán and Robins\n\nDesign of Observational Studies\n\nRosenbaum\n\n\nBolded Titles, I have read thoroughly."
-  },
-  {
-    "objectID": "exc/exc3.html",
-    "href": "exc/exc3.html",
-    "title": "Extra Credit 3",
-    "section": "",
-    "text": "After learning about one topic below, create a 10-minute vide-essay explaining more about the topic. Use visual aids, such as a powerpoint presentation, to highlight your main findings\n\nMonte Carlo Methods\nMonte Carlo Methods are a class of computational algorithms that rely on random sampling to obtain numerical results. These methods use statistical sampling techniques to approximate complex mathematical problems, particularly those with deterministic or probabilistic aspects. The name “Monte Carlo” is derived from the Monte Carlo Casino in Monaco, known for its games of chance and randomness.\nIn Monte Carlo Methods, random samples are generated to simulate the behavior of a system or process, and the results are analyzed to estimate desired quantities or solve problems. These methods find applications in various fields, such as physics, finance, engineering, and statistics. Monte Carlo simulations are particularly useful for solving problems with a large number of variables or complex interactions, where analytical solutions may be challenging or impossible to obtain.\n\nResources\n\nhttps://towardsdatascience.com/an-overview-of-monte-carlo-methods-675384eb1694\nhttps://towardsdatascience.com/monte-carlo-simulation-a-practical-guide-85da45597f0e\n\n\n\n\nSurvival Analysis\nSurvival analysis is a statistical method used to analyze the time until an event of interest occurs. This type of analysis is commonly employed in medical research, epidemiology, and other fields to study the duration until a specific event, often referred to as a “failure” or “survival” event. The event could be anything from the onset of a disease, death, relapse, or any other occurrence of interest.\nSurvival analysis is conducted using various statistical models, with the Cox proportional hazards model being one of the most widely used. These analyses help researchers understand factors influencing the time to an event, identify risk factors, and estimate survival probabilities over time.\nMake sure to provide a brief history of survival analysis and prominent methods such as Kaplan-Meier curves and Cox proportional hazard models.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2394262/\nhttps://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_survival/BS704_Survival_print.html\n\n\n\n\nBayesian Analysis\nBayesian analysis is a statistical approach that involves updating probabilities for hypotheses based on new evidence or data. It is rooted in Bayes’ theorem, which describes how beliefs about the probability of a hypothesis should change in light of new information. In Bayesian analysis, the prior probability (initial belief) is combined with the likelihood of observing the data given the hypothesis and results in the posterior probability (updated belief).\nBayesian methods are particularly valuable in situations with limited data or when incorporating prior knowledge is crucial. These methods provide a flexible framework for modeling uncertainty and updating beliefs as more information becomes available. Bayesian analysis is applied across various fields, including statistics, machine learning, physics, biology, and finance. Markov Chain Monte Carlo (MCMC) methods are often used to simulate samples from the posterior distribution in complex Bayesian models.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6406060/\nhttps://www.statlect.com/fundamentals-of-statistics/Bayesian-inference\n\n\n\n\nCausal Inference\nCausal inference is a field within statistics and epidemiology that focuses on understanding and estimating the causal relationships between variables or events. The goal is to determine whether a particular factor or intervention has a causal impact on an outcome. Causal inference involves identifying and controlling for confounding factors, which are variables that may influence both the cause and the effect, leading to potential bias in estimating causal relationships.\nCausal inference is essential for making informed decisions in fields such as medicine, public health, economics, and social sciences. It helps researchers draw valid conclusions about the effectiveness of interventions, policies, or treatments by accounting for potential sources of bias and confounding. Advances in causal inference methodologies contribute to a more rigorous understanding of cause-and-effect relationships in complex systems.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2836213/\nhttps://web.stanford.edu/~swager/stats361.pdf\n\nVideo Essay Guidelines:\n\n10 Minutes Long\nUse of visual aids\nNarrated by your own voice\nDue 5/15/2026\n\nWorth 2 final grade percentage points."
-  },
-  {
-    "objectID": "hw.html",
-    "href": "hw.html",
-    "title": "Homework",
-    "section": "",
-    "text": "Below are the different homework assignments for the course. Scan your homework as a PDF. You can use CamScanner, Dropbox, Google Drive, or icloud. Any assignments as images or not pdfs will not be graded.\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "lectures/15a.html#learning-outcomes",
-    "href": "lectures/15a.html#learning-outcomes",
-    "title": "Linear Regression",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nScatter Plot\nLinear Regression\nOrdinary Least Squares\nUnbiasedness"
-  },
-  {
-    "objectID": "lectures/15a.html#scatter-plot-1",
-    "href": "lectures/15a.html#scatter-plot-1",
-    "title": "Linear Regression",
-    "section": "Scatter Plot",
-    "text": "Scatter Plot"
-  },
-  {
-    "objectID": "lectures/15a.html#scatter-plot-2",
-    "href": "lectures/15a.html#scatter-plot-2",
-    "title": "Linear Regression",
-    "section": "Scatter Plot",
-    "text": "Scatter Plot"
-  },
-  {
-    "objectID": "lectures/15a.html#linear-regression-1",
-    "href": "lectures/15a.html#linear-regression-1",
-    "title": "Linear Regression",
-    "section": "Linear Regression",
-    "text": "Linear Regression\nLinear regression is used to model the association between a set of predictor variables (x’s) and an outcome variable (y). Linear regression will fit a line that best describes the data points."
-  },
-  {
-    "objectID": "lectures/15a.html#simple-linear-regression",
-    "href": "lectures/15a.html#simple-linear-regression",
-    "title": "Linear Regression",
-    "section": "Simple Linear Regression",
-    "text": "Simple Linear Regression\nSimple linear regression will model the association between one predictor variable and an outcome:\n\\[\nY = \\beta_0 + \\beta_1 X + \\epsilon\n\\]\n\n\\(\\beta_0\\): Intercept term\n\\(\\beta_1\\): Slope term\n\\(\\epsilon\\sim N(0,\\sigma^2)\\)"
-  },
-  {
-    "objectID": "lectures/15a.html#fitting-a-line",
-    "href": "lectures/15a.html#fitting-a-line",
-    "title": "Linear Regression",
-    "section": "Fitting a Line",
-    "text": "Fitting a Line"
-  },
-  {
-    "objectID": "lectures/15a.html#interpretation",
-    "href": "lectures/15a.html#interpretation",
-    "title": "Linear Regression",
-    "section": "Interpretation",
-    "text": "Interpretation\n\\[\n\\hat y = 136.73 + 0.015 x\n\\]"
-  },
-  {
-    "objectID": "lectures/15a.html#ordinary-least-squares-1",
-    "href": "lectures/15a.html#ordinary-least-squares-1",
-    "title": "Linear Regression",
-    "section": "Ordinary Least Squares",
-    "text": "Ordinary Least Squares\nFor a data pair \\((X_i,Y_i)_{i=1}^n\\), the ordinary least squares estimator will find the estimates of \\(\\hat\\beta_0\\) and \\(\\hat\\beta_1\\) that minimize the following function:\n\\[\n\\sum^n_{i=1}\\{y_i-(\\beta_0+\\beta_1x_i)\\}^2\n\\]"
-  },
-  {
-    "objectID": "lectures/15a.html#estimating-betas",
-    "href": "lectures/15a.html#estimating-betas",
-    "title": "Linear Regression",
-    "section": "Estimating \\(\\beta\\)’s",
-    "text": "Estimating \\(\\beta\\)’s"
-  },
-  {
-    "objectID": "lectures/15a.html#estimating-beta_1",
-    "href": "lectures/15a.html#estimating-beta_1",
-    "title": "Linear Regression",
-    "section": "Estimating \\(\\beta_1\\)",
-    "text": "Estimating \\(\\beta_1\\)"
-  },
-  {
-    "objectID": "lectures/15a.html#estimating-beta_0",
-    "href": "lectures/15a.html#estimating-beta_0",
-    "title": "Linear Regression",
-    "section": "Estimating \\(\\beta_0\\)",
-    "text": "Estimating \\(\\beta_0\\)"
-  },
-  {
-    "objectID": "lectures/15a.html#estimates",
-    "href": "lectures/15a.html#estimates",
-    "title": "Linear Regression",
-    "section": "Estimates",
-    "text": "Estimates\n\\[\n\\hat\\beta_0 = \\bar y - \\hat\\beta_1\\bar x\n\\] \\[\n\\hat\\beta_1 = \\frac{\\sum^n_{i=1}(y_i-\\bar y)(x_i-\\bar x)}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\] \\[\n\\hat\\sigma^2 = \\frac{1}{n-2}\\sum^n_{i=1}(y_i-\\hat y_i)^2\n\\]"
-  },
-  {
-    "objectID": "lectures/15a.html#unbiasedness-of-betas-1",
-    "href": "lectures/15a.html#unbiasedness-of-betas-1",
-    "title": "Linear Regression",
-    "section": "Unbiasedness of \\(\\beta\\)’s",
-    "text": "Unbiasedness of \\(\\beta\\)’s\nBoth \\(\\beta_0\\) and \\(\\beta_1\\) are unbiased estimators."
-  },
-  {
-    "objectID": "lectures/15a.html#ebeta_1",
-    "href": "lectures/15a.html#ebeta_1",
-    "title": "Linear Regression",
-    "section": "\\(E(\\beta_1)\\)",
-    "text": "\\(E(\\beta_1)\\)"
-  },
-  {
-    "objectID": "lectures/15a.html#ebeta_0",
-    "href": "lectures/15a.html#ebeta_0",
-    "title": "Linear Regression",
-    "section": "\\(E(\\beta_0)\\)",
-    "text": "\\(E(\\beta_0)\\)"
+    "objectID": "lectures/2a.html#uniqueness-1",
+    "href": "lectures/2a.html#uniqueness-1",
+    "title": "Review:",
+    "section": "Uniqueness",
+    "text": "Uniqueness\nLet \\(X_1,\\cdots, X_n\\) be independent random variables, where \\(X_i\\sim N(\\mu_i, \\sigma^2_i)\\), with \\(M_{X_i}(t)=\\exp\\{\\mu_i t+\\sigma^2_it^2/2\\}\\) for \\(i=1,\\cdots, n\\). Find the MGF of \\(Y=a_1X_1+\\cdots+a_nX_n\\), where \\(a_1, \\cdots, a_n\\) are constants."
   },
   {
     "objectID": "lectures/1a.html#introductions-1",
@@ -1036,11 +665,25 @@
     "text": "Learning Outcomes\n\nDemonstrate statistical knowledge and apply it to various data sets.\nUse basic principles of statistical inference (both Bayesian and frequentist).\nBuild a starter statistical toolbox and discuss the utility and limitations of these techniques.\nUse software and simulation to do statistics.\nDemonstrate ability to discuss statistical information in oral and written form."
   },
   {
+    "objectID": "lectures/1a.html#course-description",
+    "href": "lectures/1a.html#course-description",
+    "title": "Math 453",
+    "section": "Course Description",
+    "text": "Course Description\nThis course is an introduction to mathematical statistics with an emphasis on statistical estimation and hypothesis testing. The course will be comprised of both theory and applications. We begin with a condensed review of fundamental concepts from Math 352; particularly, we briefly review important discrete and continuous probability distributions. We will then begin our discussion on the main topic of this course, statistical inference, through the study of distributions of functions of random variables using the method of moment-generating functions and order statistics. We then discuss ideas of convergence with sampling distributions and the central limit theorem. Next, we consider the topics of estimation, properties of point estimators, and methods of estimation. Finally, we study the theory of statistical tests and likelihood ratio tests. Depending on time, other topics may be added or removed."
+  },
+  {
     "objectID": "lectures/1a.html#recommended-texts",
     "href": "lectures/1a.html#recommended-texts",
     "title": "Math 453",
     "section": "Recommended Texts",
     "text": "Recommended Texts\n\nModern Mathematical Statistics (MMS) with Applications, by Jay L. Devore and Kenneth N. Berk , Third Edition, Springer, 2021. (available online for free through the Broome Library)."
+  },
+  {
+    "objectID": "lectures/1a.html#math-foundations",
+    "href": "lectures/1a.html#math-foundations",
+    "title": "Math 453",
+    "section": "Math Foundations",
+    "text": "Math Foundations\nHave a strong math foundation is necessary to be successful in the course. We will be utilizing topics related to:\n\nCalculus\nProbability Theory\nAlgebra\n\nYou can try out these problems to get an idea of the type of math we will be doing in this class here."
   },
   {
     "objectID": "lectures/1a.html#use-of-generative-ai-policy",
@@ -1204,116 +847,557 @@
     "text": "Sampling Techniques\n\nSimple Random Sampling\nStratified Sampling\nCluster Sampling\nMultistage Sampling"
   },
   {
-    "objectID": "lectures/2b.html#learning-outcomes",
-    "href": "lectures/2b.html#learning-outcomes",
-    "title": "Review:",
+    "objectID": "lectures/15a.html#learning-outcomes",
+    "href": "lectures/15a.html#learning-outcomes",
+    "title": "Linear Regression",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nDefine Moment Generating Functions\nDiscuss Properties"
+    "text": "Learning Outcomes\n\nScatter Plot\nLinear Regression\nOrdinary Least Squares\nUnbiasedness"
   },
   {
-    "objectID": "lectures/2b.html#moments",
-    "href": "lectures/2b.html#moments",
+    "objectID": "lectures/15a.html#scatter-plot-1",
+    "href": "lectures/15a.html#scatter-plot-1",
+    "title": "Linear Regression",
+    "section": "Scatter Plot",
+    "text": "Scatter Plot"
+  },
+  {
+    "objectID": "lectures/15a.html#scatter-plot-2",
+    "href": "lectures/15a.html#scatter-plot-2",
+    "title": "Linear Regression",
+    "section": "Scatter Plot",
+    "text": "Scatter Plot"
+  },
+  {
+    "objectID": "lectures/15a.html#linear-regression-1",
+    "href": "lectures/15a.html#linear-regression-1",
+    "title": "Linear Regression",
+    "section": "Linear Regression",
+    "text": "Linear Regression\nLinear regression is used to model the association between a set of predictor variables (x’s) and an outcome variable (y). Linear regression will fit a line that best describes the data points."
+  },
+  {
+    "objectID": "lectures/15a.html#simple-linear-regression",
+    "href": "lectures/15a.html#simple-linear-regression",
+    "title": "Linear Regression",
+    "section": "Simple Linear Regression",
+    "text": "Simple Linear Regression\nSimple linear regression will model the association between one predictor variable and an outcome:\n\\[\nY = \\beta_0 + \\beta_1 X + \\epsilon\n\\]\n\n\\(\\beta_0\\): Intercept term\n\\(\\beta_1\\): Slope term\n\\(\\epsilon\\sim N(0,\\sigma^2)\\)"
+  },
+  {
+    "objectID": "lectures/15a.html#fitting-a-line",
+    "href": "lectures/15a.html#fitting-a-line",
+    "title": "Linear Regression",
+    "section": "Fitting a Line",
+    "text": "Fitting a Line"
+  },
+  {
+    "objectID": "lectures/15a.html#interpretation",
+    "href": "lectures/15a.html#interpretation",
+    "title": "Linear Regression",
+    "section": "Interpretation",
+    "text": "Interpretation\n\\[\n\\hat y = 136.73 + 0.015 x\n\\]"
+  },
+  {
+    "objectID": "lectures/15a.html#ordinary-least-squares-1",
+    "href": "lectures/15a.html#ordinary-least-squares-1",
+    "title": "Linear Regression",
+    "section": "Ordinary Least Squares",
+    "text": "Ordinary Least Squares\nFor a data pair \\((X_i,Y_i)_{i=1}^n\\), the ordinary least squares estimator will find the estimates of \\(\\hat\\beta_0\\) and \\(\\hat\\beta_1\\) that minimize the following function:\n\\[\n\\sum^n_{i=1}\\{y_i-(\\beta_0+\\beta_1x_i)\\}^2\n\\]"
+  },
+  {
+    "objectID": "lectures/15a.html#estimating-betas",
+    "href": "lectures/15a.html#estimating-betas",
+    "title": "Linear Regression",
+    "section": "Estimating \\(\\beta\\)’s",
+    "text": "Estimating \\(\\beta\\)’s"
+  },
+  {
+    "objectID": "lectures/15a.html#estimating-beta_1",
+    "href": "lectures/15a.html#estimating-beta_1",
+    "title": "Linear Regression",
+    "section": "Estimating \\(\\beta_1\\)",
+    "text": "Estimating \\(\\beta_1\\)"
+  },
+  {
+    "objectID": "lectures/15a.html#estimating-beta_0",
+    "href": "lectures/15a.html#estimating-beta_0",
+    "title": "Linear Regression",
+    "section": "Estimating \\(\\beta_0\\)",
+    "text": "Estimating \\(\\beta_0\\)"
+  },
+  {
+    "objectID": "lectures/15a.html#estimates",
+    "href": "lectures/15a.html#estimates",
+    "title": "Linear Regression",
+    "section": "Estimates",
+    "text": "Estimates\n\\[\n\\hat\\beta_0 = \\bar y - \\hat\\beta_1\\bar x\n\\] \\[\n\\hat\\beta_1 = \\frac{\\sum^n_{i=1}(y_i-\\bar y)(x_i-\\bar x)}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\] \\[\n\\hat\\sigma^2 = \\frac{1}{n-2}\\sum^n_{i=1}(y_i-\\hat y_i)^2\n\\]"
+  },
+  {
+    "objectID": "lectures/15a.html#unbiasedness-of-betas-1",
+    "href": "lectures/15a.html#unbiasedness-of-betas-1",
+    "title": "Linear Regression",
+    "section": "Unbiasedness of \\(\\beta\\)’s",
+    "text": "Unbiasedness of \\(\\beta\\)’s\nBoth \\(\\beta_0\\) and \\(\\beta_1\\) are unbiased estimators."
+  },
+  {
+    "objectID": "lectures/15a.html#ebeta_1",
+    "href": "lectures/15a.html#ebeta_1",
+    "title": "Linear Regression",
+    "section": "\\(E(\\beta_1)\\)",
+    "text": "\\(E(\\beta_1)\\)"
+  },
+  {
+    "objectID": "lectures/15a.html#ebeta_0",
+    "href": "lectures/15a.html#ebeta_0",
+    "title": "Linear Regression",
+    "section": "\\(E(\\beta_0)\\)",
+    "text": "\\(E(\\beta_0)\\)"
+  },
+  {
+    "objectID": "hw/hw0.html",
+    "href": "hw/hw0.html",
+    "title": "Homework 0",
+    "section": "",
+    "text": "Set the equation to 0 and solve for x:\n\n\\ln(x^2+5)\nx^2+6x+7\n3x^2-5x+2\ne^{x^2-4}\n\\ln(5x) + 3"
+  },
+  {
+    "objectID": "hw/hw0.html#footnotes",
+    "href": "hw/hw0.html#footnotes",
+    "title": "Homework 0",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nEither convert to summation notation or evaluate the summation.↩︎"
+  },
+  {
+    "objectID": "exc/exc2.html",
+    "href": "exc/exc2.html",
+    "title": "Extra Credit 2",
+    "section": "",
+    "text": "After reading one book below, create a video essay that summarizes the book, provide a brief analysis in supporting or opposing the book, and connect key elements of the book to your every day life. The video essay should be 10 minutes being narrated by your own voice. Use visual aids, such as a powerpoint presentation, to highlight your main findings, and how it relates to your own life. All books should be available through the Broome Library.\nMATH 408 STUDENTS: You must choose a different book from Math 408 in order to receive credit.\nBooks:\n\nEmpire of AI\n\nKaren Hao\n\nThe Last Human Job\n\nAllison Pugh\n\nThe Book of Why\n\nJudea Pearl\n\nAlgorithms of Oppression\n\nSafiya Umoja Noble\n\nData Feminism\n\nCatherine D’Ignazio and Lauren Klein\n\nWeapons of Math Destruction\n\nCathy O’Niel\n\nInvisible Women: Data bias in a world designed for men\n\nCaroline Criado Perez\n\nFactfulness: Ten Reasons We’re Wrong About the World… and Why Things are Better Than You Think\n\nHans Rosling\n\nArtificial Unintelligence: How Computers Misunderstand the World\n\nMerideth Broussard\n\nTechnically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech\n\nSara Wachter-Boettcher\n\nUnmasking AI\n\nJoy Buolamwini\n\nRace After Technology\n\nRuha Benjamin\n\nCloud Ethics\n\nLouise Amoore\n\nMore than a Glitch\n\nMeridith Broussard\n\nDigitizing Race\n\nLisa Nakamura\n\nData Action\n\nSarah Williams\n\nOR ANY Book Approved By Me (Deadline for Approval by March 29, 2026)\n\nVideo Essay Guidelines:\n\n10 Minutes Long\nUse of visual aids\nNarrated by your own voice\nDue 5/15/2026\n\nWorth 2 final grade percentage points."
+  },
+  {
+    "objectID": "exc.html",
+    "href": "exc.html",
+    "title": "Extra Credit",
+    "section": "",
+    "text": "Extra Credit is designed to expand on different topics that related to Probability and Statistics, but are not necessarily required for the course. Additionally, these opportunities provide students relief when unexpected situations occur during the semester. While it is not required, I encourage everyone to attempt each opportunity.\nBelow is more information on each assignment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 2\n\n\nInstructions for extra credit two.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 3\n\n\nInstructions for extra credit three.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Books",
+    "section": "",
+    "text": "A list of recommended books to learn more about Statistics, the majority are freely available from the Broome Library:"
+  },
+  {
+    "objectID": "books.html#basics",
+    "href": "books.html#basics",
+    "title": "Books",
+    "section": "Basics",
+    "text": "Basics\n\nIntroduction to Statistics and Data Analysis\n\nHeumann and Shalabh\n\nStatistical Foundations, Reasoning and Inference\n\nKauermann, Küchenhoff, and Heumann"
+  },
+  {
+    "objectID": "books.html#regression",
+    "href": "books.html#regression",
+    "title": "Books",
+    "section": "Regression",
+    "text": "Regression\n\nGeneralized Linear Models With Examples in R\n\nDunn and Smyth\nGraduate\n\nLinear and Generalized Linear Mixed Models and Their Applications (2nd Edition)\n\nJiang and Nguyen\nGraudate\n\nRegression Modeling Strategies\n\nHarrell\nUndergraduate\n\nVector Generalized Linear and Additive Models\n\nYee\nGraduate"
+  },
+  {
+    "objectID": "books.html#nonparametric",
+    "href": "books.html#nonparametric",
+    "title": "Books",
+    "section": "Nonparametric",
+    "text": "Nonparametric\n\nSemiparametric Regression with R\n\nHarezlak, Ruppert, and Wand\nGraduate"
+  },
+  {
+    "objectID": "books.html#computational",
+    "href": "books.html#computational",
+    "title": "Books",
+    "section": "Computational",
+    "text": "Computational\n\nBootstrap Methods with applications in R\n\nDikta and Scheer\nGraduate\n\nModern Optimization with R (2nd Edition)\n\nCortez\nGraduate\n\nComputational Statistics\n\nGentle\n\nMonte Carlo and Quasi-Monte Carlo Sampling\n\nLemieux\n\nStatistics With Julia\n\nNazarathy andKlok\n\nIntroducing Monte Carlo Methods in R\n\nRobert and Casella\n\nPermutation Statistical Methods with R\n\nBerry, Kvamme, Johnston, and Mielke\n\nMonte Carlo Strategies in Scientific Computing\n\nLiu"
+  },
+  {
+    "objectID": "books.html#bayesian",
+    "href": "books.html#bayesian",
+    "title": "Books",
+    "section": "Bayesian",
+    "text": "Bayesian\n\nIntroduction to Bayesian Inference, Methods and Computation\n\nHeard\n\nApplied Bayesian Statistics\n\nCowles\n\nBayesian Statistical Modeling with Stan, R, and Python\n\nMatsuura\n\nBayesian Essentials in R\n\nMarin and Robert"
+  },
+  {
+    "objectID": "books.html#theoretical",
+    "href": "books.html#theoretical",
+    "title": "Books",
+    "section": "Theoretical",
+    "text": "Theoretical\n\nEssentials of Stochastic Processes (3rd Edition)\n\nDurrett\nGraduate\n\nA Concise Introduction to Measure Theory\n\nShirali\nGraduate\n\nLarge Sample Techniques for Statistics (2nd Edition)\n\nJiang\nGraduate\n\nA Course in Mathematical Statistics and Large Sample Theory\n\nBhattacharya, Lin, and Patrangenaru\nGraduate\n\nMixture and Hidden Markov Models with R\n\nVisser and Speekenbrink\nUndergraduate\n\nModern Mathematical Statistics (3rd Edition)\n\nDevore, Berk, and Carlton\nUndergraduate\n\nProbability Theory (3rd Edition)\n\nKlenke\nGraduate\n\nTesting Statistical Hypotheses (4th Edition)\n\nLehmann and Romano\nGraduate\n\nTheory of Point Estimation\n\nLehmann and Casella\nGraduate\nMay not be available"
+  },
+  {
+    "objectID": "books.html#longitudinal-data-analysis",
+    "href": "books.html#longitudinal-data-analysis",
+    "title": "Books",
+    "section": "Longitudinal Data Analysis",
+    "text": "Longitudinal Data Analysis\n\nLongitudinal Categorical Data Analysis\n\nSutradhar"
+  },
+  {
+    "objectID": "books.html#survival-analysis",
+    "href": "books.html#survival-analysis",
+    "title": "Books",
+    "section": "Survival Analysis",
+    "text": "Survival Analysis\n\nStatistical Modelling of Survival Data with Random Effects\n\nHa, Jeong, and Lee\n\nSurvival Analysis (3rd Edition)\n\nKleinbaum and Klein\n\nApplied Survival Analysis in R\n\nMoore\n\nBayesian Survival Analysis\n\nIbrahim, Chen, and Sinha\n\nSurvival Analysis Techniques for Censored and Truncated Data (2nd Edition)\n\nKlein and Moeschberger"
+  },
+  {
+    "objectID": "books.html#machine-learning",
+    "href": "books.html#machine-learning",
+    "title": "Books",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\nFundamental of High-Dimensional Statistics\n\nLederer\n\nAn Introduction to Statistical Learning (2nd Edition)\n\nJames, Witten, Hastie and Tibshirani\n\nStatistical Learning from a Regression Perspective (2nd Edition)\n\nBerk\n\nElements of Statistical Learning\n\nHastie, Friedman, and Tibshirani\n\nStatistics for High Dimensional Data\n\nBühlmann and van der Geer\n\nProbability and Statistics for Machine Learning\n\nDas Gupta"
+  },
+  {
+    "objectID": "books.html#time-series",
+    "href": "books.html#time-series",
+    "title": "Books",
+    "section": "Time-Series",
+    "text": "Time-Series\n\nIntroduction to Time Series and Forcasting (3rd Edition)\n\nBrockwell and Davis\n\nTime Series Analysis and Its Applications\n\nShumway and Stoffer\n\nTime Series Analysis for the State-Space Model with R/Stan\n\nHagiwara"
+  },
+  {
+    "objectID": "books.html#study-desing-and-causal-inference",
+    "href": "books.html#study-desing-and-causal-inference",
+    "title": "Books",
+    "section": "Study Desing and Causal Inference",
+    "text": "Study Desing and Causal Inference\n\nCausal Inference What IF\n\nHernán and Robins\n\nDesign of Observational Studies\n\nRosenbaum\n\n\nBolded Titles, I have read thoroughly."
+  },
+  {
+    "objectID": "exc/exc3.html",
+    "href": "exc/exc3.html",
+    "title": "Extra Credit 3",
+    "section": "",
+    "text": "After learning about one topic below, create a 10-minute vide-essay explaining more about the topic. Use visual aids, such as a powerpoint presentation, to highlight your main findings\n\nMonte Carlo Methods\nMonte Carlo Methods are a class of computational algorithms that rely on random sampling to obtain numerical results. These methods use statistical sampling techniques to approximate complex mathematical problems, particularly those with deterministic or probabilistic aspects. The name “Monte Carlo” is derived from the Monte Carlo Casino in Monaco, known for its games of chance and randomness.\nIn Monte Carlo Methods, random samples are generated to simulate the behavior of a system or process, and the results are analyzed to estimate desired quantities or solve problems. These methods find applications in various fields, such as physics, finance, engineering, and statistics. Monte Carlo simulations are particularly useful for solving problems with a large number of variables or complex interactions, where analytical solutions may be challenging or impossible to obtain.\n\nResources\n\nhttps://towardsdatascience.com/an-overview-of-monte-carlo-methods-675384eb1694\nhttps://towardsdatascience.com/monte-carlo-simulation-a-practical-guide-85da45597f0e\n\n\n\n\nSurvival Analysis\nSurvival analysis is a statistical method used to analyze the time until an event of interest occurs. This type of analysis is commonly employed in medical research, epidemiology, and other fields to study the duration until a specific event, often referred to as a “failure” or “survival” event. The event could be anything from the onset of a disease, death, relapse, or any other occurrence of interest.\nSurvival analysis is conducted using various statistical models, with the Cox proportional hazards model being one of the most widely used. These analyses help researchers understand factors influencing the time to an event, identify risk factors, and estimate survival probabilities over time.\nMake sure to provide a brief history of survival analysis and prominent methods such as Kaplan-Meier curves and Cox proportional hazard models.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2394262/\nhttps://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_survival/BS704_Survival_print.html\n\n\n\n\nBayesian Analysis\nBayesian analysis is a statistical approach that involves updating probabilities for hypotheses based on new evidence or data. It is rooted in Bayes’ theorem, which describes how beliefs about the probability of a hypothesis should change in light of new information. In Bayesian analysis, the prior probability (initial belief) is combined with the likelihood of observing the data given the hypothesis and results in the posterior probability (updated belief).\nBayesian methods are particularly valuable in situations with limited data or when incorporating prior knowledge is crucial. These methods provide a flexible framework for modeling uncertainty and updating beliefs as more information becomes available. Bayesian analysis is applied across various fields, including statistics, machine learning, physics, biology, and finance. Markov Chain Monte Carlo (MCMC) methods are often used to simulate samples from the posterior distribution in complex Bayesian models.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6406060/\nhttps://www.statlect.com/fundamentals-of-statistics/Bayesian-inference\n\n\n\n\nCausal Inference\nCausal inference is a field within statistics and epidemiology that focuses on understanding and estimating the causal relationships between variables or events. The goal is to determine whether a particular factor or intervention has a causal impact on an outcome. Causal inference involves identifying and controlling for confounding factors, which are variables that may influence both the cause and the effect, leading to potential bias in estimating causal relationships.\nCausal inference is essential for making informed decisions in fields such as medicine, public health, economics, and social sciences. It helps researchers draw valid conclusions about the effectiveness of interventions, policies, or treatments by accounting for potential sources of bias and confounding. Advances in causal inference methodologies contribute to a more rigorous understanding of cause-and-effect relationships in complex systems.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2836213/\nhttps://web.stanford.edu/~swager/stats361.pdf\n\nVideo Essay Guidelines:\n\n10 Minutes Long\nUse of visual aids\nNarrated by your own voice\nDue 5/15/2026\n\nWorth 2 final grade percentage points."
+  },
+  {
+    "objectID": "hw.html",
+    "href": "hw.html",
+    "title": "Homework",
+    "section": "",
+    "text": "Below are the different homework assignments for the course. Scan your homework as a PDF. You can use CamScanner, Dropbox, Google Drive, or icloud. Any assignments as images or not pdfs will not be graded.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 0\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Course!",
+    "section": "",
+    "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "lectures/15b.html#learning-outcomes",
+    "href": "lectures/15b.html#learning-outcomes",
+    "title": "Simple Linear Regression",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nLinear Regression\nOrdinary Least Squares\nR Code"
+  },
+  {
+    "objectID": "lectures/15b.html#r-packages",
+    "href": "lectures/15b.html#r-packages",
+    "title": "Simple Linear Regression",
+    "section": "R Packages",
+    "text": "R Packages\n\nlibrary(tidyverse)\npenguins &lt;- penguins |&gt; drop_na()"
+  },
+  {
+    "objectID": "lectures/15b.html#linear-regression-1",
+    "href": "lectures/15b.html#linear-regression-1",
+    "title": "Simple Linear Regression",
+    "section": "Linear Regression",
+    "text": "Linear Regression\nLinear regression is used to model the association between a set of predictor variables (x’s) and an outcome variable (y). Linear regression will fit a line that best describes the data points."
+  },
+  {
+    "objectID": "lectures/15b.html#simple-linear-regression",
+    "href": "lectures/15b.html#simple-linear-regression",
+    "title": "Simple Linear Regression",
+    "section": "Simple Linear Regression",
+    "text": "Simple Linear Regression\nSimple linear regression will model the association between one predictor variable and an outcome:\n\\[\nY = \\beta_0 + \\beta_1 X + \\epsilon\n\\]\n\n\\(\\beta_0\\): Intercept term\n\\(\\beta_1\\): Slope term\n\\(\\epsilon\\sim N(0,\\sigma^2)\\)"
+  },
+  {
+    "objectID": "lectures/15b.html#palmerpenguins",
+    "href": "lectures/15b.html#palmerpenguins",
+    "title": "Simple Linear Regression",
+    "section": "palmerpenguins",
+    "text": "palmerpenguins\nThe palmerpenguins data set contains 344 observations of 7 penguin characteristics. We will be looking at different association of the penguins"
+  },
+  {
+    "objectID": "lectures/15b.html#scatter-plot",
+    "href": "lectures/15b.html#scatter-plot",
+    "title": "Simple Linear Regression",
+    "section": "Scatter Plot",
+    "text": "Scatter Plot\n\nggplot(penguins, aes(y = flipper_len, x = body_mass)) +\n  geom_point() + theme_bw()"
+  },
+  {
+    "objectID": "lectures/15b.html#scatter-plot-1",
+    "href": "lectures/15b.html#scatter-plot-1",
+    "title": "Simple Linear Regression",
+    "section": "Scatter Plot",
+    "text": "Scatter Plot\n\nggplot(sample_n(penguins,10), aes(y = flipper_len, x = body_mass)) +\n  geom_point() + theme_bw()"
+  },
+  {
+    "objectID": "lectures/15b.html#fitting-a-line",
+    "href": "lectures/15b.html#fitting-a-line",
+    "title": "Simple Linear Regression",
+    "section": "Fitting a Line",
+    "text": "Fitting a Line\n\npenguins |&gt; \n  ggplot(aes(y = flipper_len, x = body_mass)) +\n    geom_point() + \n    geom_smooth(method = \"lm\") +\n    theme_bw() + \n    annotate(\"text\", label = \"y=136.7+0.015x\", x=3250, y=230, size = 10)"
+  },
+  {
+    "objectID": "lectures/15b.html#interpretation",
+    "href": "lectures/15b.html#interpretation",
+    "title": "Simple Linear Regression",
+    "section": "Interpretation",
+    "text": "Interpretation\n\\[\n\\hat y = 136.73 + 0.015 x\n\\]"
+  },
+  {
+    "objectID": "lectures/15b.html#ordinary-least-squares-1",
+    "href": "lectures/15b.html#ordinary-least-squares-1",
+    "title": "Simple Linear Regression",
+    "section": "Ordinary Least Squares",
+    "text": "Ordinary Least Squares\nFor a data pair \\((X_i,Y_i)_{i=1}^n\\), the ordinary least squares estimator will find the estimates of \\(\\hat\\beta_0\\) and \\(\\hat\\beta_1\\) that minimize the following function:\n\\[\n\\sum^n_{i=1}\\{y_i-(\\beta_0+\\beta_1x_i)\\}^2\n\\]"
+  },
+  {
+    "objectID": "lectures/15b.html#estimates",
+    "href": "lectures/15b.html#estimates",
+    "title": "Simple Linear Regression",
+    "section": "Estimates",
+    "text": "Estimates\n\\[\n\\hat\\beta_0 = \\bar y - \\hat\\beta_1\\bar x\n\\] \\[\n\\hat\\beta_1 = \\frac{\\sum^n_{i=1}(y_i-\\bar y)(x_i-\\bar x)}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\] \\[\n\\hat\\sigma^2 = \\frac{1}{n-2}\\sum^n_{i=1}(y_i-\\hat y_i)^2\n\\]"
+  },
+  {
+    "objectID": "lectures/15b.html#standard-errors-of-betas-1",
+    "href": "lectures/15b.html#standard-errors-of-betas-1",
+    "title": "Simple Linear Regression",
+    "section": "Standard Errors of \\(\\beta\\)’s",
+    "text": "Standard Errors of \\(\\beta\\)’s\n\\[\nSE(\\hat\\beta_0)=\\sqrt{\\frac{\\sum^n_{i=1}x_i^2\\hat\\sigma^2}{n\\sum^n_{i=1}(x_i-\\bar x)^2}}\n\\]\n\\[\nSE(\\hat\\beta_1)=\\sqrt\\frac{\\hat\\sigma^2}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\]"
+  },
+  {
+    "objectID": "lectures/15b.html#distributions",
+    "href": "lectures/15b.html#distributions",
+    "title": "Simple Linear Regression",
+    "section": "Distributions",
+    "text": "Distributions"
+  },
+  {
+    "objectID": "lectures/15b.html#standard-error-of-beta_0",
+    "href": "lectures/15b.html#standard-error-of-beta_0",
+    "title": "Simple Linear Regression",
+    "section": "Standard Error of \\(\\beta_0\\)",
+    "text": "Standard Error of \\(\\beta_0\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#random-variables",
+    "href": "lectures/1b.html#random-variables",
     "title": "Review:",
-    "section": "Moments",
-    "text": "Moments\nThe \\(k\\)th moment is defined as the expectation of the random variable, raised to the \\(k\\)th power, defined as \\(E(X^k)\\)."
+    "section": "Random Variables",
+    "text": "Random Variables\nA random variable is function that maps the sample space to real value."
   },
   {
-    "objectID": "lectures/2b.html#moment-generating-functions-1",
-    "href": "lectures/2b.html#moment-generating-functions-1",
+    "objectID": "lectures/1b.html#discrete-random-variables-1",
+    "href": "lectures/1b.html#discrete-random-variables-1",
     "title": "Review:",
-    "section": "Moment Generating Functions",
-    "text": "Moment Generating Functions\nThe moment generating functions is used to obtain the \\(k\\)th moment. The mgf is defined as\n\\[\nm(t) = E(e^{tX})\n\\]\nThe \\(k\\)th moment can be obtained by taking the \\(k\\)th derivative of the mgf, with respect to \\(t\\), and setting \\(t\\) equal to 0:\n\\[\nE(X^k)=\\frac{d^km(t)}{dt}\\Bigg|_{t=0}\n\\]"
+    "section": "Discrete Random Variables",
+    "text": "Discrete Random Variables\nA random variable is considered to be discrete if it can only map to a finite or countably infinite number of distinct values."
   },
   {
-    "objectID": "lectures/2b.html#mgf",
-    "href": "lectures/2b.html#mgf",
+    "objectID": "lectures/1b.html#pmf",
+    "href": "lectures/1b.html#pmf",
     "title": "Review:",
-    "section": "MGF",
-    "text": "MGF"
+    "section": "PMF",
+    "text": "PMF\nThe probability mass function of discrete variable can be represented by a formula, table, or a graph. The Probability of a random variable Y can be expressed as \\(P(Y=y)\\) for all values of \\(y\\)."
   },
   {
-    "objectID": "lectures/2b.html#expected-value",
-    "href": "lectures/2b.html#expected-value",
+    "objectID": "lectures/1b.html#cdf",
+    "href": "lectures/1b.html#cdf",
+    "title": "Review:",
+    "section": "CDF",
+    "text": "CDF\nThe cumulative distribution function provides the \\(P(Y\\leq y)\\) for a random variable \\(Y\\)."
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value",
+    "href": "lectures/1b.html#expected-value",
+    "title": "Review:",
+    "section": "Expected Value",
+    "text": "Expected Value\nThe expected value is the value we expect when we randomly sample from population that follows a specific distribution. The expected value of Y is\n\\[\nE(Y)=\\sum_y yP(y)\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#variance",
+    "href": "lectures/1b.html#variance",
+    "title": "Review:",
+    "section": "Variance",
+    "text": "Variance\nThe variance is the expected squared difference between the random variable and expected value.\n\\[\nVar(Y)=\\sum_y\\{y-E(Y)\\}^2P(y)\n\\]\n\\[\nVar(Y) = E(X^2) - E(X)^2\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#known-distributions",
+    "href": "lectures/1b.html#known-distributions",
+    "title": "Review:",
+    "section": "Known Distributions",
+    "text": "Known Distributions\n\n\n\n\n\n\n\n\nDistribution\nParameter(s)\nPMF \\(P(Y=y)\\)\n\n\n\n\nBernoulli\n\\(p\\)\n\\(p\\)\n\n\nBinomial\n\\(n\\) and \\(p\\)\n\\((^n_y)p^y(1-p)^{n-p}\\)\n\n\nGeometric\n\\(p\\)\n\\((1-p)^{y-1}p\\)\n\n\nNegative Binomial\n\\(r\\) and \\(p\\)\n\\((^{y-1}_{r-1})p^{r-1}(1-p)^{y-r}\\)\n\n\nHypergeometric\n\\(N\\), \\(n\\), and \\(r\\)\n\\(\\frac{(^r_y)(^{N-r}_{n-y})}{(^N_n)}\\)\n\n\nPoisson\n\\(\\lambda\\)\n\\(\\frac{\\lambda^y}{y!} e^{-\\lambda}\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#binomial-distribution-1",
+    "href": "lectures/1b.html#binomial-distribution-1",
+    "title": "Review:",
+    "section": "Binomial Distribution",
+    "text": "Binomial Distribution\nAn experiment is said to follow a binomial distribution if\n\nFixed \\(n\\)\nEach trial has 2 outcomes\nThe probability of success is a constant \\(p\\)\nThe trials are independent of each\n\n\n\\(P(X=x)=(^n_x)p^x(1-p)^{n-x}\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-of-a-binomial-distribution",
+    "href": "lectures/1b.html#expected-value-of-a-binomial-distribution",
+    "title": "Review:",
+    "section": "Expected Value of a Binomial Distribution",
+    "text": "Expected Value of a Binomial Distribution"
+  },
+  {
+    "objectID": "lectures/1b.html#continued",
+    "href": "lectures/1b.html#continued",
+    "title": "Review:",
+    "section": "Continued",
+    "text": "Continued"
+  },
+  {
+    "objectID": "lectures/1b.html#poisson-distribution-1",
+    "href": "lectures/1b.html#poisson-distribution-1",
+    "title": "Review:",
+    "section": "Poisson Distribution",
+    "text": "Poisson Distribution\nThe poisson distribution describes an experiment that measures that occurrence of an event at specific point and/or time period.\n\n\\(P(X=x)=\\frac{\\lambda^x}{x!}e^{-\\lambda}\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-of-a-poisson-distribution",
+    "href": "lectures/1b.html#expected-value-of-a-poisson-distribution",
+    "title": "Review:",
+    "section": "Expected Value of a Poisson Distribution",
+    "text": "Expected Value of a Poisson Distribution"
+  },
+  {
+    "objectID": "lectures/1b.html#continuous-random-variables-1",
+    "href": "lectures/1b.html#continuous-random-variables-1",
+    "title": "Review:",
+    "section": "Continuous Random Variables",
+    "text": "Continuous Random Variables\nA random variable \\(X\\) is considered continuous if the \\(P(X=x)\\) does not exist."
+  },
+  {
+    "objectID": "lectures/1b.html#cdf-1",
+    "href": "lectures/1b.html#cdf-1",
+    "title": "Review:",
+    "section": "CDF",
+    "text": "CDF\nThe cumulative distribution function of \\(X\\) provides the \\(P(X\\leq x)\\), denoted by \\(F(x)\\), for the domain of \\(X\\).\nProperties of the CDF of \\(X\\):\n\n\\(F(-\\infty)\\equiv \\lim_{y\\rightarrow -\\infty}F(y)=0\\)\n\\(F(\\infty)\\equiv \\lim_{y\\rightarrow \\infty}F(y)=1\\)\n\\(F(x)\\) is a nondecreaseing function"
+  },
+  {
+    "objectID": "lectures/1b.html#pdf",
+    "href": "lectures/1b.html#pdf",
+    "title": "Review:",
+    "section": "PDF",
+    "text": "PDF\nThe probability density function of the random variable \\(X\\) is given by\n\\[\nf(x)=\\frac{dF(x)}{d(x)}=F^\\prime(x)\n\\]\nwherever the derivative exists.\nProperties of pdfs:\n\n\\(f(x)\\geq 0\\)\n\\(\\int^\\infty_{-\\infty}f(x)dx=1\\)\n\\(P(a\\leq X\\leq b) = P(a&lt;X&lt;b)=\\int^b_af(x)dx\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-1",
+    "href": "lectures/1b.html#expected-value-1",
+    "title": "Review:",
+    "section": "Expected Value",
+    "text": "Expected Value\nThe expected value for a continuous distribution is defined as\n\\[\nE(X)=\\int x f(x)dx\n\\]\nThe expectation of a function \\(g(X)\\) is defined as\n\\[\nE\\{g(X)\\}=\\int g(x)f(x)dx\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-properties",
+    "href": "lectures/1b.html#expected-value-properties",
+    "title": "Review:",
+    "section": "Expected Value Properties",
+    "text": "Expected Value Properties\n\n\\(E(c)=c\\), where \\(c\\) is constant\n\\(E\\{cg(X)\\}=cE\\{g(X)\\}\\)\n\\(E\\{g_1(X)+g_2(X)+\\cdots+g_n(X)\\}=E\\{g_1(X)\\}+E\\{g_2(X)\\}+\\cdots+E\\{g_n(X)\\}\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#variance-1",
+    "href": "lectures/1b.html#variance-1",
+    "title": "Review:",
+    "section": "Variance",
+    "text": "Variance\nThe variance of continuous variable is defined as\n\\[\nVar(X) =  E[\\{X-E(X)\\}^2] = \\int \\{X-E(X)\\}^2 f(x)dx\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#uniform-distribution-1",
+    "href": "lectures/1b.html#uniform-distribution-1",
+    "title": "Review:",
+    "section": "Uniform Distribution",
+    "text": "Uniform Distribution\nA random variable is said to follow uniform distribution if the density function is constant between two parameters.\n\n\\[\nf(x) = \\left\\{\\begin{array}{cc}\n\\frac{1}{b-a} & a \\leq x \\leq b\\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\\right.\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-2",
+    "href": "lectures/1b.html#expected-value-2",
     "title": "Review:",
     "section": "Expected Value",
     "text": "Expected Value"
   },
   {
-    "objectID": "lectures/2b.html#variance",
-    "href": "lectures/2b.html#variance",
+    "objectID": "lectures/1b.html#normal-distribution-1",
+    "href": "lectures/1b.html#normal-distribution-1",
     "title": "Review:",
-    "section": "Variance",
-    "text": "Variance"
+    "section": "Normal Distribution",
+    "text": "Normal Distribution\nA random variable is said to follow a normal distribution if the the frequency of occurrence follow a Gaussian function.\n\n\\[\nf(x)=\\frac{1}{\\sqrt{2\\pi \\sigma^2}}\\exp\\left\\{-\\frac{(x-\\mu)^2}{2\\sigma^2}\\right\\}\n\\]"
   },
   {
-    "objectID": "lectures/2b.html#variance-1",
-    "href": "lectures/2b.html#variance-1",
+    "objectID": "lectures/1b.html#expected-value-3",
+    "href": "lectures/1b.html#expected-value-3",
     "title": "Review:",
-    "section": "Variance",
-    "text": "Variance"
+    "section": "Expected Value",
+    "text": "Expected Value"
   },
   {
-    "objectID": "lectures/2b.html#mgf-1",
-    "href": "lectures/2b.html#mgf-1",
+    "objectID": "lectures/1b.html#continued-1",
+    "href": "lectures/1b.html#continued-1",
     "title": "Review:",
-    "section": "MGF",
-    "text": "MGF"
+    "section": "Continued",
+    "text": "Continued"
   },
   {
-    "objectID": "lectures/2b.html#mgf-2",
-    "href": "lectures/2b.html#mgf-2",
-    "title": "Review:",
-    "section": "MGF",
-    "text": "MGF"
+    "objectID": "lectures/2b.html#function-of-random-variables-1",
+    "href": "lectures/2b.html#function-of-random-variables-1",
+    "title": "Functions of Random Variables",
+    "section": "Function of Random Variables",
+    "text": "Function of Random Variables"
   },
   {
-    "objectID": "lectures/2b.html#mgf-3",
-    "href": "lectures/2b.html#mgf-3",
-    "title": "Review:",
-    "section": "MGF",
-    "text": "MGF"
+    "objectID": "lectures/2b.html#using-the-distribution-function",
+    "href": "lectures/2b.html#using-the-distribution-function",
+    "title": "Functions of Random Variables",
+    "section": "Using the Distribution Function",
+    "text": "Using the Distribution Function\nLet there be a random variable \\(X\\) with a known distribution function \\(F_X(x)\\), the density function for the random variable \\(Y=g(X)\\) can be found with the following steps\n\n\nFind the region of \\(Y\\) in the space of \\(X\\), find \\(g^{-1}(y)\\)\nFind the region of \\(Y\\le y\\)\nFind \\(F_Y(y)=P(Y\\le y)\\) using the probability density function of \\(X\\) over region \\(Y\\le y\\)\nFind \\(f_Y(y)\\) by differentiating \\(F_Y(y)\\)"
   },
   {
-    "objectID": "lectures/2b.html#linearity",
-    "href": "lectures/2b.html#linearity",
-    "title": "Review:",
-    "section": "Linearity",
-    "text": "Linearity\nLet \\(X\\) follow a distribution \\(f\\), with the an MGF \\(M_X(t)\\), the MGF of \\(Y=aX+b\\) is given as\n\\[\nM_Y(t) = e^{tb}M_X(at)\n\\]"
+    "objectID": "lectures/2b.html#example-1",
+    "href": "lectures/2b.html#example-1",
+    "title": "Functions of Random Variables",
+    "section": "Example 1",
+    "text": "Example 1\nLet \\(X\\) have the following probability density function:\n\\[\nf_X(x)=\\left\\{\\begin{array}{cc}\n2x & 0\\le x \\le 1 \\\\\n0 & \\mathrm{otherwise}\n\\end{array}\n\\right.\n\\]\nFind the probability density function of \\(Y=3X-1\\)?"
   },
   {
-    "objectID": "lectures/2b.html#derivation",
-    "href": "lectures/2b.html#derivation",
-    "title": "Review:",
-    "section": "Derivation",
-    "text": "Derivation"
+    "objectID": "lectures/2b.html#using-the-pdf",
+    "href": "lectures/2b.html#using-the-pdf",
+    "title": "Functions of Random Variables",
+    "section": "Using the PDF",
+    "text": "Using the PDF\nLet there be a random variable \\(X\\) with a known distribution function \\(F_X(x)\\), if the random variable \\(Y=g(X)\\) is either increasing or decreasing, than the probability density function can be found as\n\\[\nf_Y(y) = f_X\\{g^{-1}(y)\\}\\left|\\frac{dg^{-1}(y)}{dy}\\right|\n\\]"
   },
   {
-    "objectID": "lectures/2b.html#linearity-1",
-    "href": "lectures/2b.html#linearity-1",
-    "title": "Review:",
-    "section": "Linearity",
-    "text": "Linearity\nLet \\(X\\) and \\(Y\\) be two random variables with MGFs \\(M_X(t)\\) and \\(M_Y(t)\\), respectively, and are independent. The MGF of \\(U=X-Y\\)\n\\[\nM_U(t) = M_X(t)M_Y(-t)\n\\]"
+    "objectID": "lectures/2b.html#example-2",
+    "href": "lectures/2b.html#example-2",
+    "title": "Functions of Random Variables",
+    "section": "Example 2",
+    "text": "Example 2\nLet \\(X\\) have the following probability density function:\n\\[\nf_X(x)=\\left\\{\\begin{array}{cc}\n\\frac{3}{2}x^2 + x & 0\\le y \\le 1 \\\\\n0 & \\mathrm{otherwise}\n\\end{array}\n\\right.\n\\]\nFind the probability density function of \\(Y=5-(X/2)\\)?"
   },
   {
-    "objectID": "lectures/2b.html#derivation-1",
-    "href": "lectures/2b.html#derivation-1",
-    "title": "Review:",
-    "section": "Derivation",
-    "text": "Derivation"
+    "objectID": "lectures/2b.html#using-the-mgf",
+    "href": "lectures/2b.html#using-the-mgf",
+    "title": "Functions of Random Variables",
+    "section": "Using the MGF",
+    "text": "Using the MGF\nUsing the uniqueness property of Moment Generating Functions, for a random variable \\(X\\) with a known distribution function \\(F_X(x)\\) and random variable \\(Y=g(X)\\), the distribution of \\(Y\\) can be found by:\n\nFind the moment generating function of \\(Y\\), \\(M_Y(t)\\).\nCompare \\(M_Y(t)\\), with known moment generating functions. If \\(M_Y(t)=M_V(t)\\), for all values \\(t\\), them \\(Y\\) and \\(V\\) have identical distributions."
   },
   {
-    "objectID": "lectures/2b.html#uniqueness",
-    "href": "lectures/2b.html#uniqueness",
-    "title": "Review:",
-    "section": "Uniqueness",
-    "text": "Uniqueness\nLet \\(X\\) and \\(Y\\) have the following distributions \\(F_X(x)\\) and \\(F_Y(y)\\) and MGFs \\(M_X(t)\\) and \\(M_Y(t)\\), respectively. \\(X\\) and \\(Y\\) have the same distribution \\(F_X(x)=F_Y(y)\\) if and only if \\(M_X(t)=M_Y(t)\\)."
+    "objectID": "lectures/2b.html#example-3",
+    "href": "lectures/2b.html#example-3",
+    "title": "Functions of Random Variables",
+    "section": "Example 3",
+    "text": "Example 3\nLet \\(X\\) follow a normal distribution with mean \\(\\mu\\) and variance \\(\\sigma^2\\). Find the distribution of \\(Z=\\frac{X-\\mu}{\\sigma}\\)."
   },
   {
-    "objectID": "lectures/2b.html#uniqueness-1",
-    "href": "lectures/2b.html#uniqueness-1",
-    "title": "Review:",
-    "section": "Uniqueness",
-    "text": "Uniqueness\nLet \\(X_1,\\cdots, X_n\\) be independent random variables, where \\(X_i\\sim N(\\mu_i, \\sigma^2_i)\\), with \\(M_{X_i}(t)=\\exp\\{\\mu_i t+\\sigma^2_it^2/2\\}\\) for \\(i=1,\\cdots, n\\). Find the MGF of \\(Y=a_1X_1+\\cdots+a_nX_n\\), where \\(a_1, \\cdots, a_n\\) are constants."
+    "objectID": "lectures/2b.html#example-4",
+    "href": "lectures/2b.html#example-4",
+    "title": "Functions of Random Variables",
+    "section": "Example 4",
+    "text": "Example 4\nLet \\(Z\\) follow a standard normal distribution with mean \\(0\\) and variance \\(1\\). Find the distribution of \\(Y=Z^2\\)"
   },
   {
     "objectID": "lectures/3b.html#partial-derivatives",

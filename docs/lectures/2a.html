@@ -17,7 +17,7 @@
 <link href="../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.26">
 
-  <title>MATH 453 – Transformations of Random Variables</title>
+  <title>MATH 453 – Review:</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -281,101 +281,239 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Transformations of Random Variables</h1>
+  <h1 class="title">Review:</h1>
+  <p class="subtitle">Moment Generating Functions</p>
 
 <div class="quarto-title-authors">
 </div>
 
 </section>
+<section id="learning-outcomes" class="slide level2">
+<h2>Learning Outcomes</h2>
+<ul>
+<li><p>Define Moment Generating Functions</p></li>
+<li><p>Discuss Properties</p></li>
+</ul>
+</section>
 <section>
-<section id="transformation-of-random-variables" class="title-slide slide level1 agenda-slide center">
-<h1>Transformation of Random Variables</h1>
+<section id="moment-generating-functions" class="title-slide slide level1 agenda-slide center">
+<h1>Moment Generating Functions</h1>
 <div class="agenda">
 <ul>
 <li><div class="agenda-active">
-<p>Transformation of Random Variables</p>
+<p>Moment Generating Functions</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
-<p>Obtaining the PDFs</p>
+<p>Poisson Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Binomial Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>MGF Properties</p>
 </div></li>
 </ul>
 </div>
 </section>
-<section id="transformation-of-random-variables-1" class="slide level2">
-<h2>Transformation of Random Variables</h2>
+<section id="moments" class="slide level2">
+<h2>Moments</h2>
+<p>The <span class="math inline">\(k\)</span>th moment is defined as the expectation of the random variable, raised to the <span class="math inline">\(k\)</span>th power, defined as <span class="math inline">\(E(X^k)\)</span>.</p>
+</section>
+<section id="moment-generating-functions-1" class="slide level2">
+<h2>Moment Generating Functions</h2>
+<p>The moment generating functions is used to obtain the <span class="math inline">\(k\)</span>th moment. The mgf is defined as</p>
+<p><span class="math display">\[
+m(t) = E(e^{tX})
+\]</span></p>
+<p>The <span class="math inline">\(k\)</span>th moment can be obtained by taking the <span class="math inline">\(k\)</span>th derivative of the mgf, with respect to <span class="math inline">\(t\)</span>, and setting <span class="math inline">\(t\)</span> equal to 0:</p>
+<p><span class="math display">\[
+E(X^k)=\frac{d^km(t)}{dt}\Bigg|_{t=0}
+\]</span></p>
 </section></section>
 <section>
-<section id="obtaining-the-pdfs" class="title-slide slide level1 agenda-slide center">
-<h1>Obtaining the PDFs</h1>
+<section id="poisson-distribution" class="title-slide slide level1 agenda-slide center">
+<h1>Poisson Distribution</h1>
 <div class="agenda">
 <ul>
 <li><div class="agenda-inactive agenda-pre-active">
-<p>Transformation of Random Variables</p>
+<p>Moment Generating Functions</p>
 </div></li>
 <li><div class="agenda-active">
-<p>Obtaining the PDFs</p>
+<p>Poisson Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Binomial Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>MGF Properties</p>
 </div></li>
 </ul>
 </div>
 </section>
-<section id="using-the-distribution-function" class="slide level2 scrollable">
-<h2>Using the Distribution Function</h2>
-<p>Let there be a random variable <span class="math inline">\(X\)</span> with a known distribution function <span class="math inline">\(F_X(x)\)</span>, the density function for the random variable <span class="math inline">\(Y=g(X)\)</span> can be found with the following steps</p>
-<div class="fragment">
-<ol type="1">
-<li>Find the region of <span class="math inline">\(Y\)</span> in the space of <span class="math inline">\(X\)</span>, find <span class="math inline">\(g^{-1}(y)\)</span></li>
-<li>Find the region of <span class="math inline">\(Y\le y\)</span></li>
-<li>Find <span class="math inline">\(F_Y(y)=P(Y\le y)\)</span> using the probability density function of <span class="math inline">\(X\)</span> over region <span class="math inline">\(Y\le y\)</span></li>
-<li>Find <span class="math inline">\(f_Y(y)\)</span> by differentiating <span class="math inline">\(F_Y(y)\)</span></li>
-</ol>
+<section id="mgf" class="slide level2">
+<h2>MGF</h2>
+</section>
+<section id="expected-value" class="slide level2">
+<h2>Expected Value</h2>
+</section>
+<section id="variance" class="slide level2">
+<h2>Variance</h2>
+</section>
+<section id="variance-1" class="slide level2">
+<h2>Variance</h2>
+</section></section>
+<section>
+<section id="binomial-distribution" class="title-slide slide level1 agenda-slide center">
+<h1>Binomial Distribution</h1>
+<div class="agenda">
+<ul>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Moment Generating Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Poisson Distribution</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Binomial Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>MGF Properties</p>
+</div></li>
+</ul>
 </div>
 </section>
-<section id="example-1" class="slide level2">
-<h2>Example 1</h2>
-<p>Let <span class="math inline">\(X\)</span> have the following probability density function:</p>
+<section id="mgf-1" class="slide level2">
+<h2>MGF</h2>
+</section></section>
+<section>
+<section id="uniform-distribution" class="title-slide slide level1 agenda-slide center">
+<h1>Uniform Distribution</h1>
+<div class="agenda">
+<ul>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Moment Generating Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Poisson Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Binomial Distribution</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>MGF Properties</p>
+</div></li>
+</ul>
+</div>
+</section>
+<section id="mgf-2" class="slide level2">
+<h2>MGF</h2>
+</section></section>
+<section>
+<section id="normal-distribution" class="title-slide slide level1 agenda-slide center">
+<h1>Normal Distribution</h1>
+<div class="agenda">
+<ul>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Moment Generating Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Poisson Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Binomial Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>MGF Properties</p>
+</div></li>
+</ul>
+</div>
+</section>
+<section id="mgf-3" class="slide level2">
+<h2>MGF</h2>
+</section></section>
+<section>
+<section id="mgf-properties" class="title-slide slide level1 agenda-slide center">
+<h1>MGF Properties</h1>
+<div class="agenda">
+<ul>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Moment Generating Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Poisson Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Binomial Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-active">
+<p>MGF Properties</p>
+</div></li>
+</ul>
+</div>
+</section>
+<section id="linearity" class="slide level2">
+<h2>Linearity</h2>
+<p>Let <span class="math inline">\(X\)</span> follow a distribution <span class="math inline">\(f\)</span>, with the an MGF <span class="math inline">\(M_X(t)\)</span>, the MGF of <span class="math inline">\(Y=aX+b\)</span> is given as</p>
 <p><span class="math display">\[
-f_X(x)=\left\{\begin{array}{cc}
-2x &amp; 0\le x \le 1 \\
-0 &amp; \mathrm{otherwise}
-\end{array}
-\right.
+M_Y(t) = e^{tb}M_X(at)
 \]</span></p>
-<p>Find the probability density function of <span class="math inline">\(Y=3X-1\)</span>?</p>
 </section>
-<section id="using-the-pdf" class="slide level2">
-<h2>Using the PDF</h2>
-<p>Let there be a random variable <span class="math inline">\(X\)</span> with a known distribution function <span class="math inline">\(F_X(x)\)</span>, if the random variable <span class="math inline">\(Y=g(X)\)</span> is either increasing or decreasing, than the probability density function can be found as</p>
+<section id="derivation" class="slide level2">
+<h2>Derivation</h2>
+</section>
+<section id="linearity-1" class="slide level2">
+<h2>Linearity</h2>
+<p>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> be two random variables with MGFs <span class="math inline">\(M_X(t)\)</span> and <span class="math inline">\(M_Y(t)\)</span>, respectively, and are independent. The MGF of <span class="math inline">\(U=X-Y\)</span></p>
 <p><span class="math display">\[
-f_Y(y) = f_X\{g^{-1}(y)\}\left|\frac{dg^{-1}(y)}{dy}\right|
+M_U(t) = M_X(t)M_Y(-t)
 \]</span></p>
 </section>
-<section id="example-2" class="slide level2">
-<h2>Example 2</h2>
-<p>Let <span class="math inline">\(X\)</span> have the following probability density function:</p>
-<p><span class="math display">\[
-f_X(x)=\left\{\begin{array}{cc}
-\frac{3}{2}x^2 + x &amp; 0\le y \le 1 \\
-0 &amp; \mathrm{otherwise}
-\end{array}
-\right.
-\]</span></p>
-<p>Find the probability density function of <span class="math inline">\(Y=5-(X/2)\)</span>?</p>
+<section id="derivation-1" class="slide level2">
+<h2>Derivation</h2>
 </section>
-<section id="using-the-mgf" class="slide level2 scrollable">
-<h2>Using the MGF</h2>
-<p>Using the uniqueness property of Moment Generating Functions, for a random variable <span class="math inline">\(X\)</span> with a known distribution function <span class="math inline">\(F_X(x)\)</span> and random variable <span class="math inline">\(Y=g(X)\)</span>, the distribution of <span class="math inline">\(Y\)</span> can be found by:</p>
-<ol type="1">
-<li>Find the moment generating function of <span class="math inline">\(Y\)</span>, <span class="math inline">\(M_Y(t)\)</span>.</li>
-<li>Compare <span class="math inline">\(M_Y(t)\)</span>, with known moment generating functions. If <span class="math inline">\(M_Y(t)=M_V(t)\)</span>, for all values <span class="math inline">\(t\)</span>, them <span class="math inline">\(Y\)</span> and <span class="math inline">\(V\)</span> have identical distributions.</li>
-</ol>
+<section id="uniqueness" class="slide level2">
+<h2>Uniqueness</h2>
+<p>Let <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> have the following distributions <span class="math inline">\(F_X(x)\)</span> and <span class="math inline">\(F_Y(y)\)</span> and MGFs <span class="math inline">\(M_X(t)\)</span> and <span class="math inline">\(M_Y(t)\)</span>, respectively. <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> have the same distribution <span class="math inline">\(F_X(x)=F_Y(y)\)</span> if and only if <span class="math inline">\(M_X(t)=M_Y(t)\)</span>.</p>
 </section>
-<section id="example-3" class="slide level2">
-<h2>Example 3</h2>
-<p>Let <span class="math inline">\(X\)</span> follow a normal distribution with mean <span class="math inline">\(\mu\)</span> and variance <span class="math inline">\(\sigma^2\)</span>. Find the distribution of <span class="math inline">\(Z=\frac{X-\mu}{\sigma}\)</span>.</p>
-</section>
-<section id="example-4" class="slide level2">
-<h2>Example 4</h2>
-<p>Let <span class="math inline">\(Z\)</span> follow a standard normal distribution with mean <span class="math inline">\(0\)</span> and variance <span class="math inline">\(1\)</span>. Find the distribution of <span class="math inline">\(Y=Z^2\)</span></p>
+<section id="uniqueness-1" class="slide level2">
+<h2>Uniqueness</h2>
+<p>Let <span class="math inline">\(X_1,\cdots, X_n\)</span> be independent random variables, where <span class="math inline">\(X_i\sim N(\mu_i, \sigma^2_i)\)</span>, with <span class="math inline">\(M_{X_i}(t)=\exp\{\mu_i t+\sigma^2_it^2/2\}\)</span> for <span class="math inline">\(i=1,\cdots, n\)</span>. Find the MGF of <span class="math inline">\(Y=a_1X_1+\cdots+a_nX_n\)</span>, where <span class="math inline">\(a_1, \cdots, a_n\)</span> are constants.</p>
 
 
 <div class="reveal-header">

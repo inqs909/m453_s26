@@ -93,9 +93,24 @@ editor: source
 4.  Use software and simulation to do statistics.
 5.  Demonstrate ability to discuss statistical information in oral and written form.
 
+## Course Description
+
+This course is an introduction to mathematical statistics with an emphasis on statistical estimation and hypothesis testing. The course will be comprised of both theory and applications. We begin with a condensed review of fundamental concepts from Math 352; particularly, we briefly review important discrete and continuous probability distributions. We will then begin our discussion on the main topic of this course, statistical inference, through the study of distributions of functions of random variables using the method of moment-generating functions and order statistics. We then discuss ideas of convergence with sampling distributions and the central limit theorem. Next, we consider the topics of estimation, properties of point estimators, and methods of estimation. Finally, we study the theory of statistical tests and likelihood ratio tests. Depending on time, other topics may be added or removed.
+
+
 ## Recommended Texts
 
 1.  Modern Mathematical Statistics (MMS) with Applications, by Jay L. Devore and Kenneth N. Berk , **Third Edition**, Springer, 2021. (available online for free through the Broome Library).
+
+## Math Foundations
+
+Have a strong math foundation is necessary to be successful in the course. We will be utilizing topics related to:
+
+- Calculus
+- Probability Theory
+- Algebra
+
+You can try out these problems to get an idea of the type of math we will be doing in this class [here](https://m453.inqs.info/hw/hw0).
 
 
 # Generative AI
