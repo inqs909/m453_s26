@@ -473,9 +473,6 @@ Var(Y) = E(X^2) - E(X)^2
 </section>
 <section id="expected-value-of-a-binomial-distribution" class="slide level2">
 <h2>Expected Value of a Binomial Distribution</h2>
-</section>
-<section id="continued" class="slide level2">
-<h2>Continued</h2>
 </section></section>
 <section>
 <section id="poisson-distribution" class="title-slide slide level1 agenda-slide center">
@@ -683,9 +680,6 @@ f(x)=\frac{1}{\sqrt{2\pi \sigma^2}}\exp\left\{-\frac{(x-\mu)^2}{2\sigma^2}\right
 </section>
 <section id="expected-value-3" class="slide level2">
 <h2>Expected Value</h2>
-</section>
-<section id="continued-1" class="slide level2">
-<h2>Continued</h2>
 
 
 <div class="reveal-header">
@@ -924,6 +918,44 @@ f(x)=\frac{1}{\sqrt{2\pi \sigma^2}}\exp\left\{-\frac{(x-\mu)^2}{2\sigma^2}\right
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")

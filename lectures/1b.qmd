@@ -107,7 +107,6 @@ $P(X=x)=(^n_x)p^x(1-p)^{n-x}$
 
 ## Expected Value of a Binomial Distribution
 
-## Continued
 
 # Poisson Distribution
 
@@ -211,5 +210,3 @@ $$
 :::
 
 ## Expected Value
-
-## Continued
