@@ -1,6 +1,6 @@
 ---
 title: "Review:"
-subtitle: "Moment Generating Functions"
+subtitle: "More Probability Theory"
 format:
   revealjs:
     scrollable: true
@@ -22,11 +22,8 @@ knitr:
     
 revealjs-plugins:
   - pointer
-  - verticator
   
 filters: 
-  - reveal-header
-  - code-fullscreen
   - reveal-auto-agenda
 
 editor: source
@@ -37,6 +34,99 @@ editor: source
 -   Define Moment Generating Functions
 
 -   Discuss Properties
+
+
+# Continuous Random Variables
+
+## Continuous Random Variables
+
+A random variable $X$ is considered continuous if the $P(X=x)$ does not exist.
+
+## CDF
+
+The cumulative distribution function of $X$ provides the $P(X\leq x)$, denoted by $F(x)$, for the domain of $X$.
+
+Properties of the CDF of $X$:
+
+1.  $F(-\infty)\equiv \lim_{y\rightarrow -\infty}F(y)=0$
+2.  $F(\infty)\equiv \lim_{y\rightarrow \infty}F(y)=1$
+3.  $F(x)$ is a nondecreaseing function
+
+## PDF
+
+The probability density function of the random variable $X$ is given by
+
+$$
+f(x)=\frac{dF(x)}{d(x)}=F^\prime(x)
+$$
+
+wherever the derivative exists.
+
+Properties of pdfs:
+
+1.  $f(x)\geq 0$
+2.  $\int^\infty_{-\infty}f(x)dx=1$
+3.  $P(a\leq X\leq b) = P(a<X<b)=\int^b_af(x)dx$
+
+## Expected Value
+
+The expected value for a continuous distribution is defined as
+
+$$
+E(X)=\int x f(x)dx
+$$
+
+The expectation of a function $g(X)$ is defined as
+
+$$
+E\{g(X)\}=\int g(x)f(x)dx
+$$
+
+## Expected Value Properties
+
+1.  $E(c)=c$, where $c$ is constant
+2.  $E\{cg(X)\}=cE\{g(X)\}$
+3.  $E\{g_1(X)+g_2(X)+\cdots+g_n(X)\}=E\{g_1(X)\}+E\{g_2(X)\}+\cdots+E\{g_n(X)\}$
+
+## Variance
+
+The variance of continuous variable is defined as
+
+$$
+Var(X) =  E[\{X-E(X)\}^2] = \int \{X-E(X)\}^2 f(x)dx 
+$$
+
+# Uniform Distribution
+
+## Uniform Distribution
+
+A random variable is said to follow uniform distribution if the density function is constant between two parameters.
+
+::: fragment
+$$
+f(x) = \left\{\begin{array}{cc}
+ \frac{1}{b-a} & a \leq x \leq b\\
+0 & \mathrm{elsewhere}
+\end{array}\right.
+$$
+:::
+
+## Expected Value
+
+# Normal Distribution
+
+## Normal Distribution
+
+A random variable is said to follow a normal distribution if the the frequency of occurrence follow a Gaussian function.
+
+::: fragment
+$$
+f(x)=\frac{1}{\sqrt{2\pi \sigma^2}}\exp\left\{-\frac{(x-\mu)^2}{2\sigma^2}\right\}
+$$
+:::
+
+## Expected Value
+
 
 # Moment Generating Functions
 
@@ -56,6 +146,14 @@ The $k$th moment can be obtained by taking the $k$th derivative of the mgf, with
 
 $$
 E(X^k)=\frac{d^km(t)}{dt}\Bigg|_{t=0}
+$$
+
+# Characteristic Functions
+
+## Characteristic Functions
+
+$$
+\phi(t) = E\left(e^{itX}\right) = E\left\{\cos(tX)\right\}  + iE\left\{\sin(tX)\right\}
 $$
 
 # Poisson Distribution

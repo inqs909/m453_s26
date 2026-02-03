@@ -21,6 +21,13 @@
     "text": "University Policies\n\nSyllabus Policies and Assistance\nCSUCI’s Syllabus Policies and Assistance Website provides important details about academic policies, campus expectations, and student support services that are all highly applicable to your success as a student both in and outside of the classroom. Ensure that you review this site on a regular basis to stay informed about the policies and resources that support your success, as campus resources or policies may change semester to semester.\n\n\nAcademic Honesty\nConduct yourself with honesty and integrity. Do not submit others’ work as your own. Foassignments and quizzes that allow you to work with a group, only put your name on what the group submits if you genuinely contributed to the work. Work completely independently on exams, using only the materials that are indicated as allowed. Failure to observe academic honesty results in substantial penalties that can include failing the course.\n\n\nCSUCI Basic Need\nPlease use the link to the Basic Needs Program on the Syllabus Policies and Assistance website (&lt;go.csuci.edu/syllabuspolicies&gt;) for information on emergency food, housing accommodations, toiletries, and connections to critical resources.\n\n\nCSUCI Disability Statement\nIf you are a student with a disability requesting reasonable accommodations in this course, you need to contact Disability Accommodations and Support Services (DASS) located on the second floor of Arroyo Hall, via email accommodations@csuci.edu or call 805-437-3331. All requests for reasonable accommodations require registration with DASS in advance of need: https://www.csuci.edu/dass/students/apply-for-services.htm. Faculty, students and DASS will work together regarding classroom accommodations. You are encouraged to discuss approved.\n\n\nDisruption\n\nIf I Am Out: I will communicate via email and will hold classes asynchronously.\nIf You Are Out: Contact me as soon as possible to talk about your options. Reasonable accommodations will be provided for a brief absence. With proper documentation, extended accommodations will be provided."
   },
   {
+    "objectID": "posts/week_2.html#resources",
+    "href": "posts/week_2.html#resources",
+    "title": "Week 2",
+    "section": "Resources",
+    "text": "Resources\n\n\n\nLecture\nSlides\nAnnotated\nVideo\n\n\n\n\nMonday\nSlides\nN/A\nN/A\n\n\nWednesday\nSlides\nSlides\nVideo"
+  },
+  {
     "objectID": "lectures/8b.html#learning-outcomes",
     "href": "lectures/8b.html#learning-outcomes",
     "title": "Goodness of Estimators",
@@ -525,6 +532,76 @@
     "text": "Learning Outcomes\n\nDefine Moment Generating Functions\nDiscuss Properties"
   },
   {
+    "objectID": "lectures/2a.html#continuous-random-variables-1",
+    "href": "lectures/2a.html#continuous-random-variables-1",
+    "title": "Review:",
+    "section": "Continuous Random Variables",
+    "text": "Continuous Random Variables\nA random variable \\(X\\) is considered continuous if the \\(P(X=x)\\) does not exist."
+  },
+  {
+    "objectID": "lectures/2a.html#cdf",
+    "href": "lectures/2a.html#cdf",
+    "title": "Review:",
+    "section": "CDF",
+    "text": "CDF\nThe cumulative distribution function of \\(X\\) provides the \\(P(X\\leq x)\\), denoted by \\(F(x)\\), for the domain of \\(X\\).\nProperties of the CDF of \\(X\\):\n\n\\(F(-\\infty)\\equiv \\lim_{y\\rightarrow -\\infty}F(y)=0\\)\n\\(F(\\infty)\\equiv \\lim_{y\\rightarrow \\infty}F(y)=1\\)\n\\(F(x)\\) is a nondecreaseing function"
+  },
+  {
+    "objectID": "lectures/2a.html#pdf",
+    "href": "lectures/2a.html#pdf",
+    "title": "Review:",
+    "section": "PDF",
+    "text": "PDF\nThe probability density function of the random variable \\(X\\) is given by\n\\[\nf(x)=\\frac{dF(x)}{d(x)}=F^\\prime(x)\n\\]\nwherever the derivative exists.\nProperties of pdfs:\n\n\\(f(x)\\geq 0\\)\n\\(\\int^\\infty_{-\\infty}f(x)dx=1\\)\n\\(P(a\\leq X\\leq b) = P(a&lt;X&lt;b)=\\int^b_af(x)dx\\)"
+  },
+  {
+    "objectID": "lectures/2a.html#expected-value",
+    "href": "lectures/2a.html#expected-value",
+    "title": "Review:",
+    "section": "Expected Value",
+    "text": "Expected Value\nThe expected value for a continuous distribution is defined as\n\\[\nE(X)=\\int x f(x)dx\n\\]\nThe expectation of a function \\(g(X)\\) is defined as\n\\[\nE\\{g(X)\\}=\\int g(x)f(x)dx\n\\]"
+  },
+  {
+    "objectID": "lectures/2a.html#expected-value-properties",
+    "href": "lectures/2a.html#expected-value-properties",
+    "title": "Review:",
+    "section": "Expected Value Properties",
+    "text": "Expected Value Properties\n\n\\(E(c)=c\\), where \\(c\\) is constant\n\\(E\\{cg(X)\\}=cE\\{g(X)\\}\\)\n\\(E\\{g_1(X)+g_2(X)+\\cdots+g_n(X)\\}=E\\{g_1(X)\\}+E\\{g_2(X)\\}+\\cdots+E\\{g_n(X)\\}\\)"
+  },
+  {
+    "objectID": "lectures/2a.html#variance",
+    "href": "lectures/2a.html#variance",
+    "title": "Review:",
+    "section": "Variance",
+    "text": "Variance\nThe variance of continuous variable is defined as\n\\[\nVar(X) =  E[\\{X-E(X)\\}^2] = \\int \\{X-E(X)\\}^2 f(x)dx\n\\]"
+  },
+  {
+    "objectID": "lectures/2a.html#uniform-distribution-1",
+    "href": "lectures/2a.html#uniform-distribution-1",
+    "title": "Review:",
+    "section": "Uniform Distribution",
+    "text": "Uniform Distribution\nA random variable is said to follow uniform distribution if the density function is constant between two parameters.\n\n\\[\nf(x) = \\left\\{\\begin{array}{cc}\n\\frac{1}{b-a} & a \\leq x \\leq b\\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\\right.\n\\]"
+  },
+  {
+    "objectID": "lectures/2a.html#expected-value-1",
+    "href": "lectures/2a.html#expected-value-1",
+    "title": "Review:",
+    "section": "Expected Value",
+    "text": "Expected Value"
+  },
+  {
+    "objectID": "lectures/2a.html#normal-distribution-1",
+    "href": "lectures/2a.html#normal-distribution-1",
+    "title": "Review:",
+    "section": "Normal Distribution",
+    "text": "Normal Distribution\nA random variable is said to follow a normal distribution if the the frequency of occurrence follow a Gaussian function.\n\n\\[\nf(x)=\\frac{1}{\\sqrt{2\\pi \\sigma^2}}\\exp\\left\\{-\\frac{(x-\\mu)^2}{2\\sigma^2}\\right\\}\n\\]"
+  },
+  {
+    "objectID": "lectures/2a.html#expected-value-2",
+    "href": "lectures/2a.html#expected-value-2",
+    "title": "Review:",
+    "section": "Expected Value",
+    "text": "Expected Value"
+  },
+  {
     "objectID": "lectures/2a.html#moments",
     "href": "lectures/2a.html#moments",
     "title": "Review:",
@@ -539,6 +616,13 @@
     "text": "Moment Generating Functions\nThe moment generating functions is used to obtain the \\(k\\)th moment. The mgf is defined as\n\\[\nm(t) = E(e^{tX})\n\\]\nThe \\(k\\)th moment can be obtained by taking the \\(k\\)th derivative of the mgf, with respect to \\(t\\), and setting \\(t\\) equal to 0:\n\\[\nE(X^k)=\\frac{d^km(t)}{dt}\\Bigg|_{t=0}\n\\]"
   },
   {
+    "objectID": "lectures/2a.html#characteristic-functions-1",
+    "href": "lectures/2a.html#characteristic-functions-1",
+    "title": "Review:",
+    "section": "Characteristic Functions",
+    "text": "Characteristic Functions\n\\[\n\\phi(t) = E\\left(e^{itX}\\right) = E\\left\\{\\cos(tX)\\right\\}  + iE\\left\\{\\sin(tX)\\right\\}\n\\]"
+  },
+  {
     "objectID": "lectures/2a.html#mgf",
     "href": "lectures/2a.html#mgf",
     "title": "Review:",
@@ -546,22 +630,22 @@
     "text": "MGF"
   },
   {
-    "objectID": "lectures/2a.html#expected-value",
-    "href": "lectures/2a.html#expected-value",
+    "objectID": "lectures/2a.html#expected-value-3",
+    "href": "lectures/2a.html#expected-value-3",
     "title": "Review:",
     "section": "Expected Value",
     "text": "Expected Value"
   },
   {
-    "objectID": "lectures/2a.html#variance",
-    "href": "lectures/2a.html#variance",
+    "objectID": "lectures/2a.html#variance-1",
+    "href": "lectures/2a.html#variance-1",
     "title": "Review:",
     "section": "Variance",
     "text": "Variance"
   },
   {
-    "objectID": "lectures/2a.html#variance-1",
-    "href": "lectures/2a.html#variance-1",
+    "objectID": "lectures/2a.html#variance-2",
+    "href": "lectures/2a.html#variance-2",
     "title": "Review:",
     "section": "Variance",
     "text": "Variance"
@@ -1082,7 +1166,7 @@
     "href": "index.html",
     "title": "Welcome to Course!",
     "section": "",
-    "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\nNo matching items"
+    "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\nWeek 1\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "lectures/15b.html#learning-outcomes",

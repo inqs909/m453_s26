@@ -1,124 +1,19 @@
 ---
 title: "Week 2"
-date: 08-29-24
+date: 02-02-26
 description: |
-  This week we will review basic concepts related to distribution functions and random variables
+  This week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.
 editor: source
-draft: true
+draft: false
 ---
 
 ## Learning Outcomes
 
-### Monday
-
-### Wednesday
-
--   Define Moment Generating Functions
-
--   Discuss Properties
-
-## Important Concepts
-
-### Monday
-
-#### Discrete Variables
-
-A random variable is considered to be discrete if it can only map to a finite or countably infinite number of distinct values.
-
-##### PMF
-
-The probability mass function of discrete variable can be represented by a formula, table, or a graph. The Probability of a random variable Y can be expressed as $P(Y=y)$ for all values of $y$.
-
-##### CDF
-
-The cumulative distribution function provides the $P(Y\leq y)$ for a random variable $Y$.
-
-##### Expected Value
-
-The *expected value* is the value we expect when we randomly sample from population that follows a specific distribution. The expected value of Y is
-
-$$
-E(Y)=\sum_y yP(y)
-$$
-
-#### Continuous Variables
-
-A random variable $X$ is considered continuous if the $P(X=x)$ does not exist.
-
-##### CDF
-
-The cumulative distribution function of $X$ provides the $P(X\leq x)$, denoted by $F(x)$, for the domain of $X$.
-
-Properties of the CDF of $X$:
-
-1.  $F(-\infty)\equiv \lim_{y\rightarrow -\infty}F(y)=0$
-2.  $F(\infty)\equiv \lim_{y\rightarrow \infty}F(y)=1$
-3.  $F(x)$ is a nondecreaseing function
-
-##### PDF
-
-The probability density function of the random variable $X$ is given by
-
-$$
-f(x)=\frac{dF(x)}{d(x)}=F^\prime(x)
-$$
-
-wherever the derivative exists.
-
-Properties of pdfs:
-
-1.  $f(x)\geq 0$
-2.  $\int^\infty_{-\infty}f(x)dx=1$
-3.  $P(a\leq X\leq b) = P(a<X<b)=\int^b_af(x)dx$
-
-##### Expected Value
-
-The expected value for a continuous distribution is defined as
-
-$$
-E(X)=\int x f(x)dx
-$$
-
-The expectation of a function $g(X)$ is defined as
-
-$$
-E\{g(X)\}=\int g(x)f(x)dx
-$$ Special properties of the expected value:
-
-1.  $E(c)=c$, where $c$ is constant
-2.  $E\{cg(X)\}=cE\{g(X)\}$
-3.  $E\{g_1(X)+g_2(X)+\cdots+g_n(X)\}=E\{g_1(X)\}+E\{g_2(X)\}+\cdots+E\{g_n(X)\}$
-
-### Wednesday
-
-#### Moments
-
-The $k$th moment is defined as the expectation of the random variable, raised to the $k$th power, defined as $E(X^k)$.
-
-#### Moment Generating Functions
-
-The moment generating functions is used to obtain the $k$th moment. The mgf is defined as
-
-$$
-m(c) = E(e^{tX})
-$$
-
-The $k$th moment can be obtained by taking the $k$th derivative of the mgf, with respect to $c$, and setting $c$ equal to 0:
-
-$$
-E(X^k)=\frac{d^km(c)}{dc}\Bigg|_{c=0}
-$$
-
 ## Resources
 
-You must log on to your CI Google account to access the video.
 
-+-------------+--------------------------------------------------+---------------------------------------------------------------------+
-| Lecture     | Slides                                           | Videos                                                              |
-+=============+==================================================+=====================================================================+
-| Monday      |                                                  |                                                                     |
-+-------------+--------------------------------------------------+---------------------------------------------------------------------+
-| Wednesday   | [Slides](https://m453.inqs.info/lectures/2b)     | [M352 Continuous MGF](https://www.youtube.com/watch?v=x9Nghr4CSoo)  |
-|             |                                                  |                                                                     |
-|             | [2023 Math 352 Website](https://m352.inqs.info/) | [M352 Categorical MGF](https://www.youtube.com/watch?v=vNVpMtqgSXw) |
-+-------------+--------------------------------------------------+---------------------------------------------------------------------+
+| Lecture   | Slides                       | Annotated  | Video     |
+|-----------|------------------------------|------------|-----------|
+| Monday    | [Slides](../lectures/2a) | N/A | N/A |
+| Wednesday | [Slides](../lectures/2b) | [Slides]() | [Video]() |
+

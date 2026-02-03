@@ -8,12 +8,6 @@
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/quarto-contrib/reveal-header-1.0.0/add_header.js" defer="true"></script>
-<link href="../site_libs/quarto-contrib/reveal-header-1.0.0/add_header.css" rel="stylesheet">
-<script src="../site_libs/quarto-contrib/jquery-3.6.3/jquery-3.6.3.min.js"></script>
-<script src="../site_libs/quarto-contrib/code-fullscreen-1.0.0/code-fullscreen.js" defer="true"></script>
-<link href="../site_libs/quarto-contrib/code-fullscreen-1.0.0/code-fullscreen.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/grid-no-htext-1.0.0/grid_no_htext.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.26">
 
@@ -43,7 +37,6 @@
   <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-pointer/pointer.css" rel="stylesheet">
-  <link href="../site_libs/revealjs/plugin/verticator/verticator.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
@@ -282,7 +275,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Review:</h1>
-  <p class="subtitle">Moment Generating Functions</p>
+  <p class="subtitle">More Probability Theory</p>
 
 <div class="quarto-title-authors">
 </div>
@@ -296,12 +289,219 @@
 </ul>
 </section>
 <section>
+<section id="continuous-random-variables" class="title-slide slide level1 agenda-slide center">
+<h1>Continuous Random Variables</h1>
+<div class="agenda">
+<ul>
+<li><div class="agenda-active">
+<p>Continuous Random Variables</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Moment Generating Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Characteristic Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Poisson Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Binomial Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>MGF Properties</p>
+</div></li>
+</ul>
+</div>
+</section>
+<section id="continuous-random-variables-1" class="slide level2">
+<h2>Continuous Random Variables</h2>
+<p>A random variable <span class="math inline">\(X\)</span> is considered continuous if the <span class="math inline">\(P(X=x)\)</span> does not exist.</p>
+</section>
+<section id="cdf" class="slide level2 scrollable">
+<h2>CDF</h2>
+<p>The cumulative distribution function of <span class="math inline">\(X\)</span> provides the <span class="math inline">\(P(X\leq x)\)</span>, denoted by <span class="math inline">\(F(x)\)</span>, for the domain of <span class="math inline">\(X\)</span>.</p>
+<p>Properties of the CDF of <span class="math inline">\(X\)</span>:</p>
+<ol type="1">
+<li><span class="math inline">\(F(-\infty)\equiv \lim_{y\rightarrow -\infty}F(y)=0\)</span></li>
+<li><span class="math inline">\(F(\infty)\equiv \lim_{y\rightarrow \infty}F(y)=1\)</span></li>
+<li><span class="math inline">\(F(x)\)</span> is a nondecreaseing function</li>
+</ol>
+</section>
+<section id="pdf" class="slide level2 scrollable">
+<h2>PDF</h2>
+<p>The probability density function of the random variable <span class="math inline">\(X\)</span> is given by</p>
+<p><span class="math display">\[
+f(x)=\frac{dF(x)}{d(x)}=F^\prime(x)
+\]</span></p>
+<p>wherever the derivative exists.</p>
+<p>Properties of pdfs:</p>
+<ol type="1">
+<li><span class="math inline">\(f(x)\geq 0\)</span></li>
+<li><span class="math inline">\(\int^\infty_{-\infty}f(x)dx=1\)</span></li>
+<li><span class="math inline">\(P(a\leq X\leq b) = P(a&lt;X&lt;b)=\int^b_af(x)dx\)</span></li>
+</ol>
+</section>
+<section id="expected-value" class="slide level2">
+<h2>Expected Value</h2>
+<p>The expected value for a continuous distribution is defined as</p>
+<p><span class="math display">\[
+E(X)=\int x f(x)dx
+\]</span></p>
+<p>The expectation of a function <span class="math inline">\(g(X)\)</span> is defined as</p>
+<p><span class="math display">\[
+E\{g(X)\}=\int g(x)f(x)dx
+\]</span></p>
+</section>
+<section id="expected-value-properties" class="slide level2 scrollable">
+<h2>Expected Value Properties</h2>
+<ol type="1">
+<li><span class="math inline">\(E(c)=c\)</span>, where <span class="math inline">\(c\)</span> is constant</li>
+<li><span class="math inline">\(E\{cg(X)\}=cE\{g(X)\}\)</span></li>
+<li><span class="math inline">\(E\{g_1(X)+g_2(X)+\cdots+g_n(X)\}=E\{g_1(X)\}+E\{g_2(X)\}+\cdots+E\{g_n(X)\}\)</span></li>
+</ol>
+</section>
+<section id="variance" class="slide level2">
+<h2>Variance</h2>
+<p>The variance of continuous variable is defined as</p>
+<p><span class="math display">\[
+Var(X) =  E[\{X-E(X)\}^2] = \int \{X-E(X)\}^2 f(x)dx
+\]</span></p>
+</section></section>
+<section>
+<section id="uniform-distribution" class="title-slide slide level1 agenda-slide center">
+<h1>Uniform Distribution</h1>
+<div class="agenda">
+<ul>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Continuous Random Variables</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Moment Generating Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Characteristic Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Poisson Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Binomial Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>MGF Properties</p>
+</div></li>
+</ul>
+</div>
+</section>
+<section id="uniform-distribution-1" class="slide level2">
+<h2>Uniform Distribution</h2>
+<p>A random variable is said to follow uniform distribution if the density function is constant between two parameters.</p>
+<div class="fragment">
+<p><span class="math display">\[
+f(x) = \left\{\begin{array}{cc}
+\frac{1}{b-a} &amp; a \leq x \leq b\\
+0 &amp; \mathrm{elsewhere}
+\end{array}\right.
+\]</span></p>
+</div>
+</section>
+<section id="expected-value-1" class="slide level2">
+<h2>Expected Value</h2>
+</section></section>
+<section>
+<section id="normal-distribution" class="title-slide slide level1 agenda-slide center">
+<h1>Normal Distribution</h1>
+<div class="agenda">
+<ul>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Continuous Random Variables</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Moment Generating Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Characteristic Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Poisson Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Binomial Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>MGF Properties</p>
+</div></li>
+</ul>
+</div>
+</section>
+<section id="normal-distribution-1" class="slide level2">
+<h2>Normal Distribution</h2>
+<p>A random variable is said to follow a normal distribution if the the frequency of occurrence follow a Gaussian function.</p>
+<div class="fragment">
+<p><span class="math display">\[
+f(x)=\frac{1}{\sqrt{2\pi \sigma^2}}\exp\left\{-\frac{(x-\mu)^2}{2\sigma^2}\right\}
+\]</span></p>
+</div>
+</section>
+<section id="expected-value-2" class="slide level2">
+<h2>Expected Value</h2>
+</section></section>
+<section>
 <section id="moment-generating-functions" class="title-slide slide level1 agenda-slide center">
 <h1>Moment Generating Functions</h1>
 <div class="agenda">
 <ul>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Continuous Random Variables</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Normal Distribution</p>
+</div></li>
 <li><div class="agenda-active">
 <p>Moment Generating Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Characteristic Functions</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
 <p>Poisson Distribution</p>
@@ -337,12 +537,68 @@ E(X^k)=\frac{d^km(t)}{dt}\Bigg|_{t=0}
 \]</span></p>
 </section></section>
 <section>
+<section id="characteristic-functions" class="title-slide slide level1 agenda-slide center">
+<h1>Characteristic Functions</h1>
+<div class="agenda">
+<ul>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Continuous Random Variables</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Moment Generating Functions</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Characteristic Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Poisson Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Binomial Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>MGF Properties</p>
+</div></li>
+</ul>
+</div>
+</section>
+<section id="characteristic-functions-1" class="slide level2">
+<h2>Characteristic Functions</h2>
+<p><span class="math display">\[
+\phi(t) = E\left(e^{itX}\right) = E\left\{\cos(tX)\right\}  + iE\left\{\sin(tX)\right\}
+\]</span></p>
+</section></section>
+<section>
 <section id="poisson-distribution" class="title-slide slide level1 agenda-slide center">
 <h1>Poisson Distribution</h1>
 <div class="agenda">
 <ul>
 <li><div class="agenda-inactive agenda-pre-active">
+<p>Continuous Random Variables</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
 <p>Moment Generating Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Characteristic Functions</p>
 </div></li>
 <li><div class="agenda-active">
 <p>Poisson Distribution</p>
@@ -365,13 +621,13 @@ E(X^k)=\frac{d^km(t)}{dt}\Bigg|_{t=0}
 <section id="mgf" class="slide level2">
 <h2>MGF</h2>
 </section>
-<section id="expected-value" class="slide level2">
+<section id="expected-value-3" class="slide level2">
 <h2>Expected Value</h2>
 </section>
-<section id="variance" class="slide level2">
+<section id="variance-1" class="slide level2">
 <h2>Variance</h2>
 </section>
-<section id="variance-1" class="slide level2">
+<section id="variance-2" class="slide level2">
 <h2>Variance</h2>
 </section></section>
 <section>
@@ -380,7 +636,19 @@ E(X^k)=\frac{d^km(t)}{dt}\Bigg|_{t=0}
 <div class="agenda">
 <ul>
 <li><div class="agenda-inactive agenda-pre-active">
+<p>Continuous Random Variables</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
 <p>Moment Generating Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Characteristic Functions</p>
 </div></li>
 <li><div class="agenda-inactive agenda-pre-active">
 <p>Poisson Distribution</p>
@@ -404,12 +672,24 @@ E(X^k)=\frac{d^km(t)}{dt}\Bigg|_{t=0}
 <h2>MGF</h2>
 </section></section>
 <section>
-<section id="uniform-distribution" class="title-slide slide level1 agenda-slide center">
+<section id="uniform-distribution-2" class="title-slide slide level1 agenda-slide center">
 <h1>Uniform Distribution</h1>
 <div class="agenda">
 <ul>
 <li><div class="agenda-inactive agenda-pre-active">
+<p>Continuous Random Variables</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
 <p>Moment Generating Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Characteristic Functions</p>
 </div></li>
 <li><div class="agenda-inactive agenda-pre-active">
 <p>Poisson Distribution</p>
@@ -433,12 +713,24 @@ E(X^k)=\frac{d^km(t)}{dt}\Bigg|_{t=0}
 <h2>MGF</h2>
 </section></section>
 <section>
-<section id="normal-distribution" class="title-slide slide level1 agenda-slide center">
+<section id="normal-distribution-2" class="title-slide slide level1 agenda-slide center">
 <h1>Normal Distribution</h1>
 <div class="agenda">
 <ul>
 <li><div class="agenda-inactive agenda-pre-active">
+<p>Continuous Random Variables</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
 <p>Moment Generating Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Characteristic Functions</p>
 </div></li>
 <li><div class="agenda-inactive agenda-pre-active">
 <p>Poisson Distribution</p>
@@ -467,7 +759,19 @@ E(X^k)=\frac{d^km(t)}{dt}\Bigg|_{t=0}
 <div class="agenda">
 <ul>
 <li><div class="agenda-inactive agenda-pre-active">
+<p>Continuous Random Variables</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Uniform Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Normal Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
 <p>Moment Generating Functions</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Characteristic Functions</p>
 </div></li>
 <li><div class="agenda-inactive agenda-pre-active">
 <p>Poisson Distribution</p>
@@ -516,20 +820,6 @@ M_U(t) = M_X(t)M_Y(-t)
 <p>Let <span class="math inline">\(X_1,\cdots, X_n\)</span> be independent random variables, where <span class="math inline">\(X_i\sim N(\mu_i, \sigma^2_i)\)</span>, with <span class="math inline">\(M_{X_i}(t)=\exp\{\mu_i t+\sigma^2_it^2/2\}\)</span> for <span class="math inline">\(i=1,\cdots, n\)</span>. Find the MGF of <span class="math inline">\(Y=a_1X_1+\cdots+a_nX_n\)</span>, where <span class="math inline">\(a_1, \cdots, a_n\)</span> are constants.</p>
 
 
-<div class="reveal-header">
-<div class="header-logo">
-<img data-src="">
-</div>
-<div class="sc-title">
-<p> </p>
-</div>
-<div class="header-text">
-<p> </p>
-</div>
-<div class="sb-title">
-<p> </p>
-</div>
-</div>
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
@@ -547,7 +837,6 @@ M_U(t) = M_X(t)M_Y(-t)
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
-  <script src="../site_libs/revealjs/plugin/verticator/verticator.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -572,7 +861,6 @@ M_U(t) = M_X(t)M_Y(-t)
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'chalkboard': {"buttons":true,"theme":"whiteboard","chalkWidth":4},
 'pointer': {"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
-'verticator': {"themetag":"h1","color":"","inversecolor":"","skipuncounted":false,"clickable":true,"position":"auto","offset":"3vmin","autogenerate":true,"tooltip":false,"scale":1,"debug":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -743,7 +1031,7 @@ M_U(t) = M_X(t)M_Y(-t)
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, RevealPointer, Verticator, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, RevealPointer, QuartoSupport,
 
           RevealMath,
           RevealNotes,
