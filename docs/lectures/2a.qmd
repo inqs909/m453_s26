@@ -28,13 +28,6 @@ filters:
 editor: source
 ---
 
-## Learning Outcomes
-
--   Define Moment Generating Functions
-
--   Discuss Properties
-
-
 # Continuous Random Variables
 
 ## Continuous Random Variables
