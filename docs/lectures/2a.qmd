@@ -3,7 +3,6 @@ title: "Review:"
 subtitle: "More Probability Theory"
 format:
   revealjs:
-    scrollable: true
     include-in-header: "math_commands.html"
     navigation-mode: vertical
     controls-layout: bottom-right
