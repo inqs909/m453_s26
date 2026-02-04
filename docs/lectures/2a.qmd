@@ -199,3 +199,77 @@ Let $X$ and $Y$ have the following distributions $F_X(x)$ and $F_Y(y)$ and MGFs 
 ## Uniqueness
 
 Let $X_1,\cdots, X_n$ be independent random variables, where $X_i\sim N(\mu_i, \sigma^2_i)$, with $M_{X_i}(t)=\exp\{\mu_i t+\sigma^2_it^2/2\}$ for $i=1,\cdots, n$. Find the MGF of $Y=a_1X_1+\cdots+a_nX_n$, where $a_1, \cdots, a_n$ are constants.
+
+
+
+# Function of Random Variables
+
+## Function of Random Variables
+
+# Obtaining the PDFs
+
+## Using the Distribution Function
+
+Let there be a random variable $X$ with a known distribution function $F_X(x)$, the density function for the random variable $Y=g(X)$ can be found with the following steps
+
+::: fragment
+::: nonincremental
+1.  Find the region of $Y$ in the space of $X$, find $g^{-1}(y)$
+2.  Find the region of $Y\le y$
+3.  Find $F_Y(y)=P(Y\le y)$ using the probability density function of $X$ over region $Y\le y$
+4.  Find $f_Y(y)$ by differentiating $F_Y(y)$
+:::
+:::
+
+## Example 1
+
+Let $X$ have the following probability density function:
+
+$$
+f_X(x)=\left\{\begin{array}{cc}
+2x & 0\le x \le 1 \\
+0 & \mathrm{otherwise}
+\end{array}
+\right.
+$$
+
+Find the probability density function of $Y=3X-1$?
+
+## Using the PDF
+
+Let there be a random variable $X$ with a known distribution function $F_X(x)$, if the random variable $Y=g(X)$ is either increasing or decreasing, than the probability density function can be found as
+
+$$
+f_Y(y) = f_X\{g^{-1}(y)\}\left|\frac{dg^{-1}(y)}{dy}\right|
+$$
+
+## Example 2
+
+Let $X$ have the following probability density function:
+
+$$
+f_X(x)=\left\{\begin{array}{cc}
+\frac{3}{2}x^2 + x & 0\le y \le 1 \\
+0 & \mathrm{otherwise}
+\end{array}
+\right.
+$$
+
+Find the probability density function of $Y=5-(X/2)$?
+
+## Using the MGF
+
+Using the uniqueness property of Moment Generating Functions, for a random variable $X$ with a known distribution function $F_X(x)$ and random variable $Y=g(X)$, the distribution of $Y$ can be found by:
+
+::: nonincremental
+1.  Find the moment generating function of $Y$, $M_Y(t)$.
+2.  Compare $M_Y(t)$, with known moment generating functions. If $M_Y(t)=M_V(t)$, for all values $t$, them $Y$ and $V$ have identical distributions.
+:::
+
+## Example 3
+
+Let $X$ follow a normal distribution with mean $\mu$ and variance $\sigma^2$. Find the distribution of $Z=\frac{X-\mu}{\sigma}$.
+
+## Example 4
+
+Let $Z$ follow a standard normal distribution with mean $0$ and variance $1$. Find the distribution of $Y=Z^2$

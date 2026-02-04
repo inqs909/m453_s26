@@ -707,6 +707,62 @@
     "text": "Uniqueness\nLet \\(X_1,\\cdots, X_n\\) be independent random variables, where \\(X_i\\sim N(\\mu_i, \\sigma^2_i)\\), with \\(M_{X_i}(t)=\\exp\\{\\mu_i t+\\sigma^2_it^2/2\\}\\) for \\(i=1,\\cdots, n\\). Find the MGF of \\(Y=a_1X_1+\\cdots+a_nX_n\\), where \\(a_1, \\cdots, a_n\\) are constants."
   },
   {
+    "objectID": "lectures/2a.html#function-of-random-variables-1",
+    "href": "lectures/2a.html#function-of-random-variables-1",
+    "title": "Review:",
+    "section": "Function of Random Variables",
+    "text": "Function of Random Variables"
+  },
+  {
+    "objectID": "lectures/2a.html#using-the-distribution-function",
+    "href": "lectures/2a.html#using-the-distribution-function",
+    "title": "Review:",
+    "section": "Using the Distribution Function",
+    "text": "Using the Distribution Function\nLet there be a random variable \\(X\\) with a known distribution function \\(F_X(x)\\), the density function for the random variable \\(Y=g(X)\\) can be found with the following steps\n\n\nFind the region of \\(Y\\) in the space of \\(X\\), find \\(g^{-1}(y)\\)\nFind the region of \\(Y\\le y\\)\nFind \\(F_Y(y)=P(Y\\le y)\\) using the probability density function of \\(X\\) over region \\(Y\\le y\\)\nFind \\(f_Y(y)\\) by differentiating \\(F_Y(y)\\)"
+  },
+  {
+    "objectID": "lectures/2a.html#example-1",
+    "href": "lectures/2a.html#example-1",
+    "title": "Review:",
+    "section": "Example 1",
+    "text": "Example 1\nLet \\(X\\) have the following probability density function:\n\\[\nf_X(x)=\\left\\{\\begin{array}{cc}\n2x & 0\\le x \\le 1 \\\\\n0 & \\mathrm{otherwise}\n\\end{array}\n\\right.\n\\]\nFind the probability density function of \\(Y=3X-1\\)?"
+  },
+  {
+    "objectID": "lectures/2a.html#using-the-pdf",
+    "href": "lectures/2a.html#using-the-pdf",
+    "title": "Review:",
+    "section": "Using the PDF",
+    "text": "Using the PDF\nLet there be a random variable \\(X\\) with a known distribution function \\(F_X(x)\\), if the random variable \\(Y=g(X)\\) is either increasing or decreasing, than the probability density function can be found as\n\\[\nf_Y(y) = f_X\\{g^{-1}(y)\\}\\left|\\frac{dg^{-1}(y)}{dy}\\right|\n\\]"
+  },
+  {
+    "objectID": "lectures/2a.html#example-2",
+    "href": "lectures/2a.html#example-2",
+    "title": "Review:",
+    "section": "Example 2",
+    "text": "Example 2\nLet \\(X\\) have the following probability density function:\n\\[\nf_X(x)=\\left\\{\\begin{array}{cc}\n\\frac{3}{2}x^2 + x & 0\\le y \\le 1 \\\\\n0 & \\mathrm{otherwise}\n\\end{array}\n\\right.\n\\]\nFind the probability density function of \\(Y=5-(X/2)\\)?"
+  },
+  {
+    "objectID": "lectures/2a.html#using-the-mgf",
+    "href": "lectures/2a.html#using-the-mgf",
+    "title": "Review:",
+    "section": "Using the MGF",
+    "text": "Using the MGF\nUsing the uniqueness property of Moment Generating Functions, for a random variable \\(X\\) with a known distribution function \\(F_X(x)\\) and random variable \\(Y=g(X)\\), the distribution of \\(Y\\) can be found by:\n\nFind the moment generating function of \\(Y\\), \\(M_Y(t)\\).\nCompare \\(M_Y(t)\\), with known moment generating functions. If \\(M_Y(t)=M_V(t)\\), for all values \\(t\\), them \\(Y\\) and \\(V\\) have identical distributions."
+  },
+  {
+    "objectID": "lectures/2a.html#example-3",
+    "href": "lectures/2a.html#example-3",
+    "title": "Review:",
+    "section": "Example 3",
+    "text": "Example 3\nLet \\(X\\) follow a normal distribution with mean \\(\\mu\\) and variance \\(\\sigma^2\\). Find the distribution of \\(Z=\\frac{X-\\mu}{\\sigma}\\)."
+  },
+  {
+    "objectID": "lectures/2a.html#example-4",
+    "href": "lectures/2a.html#example-4",
+    "title": "Review:",
+    "section": "Example 4",
+    "text": "Example 4\nLet \\(Z\\) follow a standard normal distribution with mean \\(0\\) and variance \\(1\\). Find the distribution of \\(Y=Z^2\\)"
+  },
+  {
     "objectID": "lectures/1a.html#introductions-1",
     "href": "lectures/1a.html#introductions-1",
     "title": "Math 453",
@@ -1407,58 +1463,170 @@
     "text": "Expected Value"
   },
   {
+    "objectID": "lectures/2b.html#moments",
+    "href": "lectures/2b.html#moments",
+    "title": "Review:",
+    "section": "Moments",
+    "text": "Moments\nThe \\(k\\)th moment is defined as the expectation of the random variable, raised to the \\(k\\)th power, defined as \\(E(X^k)\\)."
+  },
+  {
+    "objectID": "lectures/2b.html#moment-generating-functions-1",
+    "href": "lectures/2b.html#moment-generating-functions-1",
+    "title": "Review:",
+    "section": "Moment Generating Functions",
+    "text": "Moment Generating Functions\nThe moment generating functions is used to obtain the \\(k\\)th moment. The mgf is defined as\n\\[\nm(t) = E(e^{tX})\n\\]\nThe \\(k\\)th moment can be obtained by taking the \\(k\\)th derivative of the mgf, with respect to \\(t\\), and setting \\(t\\) equal to 0:\n\\[\nE(X^k)=\\frac{d^km(t)}{dt}\\Bigg|_{t=0}\n\\]"
+  },
+  {
+    "objectID": "lectures/2b.html#characteristic-functions-1",
+    "href": "lectures/2b.html#characteristic-functions-1",
+    "title": "Review:",
+    "section": "Characteristic Functions",
+    "text": "Characteristic Functions\n\\[\n\\phi(t) = E\\left(e^{itX}\\right) = E\\left\\{\\cos(tX)\\right\\}  + iE\\left\\{\\sin(tX)\\right\\}\n\\]"
+  },
+  {
+    "objectID": "lectures/2b.html#mgf",
+    "href": "lectures/2b.html#mgf",
+    "title": "Review:",
+    "section": "MGF",
+    "text": "MGF"
+  },
+  {
+    "objectID": "lectures/2b.html#expected-value",
+    "href": "lectures/2b.html#expected-value",
+    "title": "Review:",
+    "section": "Expected Value",
+    "text": "Expected Value"
+  },
+  {
+    "objectID": "lectures/2b.html#variance",
+    "href": "lectures/2b.html#variance",
+    "title": "Review:",
+    "section": "Variance",
+    "text": "Variance"
+  },
+  {
+    "objectID": "lectures/2b.html#variance-1",
+    "href": "lectures/2b.html#variance-1",
+    "title": "Review:",
+    "section": "Variance",
+    "text": "Variance"
+  },
+  {
+    "objectID": "lectures/2b.html#mgf-1",
+    "href": "lectures/2b.html#mgf-1",
+    "title": "Review:",
+    "section": "MGF",
+    "text": "MGF"
+  },
+  {
+    "objectID": "lectures/2b.html#mgf-2",
+    "href": "lectures/2b.html#mgf-2",
+    "title": "Review:",
+    "section": "MGF",
+    "text": "MGF"
+  },
+  {
+    "objectID": "lectures/2b.html#mgf-3",
+    "href": "lectures/2b.html#mgf-3",
+    "title": "Review:",
+    "section": "MGF",
+    "text": "MGF"
+  },
+  {
+    "objectID": "lectures/2b.html#linearity",
+    "href": "lectures/2b.html#linearity",
+    "title": "Review:",
+    "section": "Linearity",
+    "text": "Linearity\nLet \\(X\\) follow a distribution \\(f\\), with the an MGF \\(M_X(t)\\), the MGF of \\(Y=aX+b\\) is given as\n\\[\nM_Y(t) = e^{tb}M_X(at)\n\\]"
+  },
+  {
+    "objectID": "lectures/2b.html#derivation",
+    "href": "lectures/2b.html#derivation",
+    "title": "Review:",
+    "section": "Derivation",
+    "text": "Derivation"
+  },
+  {
+    "objectID": "lectures/2b.html#linearity-1",
+    "href": "lectures/2b.html#linearity-1",
+    "title": "Review:",
+    "section": "Linearity",
+    "text": "Linearity\nLet \\(X\\) and \\(Y\\) be two random variables with MGFs \\(M_X(t)\\) and \\(M_Y(t)\\), respectively, and are independent. The MGF of \\(U=X-Y\\)\n\\[\nM_U(t) = M_X(t)M_Y(-t)\n\\]"
+  },
+  {
+    "objectID": "lectures/2b.html#derivation-1",
+    "href": "lectures/2b.html#derivation-1",
+    "title": "Review:",
+    "section": "Derivation",
+    "text": "Derivation"
+  },
+  {
+    "objectID": "lectures/2b.html#uniqueness",
+    "href": "lectures/2b.html#uniqueness",
+    "title": "Review:",
+    "section": "Uniqueness",
+    "text": "Uniqueness\nLet \\(X\\) and \\(Y\\) have the following distributions \\(F_X(x)\\) and \\(F_Y(y)\\) and MGFs \\(M_X(t)\\) and \\(M_Y(t)\\), respectively. \\(X\\) and \\(Y\\) have the same distribution \\(F_X(x)=F_Y(y)\\) if and only if \\(M_X(t)=M_Y(t)\\)."
+  },
+  {
+    "objectID": "lectures/2b.html#uniqueness-1",
+    "href": "lectures/2b.html#uniqueness-1",
+    "title": "Review:",
+    "section": "Uniqueness",
+    "text": "Uniqueness\nLet \\(X_1,\\cdots, X_n\\) be independent random variables, where \\(X_i\\sim N(\\mu_i, \\sigma^2_i)\\), with \\(M_{X_i}(t)=\\exp\\{\\mu_i t+\\sigma^2_it^2/2\\}\\) for \\(i=1,\\cdots, n\\). Find the MGF of \\(Y=a_1X_1+\\cdots+a_nX_n\\), where \\(a_1, \\cdots, a_n\\) are constants."
+  },
+  {
     "objectID": "lectures/2b.html#function-of-random-variables-1",
     "href": "lectures/2b.html#function-of-random-variables-1",
-    "title": "Functions of Random Variables",
+    "title": "Review:",
     "section": "Function of Random Variables",
     "text": "Function of Random Variables"
   },
   {
     "objectID": "lectures/2b.html#using-the-distribution-function",
     "href": "lectures/2b.html#using-the-distribution-function",
-    "title": "Functions of Random Variables",
+    "title": "Review:",
     "section": "Using the Distribution Function",
     "text": "Using the Distribution Function\nLet there be a random variable \\(X\\) with a known distribution function \\(F_X(x)\\), the density function for the random variable \\(Y=g(X)\\) can be found with the following steps\n\n\nFind the region of \\(Y\\) in the space of \\(X\\), find \\(g^{-1}(y)\\)\nFind the region of \\(Y\\le y\\)\nFind \\(F_Y(y)=P(Y\\le y)\\) using the probability density function of \\(X\\) over region \\(Y\\le y\\)\nFind \\(f_Y(y)\\) by differentiating \\(F_Y(y)\\)"
   },
   {
     "objectID": "lectures/2b.html#example-1",
     "href": "lectures/2b.html#example-1",
-    "title": "Functions of Random Variables",
+    "title": "Review:",
     "section": "Example 1",
     "text": "Example 1\nLet \\(X\\) have the following probability density function:\n\\[\nf_X(x)=\\left\\{\\begin{array}{cc}\n2x & 0\\le x \\le 1 \\\\\n0 & \\mathrm{otherwise}\n\\end{array}\n\\right.\n\\]\nFind the probability density function of \\(Y=3X-1\\)?"
   },
   {
     "objectID": "lectures/2b.html#using-the-pdf",
     "href": "lectures/2b.html#using-the-pdf",
-    "title": "Functions of Random Variables",
+    "title": "Review:",
     "section": "Using the PDF",
     "text": "Using the PDF\nLet there be a random variable \\(X\\) with a known distribution function \\(F_X(x)\\), if the random variable \\(Y=g(X)\\) is either increasing or decreasing, than the probability density function can be found as\n\\[\nf_Y(y) = f_X\\{g^{-1}(y)\\}\\left|\\frac{dg^{-1}(y)}{dy}\\right|\n\\]"
   },
   {
     "objectID": "lectures/2b.html#example-2",
     "href": "lectures/2b.html#example-2",
-    "title": "Functions of Random Variables",
+    "title": "Review:",
     "section": "Example 2",
     "text": "Example 2\nLet \\(X\\) have the following probability density function:\n\\[\nf_X(x)=\\left\\{\\begin{array}{cc}\n\\frac{3}{2}x^2 + x & 0\\le y \\le 1 \\\\\n0 & \\mathrm{otherwise}\n\\end{array}\n\\right.\n\\]\nFind the probability density function of \\(Y=5-(X/2)\\)?"
   },
   {
     "objectID": "lectures/2b.html#using-the-mgf",
     "href": "lectures/2b.html#using-the-mgf",
-    "title": "Functions of Random Variables",
+    "title": "Review:",
     "section": "Using the MGF",
     "text": "Using the MGF\nUsing the uniqueness property of Moment Generating Functions, for a random variable \\(X\\) with a known distribution function \\(F_X(x)\\) and random variable \\(Y=g(X)\\), the distribution of \\(Y\\) can be found by:\n\nFind the moment generating function of \\(Y\\), \\(M_Y(t)\\).\nCompare \\(M_Y(t)\\), with known moment generating functions. If \\(M_Y(t)=M_V(t)\\), for all values \\(t\\), them \\(Y\\) and \\(V\\) have identical distributions."
   },
   {
     "objectID": "lectures/2b.html#example-3",
     "href": "lectures/2b.html#example-3",
-    "title": "Functions of Random Variables",
+    "title": "Review:",
     "section": "Example 3",
     "text": "Example 3\nLet \\(X\\) follow a normal distribution with mean \\(\\mu\\) and variance \\(\\sigma^2\\). Find the distribution of \\(Z=\\frac{X-\\mu}{\\sigma}\\)."
   },
   {
     "objectID": "lectures/2b.html#example-4",
     "href": "lectures/2b.html#example-4",
-    "title": "Functions of Random Variables",
+    "title": "Review:",
     "section": "Example 4",
     "text": "Example 4\nLet \\(Z\\) follow a standard normal distribution with mean \\(0\\) and variance \\(1\\). Find the distribution of \\(Y=Z^2\\)"
   },
