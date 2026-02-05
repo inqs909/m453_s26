@@ -2,15 +2,10 @@
 title: "Review:"
 subtitle: "More Probability Theory"
 format:
-  revealjs:
-    include-in-header: "math_commands.html"
-    navigation-mode: vertical
-    controls-layout: bottom-right
-    controls-tutorial: true
-    incremental: false 
-    chalkboard:
-      theme: whiteboard
-      chalk-width: 4
+  beamer:
+    theme: metropolis
+    colortheme: dolphin
+    fonttheme: professionalfonts
 knitr:
   opts_chunk: 
     echo: true
@@ -61,8 +56,6 @@ $$
 ## MGF
 
 ## Expected Value
-
-## Variance
 
 ## Variance
 
