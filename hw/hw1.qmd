@@ -1,8 +1,8 @@
 ---
 title: "Homework 1"
 editor: source
-date: 8-29-2024
-draft: true
+date: 2-6-2026
+draft: false
 format:
   html: 
     code-fold: true
@@ -13,9 +13,9 @@ format:
       y: 1cm
 ---
 
-**Homework 1 is due 9/7/2024 at 11:59 PM. Submit your homework on Canvas as one PDF document.**
+**Homework 1 is due 2/15/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.**
 
 1.  $X\sim Bin(n,p)$, show that the variance of Binomial distribution is $np(1-p)$.
-2.  $X\sim Pois(\lambda)$ , show that the expected value of a Poisson distribution is $\lambda$.
-2.  $X\sim Pois(\lambda)$ , show that the variance of a Poisson distribution is $\lambda$.
-4.  $X\sim N(\mu,\sigma^2)$, show that the expected value is $\mu$.
+2.  $X\sim Pois(\lambda)$, show that the expected value of a Poisson distribution is $\lambda$.
+2.  $X\sim Pois(\lambda)$, show that the variance of a Poisson distribution is $\lambda$.
+4.  $X\sim N(\mu,\sigma^2)$, show that the variance is $\sigma^2$.
