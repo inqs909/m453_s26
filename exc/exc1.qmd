@@ -3,7 +3,7 @@ title: "Extra Credit 1"
 description: Instructions for extra credit one.
 date: 01-22-2026
 editor: source
-draft: true
+draft: false
 ---
 
 Write a 1-2 page report related to your favorite activity. Provide details of the activity and why you like the activity.

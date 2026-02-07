@@ -29,7 +29,7 @@ website:
     right:
       - syllabus.qmd
       - hw.qmd
-      - ec.qmd
+      - exc.qmd
       - books.qmd
   # announcement: 
   #   icon: info-circle
