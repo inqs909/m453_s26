@@ -1,10 +1,10 @@
 ---
 title: "Week 3"
-date: 09-5-24
+date: 02-10-26
 description: |
   This week, we will cover Transformations of Random Variables
 editor: source
-draft: true
+draft: false
 ---
 
 ## Learning Outcomes
@@ -13,7 +13,8 @@ draft: true
 
 You must log on to your CI Google account to access the video.
 
-| Lecture | Slides | Videos |
-|-----------------|------------------------------|-------------------------|
-| Monday | [Slides](https://m453.inqs.info/lectures/3a) | [Video](https://youtu.be/4geO1vYEPRM) |
-| Wednesday | [Slides](https://m453.inqs.info/lectures/3b) | [Audio Only](https://youtu.be/yQ_Q53mY0OI) |
+
+| Lecture   | Slides                       | Annotated  | Video     |
+|-----------|------------------------------|------------|-----------|
+| Monday    | [Slides](../lectures/3a.pdf) | [Slides]() | [Video]() |
+| Wednesday | [Slides]() | [Slides]() | Unavailable |
