@@ -16,5 +16,5 @@ You must log on to your CI Google account to access the video.
 
 | Lecture   | Slides                       | Annotated  | Video     |
 |-----------|------------------------------|------------|-----------|
-| Monday    | [Slides](../lectures/3a.pdf) | [Slides]() | [Video]() |
+| Monday    | [Slides](../lectures/3a.pdf) | [Slides](../lectures/3a_annotated.pdf) | [Video](https://youtu.be/4OfIgxmLrSc) |
 | Wednesday | [Slides]() | [Slides]() | Unavailable |
