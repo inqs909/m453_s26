@@ -67,8 +67,6 @@ Let $X_1,\cdots, X_n$ be independent random variables, where $X_i\sim N(\mu_i, \
 
 # Function of Random Variables
 
-# Obtaining the PDFs
-
 ## Using the Distribution Function
 
 Let there be a random variable $X$ with a known distribution function $F_X(x)$, the density function for the random variable $Y=g(X)$ can be found with the following steps

@@ -1,15 +1,28 @@
 ---
-title: "Joint Distribution Functions"
+title: "Functions of Random Variables"
+subtitle: "More Probability Theory"
 format:
-  revealjs:
-    navigation-mode: vertical
-    controls-layout: bottom-right
-    controls-tutorial: true
-    incremental: false 
-    chalkboard:
-      src: chalkboard.json
-      theme: whiteboard
-      chalk-width: 4
+  beamer:
+    theme: gotham
+    colortheme: dolphin
+    fonttheme: professionalfonts
+    fontsize: 14pt
+header-includes:
+  - \setbeamertemplate{footline}{
+      \hfill
+      \usebeamerfont{page number in head/foot}
+      \insertframenumber{} / \inserttotalframenumber
+      \kern1em\vskip2pt
+    }
+  - \gothamset{sectionframe default=off}
+knitr:
+  opts_chunk: 
+    echo: true
+    eval: true
+    message: false
+    warnings: false
+    comment: "#>" 
+
 editor: source
 ---
 
@@ -20,303 +33,70 @@ knitr::opts_chunk$set(echo = T)
 
 ```
 
--   Joint Distributions
+# Function of Random Variables
 
--   Marginal Distributions
+## Using the Distribution Function
 
--   Conditional Distributions
+Let there be a random variable $X$ with a known distribution function $F_X(x)$, the density function for the random variable $Y=g(X)$ can be found with the following steps
 
--   Independence
+::: fragment
+::: nonincremental
+1.  Find the region of $Y$ in the space of $X$, find $g^{-1}(y)$
+2.  Find the region of $Y\le y$
+3.  Find $F_Y(y)=P(Y\le y)$ using the probability density function of $X$ over region $Y\le y$
+4.  Find $f_Y(y)$ by differentiating $F_Y(y)$
+:::
+:::
 
--   Expectations
+## Example 1
 
--   Covariance
-
-# Joint Distributions
-
-## Partial Derivatives
-
-For a function $f(x,y)$, the partial derivative with respect to $x$ is taken by differentiating $f(x,y)$ with respect to $x$ while treating $y$ as a constant. For example:
-
-$f(x,y) = x^2 + \ln(y)$
-
-## Multiple Integration
-
-Multiple integration is when you integrate a multivariate function by multiple variables. This is done by integrating the function by an individual variable at a time. For example:
-
-$f(x,y)=x^2 + y^2$ which can be integrated as:
-
-## Joint Distributions
-
-A joint distribution is a process where more than one random variable is generated; for example, collecting biomedical data, such as multiple biomarkers, are considered to follow a joint distribution. In mathematical terms, instead of dealing with a random variable, we are dealing with a random vector. Observing a particular random vector will have a probability attached to it.
-
-## Bivariate Discrete Distributions
-
-Let $X_1$ and $X_2$ be 2 discrete random variables, the joint distribution function of $(X_1, X_2)$ is defined as
+Let $X$ have the following probability density function:
 
 $$
-p_{X_1,X_2}(x_1, x_2) = P(X_1=x_1, X_2 = x_2).
-$$
-
-The properties of a bivariate discrete distribution are
-
--   $p_{X_1,X_2}(x_1,x_2)\ge 0$ for all $x_1,\ x_2$
-
--   $\sum_{x_1}\sum_{x2}p(x_1,x_2)=1$
-
-## Bivariate Continuous Distribution
-
-Let $X_1$ and $X_2$ be 2 continuous random variables, the joint distribution function of $(X_1, X_2)$ is defined as
-
-$$
-F_{X_1,X_2}(x_1, x_2) = P(X_1\le x_1, X_2 \le x_2).
-$$
-
-The properties of a bivariate continuous distribution are
-
--   $f_{X_1,X_2}(x_1,x_2)=\frac{\partial^2F(x_1,x_2)}{\partial x_1\partial x_2}$
-
--   $f_{X_1,X_2}(x_1, x_2)\ge 0$
-
--   $\int_{x_1}\int_{x_2}f_{X_1,X_2}(x_1,x_2)dx_2dx_1=1$
-
-## Example
-
-$$
-f(x,y) \left\{\begin{array}{cc}
-3x & 0\le y\le x\le 1\\
+f_X(x)=\left\{\begin{array}{cc}
+2x & 0\le x \le 1 \\
 0 & \mathrm{otherwise}
-\end{array}\right.
+\end{array}
+\right.
 $$
 
-Find $P(0\le X\le 0.5,0.25\le Y)$
+Find the probability density function of $Y=3X-1$?
 
-# Marginal Density Function
+## Using the PDF
 
-## Marginal Density Functions
-
-A Marginal Density Function is density function of one random variable from a random vector.
-
-## Marginal Discrete Probability Mass Function
-
-Let $X_1$ and $X_2$ be 2 discrete random variables, with a joint distribution function of
+Let there be a random variable $X$ with a known distribution function $F_X(x)$, if the random variable $Y=g(X)$ is either increasing or decreasing, than the probability density function can be found as
 
 $$
-p_{X_1,X_2}(x_1, x_2) = P(X_1=x_1, X_2 = x_2).
+f_Y(y) = f_X\{g^{-1}(y)\}\left|\frac{dg^{-1}(y)}{dy}\right|
 $$
 
-The marginal distribution of $X_1$ is defined as
+## Example 2
+
+Let $X$ have the following probability density function:
 
 $$
-p_{X_1}(x_1) = \sum_{x_2}p_{X_1,X_2}(x_1,x_2)
-$$
-
-## Marginal Continuous Density Function
-
-Let $X_1$ and $X_2$ be 2 continuous random variables, with a joint density function of $f_{X_1,X_2}(x_1,x_2)$. The marginal distribution of $X_1$ is defined as
-
-$$
-f_{X_1}(x_1) = \int_{x_2}f_{X_1,X_2}(x_1,x_2)dx_2
-$$
-
-## Example
-
-$$
-f_{X,Y}(x,y) \left\{\begin{array}{cc}
-2x & 0\le y \le 1;\ 0 \le x\le 1\\
+f_X(x)=\left\{\begin{array}{cc}
+\frac{3}{2}x^2 + x & 0\le y \le 1 \\
 0 & \mathrm{otherwise}
-\end{array}\right.
+\end{array}
+\right.
 $$
 
-Find $f_X(x)$
+Find the probability density function of $Y=5-(X/2)$?
 
-# Conditional Distributions
+## Using the MGF
 
-## Conditional Distributions
+Using the uniqueness property of Moment Generating Functions, for a random variable $X$ with a known distribution function $F_X(x)$ and random variable $Y=g(X)$, the distribution of $Y$ can be found by:
 
-A conditional distribution provides the probability of a random variable, given that it was conditioned on the value of a second random variable.
+::: nonincremental
+1.  Find the moment generating function of $Y$, $M_Y(t)$.
+2.  Compare $M_Y(t)$, with known moment generating functions. If $M_Y(t)=M_V(t)$, for all values $t$, them $Y$ and $V$ have identical distributions.
+:::
 
-## Discrete Conditional Distributions
+## Example 3
 
-Let $X_1$ and $X_2$ be 2 discrete random variables, with a joint distribution function of
+Let $X$ follow a normal distribution with mean $\mu$ and variance $\sigma^2$. Find the distribution of $Z=\frac{X-\mu}{\sigma}$.
 
-$$
-p_{X_1,X_2}(x_1, x_2) = P(X_1=x_1, X_2 = x_2).
-$$
+## Example 4
 
-The conditional distribution of $X_1|X_2=x_2$ is defined as
-
-$$
-p_{X_1|X_2}(x_1) = \frac{p_{X_1,X_2}(x_1,x_2)}{p_{X_2}(x_2)}
-$$
-
-## Continuous Conditional Distributions
-
-Let $X_1$ and $X_2$ be 2 continuous random variables, with a joint density function of $f_{X_1,X_2}(x_1,x_2)$. The conditional distribution of $X_1|X_2=_2$ is defined as
-
-$$
-f_{X_1|X_2}(x_1) = \frac{f_{X_1,X_2}(x_1,x_2)}{f_{X_2}(x_2)}
-$$
-
-## Example
-
-Let the joint density function of $X_1$ and $X_2$ be defined as
-
-$$
-f_{X_1,X_2}(x_1,x_2)=\left\{\begin{array}{cc}
-30x_1x_2² & x_1 -1 \le x_2 \le 1-x_1; 0\le x_1\le 1\\
-0 & \mathrm{elsewhere}
-\end{array}\right.
-$$
-
-Find the conditional density function of $X_2|X_1=x_1$.
-
-# Independence
-
-## Independent Random Variables
-
-Random variables are considered independent of each other if the probability of one variable does not affect the probability of another variable.
-
-## Discrete Independent Random Variables
-
-Let $X_1$ and $X_2$ be 2 discrete random variables, with a joint density function of $p_{X_1,X_2}(x_1,x_2)$. $X_1$ is independent of $X_2$ if and only if
-
-$$
-p_{X_1,X_2}(x_1,x_2) = p_{X_1}(x_1)p_{X_2}(x_2)
-$$
-
-## Continuous Independent Random Variables
-
-Let $X_1$ and $X_2$ be 2 continuous random variables, with a joint density function of $f_{X_1,X_2}(x_1,x_2)$. $X_1$ is independent of $X_2$ if and only if
-
-$$
-f_{X_1,X_2}(x_1,x_2) = f_{X_1}(x_1)f_{X_2}(x_2)
-$$
-
-## Matrix Algebra
-
-$$
-A = \left(\begin{array}{cc}
-a_1 & 0\\
-0 & a_2
-\end{array}\right)
-$$
-
-$$
-\det(A) = a_1a_2
-$$
-
-$$
-A^{-1}=\left(\begin{array}{cc}
-1/a_1 & 0 \\
-0 & 1/a_2
-\end{array}\right)
-$$
-
-## Example
-
-$$
-\left(\begin{array}{c}
-X\\
-Y
-\end{array}\right)\sim N \left\{
-\left(\begin{array}{c}
-\mu_x\\
-\mu_y
-\end{array}\right),\left(\begin{array}{cc}
-\sigma_x^2 & 0\\
-0 & \sigma_y^2
-\end{array}\right)
-\right\}
-$$
-
-Show that $X\perp Y$.
-
-$$
-f_{X,Y}(x,y)=\det(2\pi\Sigma)^{-1/2}\exp\left\{-\frac{1}{2}(\boldsymbol{w}-\boldsymbol\mu)^T\Sigma^{-1}(\boldsymbol w-\boldsymbol\mu)\right\}
-$$
-
-where $\Sigma=\left(\begin{array}{cc}\sigma_y^2 & 0\\0 & \sigma_y^2\end{array}\right)$, $\boldsymbol \mu = \left(\begin{array}{cc}\mu_x\\ \mu_y \end{array}\right)$, and $\boldsymbol w = \left(\begin{array}{cc} x\\ y \end{array}\right)$
-
-# Expectations
-
-## Expectations
-
-Let $X_1, X_2, \ldots,X_n$ be a set of random variables, the expectation of a function $g(X_1,\ldots, X_n)$ is defined as
-
-$$
-E\{g(X_1,\ldots, X_n)\} = \sum_{x_1\in X_1}\cdots\sum_{x_n\in X_n}g(X_1,\ldots, X_n)p(x_1,\ldots,x_n)
-$$
-
-or
-
-$$
-E\{g(\boldsymbol X)\} = \int_{x_1\in X_1}\cdots\int_{x_n\in X_n}g(\boldsymbol X)f(\boldsymbol X)dx_n \cdots dx_1
-$$
-
--   $\boldsymbol X = (X_1,\cdots, X_n)$
-
-## Expected Value and Variance of Linear Functions
-
-Let $X_1,\ldots,X_n$ and $Y_1,\ldots,Y_m$ be random variables with $E(X_i)=\mu_i$ and $E(Y_j)=\tau_j$. Furthermore, let $U = \sum^n_{i=1}a_iX_i$ and $V=\sum^m_{j=1}b_jY_j$ where $\{a_i\}^n_{i=1}$ and $\{b_j\}_{j=1}^m$ are constants. We have the following properties:
-
--   $E(U)=\sum_{i=1}^na_i\mu_i$
-
--   $Var(U)=\sum^n_{i=1}a_i^2Var(X_i)+2\underset{i<j}{\sum\sum}a_ia_jCov(X_i,X_j)$
-
--   $Cov(U,V)=\sum^n_{i=1}\sum^m_{j=1}Cov(X_i,Y_j)$
-
-## Conditional Expectations
-
-Let $X_1$ and $X_2$ be two random variables, the conditional expectation of $g(X_1)$, given $X_2=x_2$, is defined as
-
-$$
-E\{g(X_1)|X_2=x_2\}=\sum_{x_1}g(x_1)p(x_1|x_2)
-$$
-
-or
-
-$$
-E\{g(X_1)|X_2=x_2\}=\int_{x_1}g(x_1)f(x_1|x_2)dx_1.
-$$
-
-## Conditional Expectations
-
-Furthermore,
-
-$$
-E(X_1)=E_{X_2}\{E_{X_1|X_2}(X_1|X_2)\}
-$$
-
-and
-
-$$
-Var(X_1) = E_{X_2}\{Var_{X_1|X_2}(X_1|X_2)\} + Var_{X_2}\{E_{X_1|X_2}(X_1|X_2)\}
-$$
-
-# Covariance
-
-## Covariance
-
-Let $X_1$ and $X_2$ be 2 random variables with mean $E(X_1)=\mu_1$ and $E(X_2)=\mu_2$, respectively. The covariance of $X_1$ and $X_2$ is defined as
-
-$$
-\begin{eqnarray*}
-Cov(X_1,X_2) & = & E\{(X_1-\mu_1)(X_2-\mu_2)\}\\
- & =& E(X_1X_2)-\mu_1\mu_2
-\end{eqnarray*}
-$$
-
-If $X_1$ and $X_2$ are independent random variables, then
-
-$$
-Cov(X_1,X_2)=0
-$$
-
-## Correlation
-
-The correlation of $X_1$ and $X_2$ is defined as
-
-$$
-\rho = Cor(X_1,X_2) = \frac{Cov(X_1,X_2)}{\sqrt{Var(X_1)Var(X_2)}}
-$$
+Let $Z$ follow a standard normal distribution with mean $0$ and variance $1$. Find the distribution of $Y=Z^2$
