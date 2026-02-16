@@ -25,7 +25,7 @@ $$ Show that the PMF is valid.
 3.  Find the moment-generating function of $X\sim\chi^2_k$ and $f_X(x)=\frac{x^{k/2-1}\exp\{-x/2\}}{2^{k/2}\Gamma(k/2)}$ with $x>0$.
 
 
-4. Problem 110 in Chapter 4 of Modern Mathematical Statistics (2021) 
+4. Problem 110 in Chapter 4 of Modern Mathematical Statistics (2021; 3rd Edition) 
 
-5. Problem 113 in Chapter 4 of Modern Mathematical Statistics (2021)
+5. Problem 113 in Chapter 4 of Modern Mathematical Statistics (2021; 3rd Edition)
 

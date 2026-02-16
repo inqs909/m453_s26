@@ -1089,7 +1089,7 @@
     "href": "hw/hw2.html",
     "title": "Homework 2",
     "section": "",
-    "text": "Homework 2 is due 2/22/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.\n\nShow that the moment generating function for a random variable \\(X\\sim Gamma(\\alpha,\\beta)\\) is \\(\\left(1-\\beta t\\right)^{-\\alpha}\\).\nLet \\(X\\) be a discrete random variable with PMF\n\n\\[\n    P(X=x)=\\left\\{\\begin{array}{cc}\n    0.25+0.5e^{-\\theta} & x =0 \\\\\n    0.25+0.5\\theta e^{-\\theta} & x =1 \\\\\n    0.5\\frac{\\theta^x}{x!}e^{-\\theta} & x = 2,3,\\ldots\\\\\n    0 & \\textrm{otherwise}\n    \\end{array}\\right.\n\\] Show that the PMF is valid.\n\nFind the moment-generating function of \\(X\\sim\\chi^2_k\\) and \\(f_X(x)=\\frac{x^{k/2-1}\\exp\\{-x/2\\}}{2^{k/2}\\Gamma(k/2)}\\) with \\(x&gt;0\\).\nProblem 110 in Chapter 4 of Modern Mathematical Statistics (2021)\nProblem 113 in Chapter 4 of Modern Mathematical Statistics (2021)"
+    "text": "Homework 2 is due 2/22/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.\n\nShow that the moment generating function for a random variable \\(X\\sim Gamma(\\alpha,\\beta)\\) is \\(\\left(1-\\beta t\\right)^{-\\alpha}\\).\nLet \\(X\\) be a discrete random variable with PMF\n\n\\[\n    P(X=x)=\\left\\{\\begin{array}{cc}\n    0.25+0.5e^{-\\theta} & x =0 \\\\\n    0.25+0.5\\theta e^{-\\theta} & x =1 \\\\\n    0.5\\frac{\\theta^x}{x!}e^{-\\theta} & x = 2,3,\\ldots\\\\\n    0 & \\textrm{otherwise}\n    \\end{array}\\right.\n\\] Show that the PMF is valid.\n\nFind the moment-generating function of \\(X\\sim\\chi^2_k\\) and \\(f_X(x)=\\frac{x^{k/2-1}\\exp\\{-x/2\\}}{2^{k/2}\\Gamma(k/2)}\\) with \\(x&gt;0\\).\nProblem 110 in Chapter 4 of Modern Mathematical Statistics (2021; 3rd Edition)\nProblem 113 in Chapter 4 of Modern Mathematical Statistics (2021; 3rd Edition)"
   },
   {
     "objectID": "hw/hw0.html",
@@ -2020,6 +2020,6 @@
     "href": "posts/week_3.html#resources",
     "title": "Week 3",
     "section": "Resources",
-    "text": "Resources\nYou must log on to your CI Google account to access the video.\n\n\n\nLecture\nSlides\nAnnotated\nVideo\n\n\n\n\nMonday\nSlides\nSlides\nVideo\n\n\nWednesday\nSlides\nSlides\nUnavailable"
+    "text": "Resources\nYou must log on to your CI Google account to access the video.\n\n\n\nLecture\nSlides\nAnnotated\nVideo\n\n\n\n\nMonday\nSlides\nSlides\nVideo\n\n\nWednesday\nSlides\nSlides\nVideo"
   }
 ]
