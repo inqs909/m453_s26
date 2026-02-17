@@ -1,30 +1,393 @@
 ---
 title: "Joint Distribution Functions"
 format:
-  revealjs:
-    navigation-mode: vertical
-    controls-layout: bottom-right
-    controls-tutorial: true
-    incremental: false 
-    chalkboard:
-      src: chalkboard.json
-      theme: whiteboard
-      chalk-width: 4
+  beamer:
+    theme: gotham
+    colortheme: dolphin
+    fonttheme: professionalfonts
+    fontsize: 14pt
+header-includes:
+  - \setbeamertemplate{footline}{
+      \hfill
+      \usebeamerfont{page number in head/foot}
+      \insertframenumber{} / \inserttotalframenumber
+      \kern1em\vskip2pt
+    }
+  - \gothamset{sectionframe default=off}
+knitr:
+  opts_chunk: 
+    echo: true
+    eval: true
+    message: false
+    warnings: false
+    comment: "#>" 
+
 editor: source
 ---
 
 ```{r}
 #| include: false
 
-knitr::opts_chunk$set(echo = T)
+knitr::opts_chunk$set(
+  echo = F,
+  message = F
+  )
 
 ```
 
--   Independence
+# Joint Distributions
 
--   Expectations
+## Partial Derivatives
 
--   Covariance
+For a function $f(x,y)$, the partial derivative with respect to $x$ is taken by differentiating $f(x,y)$ with respect to $x$ while treating $y$ as a constant. For example:
+
+$f(x,y) = x^2 + \ln(y)$
+
+## Multiple Integration
+
+Multiple integration is when you integrate a multivariate function by multiple variables. This is done by integrating the function by an individual variable at a time. For example:
+
+$f(x,y)=x^2 + y^2$ which can be integrated as:
+
+## Joint Distributions
+
+A joint distribution is a process where more than one random variable is generated; for example, collecting biomedical data, such as multiple biomarkers, are considered to follow a joint distribution. In mathematical terms, instead of dealing with a random variable, we are dealing with a random vector. Observing a particular random vector will have a probability attached to it.
+
+## Bivariate Discrete Distributions
+
+Let $X$ and $Y$ be 2 discrete random variables, the joint distribution function of $(X, Y)$ is defined as
+
+$$
+p_{X,Y}(x, y) = P(X = x, Y = y)
+$$
+
+The properties of a bivariate discrete distribution are
+
+-   $p_{X,Y}(x, y) \ge 0$ for all $x,\ y$
+
+-   $\sum_{x}\sum_{y}p_{X,Y}(x,y)=1$
+
+## Bivariate Continuous Distribution
+
+Let $X$ and $Y$ be 2 continuous random variables, the joint distribution function of $(X, Y)$ is defined as
+
+$$
+F_{X, Y}(x, y) = P(X\le x, Y \le y).
+$$
+
+The properties of a bivariate continuous distribution are
+
+-   $f_{X,Y}(x,y)=\frac{\partial^2F_{X, Y}}{\partial x\partial y}$
+
+-   $f_{X,Y}(x, y)\ge 0$
+
+-   $\int_{x}\int_{y}f_{X,Y}(x,y)dy dx=1$
+
+## Example
+
+$$
+f(x,y) \left\{\begin{array}{cc}
+3x & 0\le y\le x\le 1\\
+0 & \mathrm{otherwise}
+\end{array}\right.
+$$
+
+Find $P(0\le X\le 0.5,0.25\le Y)$
+
+
+# Bivariate Normal Distribution
+
+## Bivariate Normal Distribution
+
+$$
+\left(
+\begin{array}{c}
+X \\
+Y
+\end{array}
+\right) \sim
+N\left[
+\left(
+\begin{array}{c}
+\mu_X \\
+\mu_Y
+\end{array}
+\right),
+\left(
+\begin{array}{cc}
+\sigma^2_X & \rho \sigma_X\sigma_Y\\
+\rho \sigma_Y\sigma_X & \sigma^2_Y
+\end{array}
+\right)
+\right]
+$$
+
+## Bivariate Normal Distribution
+
+
+
+## Bivariate Normal Distribution
+
+```{=latex}
+{\scriptsize
+\begin{equation*}
+N\left[
+\left(
+\begin{array}{c}
+1 \\
+-2
+\end{array}
+\right),
+\left(
+\begin{array}{cc}
+2 & 0 \times \sqrt{2 \times 1.5}\\
+0 \times \sqrt{2 \times 1.5} & 1.5
+\end{array}
+\right)
+\right]
+\end{equation*}
+}
+```
+
+```{r}
+library(MASS)
+library(tidyverse)
+library(mvtnorm)
+x <- seq(-3, 5, length.out = 100)
+y <- seq(-8, 3, length.out = 100)
+grid <- expand.grid(x = x, y = y)
+
+sigs <- matrix(c(2 , 0*sqrt(2*1.5), 0*sqrt(2*1.5), 1.5), nrow = 2)
+mu <- c(1, -2)
+# Compute density
+z <- matrix(dmvnorm(grid, mean = mu, sigma = sigs),
+            nrow = length(x))
+persp(
+  x,
+  y,
+  z,
+  theta = 30,
+  phi = 30,
+  col = "lightblue",
+  shade = 0.5,
+  ticktype = "detailed",
+  xlab = "X",
+  ylab = "Y",
+  zlab = "Density"
+)
+
+```
+
+
+
+
+## Bivariate Normal Distribution
+
+```{=latex}
+{\scriptsize
+\begin{equation*}
+N\left[
+\left(
+\begin{array}{c}
+1 \\
+-2
+\end{array}
+\right),
+\left(
+\begin{array}{cc}
+2 & 0 \times \sqrt{2 \times 1.5}\\
+0 \times \sqrt{2 \times 1.5} & 1.5
+\end{array}
+\right)
+\right]
+\end{equation*}
+}
+```
+
+```{r}
+library(MASS)
+library(tidyverse)
+
+n <- 10000
+data <- mvrnorm(n, mu = mu, Sigma = sigs)
+
+df <- as.data.frame(data)
+colnames(df) <- c("X", "Y")
+
+
+ggplot(df, aes(x = X, y = Y)) +
+  geom_point(alpha = 0.3) +
+  stat_density_2d(aes(fill = ..level..), geom = "polygon", alpha = 0.4) +
+  scale_fill_viridis_c() +
+  theme_minimal() +
+  labs(title = "Bivariate Normal Distribution",
+       x = "X",
+       y = "Y")
+
+
+```
+
+## Bivariate Normal Distribution
+
+```{=latex}
+{\scriptsize
+\begin{equation*}
+N\left[
+\left(
+\begin{array}{c}
+1 \\
+-2
+\end{array}
+\right),
+\left(
+\begin{array}{cc}
+2 & 0.25 \times \sqrt{2 \times 1.5}\\
+0.25 \times \sqrt{2 \times 1.5} & 1.5
+\end{array}
+\right)
+\right]
+\end{equation*}
+}
+```
+
+```{r}
+sigs <- matrix(c(2 , 0.25*sqrt(2*1.5), 0.25*sqrt(2*1.5), 1.5), nrow = 2)
+n <- 10000
+data <- mvrnorm(n, mu = mu, Sigma = sigs)
+
+df <- as.data.frame(data)
+colnames(df) <- c("X", "Y")
+
+
+ggplot(df, aes(x = X, y = Y)) +
+  geom_point(alpha = 0.3) +
+  stat_density_2d(aes(fill = ..level..), geom = "polygon", alpha = 0.4) +
+  scale_fill_viridis_c() +
+  theme_minimal() +
+  labs(title = "Bivariate Normal Distribution",
+       x = "X",
+       y = "Y")
+```
+
+
+## Bivariate Normal Distribution
+
+```{=latex}
+{\scriptsize
+\begin{equation*}
+N\left[
+\left(
+\begin{array}{c}
+1 \\
+-2
+\end{array}
+\right),
+\left(
+\begin{array}{cc}
+2 & -0.55 \times \sqrt{2 \times 1.5}\\
+-0.55 \times \sqrt{2 \times 1.5} & 1.5
+\end{array}
+\right)
+\right]
+\end{equation*}
+}
+```
+
+```{r}
+
+sigs <- matrix(c(2 , -0.55*sqrt(2*1.5), -0.55*sqrt(2*1.5), 1.5), nrow = 2)
+n <- 10000
+data <- mvrnorm(n, mu = mu, Sigma = sigs)
+
+df <- as.data.frame(data)
+colnames(df) <- c("X", "Y")
+
+
+ggplot(df, aes(x = X, y = Y)) +
+  geom_point(alpha = 0.3) +
+  stat_density_2d(aes(fill = ..level..), geom = "polygon", alpha = 0.4) +
+  scale_fill_viridis_c() +
+  theme_minimal() +
+  labs(title = "Bivariate Normal Distribution",
+       x = "X",
+       y = "Y")
+
+```
+
+
+
+# Marginal Density Function
+
+## Marginal Density Functions
+
+A Marginal Density Function is density function of one random variable from a random vector.
+
+## Marginal Discrete Probability Mass Function
+
+Let $X$ and $Y$ be 2 discrete random variables, with a joint distribution function of
+
+$$
+p_{X,Y}(x, y) = P(X = x, Y = y)
+$$
+
+The marginal distribution of $X$ is defined as
+
+$$
+p_{X}(x) = \sum_{y}p_{X,Y}(x,y)
+$$
+
+## Marginal Continuous Density Function
+
+Let $X$ and $Y$ be 2 continuous random variables, with a joint density function of $f_{X,Y}(x,y)$. The marginal distribution of $X$ is defined as
+
+$$
+f_{X}(x) = \int_{y}f_{X,Y}(x,y)dy
+$$
+
+## Example
+
+$$
+f_{X,Y}(x,y) \left\{\begin{array}{cc}
+2x & 0\le y \le 1;\ 0 \le x\le 1\\
+0 & \mathrm{otherwise}
+\end{array}\right.
+$$
+
+Find $f_X(x)$
+
+## Bivariate Marginal Density
+
+
+# Conditional Distributions
+
+## Conditional Distributions
+
+A conditional distribution provides the probability of a random variable, given that it was conditioned on the value of a second random variable.
+
+## Discrete Conditional Distributions
+
+Let $X$ and $Y$ be 2 discrete random variables, with a joint distribution function of
+
+$$
+p_{X,Y}(x, y) = P(X = x, Y = y)
+$$
+
+The conditional distribution of $X|Y=y$ is defined as
+
+$$
+p_{X|Y = y}(x) = \frac{p_{X,Y}(x,y)}{p_{Y}(y)}
+$$
+
+## Continuous Conditional Distributions
+
+Let $X$ and $Y$ be 2 continuous random variables, with a joint density function of $f_{X,Y}(x,y)$. The conditional distribution of $X|Y=y$ is defined as
+
+$$
+f_{X|Y=y}(x)= \frac{f_{X,Y}(x,y)}{f_{Y}(y)}
+$$
+
+## Bivariae Normal Conditional Distribution
+
 
 # Independence
 
@@ -34,18 +397,18 @@ Random variables are considered independent of each other if the probability of 
 
 ## Discrete Independent Random Variables
 
-Let $X_1$ and $X_2$ be 2 discrete random variables, with a joint density function of $p_{X_1,X_2}(x_1,x_2)$. $X_1$ is independent of $X_2$ if and only if
+Let $X$ and $Y$ be 2 discrete random variables, with a joint density function of $p_{X,Y}(x,y)$. $X$ is independent of $Y$ if and only if
 
 $$
-p_{X_1,X_2}(x_1,x_2) = p_{X_1}(x_1)p_{X_2}(x_2)
+p_{X,Y}(x,y) = p_{X}(x)p_{Y}(y)
 $$
 
 ## Continuous Independent Random Variables
 
-Let $X_1$ and $X_2$ be 2 continuous random variables, with a joint density function of $f_{X_1,X_2}(x_1,x_2)$. $X_1$ is independent of $X_2$ if and only if
+Let $X$ and $Y$ be 2 continuous random variables, with a joint density function of $f_{X,Y}(x,y)$. $X$ is independent of $Y$ if and only if
 
 $$
-f_{X_1,X_2}(x_1,x_2) = f_{X_1}(x_1)f_{X_2}(x_2)
+f_{X,Y}(x,y) = f_{X}(x)f_{Y}(y)
 $$
 
 ## Matrix Algebra
@@ -93,6 +456,40 @@ $$
 
 where $\Sigma=\left(\begin{array}{cc}\sigma_y^2 & 0\\0 & \sigma_y^2\end{array}\right)$, $\boldsymbol \mu = \left(\begin{array}{cc}\mu_x\\ \mu_y \end{array}\right)$, and $\boldsymbol w = \left(\begin{array}{cc} x\\ y \end{array}\right)$
 
+# Covariance
+
+## Covariance
+
+Let $X$ and $Y$ be 2 random variables with mean $E(X)=\mu_x$ and $E(Y)=\mu_y$, respectively. The covariance of $X$ and $Y$ is defined as
+
+
+$$
+Cov(X,Y) = E\{(X-\mu_x)(Y-\mu_y)\}
+$$
+
+$$
+Cov(X,Y) = E(XY)-\mu_x\mu_y
+$$
+
+
+## Covariance
+
+If $X$ and $Y$ are independent random variables, then
+
+$$
+Cov(X,Y)=0
+$$
+
+## Correlation
+
+The correlation of $X$ and $Y$ is defined as
+
+$$
+\rho = Cor(X,Y) = \frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}}
+$$
+
+
+
 # Expectations
 
 ## Expectations
@@ -120,18 +517,6 @@ Let $X_1,\ldots,X_n$ and $Y_1,\ldots,Y_m$ be random variables with $E(X_i)=\mu_i
 -   $Var(U)=\sum^n_{i=1}a_i^2Var(X_i)+2\underset{i<j}{\sum\sum}a_ia_jCov(X_i,X_j)$
 
 -   $Cov(U,V)=\sum^n_{i=1}\sum^m_{j=1}Cov(X_i,Y_j)$
-
-## Expectation of Product
-
-Let $X$ and $Y$ be independent random variables with Joint Function $f_{XY}(x,y)$, then
-
-$$
-E(XY) = E(X)E(Y)
-$$
-
-::: fragment
-Prove it!
-:::
 
 ## Conditional Expectations
 
@@ -161,49 +546,3 @@ $$
 Var(X_1) = E_{X_2}\{Var_{X_1|X_2}(X_1|X_2)\} + Var_{X_2}\{E_{X_1|X_2}(X_1|X_2)\}
 $$
 
-# Covariance
-
-## Covariance
-
-Let $X_1$ and $X_2$ be 2 random variables with mean $E(X_1)=\mu_1$ and $E(X_2)=\mu_2$, respectively. The covariance of $X_1$ and $X_2$ is defined as
-
-$$
-\begin{eqnarray*}
-Cov(X_1,X_2) & = & E\{(X_1-\mu_1)(X_2-\mu_2)\}\\
- & =& E(X_1X_2)-\mu_1\mu_2
-\end{eqnarray*}
-$$
-
-If $X_1$ and $X_2$ are independent random variables, then
-
-$$
-Cov(X_1,X_2)=0
-$$
-
-## Correlation
-
-The correlation of $X_1$ and $X_2$ is defined as
-
-$$
-\rho = Cor(X_1,X_2) = \frac{Cov(X_1,X_2)}{\sqrt{Var(X_1)Var(X_2)}}
-$$
-
-## MGF Property: Independence
-
-Let $X$ and $Y$ be independent random variables. Let $Z = X+Y$, the MGF of Z is
-
-$$
-M_Z(t) = M_X(t)M_Y(t)
-$$
-
-# Examples
-
-Let $Z$ follow a standard normal distribution with mean 0 and variance 1. Find the distribution of $Y = Z^2$
-
-## Examples
-
-Let $X_1\sim Bin(n_1,p)$ and $X_2\sim Bin(n_2, p)$. Find the distribution function of $Y=X_1 + X_2$. Assume $X_1\perp X_2$.
-
-## Examples
-
-Let $X_1\sim N(\mu_1,\sigma_1^2)$ and $X_2\sim N(\mu_2,\sigma_2^2)$. Find the distribution function of $Y=X_1 + X_2$. Assume $X_1\perp X_2$.

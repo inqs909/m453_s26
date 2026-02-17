@@ -21,6 +21,20 @@
     "text": "University Policies\n\nSyllabus Policies and Assistance\nCSUCI’s Syllabus Policies and Assistance Website provides important details about academic policies, campus expectations, and student support services that are all highly applicable to your success as a student both in and outside of the classroom. Ensure that you review this site on a regular basis to stay informed about the policies and resources that support your success, as campus resources or policies may change semester to semester.\n\n\nAcademic Honesty\nConduct yourself with honesty and integrity. Do not submit others’ work as your own. Foassignments and quizzes that allow you to work with a group, only put your name on what the group submits if you genuinely contributed to the work. Work completely independently on exams, using only the materials that are indicated as allowed. Failure to observe academic honesty results in substantial penalties that can include failing the course.\n\n\nCSUCI Basic Need\nPlease use the link to the Basic Needs Program on the Syllabus Policies and Assistance website (&lt;go.csuci.edu/syllabuspolicies&gt;) for information on emergency food, housing accommodations, toiletries, and connections to critical resources.\n\n\nCSUCI Disability Statement\nIf you are a student with a disability requesting reasonable accommodations in this course, you need to contact Disability Accommodations and Support Services (DASS) located on the second floor of Arroyo Hall, via email accommodations@csuci.edu or call 805-437-3331. All requests for reasonable accommodations require registration with DASS in advance of need: https://www.csuci.edu/dass/students/apply-for-services.htm. Faculty, students and DASS will work together regarding classroom accommodations. You are encouraged to discuss approved.\n\n\nDisruption\n\nIf I Am Out: I will communicate via email and will hold classes asynchronously.\nIf You Are Out: Contact me as soon as possible to talk about your options. Reasonable accommodations will be provided for a brief absence. With proper documentation, extended accommodations will be provided."
   },
   {
+    "objectID": "posts/week_4.html",
+    "href": "posts/week_4.html",
+    "title": "Week 4",
+    "section": "",
+    "text": "Lecture\nSlides\nVideos\n\n\n\n\nMonday\nSlides\nVideo\n\n\nWednesday\nSlides\nVideo"
+  },
+  {
+    "objectID": "posts/week_4.html#learning-outcomes",
+    "href": "posts/week_4.html#learning-outcomes",
+    "title": "Week 4",
+    "section": "",
+    "text": "Lecture\nSlides\nVideos\n\n\n\n\nMonday\nSlides\nVideo\n\n\nWednesday\nSlides\nVideo"
+  },
+  {
     "objectID": "posts/week_2.html#resources",
     "href": "posts/week_2.html#resources",
     "title": "Week 2",
@@ -362,111 +376,6 @@
     "title": "Sampling Distributions",
     "section": "Distribution of Order Statistic",
     "text": "Distribution of Order Statistic\nThe distribution of the \\(k\\)-th order statistic \\(X_{(k)}\\) can be derived using combinatorial arguments. Its PDF is given by: \\[\n  f_{X_{(k)}}(x) = \\frac{n!}{(k-1)!(n-k)!} [F(x)]^{k-1} [1 - F(x)]^{n-k} f(x)\n  \\]\nThis formula shows how the distribution of \\(X_{(k)}\\) depends on the underlying distribution of the sample and its position \\(k\\)."
-  },
-  {
-    "objectID": "lectures/4a.html#independent-random-variables",
-    "href": "lectures/4a.html#independent-random-variables",
-    "title": "Joint Distribution Functions",
-    "section": "Independent Random Variables",
-    "text": "Independent Random Variables\nRandom variables are considered independent of each other if the probability of one variable does not affect the probability of another variable."
-  },
-  {
-    "objectID": "lectures/4a.html#discrete-independent-random-variables",
-    "href": "lectures/4a.html#discrete-independent-random-variables",
-    "title": "Joint Distribution Functions",
-    "section": "Discrete Independent Random Variables",
-    "text": "Discrete Independent Random Variables\nLet \\(X_1\\) and \\(X_2\\) be 2 discrete random variables, with a joint density function of \\(p_{X_1,X_2}(x_1,x_2)\\). \\(X_1\\) is independent of \\(X_2\\) if and only if\n\\[\np_{X_1,X_2}(x_1,x_2) = p_{X_1}(x_1)p_{X_2}(x_2)\n\\]"
-  },
-  {
-    "objectID": "lectures/4a.html#continuous-independent-random-variables",
-    "href": "lectures/4a.html#continuous-independent-random-variables",
-    "title": "Joint Distribution Functions",
-    "section": "Continuous Independent Random Variables",
-    "text": "Continuous Independent Random Variables\nLet \\(X_1\\) and \\(X_2\\) be 2 continuous random variables, with a joint density function of \\(f_{X_1,X_2}(x_1,x_2)\\). \\(X_1\\) is independent of \\(X_2\\) if and only if\n\\[\nf_{X_1,X_2}(x_1,x_2) = f_{X_1}(x_1)f_{X_2}(x_2)\n\\]"
-  },
-  {
-    "objectID": "lectures/4a.html#matrix-algebra",
-    "href": "lectures/4a.html#matrix-algebra",
-    "title": "Joint Distribution Functions",
-    "section": "Matrix Algebra",
-    "text": "Matrix Algebra\n\\[\nA = \\left(\\begin{array}{cc}\na_1 & 0\\\\\n0 & a_2\n\\end{array}\\right)\n\\]\n\\[\n\\det(A) = a_1a_2\n\\]\n\\[\nA^{-1}=\\left(\\begin{array}{cc}\n1/a_1 & 0 \\\\\n0 & 1/a_2\n\\end{array}\\right)\n\\]"
-  },
-  {
-    "objectID": "lectures/4a.html#example",
-    "href": "lectures/4a.html#example",
-    "title": "Joint Distribution Functions",
-    "section": "Example",
-    "text": "Example\n\\[\n\\left(\\begin{array}{c}\nX\\\\\nY\n\\end{array}\\right)\\sim N \\left\\{\n\\left(\\begin{array}{c}\n\\mu_x\\\\\n\\mu_y\n\\end{array}\\right),\\left(\\begin{array}{cc}\n\\sigma_x^2 & 0\\\\\n0 & \\sigma_y^2\n\\end{array}\\right)\n\\right\\}\n\\]\nShow that \\(X\\perp Y\\).\n\\[\nf_{X,Y}(x,y)=\\det(2\\pi\\Sigma)^{-1/2}\\exp\\left\\{-\\frac{1}{2}(\\boldsymbol{w}-\\boldsymbol\\mu)^T\\Sigma^{-1}(\\boldsymbol w-\\boldsymbol\\mu)\\right\\}\n\\]\nwhere \\(\\Sigma=\\left(\\begin{array}{cc}\\sigma_y^2 & 0\\\\0 & \\sigma_y^2\\end{array}\\right)\\), \\(\\boldsymbol \\mu = \\left(\\begin{array}{cc}\\mu_x\\\\ \\mu_y \\end{array}\\right)\\), and \\(\\boldsymbol w = \\left(\\begin{array}{cc} x\\\\ y \\end{array}\\right)\\)"
-  },
-  {
-    "objectID": "lectures/4a.html#expectations-1",
-    "href": "lectures/4a.html#expectations-1",
-    "title": "Joint Distribution Functions",
-    "section": "Expectations",
-    "text": "Expectations\nLet \\(X_1, X_2, \\ldots,X_n\\) be a set of random variables, the expectation of a function \\(g(X_1,\\ldots, X_n)\\) is defined as\n\\[\nE\\{g(X_1,\\ldots, X_n)\\} = \\sum_{x_1\\in X_1}\\cdots\\sum_{x_n\\in X_n}g(X_1,\\ldots, X_n)p(x_1,\\ldots,x_n)\n\\]\nor\n\\[\nE\\{g(\\boldsymbol X)\\} = \\int_{x_1\\in X_1}\\cdots\\int_{x_n\\in X_n}g(\\boldsymbol X)f(\\boldsymbol X)dx_n \\cdots dx_1\n\\]\n\n\\(\\boldsymbol X = (X_1,\\cdots, X_n)\\)"
-  },
-  {
-    "objectID": "lectures/4a.html#expected-value-and-variance-of-linear-functions",
-    "href": "lectures/4a.html#expected-value-and-variance-of-linear-functions",
-    "title": "Joint Distribution Functions",
-    "section": "Expected Value and Variance of Linear Functions",
-    "text": "Expected Value and Variance of Linear Functions\nLet \\(X_1,\\ldots,X_n\\) and \\(Y_1,\\ldots,Y_m\\) be random variables with \\(E(X_i)=\\mu_i\\) and \\(E(Y_j)=\\tau_j\\). Furthermore, let \\(U = \\sum^n_{i=1}a_iX_i\\) and \\(V=\\sum^m_{j=1}b_jY_j\\) where \\(\\{a_i\\}^n_{i=1}\\) and \\(\\{b_j\\}_{j=1}^m\\) are constants. We have the following properties:\n\n\\(E(U)=\\sum_{i=1}^na_i\\mu_i\\)\n\\(Var(U)=\\sum^n_{i=1}a_i^2Var(X_i)+2\\underset{i&lt;j}{\\sum\\sum}a_ia_jCov(X_i,X_j)\\)\n\\(Cov(U,V)=\\sum^n_{i=1}\\sum^m_{j=1}Cov(X_i,Y_j)\\)"
-  },
-  {
-    "objectID": "lectures/4a.html#expectation-of-product",
-    "href": "lectures/4a.html#expectation-of-product",
-    "title": "Joint Distribution Functions",
-    "section": "Expectation of Product",
-    "text": "Expectation of Product\nLet \\(X\\) and \\(Y\\) be independent random variables with Joint Function \\(f_{XY}(x,y)\\), then\n\\[\nE(XY) = E(X)E(Y)\n\\]\n\nProve it!"
-  },
-  {
-    "objectID": "lectures/4a.html#conditional-expectations",
-    "href": "lectures/4a.html#conditional-expectations",
-    "title": "Joint Distribution Functions",
-    "section": "Conditional Expectations",
-    "text": "Conditional Expectations\nLet \\(X_1\\) and \\(X_2\\) be two random variables, the conditional expectation of \\(g(X_1)\\), given \\(X_2=x_2\\), is defined as\n\\[\nE\\{g(X_1)|X_2=x_2\\}=\\sum_{x_1}g(x_1)p(x_1|x_2)\n\\]\nor\n\\[\nE\\{g(X_1)|X_2=x_2\\}=\\int_{x_1}g(x_1)f(x_1|x_2)dx_1.\n\\]"
-  },
-  {
-    "objectID": "lectures/4a.html#conditional-expectations-1",
-    "href": "lectures/4a.html#conditional-expectations-1",
-    "title": "Joint Distribution Functions",
-    "section": "Conditional Expectations",
-    "text": "Conditional Expectations\nFurthermore,\n\\[\nE(X_1)=E_{X_2}\\{E_{X_1|X_2}(X_1|X_2)\\}\n\\]\nand\n\\[\nVar(X_1) = E_{X_2}\\{Var_{X_1|X_2}(X_1|X_2)\\} + Var_{X_2}\\{E_{X_1|X_2}(X_1|X_2)\\}\n\\]"
-  },
-  {
-    "objectID": "lectures/4a.html#covariance-1",
-    "href": "lectures/4a.html#covariance-1",
-    "title": "Joint Distribution Functions",
-    "section": "Covariance",
-    "text": "Covariance\nLet \\(X_1\\) and \\(X_2\\) be 2 random variables with mean \\(E(X_1)=\\mu_1\\) and \\(E(X_2)=\\mu_2\\), respectively. The covariance of \\(X_1\\) and \\(X_2\\) is defined as\n\\[\n\\begin{eqnarray*}\nCov(X_1,X_2) & = & E\\{(X_1-\\mu_1)(X_2-\\mu_2)\\}\\\\\n& =& E(X_1X_2)-\\mu_1\\mu_2\n\\end{eqnarray*}\n\\]\nIf \\(X_1\\) and \\(X_2\\) are independent random variables, then\n\\[\nCov(X_1,X_2)=0\n\\]"
-  },
-  {
-    "objectID": "lectures/4a.html#correlation",
-    "href": "lectures/4a.html#correlation",
-    "title": "Joint Distribution Functions",
-    "section": "Correlation",
-    "text": "Correlation\nThe correlation of \\(X_1\\) and \\(X_2\\) is defined as\n\\[\n\\rho = Cor(X_1,X_2) = \\frac{Cov(X_1,X_2)}{\\sqrt{Var(X_1)Var(X_2)}}\n\\]"
-  },
-  {
-    "objectID": "lectures/4a.html#mgf-property-independence",
-    "href": "lectures/4a.html#mgf-property-independence",
-    "title": "Joint Distribution Functions",
-    "section": "MGF Property: Independence",
-    "text": "MGF Property: Independence\nLet \\(X\\) and \\(Y\\) be independent random variables. Let \\(Z = X+Y\\), the MGF of Z is\n\\[\nM_Z(t) = M_X(t)M_Y(t)\n\\]"
-  },
-  {
-    "objectID": "lectures/4a.html#examples-1",
-    "href": "lectures/4a.html#examples-1",
-    "title": "Joint Distribution Functions",
-    "section": "Examples",
-    "text": "Examples\nLet \\(X_1\\sim Bin(n_1,p)\\) and \\(X_2\\sim Bin(n_2, p)\\). Find the distribution function of \\(Y=X_1 + X_2\\). Assume \\(X_1\\perp X_2\\)."
-  },
-  {
-    "objectID": "lectures/4a.html#examples-2",
-    "href": "lectures/4a.html#examples-2",
-    "title": "Joint Distribution Functions",
-    "section": "Examples",
-    "text": "Examples\nLet \\(X_1\\sim N(\\mu_1,\\sigma_1^2)\\) and \\(X_2\\sim N(\\mu_2,\\sigma_2^2)\\). Find the distribution function of \\(Y=X_1 + X_2\\). Assume \\(X_1\\perp X_2\\)."
   },
   {
     "objectID": "lectures/3c.html#transformation-of-random-variables-1",
@@ -1236,7 +1145,7 @@
     "href": "index.html",
     "title": "Welcome to Course!",
     "section": "",
-    "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\nThis week, we will cover Transformations of Random Variables\n\n\n\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\nWeek 2\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\nWeek 1\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\nNo matching items"
+    "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\nThis week, we will review functions of random variables and introduce the idea of sampling distributions and Central Limit Theorem.\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\nWeek 3\n\n\nThis week, we will cover Transformations of Random Variables\n\n\n\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\nWeek 2\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\nWeek 1\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "lectures/15b.html#learning-outcomes",
