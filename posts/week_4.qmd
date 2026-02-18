@@ -2,14 +2,12 @@
 title: "Week 4"
 date: 02-16-26
 description: |
-  This week, we will review functions of random variables and introduce the idea of sampling distributions and Central Limit Theorem.
+  This week we will review joint distribution functions.
 editor: source
 draft: false
 ---
 
-## Learning Outcomes
-
-| Lecture | Slides | Videos |
-|---------------|-------------------------------|--------------------------|
-| Monday | [Slides](https://m453.inqs.info/lectures/4a.pdf) | [Video]() |
-| Wednesday | [Slides](https://m453.inqs.info/lectures/4b.pdf) | [Video]() |
+| Lecture   | Slides                       | Annotated  | Video     |
+|-----------|------------------------------|------------|-----------|
+| Monday    | [Slides](../lectures/4a.pdf) | [Slides](../lectures/4a_annotated.pdf) | [Video](https://youtu.be/EcMP0GEQPLk) |
+| Wednesday | [Slides](../lectures/4b.pdf) | [Slides]() | [Video]()  |

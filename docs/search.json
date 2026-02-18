@@ -25,14 +25,7 @@
     "href": "posts/week_4.html",
     "title": "Week 4",
     "section": "",
-    "text": "Lecture\nSlides\nVideos\n\n\n\n\nMonday\nSlides\nVideo\n\n\nWednesday\nSlides\nVideo"
-  },
-  {
-    "objectID": "posts/week_4.html#learning-outcomes",
-    "href": "posts/week_4.html#learning-outcomes",
-    "title": "Week 4",
-    "section": "",
-    "text": "Lecture\nSlides\nVideos\n\n\n\n\nMonday\nSlides\nVideo\n\n\nWednesday\nSlides\nVideo"
+    "text": "Lecture\nSlides\nAnnotated\nVideo\n\n\n\n\nMonday\nSlides\nSlides\nVideo\n\n\nWednesday\nSlides\nSlides\nVideo"
   },
   {
     "objectID": "posts/week_2.html#resources",
@@ -1145,7 +1138,7 @@
     "href": "index.html",
     "title": "Welcome to Course!",
     "section": "",
-    "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\nThis week, we will review functions of random variables and introduce the idea of sampling distributions and Central Limit Theorem.\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\nWeek 3\n\n\nThis week, we will cover Transformations of Random Variables\n\n\n\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\nWeek 2\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\nWeek 1\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\nNo matching items"
+    "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\nThis week we will review joint distribution functions.\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\nWeek 3\n\n\nThis week, we will cover Transformations of Random Variables\n\n\n\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\nWeek 2\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\nWeek 1\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "lectures/15b.html#learning-outcomes",
@@ -1925,10 +1918,10 @@
     "text": "Resources\n\n\n\nLecture\nSlides\nAnnotated\nVideo\n\n\n\n\nMonday\nSlides\nN/A\nN/A\n\n\nWednesday\nSlides\nSlides\nVideo"
   },
   {
-    "objectID": "posts/week_3.html#resources",
-    "href": "posts/week_3.html#resources",
+    "objectID": "posts/week_3.html",
+    "href": "posts/week_3.html",
     "title": "Week 3",
-    "section": "Resources",
-    "text": "Resources\nYou must log on to your CI Google account to access the video.\n\n\n\nLecture\nSlides\nAnnotated\nVideo\n\n\n\n\nMonday\nSlides\nSlides\nVideo\n\n\nWednesday\nSlides\nSlides\nVideo"
+    "section": "",
+    "text": "Lecture\nSlides\nAnnotated\nVideo\n\n\n\n\nMonday\nSlides\nSlides\nVideo\n\n\nWednesday\nSlides\nSlides\nVideo"
   }
 ]

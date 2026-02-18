@@ -7,11 +7,6 @@ editor: source
 draft: false
 ---
 
-## Learning Outcomes
-
-## Resources
-
-You must log on to your CI Google account to access the video.
 
 
 | Lecture   | Slides                       | Annotated  | Video     |
