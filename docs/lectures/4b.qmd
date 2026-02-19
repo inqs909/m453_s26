@@ -14,6 +14,9 @@ header-includes:
       \kern1em\vskip2pt
     }
   - \gothamset{sectionframe default=off}
+  - \usepackage{amsmath}
+  - \usepackage{amssymb}
+
 knitr:
   opts_chunk: 
     echo: true
@@ -65,6 +68,148 @@ f_{X|Y=y}(x)= \frac{f_{X,Y}(x,y)}{f_{Y}(y)}
 $$
 
 ## Bivariae Normal Conditional Distribution
+
+
+# Multivariate Normal
+
+## Multivariate Normal
+
+The normal distribution function can be extended to from univariate (n=1), bivariate (n=2), to a k-dimensional normal distribution function:
+
+$$
+\boldsymbol X \sim N_k(\boldsymbol \mu, \boldsymbol \Sigma)
+$$
+
+
+## Multivariate Normal Parameters
+
+```{=latex}
+{\small
+\begin{equation*}
+\boldsymbol X = \left(
+  \begin{array}{c}
+  X_1 \\
+  \vdots \\
+  X_k
+  \end{array}
+\right)\
+\boldsymbol \mu = \left(
+  \begin{array}{c}
+  \mu_1 \\
+  \vdots \\
+  \mu_k
+  \end{array}
+\right)\ 
+\boldsymbol \Sigma = \left(
+  \begin{array}{cccc}
+  \sigma_1^2 & \sigma_{21} & \cdots & \sigma_{k1} \\
+  \sigma_{21} & \sigma_2^2 & \cdots & \vdots \\
+  \vdots  & \cdots & \ddots & \vdots \\
+  \sigma_{k1} & \sigma_{k2} & \cdots & \sigma_k^2
+  \end{array}
+\right)
+\end{equation*}
+}
+```
+
+## Multivariate Normal PDF
+
+$$
+{\small
+f_{\boldsymbol X} (\boldsymbol x) = 
+\det(2\pi\boldsymbol\Sigma)^{-1/2}\exp\left\{-\frac{1}{2}(\boldsymbol{x}-\boldsymbol\mu)^\mathrm{T}\boldsymbol\Sigma^{-1}(\boldsymbol x-\boldsymbol\mu)\right\}
+}
+$$
+
+## Marginal Normal Distribution
+
+```{=latex}
+{\small
+\begin{equation*}
+X = \left(
+  \begin{array}{c}
+  \mathcal X_1 \\
+  \mathcal X_2
+  \end{array}
+\right)\
+\mathcal X_1 = \left(
+  \begin{array}{c}
+  X_1 \\
+  \vdots \\
+  X_j
+  \end{array}
+\right)\ 
+\mathcal X_2 = \left(
+  \begin{array}{c}
+  X_{j+1} \\
+  \vdots \\
+  X_k
+  \end{array}
+\right)\ 
+\end{equation*}
+}
+```
+
+## Marginal Normal Distribution
+
+```{=latex}
+{\small
+\begin{equation*}
+\mu = \left(
+  \begin{array}{c}
+  \varpi_1 \\
+  \varpi_2
+  \end{array}
+\right)\
+\varpi_1 = \left(
+  \begin{array}{c}
+  \mu_1 \\
+  \vdots \\
+  \mu_j
+  \end{array}
+\right)\ 
+\varpi_2 = \left(
+  \begin{array}{c}
+  \mu_{j+1} \\
+  \vdots \\
+  \mu_k
+  \end{array}
+\right)\ 
+\end{equation*}
+}
+```
+
+## Marginal Normal Distribution
+
+```{=latex}
+\begin{equation*}
+\Sigma = \left(
+  \begin{array}{cc}
+  \varSigma_{11} & \varSigma_{21} \\
+  \varSigma_{12} & \varSigma_{22}
+  \end{array}
+\right)
+\end{equation*}
+```
+## Marginal Normal Distribution
+
+$$
+\mathcal X_1 \sim N_j(\varpi_1, \varSigma_{11})
+$$
+
+$$
+\mathcal X_2 \sim N_{k-j}(\varpi_2, \varSigma_{22})
+$$
+
+## Conditional Normal Distribution
+
+$$
+{\small
+\mathcal X_2|\mathcal X_1 \sim N_j(\varpi_2 + \varSigma_{21}\varSigma_{11}^{-1}(\mathcal X_1 - \varpi_1), \varSigma_{22}-\varSigma_{21}\varSigma_{11}^{-1}\varSigma_{12})
+}
+$$
+
+
 
 
 # Independence
@@ -161,14 +306,6 @@ $$
 \rho = Cor(X,Y) = \frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}}
 $$
 
-
-## Bivariate Normal Distribution
-
-# Multivariate Normal
-
-## Multivariate Normal
-
-c
 
 # Expectations
 
