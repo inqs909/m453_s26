@@ -10,4 +10,4 @@ draft: false
 | Lecture   | Slides                       | Annotated  | Video     |
 |-----------|------------------------------|------------|-----------|
 | Monday    | [Slides](../lectures/4a.pdf) | [Marginal Bivariate Proof](../lectures/marginal_bivariate.pdf) | [Video](https://youtu.be/EcMP0GEQPLk) |
-| Wednesday | [Slides](../lectures/4b.pdf) | [Slides]() | [Video]()  |
+| Wednesday | [Slides](../lectures/4b.pdf) | [Slides](../lectures/4b_annotated.pdf) | [Video](https://youtu.be/_GEaQBjHjR4)  |

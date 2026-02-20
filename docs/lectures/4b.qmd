@@ -203,11 +203,13 @@ $$
 
 ## Conditional Normal Distribution
 
-$$
-{\scriptsize
+```{=latex}
+{\small
+\begin{equation*}
 \mathcal X_2|\mathcal X_1 \sim N_j(\varpi_2 + \varSigma_{21}\varSigma_{11}^{-1}(\mathcal X_1 - \varpi_1), \varSigma_{22}-\varSigma_{21}\varSigma_{11}^{-1}\varSigma_{12})
+\end{equation*}
 }
-$$
+```
 
 
 
