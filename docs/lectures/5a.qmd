@@ -40,15 +40,23 @@ knitr::opts_chunk$set(echo = T)
 
 Let $\boldsymbol X = (X_1, X_2, \ldots,X_n)^\mathrm{T}$ be a set of random variables, the expectation of a function $g(\boldsymbol X)$ is defined as
 
-$$
+```{=latex}
+{\small
+\begin{equation*}
 E\{g(\boldsymbol X)\} = \sum_{x_1\in X_1}\cdots\sum_{x_n\in X_n}g(\boldsymbol X)p(\boldsymbol x, \boldsymbol \theta)
-$$
+\end{equation*}
+}
+```
 
 or
 
-$$
+```{=latex}
+{\small
+\begin{equation*}
 E\{g(\boldsymbol X)\} = \int_{x_1\in X_1}\cdots\int_{x_n\in X_n}g(\boldsymbol X)f(\boldsymbol x, \boldsymbol \theta)dx_n \cdots dx_1
-$$
+\end{equation*}
+}
+```
 
 
 ## Expected Value and Variance of Linear Functions
@@ -79,16 +87,22 @@ $$
 
 Furthermore,
 
-$$
+```{=latex}
+{\small
+\begin{equation*}
 E(X_1)=E_{X_2}\{E_{X_1|X_2}(X_1|X_2)\}
-$$
-
+\end{equation*}
+}
+```
 and
 
-$$
+```{=latex}
+{\footnotesize
+\begin{equation*}
 Var(X_1) = E_{X_2}\{Var_{X_1|X_2}(X_1|X_2)\} + Var_{X_2}\{E_{X_1|X_2}(X_1|X_2)\}
-$$
-
+\end{equation*}
+}
+```
 
 
 # Statistics
@@ -102,8 +116,6 @@ When collecting data to construct a sample, the sample is a collection of random
 A sample of random variables are said to be iid if they are identical and independentally distributed.
 
 For example, $X$ and $Y$ are iid, if $X$ and $Y$ has the same distribution $f(\theta)$ and $X \perp  Y$
-
-## Random Sample
 
 ## Statistics
 
@@ -176,9 +188,9 @@ Order statistics are a fundamental concept in statistics and probability, dealin
 
   Let $X_1, X_2, \ldots, X_n$ be a sample of $n$ independent and identically distributed (i.i.d.) random variables with a common probability density function $f(x)$. The order statistics are the sorted values of this sample, denoted as:
   
-  $$
-  X_{(1)} \leq X_{(2)} \leq \cdots \leq X_{(n)}
-  $$
+$$
+X_{(1)} \leq X_{(2)} \leq \cdots \leq X_{(n)}
+$$
   
   Here, $X_{(1)}$ is the minimum, and $X_{(n)}$ is the maximum of the sample.
 
@@ -190,9 +202,9 @@ Order statistics are a fundamental concept in statistics and probability, dealin
 ## Distribution of Order Statistic
 
 The distribution of the $k$-th order statistic $X_{(k)}$ can be derived using combinatorial arguments. Its PDF is given by:
-  $$
-  f_{X_{(k)}}(x) = \frac{n!}{(k-1)!(n-k)!} [F(x)]^{k-1} [1 - F(x)]^{n-k} f(x)
-  $$
+$$
+f_{X_{(k)}}(x) = \frac{n!}{(k-1)!(n-k)!} [F(x)]^{k-1} [1 - F(x)]^{n-k} f(x)
+$$
 
   This formula shows how the distribution of $X_{(k)}$ depends on the underlying distribution of the sample and its position $k$.
 
