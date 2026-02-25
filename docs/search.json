@@ -301,900 +301,144 @@
     "text": "Exponential Distribution\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}Exp(\\lambda)\\). Find the MLE of \\(\\lambda\\)"
   },
   {
-    "objectID": "lectures/3d.html#partial-derivatives",
-    "href": "lectures/3d.html#partial-derivatives",
-    "title": "Joint Distribution Functions",
-    "section": "Partial Derivatives",
-    "text": "Partial Derivatives\nFor a function \\(f(x,y)\\), the partial derivative with respect to \\(x\\) is taken by differentiating \\(f(x,y)\\) with respect to \\(x\\) while treating \\(y\\) as a constant. For example:\n\\(f(x,y) = x^2 + \\ln(y)\\)"
+    "objectID": "lectures/4c.html#sample",
+    "href": "lectures/4c.html#sample",
+    "title": "Sampling Distributions",
+    "section": "Sample",
+    "text": "Sample\nWhen collecting data to construct a sample, the sample is a collection of random variables.\n\nTherefore, the sample can be subjected to probability properties."
   },
   {
-    "objectID": "lectures/3d.html#multiple-integration",
-    "href": "lectures/3d.html#multiple-integration",
-    "title": "Joint Distribution Functions",
-    "section": "Multiple Integration",
-    "text": "Multiple Integration\nMultiple integration is when you integrate a multivariate function by multiple variables. This is done by integrating the function by an individual variable at a time. For example:\n\\(f(x,y)=x^2 + y^2\\) which can be integrated as:"
+    "objectID": "lectures/4c.html#iid-random-variables",
+    "href": "lectures/4c.html#iid-random-variables",
+    "title": "Sampling Distributions",
+    "section": "iid Random Variables",
+    "text": "iid Random Variables\nA sample of random variables are said to be iid if they are identical and independentally distributed.\nFor example, \\(X\\) and \\(Y\\) are iid, if \\(X\\) and \\(Y\\) has the same distribution \\(f(\\theta)\\) and \\(X \\perp  Y\\)"
   },
   {
-    "objectID": "lectures/3d.html#joint-distributions-1",
-    "href": "lectures/3d.html#joint-distributions-1",
-    "title": "Joint Distribution Functions",
-    "section": "Joint Distributions",
-    "text": "Joint Distributions\nA joint distribution is a process where more than one random variable is generated; for example, collecting biomedical data, such as multiple biomarkers, are considered to follow a joint distribution. In mathematical terms, instead of dealing with a random variable, we are dealing with a random vector. Observing a particular random vector will have a probability attached to it."
+    "objectID": "lectures/4c.html#statistics-1",
+    "href": "lectures/4c.html#statistics-1",
+    "title": "Sampling Distributions",
+    "section": "Statistics",
+    "text": "Statistics\nA statistic is a transformation of the the sample data.\n\nBefore data is calculated, a statistic from a sample can take any value.\n\n\nTherefore, a statistic must be a random variable."
   },
   {
-    "objectID": "lectures/3d.html#bivariate-discrete-distributions",
-    "href": "lectures/3d.html#bivariate-discrete-distributions",
-    "title": "Joint Distribution Functions",
-    "section": "Bivariate Discrete Distributions",
-    "text": "Bivariate Discrete Distributions\nLet \\(X_1\\) and \\(X_2\\) be 2 discrete random variables, the joint distribution function of \\((X_1, X_2)\\) is defined as\n\\[\np_{X_1,X_2}(x_1, x_2) = P(X_1=x_1, X_2 = x_2).\n\\]\nThe properties of a bivariate discrete distribution are\n\n\\(p_{X_1,X_2}(x_1,x_2)\\ge 0\\) for all \\(x_1,\\ x_2\\)\n\\(\\sum_{x_1}\\sum_{x2}p(x_1,x_2)=1\\)"
+    "objectID": "lectures/4c.html#sampling-distributions-1",
+    "href": "lectures/4c.html#sampling-distributions-1",
+    "title": "Sampling Distributions",
+    "section": "Sampling Distributions",
+    "text": "Sampling Distributions\nA sampling distribution is the distribution of a statistic. Many known statistics have a known distribution."
   },
   {
-    "objectID": "lectures/3d.html#bivariate-continuous-distribution",
-    "href": "lectures/3d.html#bivariate-continuous-distribution",
-    "title": "Joint Distribution Functions",
-    "section": "Bivariate Continuous Distribution",
-    "text": "Bivariate Continuous Distribution\nLet \\(X_1\\) and \\(X_2\\) be 2 continuous random variables, the joint distribution function of \\((X_1, X_2)\\) is defined as\n\\[\nF_{X_1,X_2}(x_1, x_2) = P(X_1\\le x_1, X_2 \\le x_2).\n\\]\nThe properties of a bivariate continuous distribution are\n\n\\(f_{X_1,X_2}(x_1,x_2)=\\frac{\\partial^2F(x_1,x_2)}{\\partial x_1\\partial x_2}\\)\n\\(f_{X_1,X_2}(x_1, x_2)\\ge 0\\)\n\\(\\int_{x_1}\\int_{x_2}f_{X_1,X_2}(x_1,x_2)dx_2dx_1=1\\)"
+    "objectID": "lectures/4c.html#bar-x",
+    "href": "lectures/4c.html#bar-x",
+    "title": "Sampling Distributions",
+    "section": "\\(\\bar X\\)",
+    "text": "\\(\\bar X\\)\nLet \\(X_1, X_2, \\ldots, X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\) , show that \\(\\bar X \\sim N(\\mu,\\sigma^2/n)\\). Note: the MGF of \\(X_i\\) is \\(e^{\\mu t + \\frac{t^2\\sigma^2}{2}}\\)."
   },
   {
-    "objectID": "lectures/3d.html#example",
-    "href": "lectures/3d.html#example",
-    "title": "Joint Distribution Functions",
+    "objectID": "lectures/4c.html#sum-of-chi2_1",
+    "href": "lectures/4c.html#sum-of-chi2_1",
+    "title": "Sampling Distributions",
+    "section": "Sum of \\(\\chi^2_1\\)",
+    "text": "Sum of \\(\\chi^2_1\\)\nLet \\(Z_1^2, \\ldots, Z_n^2\\) be a iid \\(\\chi^2_1\\). Find \\(Y = \\sum^n_{i=1} Z_i^2\\)"
+  },
+  {
+    "objectID": "lectures/4c.html#s2",
+    "href": "lectures/4c.html#s2",
+    "title": "Sampling Distributions",
+    "section": "\\(s^2\\)",
+    "text": "\\(s^2\\)"
+  },
+  {
+    "objectID": "lectures/4c.html#t-distribution",
+    "href": "lectures/4c.html#t-distribution",
+    "title": "Sampling Distributions",
+    "section": "t-distribution",
+    "text": "t-distribution\nLet \\(Z\\sim N(0,1)\\), \\(W\\sim \\chi^2_\\nu\\), \\(Z\\perp W\\); therefore:\n\\[\nT=\\frac{Z}{\\sqrt{W/\\nu}} \\sim t_\\nu\n\\]"
+  },
+  {
+    "objectID": "lectures/4c.html#f-distribution",
+    "href": "lectures/4c.html#f-distribution",
+    "title": "Sampling Distributions",
+    "section": "F-distribution",
+    "text": "F-distribution\nLet \\(W_1\\sim\\chi^2_{\\nu_1}\\) \\(W_2\\sim\\chi^2_{\\nu_2}\\), and \\(W_1\\perp W_2\\); therefore:\n\\[\nF = \\frac{W_1/\\nu_1}{W_2/\\nu_2}\\sim F_{\\nu_1,\\nu_2}\n\\]"
+  },
+  {
+    "objectID": "lectures/4c.html#central-limit-theorem-1",
+    "href": "lectures/4c.html#central-limit-theorem-1",
+    "title": "Sampling Distributions",
+    "section": "Central Limit Theorem",
+    "text": "Central Limit Theorem\nLet \\(X_1, X_2, \\ldots, X_n\\) be identical and independent distributed random variables with \\(E(X_i)=\\mu\\) and \\(Var(X_i) = \\sigma²\\). We define\n\\[\nY_n = \\sqrt n \\left(\\frac{\\bar X-\\mu}{\\sigma}\\right) \\mathrm{ where }\\ \\bar X = x\\frac{1}{n}\\sum^n_{i=1}X_i.\n\\]\nThen, the distribution of the function \\(Y_n\\) converges to a standard normal distribution function as \\(n\\rightarrow \\infty\\)."
+  },
+  {
+    "objectID": "lectures/4c.html#central-limit-theorem-2",
+    "href": "lectures/4c.html#central-limit-theorem-2",
+    "title": "Sampling Distributions",
+    "section": "Central Limit Theorem",
+    "text": "Central Limit Theorem\n\\[\n\\bar X \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right)\n\\]"
+  },
+  {
+    "objectID": "lectures/4c.html#example",
+    "href": "lectures/4c.html#example",
+    "title": "Sampling Distributions",
     "section": "Example",
-    "text": "Example\n\\[\nf(x,y) \\left\\{\\begin{array}{cc}\n3x & 0\\le y\\le x\\le 1\\\\\n0 & \\mathrm{otherwise}\n\\end{array}\\right.\n\\]\nFind \\(P(0\\le X\\le 0.5,0.25\\le Y)\\)"
+    "text": "Example\nLet \\(X_1, \\ldots, X_n \\overset{iid}{\\sim} \\chi^2_p\\), the MGF is \\(M(t)=(1-2t)^{-p/2}\\). Find the distribution of \\(\\bar X\\) as \\(n \\rightarrow \\infty\\)."
   },
   {
-    "objectID": "lectures/3d.html#marginal-density-functions",
-    "href": "lectures/3d.html#marginal-density-functions",
-    "title": "Joint Distribution Functions",
-    "section": "Marginal Density Functions",
-    "text": "Marginal Density Functions\nA Marginal Density Function is density function of one random variable from a random vector."
+    "objectID": "lectures/3c.html#transformation-of-random-variables-1",
+    "href": "lectures/3c.html#transformation-of-random-variables-1",
+    "title": "Transformations of Random Variables",
+    "section": "Transformation of Random Variables",
+    "text": "Transformation of Random Variables"
   },
   {
-    "objectID": "lectures/3d.html#marginal-discrete-probability-mass-function",
-    "href": "lectures/3d.html#marginal-discrete-probability-mass-function",
-    "title": "Joint Distribution Functions",
-    "section": "Marginal Discrete Probability Mass Function",
-    "text": "Marginal Discrete Probability Mass Function\nLet \\(X_1\\) and \\(X_2\\) be 2 discrete random variables, with a joint distribution function of\n\\[\np_{X_1,X_2}(x_1, x_2) = P(X_1=x_1, X_2 = x_2).\n\\]\nThe marginal distribution of \\(X_1\\) is defined as\n\\[\np_{X_1}(x_1) = \\sum_{x_2}p_{X_1,X_2}(x_1,x_2)\n\\]"
+    "objectID": "lectures/3c.html#using-the-distribution-function",
+    "href": "lectures/3c.html#using-the-distribution-function",
+    "title": "Transformations of Random Variables",
+    "section": "Using the Distribution Function",
+    "text": "Using the Distribution Function\nLet there be a random variable \\(X\\) with a known distribution function \\(F_X(x)\\), the density function for the random variable \\(Y=g(X)\\) can be found with the following steps\n\n\nFind the region of \\(Y\\) in the space of \\(X\\), find \\(g^{-1}(y)\\)\nFind the region of \\(Y\\le y\\)\nFind \\(F_Y(y)=P(Y\\le y)\\) using the probability density function of \\(X\\) over region \\(Y\\le y\\)\nFind \\(f_Y(y)\\) by differentiating \\(F_Y(y)\\)"
   },
   {
-    "objectID": "lectures/3d.html#marginal-continuous-density-function",
-    "href": "lectures/3d.html#marginal-continuous-density-function",
-    "title": "Joint Distribution Functions",
-    "section": "Marginal Continuous Density Function",
-    "text": "Marginal Continuous Density Function\nLet \\(X_1\\) and \\(X_2\\) be 2 continuous random variables, with a joint density function of \\(f_{X_1,X_2}(x_1,x_2)\\). The marginal distribution of \\(X_1\\) is defined as\n\\[\nf_{X_1}(x_1) = \\int_{x_2}f_{X_1,X_2}(x_1,x_2)dx_2\n\\]"
+    "objectID": "lectures/3c.html#example-1",
+    "href": "lectures/3c.html#example-1",
+    "title": "Transformations of Random Variables",
+    "section": "Example 1",
+    "text": "Example 1\nLet \\(X\\) have the following probability density function:\n\\[\nf_X(x)=\\left\\{\\begin{array}{cc}\n2x & 0\\le x \\le 1 \\\\\n0 & \\mathrm{otherwise}\n\\end{array}\n\\right.\n\\]\nFind the probability density function of \\(Y=3X-1\\)?"
   },
   {
-    "objectID": "lectures/3d.html#example-1",
-    "href": "lectures/3d.html#example-1",
-    "title": "Joint Distribution Functions",
-    "section": "Example",
-    "text": "Example\n\\[\nf_{X,Y}(x,y) \\left\\{\\begin{array}{cc}\n2x & 0\\le y \\le 1;\\ 0 \\le x\\le 1\\\\\n0 & \\mathrm{otherwise}\n\\end{array}\\right.\n\\]\nFind \\(f_X(x)\\)"
+    "objectID": "lectures/3c.html#using-the-pdf",
+    "href": "lectures/3c.html#using-the-pdf",
+    "title": "Transformations of Random Variables",
+    "section": "Using the PDF",
+    "text": "Using the PDF\nLet there be a random variable \\(X\\) with a known distribution function \\(F_X(x)\\), if the random variable \\(Y=g(X)\\) is either increasing or decreasing, than the probability density function can be found as\n\\[\nf_Y(y) = f_X\\{g^{-1}(y)\\}\\left|\\frac{dg^{-1}(y)}{dy}\\right|\n\\]"
   },
   {
-    "objectID": "lectures/3d.html#conditional-distributions-1",
-    "href": "lectures/3d.html#conditional-distributions-1",
-    "title": "Joint Distribution Functions",
-    "section": "Conditional Distributions",
-    "text": "Conditional Distributions\nA conditional distribution provides the probability of a random variable, given that it was conditioned on the value of a second random variable."
+    "objectID": "lectures/3c.html#example-2",
+    "href": "lectures/3c.html#example-2",
+    "title": "Transformations of Random Variables",
+    "section": "Example 2",
+    "text": "Example 2\nLet \\(X\\) have the following probability density function:\n\\[\nf_X(x)=\\left\\{\\begin{array}{cc}\n\\frac{3}{2}x^2 + x & 0\\le y \\le 1 \\\\\n0 & \\mathrm{otherwise}\n\\end{array}\n\\right.\n\\]\nFind the probability density function of \\(Y=5-(X/2)\\)?"
   },
   {
-    "objectID": "lectures/3d.html#discrete-conditional-distributions",
-    "href": "lectures/3d.html#discrete-conditional-distributions",
-    "title": "Joint Distribution Functions",
-    "section": "Discrete Conditional Distributions",
-    "text": "Discrete Conditional Distributions\nLet \\(X_1\\) and \\(X_2\\) be 2 discrete random variables, with a joint distribution function of\n\\[\np_{X_1,X_2}(x_1, x_2) = P(X_1=x_1, X_2 = x_2).\n\\]\nThe conditional distribution of \\(X_1|X_2=x_2\\) is defined as\n\\[\np_{X_1|X_2}(x_1) = \\frac{p_{X_1,X_2}(x_1,x_2)}{p_{X_2}(x_2)}\n\\]"
+    "objectID": "lectures/3c.html#using-the-mgf",
+    "href": "lectures/3c.html#using-the-mgf",
+    "title": "Transformations of Random Variables",
+    "section": "Using the MGF",
+    "text": "Using the MGF\nUsing the uniqueness property of Moment Generating Functions, for a random variable \\(X\\) with a known distribution function \\(F_X(x)\\) and random variable \\(Y=g(X)\\), the distribution of \\(Y\\) can be found by:\n\nFind the moment generating function of \\(Y\\), \\(M_Y(t)\\).\nCompare \\(M_Y(t)\\), with known moment generating functions. If \\(M_Y(t)=M_V(t)\\), for all values \\(t\\), them \\(Y\\) and \\(V\\) have identical distributions."
   },
   {
-    "objectID": "lectures/3d.html#continuous-conditional-distributions",
-    "href": "lectures/3d.html#continuous-conditional-distributions",
-    "title": "Joint Distribution Functions",
-    "section": "Continuous Conditional Distributions",
-    "text": "Continuous Conditional Distributions\nLet \\(X_1\\) and \\(X_2\\) be 2 continuous random variables, with a joint density function of \\(f_{X_1,X_2}(x_1,x_2)\\). The conditional distribution of \\(X_1|X_2=_2\\) is defined as\n\\[\nf_{X_1|X_2}(x_1) = \\frac{f_{X_1,X_2}(x_1,x_2)}{f_{X_2}(x_2)}\n\\]"
+    "objectID": "lectures/3c.html#example-3",
+    "href": "lectures/3c.html#example-3",
+    "title": "Transformations of Random Variables",
+    "section": "Example 3",
+    "text": "Example 3\nLet \\(X\\) follow a normal distribution with mean \\(\\mu\\) and variance \\(\\sigma^2\\). Find the distribution of \\(Z=\\frac{X-\\mu}{\\sigma}\\)."
   },
   {
-    "objectID": "lectures/3d.html#example-2",
-    "href": "lectures/3d.html#example-2",
-    "title": "Joint Distribution Functions",
-    "section": "Example",
-    "text": "Example\nLet the joint density function of \\(X_1\\) and \\(X_2\\) be defined as\n\\[\nf_{X_1,X_2}(x_1,x_2)=\\left\\{\\begin{array}{cc}\n30x_1x_2² & x_1 -1 \\le x_2 \\le 1-x_1; 0\\le x_1\\le 1\\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\\right.\n\\]\nFind the conditional density function of \\(X_2|X_1=x_1\\)."
-  },
-  {
-    "objectID": "lectures/3d.html#independent-random-variables",
-    "href": "lectures/3d.html#independent-random-variables",
-    "title": "Joint Distribution Functions",
-    "section": "Independent Random Variables",
-    "text": "Independent Random Variables\nRandom variables are considered independent of each other if the probability of one variable does not affect the probability of another variable."
-  },
-  {
-    "objectID": "lectures/3d.html#discrete-independent-random-variables",
-    "href": "lectures/3d.html#discrete-independent-random-variables",
-    "title": "Joint Distribution Functions",
-    "section": "Discrete Independent Random Variables",
-    "text": "Discrete Independent Random Variables\nLet \\(X_1\\) and \\(X_2\\) be 2 discrete random variables, with a joint density function of \\(p_{X_1,X_2}(x_1,x_2)\\). \\(X_1\\) is independent of \\(X_2\\) if and only if\n\\[\np_{X_1,X_2}(x_1,x_2) = p_{X_1}(x_1)p_{X_2}(x_2)\n\\]"
-  },
-  {
-    "objectID": "lectures/3d.html#continuous-independent-random-variables",
-    "href": "lectures/3d.html#continuous-independent-random-variables",
-    "title": "Joint Distribution Functions",
-    "section": "Continuous Independent Random Variables",
-    "text": "Continuous Independent Random Variables\nLet \\(X_1\\) and \\(X_2\\) be 2 continuous random variables, with a joint density function of \\(f_{X_1,X_2}(x_1,x_2)\\). \\(X_1\\) is independent of \\(X_2\\) if and only if\n\\[\nf_{X_1,X_2}(x_1,x_2) = f_{X_1}(x_1)f_{X_2}(x_2)\n\\]"
-  },
-  {
-    "objectID": "lectures/3d.html#matrix-algebra",
-    "href": "lectures/3d.html#matrix-algebra",
-    "title": "Joint Distribution Functions",
-    "section": "Matrix Algebra",
-    "text": "Matrix Algebra\n\\[\nA = \\left(\\begin{array}{cc}\na_1 & 0\\\\\n0 & a_2\n\\end{array}\\right)\n\\]\n\\[\n\\det(A) = a_1a_2\n\\]\n\\[\nA^{-1}=\\left(\\begin{array}{cc}\n1/a_1 & 0 \\\\\n0 & 1/a_2\n\\end{array}\\right)\n\\]"
-  },
-  {
-    "objectID": "lectures/3d.html#example-3",
-    "href": "lectures/3d.html#example-3",
-    "title": "Joint Distribution Functions",
-    "section": "Example",
-    "text": "Example\n\\[\n\\left(\\begin{array}{c}\nX\\\\\nY\n\\end{array}\\right)\\sim N \\left\\{\n\\left(\\begin{array}{c}\n\\mu_x\\\\\n\\mu_y\n\\end{array}\\right),\\left(\\begin{array}{cc}\n\\sigma_x^2 & 0\\\\\n0 & \\sigma_y^2\n\\end{array}\\right)\n\\right\\}\n\\]\nShow that \\(X\\perp Y\\).\n\\[\nf_{X,Y}(x,y)=\\det(2\\pi\\Sigma)^{-1/2}\\exp\\left\\{-\\frac{1}{2}(\\boldsymbol{w}-\\boldsymbol\\mu)^T\\Sigma^{-1}(\\boldsymbol w-\\boldsymbol\\mu)\\right\\}\n\\]\nwhere \\(\\Sigma=\\left(\\begin{array}{cc}\\sigma_y^2 & 0\\\\0 & \\sigma_y^2\\end{array}\\right)\\), \\(\\boldsymbol \\mu = \\left(\\begin{array}{cc}\\mu_x\\\\ \\mu_y \\end{array}\\right)\\), and \\(\\boldsymbol w = \\left(\\begin{array}{cc} x\\\\ y \\end{array}\\right)\\)"
-  },
-  {
-    "objectID": "lectures/3d.html#expectations-1",
-    "href": "lectures/3d.html#expectations-1",
-    "title": "Joint Distribution Functions",
-    "section": "Expectations",
-    "text": "Expectations\nLet \\(X_1, X_2, \\ldots,X_n\\) be a set of random variables, the expectation of a function \\(g(X_1,\\ldots, X_n)\\) is defined as\n\\[\nE\\{g(X_1,\\ldots, X_n)\\} = \\sum_{x_1\\in X_1}\\cdots\\sum_{x_n\\in X_n}g(X_1,\\ldots, X_n)p(x_1,\\ldots,x_n)\n\\]\nor\n\\[\nE\\{g(\\boldsymbol X)\\} = \\int_{x_1\\in X_1}\\cdots\\int_{x_n\\in X_n}g(\\boldsymbol X)f(\\boldsymbol X)dx_n \\cdots dx_1\n\\]\n\n\\(\\boldsymbol X = (X_1,\\cdots, X_n)\\)"
-  },
-  {
-    "objectID": "lectures/3d.html#expected-value-and-variance-of-linear-functions",
-    "href": "lectures/3d.html#expected-value-and-variance-of-linear-functions",
-    "title": "Joint Distribution Functions",
-    "section": "Expected Value and Variance of Linear Functions",
-    "text": "Expected Value and Variance of Linear Functions\nLet \\(X_1,\\ldots,X_n\\) and \\(Y_1,\\ldots,Y_m\\) be random variables with \\(E(X_i)=\\mu_i\\) and \\(E(Y_j)=\\tau_j\\). Furthermore, let \\(U = \\sum^n_{i=1}a_iX_i\\) and \\(V=\\sum^m_{j=1}b_jY_j\\) where \\(\\{a_i\\}^n_{i=1}\\) and \\(\\{b_j\\}_{j=1}^m\\) are constants. We have the following properties:\n\n\\(E(U)=\\sum_{i=1}^na_i\\mu_i\\)\n\\(Var(U)=\\sum^n_{i=1}a_i^2Var(X_i)+2\\underset{i&lt;j}{\\sum\\sum}a_ia_jCov(X_i,X_j)\\)\n\\(Cov(U,V)=\\sum^n_{i=1}\\sum^m_{j=1}Cov(X_i,Y_j)\\)"
-  },
-  {
-    "objectID": "lectures/3d.html#conditional-expectations",
-    "href": "lectures/3d.html#conditional-expectations",
-    "title": "Joint Distribution Functions",
-    "section": "Conditional Expectations",
-    "text": "Conditional Expectations\nLet \\(X_1\\) and \\(X_2\\) be two random variables, the conditional expectation of \\(g(X_1)\\), given \\(X_2=x_2\\), is defined as\n\\[\nE\\{g(X_1)|X_2=x_2\\}=\\sum_{x_1}g(x_1)p(x_1|x_2)\n\\]\nor\n\\[\nE\\{g(X_1)|X_2=x_2\\}=\\int_{x_1}g(x_1)f(x_1|x_2)dx_1.\n\\]"
-  },
-  {
-    "objectID": "lectures/3d.html#conditional-expectations-1",
-    "href": "lectures/3d.html#conditional-expectations-1",
-    "title": "Joint Distribution Functions",
-    "section": "Conditional Expectations",
-    "text": "Conditional Expectations\nFurthermore,\n\\[\nE(X_1)=E_{X_2}\\{E_{X_1|X_2}(X_1|X_2)\\}\n\\]\nand\n\\[\nVar(X_1) = E_{X_2}\\{Var_{X_1|X_2}(X_1|X_2)\\} + Var_{X_2}\\{E_{X_1|X_2}(X_1|X_2)\\}\n\\]"
-  },
-  {
-    "objectID": "lectures/3d.html#covariance-1",
-    "href": "lectures/3d.html#covariance-1",
-    "title": "Joint Distribution Functions",
-    "section": "Covariance",
-    "text": "Covariance\nLet \\(X_1\\) and \\(X_2\\) be 2 random variables with mean \\(E(X_1)=\\mu_1\\) and \\(E(X_2)=\\mu_2\\), respectively. The covariance of \\(X_1\\) and \\(X_2\\) is defined as\n\\[\n\\begin{eqnarray*}\nCov(X_1,X_2) & = & E\\{(X_1-\\mu_1)(X_2-\\mu_2)\\}\\\\\n& =& E(X_1X_2)-\\mu_1\\mu_2\n\\end{eqnarray*}\n\\]\nIf \\(X_1\\) and \\(X_2\\) are independent random variables, then\n\\[\nCov(X_1,X_2)=0\n\\]"
-  },
-  {
-    "objectID": "lectures/3d.html#correlation",
-    "href": "lectures/3d.html#correlation",
-    "title": "Joint Distribution Functions",
-    "section": "Correlation",
-    "text": "Correlation\nThe correlation of \\(X_1\\) and \\(X_2\\) is defined as\n\\[\n\\rho = Cor(X_1,X_2) = \\frac{Cov(X_1,X_2)}{\\sqrt{Var(X_1)Var(X_2)}}\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#random-variables",
-    "href": "lectures/1b.html#random-variables",
-    "title": "Review:",
-    "section": "Random Variables",
-    "text": "Random Variables\nA random variable is function that maps the sample space to real value."
-  },
-  {
-    "objectID": "lectures/1b.html#discrete-random-variables-1",
-    "href": "lectures/1b.html#discrete-random-variables-1",
-    "title": "Review:",
-    "section": "Discrete Random Variables",
-    "text": "Discrete Random Variables\nA random variable is considered to be discrete if it can only map to a finite or countably infinite number of distinct values."
-  },
-  {
-    "objectID": "lectures/1b.html#pmf",
-    "href": "lectures/1b.html#pmf",
-    "title": "Review:",
-    "section": "PMF",
-    "text": "PMF\nThe probability mass function of discrete variable can be represented by a formula, table, or a graph. The Probability of a random variable Y can be expressed as \\(P(Y=y)\\) for all values of \\(y\\)."
-  },
-  {
-    "objectID": "lectures/1b.html#cdf",
-    "href": "lectures/1b.html#cdf",
-    "title": "Review:",
-    "section": "CDF",
-    "text": "CDF\nThe cumulative distribution function provides the \\(P(Y\\leq y)\\) for a random variable \\(Y\\)."
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value",
-    "href": "lectures/1b.html#expected-value",
-    "title": "Review:",
-    "section": "Expected Value",
-    "text": "Expected Value\nThe expected value is the value we expect when we randomly sample from population that follows a specific distribution. The expected value of Y is\n\\[\nE(Y)=\\sum_y yP(y)\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#variance",
-    "href": "lectures/1b.html#variance",
-    "title": "Review:",
-    "section": "Variance",
-    "text": "Variance\nThe variance is the expected squared difference between the random variable and expected value.\n\\[\nVar(Y)=\\sum_y\\{y-E(Y)\\}^2P(y)\n\\]\n\\[\nVar(Y) = E(X^2) - E(X)^2\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#known-distributions",
-    "href": "lectures/1b.html#known-distributions",
-    "title": "Review:",
-    "section": "Known Distributions",
-    "text": "Known Distributions\n\n\n\n\n\n\n\n\nDistribution\nParameter(s)\nPMF \\(P(Y=y)\\)\n\n\n\n\nBernoulli\n\\(p\\)\n\\(p\\)\n\n\nBinomial\n\\(n\\) and \\(p\\)\n\\((^n_y)p^y(1-p)^{n-p}\\)\n\n\nGeometric\n\\(p\\)\n\\((1-p)^{y-1}p\\)\n\n\nNegative Binomial\n\\(r\\) and \\(p\\)\n\\((^{y-1}_{r-1})p^{r-1}(1-p)^{y-r}\\)\n\n\nHypergeometric\n\\(N\\), \\(n\\), and \\(r\\)\n\\(\\frac{(^r_y)(^{N-r}_{n-y})}{(^N_n)}\\)\n\n\nPoisson\n\\(\\lambda\\)\n\\(\\frac{\\lambda^y}{y!} e^{-\\lambda}\\)"
-  },
-  {
-    "objectID": "lectures/1b.html#binomial-distribution-1",
-    "href": "lectures/1b.html#binomial-distribution-1",
-    "title": "Review:",
-    "section": "Binomial Distribution",
-    "text": "Binomial Distribution\nAn experiment is said to follow a binomial distribution if\n\nFixed \\(n\\)\nEach trial has 2 outcomes\nThe probability of success is a constant \\(p\\)\nThe trials are independent of each\n\n\n\\(P(X=x)=(^n_x)p^x(1-p)^{n-x}\\)"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-of-a-binomial-distribution",
-    "href": "lectures/1b.html#expected-value-of-a-binomial-distribution",
-    "title": "Review:",
-    "section": "Expected Value of a Binomial Distribution",
-    "text": "Expected Value of a Binomial Distribution"
-  },
-  {
-    "objectID": "lectures/1b.html#poisson-distribution-1",
-    "href": "lectures/1b.html#poisson-distribution-1",
-    "title": "Review:",
-    "section": "Poisson Distribution",
-    "text": "Poisson Distribution\nThe poisson distribution describes an experiment that measures that occurrence of an event at specific point and/or time period.\n\n\\(P(X=x)=\\frac{\\lambda^x}{x!}e^{-\\lambda}\\)"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-of-a-poisson-distribution",
-    "href": "lectures/1b.html#expected-value-of-a-poisson-distribution",
-    "title": "Review:",
-    "section": "Expected Value of a Poisson Distribution",
-    "text": "Expected Value of a Poisson Distribution"
-  },
-  {
-    "objectID": "lectures/1b.html#continuous-random-variables-1",
-    "href": "lectures/1b.html#continuous-random-variables-1",
-    "title": "Review:",
-    "section": "Continuous Random Variables",
-    "text": "Continuous Random Variables\nA random variable \\(X\\) is considered continuous if the \\(P(X=x)\\) does not exist."
-  },
-  {
-    "objectID": "lectures/1b.html#cdf-1",
-    "href": "lectures/1b.html#cdf-1",
-    "title": "Review:",
-    "section": "CDF",
-    "text": "CDF\nThe cumulative distribution function of \\(X\\) provides the \\(P(X\\leq x)\\), denoted by \\(F(x)\\), for the domain of \\(X\\).\nProperties of the CDF of \\(X\\):\n\n\\(F(-\\infty)\\equiv \\lim_{y\\rightarrow -\\infty}F(y)=0\\)\n\\(F(\\infty)\\equiv \\lim_{y\\rightarrow \\infty}F(y)=1\\)\n\\(F(x)\\) is a nondecreaseing function"
-  },
-  {
-    "objectID": "lectures/1b.html#pdf",
-    "href": "lectures/1b.html#pdf",
-    "title": "Review:",
-    "section": "PDF",
-    "text": "PDF\nThe probability density function of the random variable \\(X\\) is given by\n\\[\nf(x)=\\frac{dF(x)}{d(x)}=F^\\prime(x)\n\\]\nwherever the derivative exists.\nProperties of pdfs:\n\n\\(f(x)\\geq 0\\)\n\\(\\int^\\infty_{-\\infty}f(x)dx=1\\)\n\\(P(a\\leq X\\leq b) = P(a&lt;X&lt;b)=\\int^b_af(x)dx\\)"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-1",
-    "href": "lectures/1b.html#expected-value-1",
-    "title": "Review:",
-    "section": "Expected Value",
-    "text": "Expected Value\nThe expected value for a continuous distribution is defined as\n\\[\nE(X)=\\int x f(x)dx\n\\]\nThe expectation of a function \\(g(X)\\) is defined as\n\\[\nE\\{g(X)\\}=\\int g(x)f(x)dx\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-properties",
-    "href": "lectures/1b.html#expected-value-properties",
-    "title": "Review:",
-    "section": "Expected Value Properties",
-    "text": "Expected Value Properties\n\n\\(E(c)=c\\), where \\(c\\) is constant\n\\(E\\{cg(X)\\}=cE\\{g(X)\\}\\)\n\\(E\\{g_1(X)+g_2(X)+\\cdots+g_n(X)\\}=E\\{g_1(X)\\}+E\\{g_2(X)\\}+\\cdots+E\\{g_n(X)\\}\\)"
-  },
-  {
-    "objectID": "lectures/1b.html#variance-1",
-    "href": "lectures/1b.html#variance-1",
-    "title": "Review:",
-    "section": "Variance",
-    "text": "Variance\nThe variance of continuous variable is defined as\n\\[\nVar(X) =  E[\\{X-E(X)\\}^2] = \\int \\{X-E(X)\\}^2 f(x)dx\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#uniform-distribution-1",
-    "href": "lectures/1b.html#uniform-distribution-1",
-    "title": "Review:",
-    "section": "Uniform Distribution",
-    "text": "Uniform Distribution\nA random variable is said to follow uniform distribution if the density function is constant between two parameters.\n\n\\[\nf(x) = \\left\\{\\begin{array}{cc}\n\\frac{1}{b-a} & a \\leq x \\leq b\\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\\right.\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-2",
-    "href": "lectures/1b.html#expected-value-2",
-    "title": "Review:",
-    "section": "Expected Value",
-    "text": "Expected Value"
-  },
-  {
-    "objectID": "lectures/1b.html#normal-distribution-1",
-    "href": "lectures/1b.html#normal-distribution-1",
-    "title": "Review:",
-    "section": "Normal Distribution",
-    "text": "Normal Distribution\nA random variable is said to follow a normal distribution if the the frequency of occurrence follow a Gaussian function.\n\n\\[\nf(x)=\\frac{1}{\\sqrt{2\\pi \\sigma^2}}\\exp\\left\\{-\\frac{(x-\\mu)^2}{2\\sigma^2}\\right\\}\n\\]"
-  },
-  {
-    "objectID": "lectures/1b.html#expected-value-3",
-    "href": "lectures/1b.html#expected-value-3",
-    "title": "Review:",
-    "section": "Expected Value",
-    "text": "Expected Value"
-  },
-  {
-    "objectID": "lectures/15b.html#learning-outcomes",
-    "href": "lectures/15b.html#learning-outcomes",
-    "title": "Simple Linear Regression",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nLinear Regression\nOrdinary Least Squares\nR Code"
-  },
-  {
-    "objectID": "lectures/15b.html#r-packages",
-    "href": "lectures/15b.html#r-packages",
-    "title": "Simple Linear Regression",
-    "section": "R Packages",
-    "text": "R Packages\n\nlibrary(tidyverse)\npenguins &lt;- penguins |&gt; drop_na()"
-  },
-  {
-    "objectID": "lectures/15b.html#linear-regression-1",
-    "href": "lectures/15b.html#linear-regression-1",
-    "title": "Simple Linear Regression",
-    "section": "Linear Regression",
-    "text": "Linear Regression\nLinear regression is used to model the association between a set of predictor variables (x’s) and an outcome variable (y). Linear regression will fit a line that best describes the data points."
-  },
-  {
-    "objectID": "lectures/15b.html#simple-linear-regression",
-    "href": "lectures/15b.html#simple-linear-regression",
-    "title": "Simple Linear Regression",
-    "section": "Simple Linear Regression",
-    "text": "Simple Linear Regression\nSimple linear regression will model the association between one predictor variable and an outcome:\n\\[\nY = \\beta_0 + \\beta_1 X + \\epsilon\n\\]\n\n\\(\\beta_0\\): Intercept term\n\\(\\beta_1\\): Slope term\n\\(\\epsilon\\sim N(0,\\sigma^2)\\)"
-  },
-  {
-    "objectID": "lectures/15b.html#palmerpenguins",
-    "href": "lectures/15b.html#palmerpenguins",
-    "title": "Simple Linear Regression",
-    "section": "palmerpenguins",
-    "text": "palmerpenguins\nThe palmerpenguins data set contains 344 observations of 7 penguin characteristics. We will be looking at different association of the penguins"
-  },
-  {
-    "objectID": "lectures/15b.html#scatter-plot",
-    "href": "lectures/15b.html#scatter-plot",
-    "title": "Simple Linear Regression",
-    "section": "Scatter Plot",
-    "text": "Scatter Plot\n\nggplot(penguins, aes(y = flipper_len, x = body_mass)) +\n  geom_point() + theme_bw()"
-  },
-  {
-    "objectID": "lectures/15b.html#scatter-plot-1",
-    "href": "lectures/15b.html#scatter-plot-1",
-    "title": "Simple Linear Regression",
-    "section": "Scatter Plot",
-    "text": "Scatter Plot\n\nggplot(sample_n(penguins,10), aes(y = flipper_len, x = body_mass)) +\n  geom_point() + theme_bw()"
-  },
-  {
-    "objectID": "lectures/15b.html#fitting-a-line",
-    "href": "lectures/15b.html#fitting-a-line",
-    "title": "Simple Linear Regression",
-    "section": "Fitting a Line",
-    "text": "Fitting a Line\n\npenguins |&gt; \n  ggplot(aes(y = flipper_len, x = body_mass)) +\n    geom_point() + \n    geom_smooth(method = \"lm\") +\n    theme_bw() + \n    annotate(\"text\", label = \"y=136.7+0.015x\", x=3250, y=230, size = 10)"
-  },
-  {
-    "objectID": "lectures/15b.html#interpretation",
-    "href": "lectures/15b.html#interpretation",
-    "title": "Simple Linear Regression",
-    "section": "Interpretation",
-    "text": "Interpretation\n\\[\n\\hat y = 136.73 + 0.015 x\n\\]"
-  },
-  {
-    "objectID": "lectures/15b.html#ordinary-least-squares-1",
-    "href": "lectures/15b.html#ordinary-least-squares-1",
-    "title": "Simple Linear Regression",
-    "section": "Ordinary Least Squares",
-    "text": "Ordinary Least Squares\nFor a data pair \\((X_i,Y_i)_{i=1}^n\\), the ordinary least squares estimator will find the estimates of \\(\\hat\\beta_0\\) and \\(\\hat\\beta_1\\) that minimize the following function:\n\\[\n\\sum^n_{i=1}\\{y_i-(\\beta_0+\\beta_1x_i)\\}^2\n\\]"
-  },
-  {
-    "objectID": "lectures/15b.html#estimates",
-    "href": "lectures/15b.html#estimates",
-    "title": "Simple Linear Regression",
-    "section": "Estimates",
-    "text": "Estimates\n\\[\n\\hat\\beta_0 = \\bar y - \\hat\\beta_1\\bar x\n\\] \\[\n\\hat\\beta_1 = \\frac{\\sum^n_{i=1}(y_i-\\bar y)(x_i-\\bar x)}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\] \\[\n\\hat\\sigma^2 = \\frac{1}{n-2}\\sum^n_{i=1}(y_i-\\hat y_i)^2\n\\]"
-  },
-  {
-    "objectID": "lectures/15b.html#standard-errors-of-betas-1",
-    "href": "lectures/15b.html#standard-errors-of-betas-1",
-    "title": "Simple Linear Regression",
-    "section": "Standard Errors of \\(\\beta\\)’s",
-    "text": "Standard Errors of \\(\\beta\\)’s\n\\[\nSE(\\hat\\beta_0)=\\sqrt{\\frac{\\sum^n_{i=1}x_i^2\\hat\\sigma^2}{n\\sum^n_{i=1}(x_i-\\bar x)^2}}\n\\]\n\\[\nSE(\\hat\\beta_1)=\\sqrt\\frac{\\hat\\sigma^2}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\]"
-  },
-  {
-    "objectID": "lectures/15b.html#distributions",
-    "href": "lectures/15b.html#distributions",
-    "title": "Simple Linear Regression",
-    "section": "Distributions",
-    "text": "Distributions"
-  },
-  {
-    "objectID": "lectures/15b.html#standard-error-of-beta_0",
-    "href": "lectures/15b.html#standard-error-of-beta_0",
-    "title": "Simple Linear Regression",
-    "section": "Standard Error of \\(\\beta_0\\)",
-    "text": "Standard Error of \\(\\beta_0\\)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to Course!",
-    "section": "",
-    "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\nThis week, we will review sampling distributions and the Central Limit Theorem.\n\n\n\n\n\nFeb 22, 2026\n\n\n\n\n\n\n\nWeek 4\n\n\nThis week we will review joint distribution functions.\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\nWeek 3\n\n\nThis week, we will cover Transformations of Random Variables\n\n\n\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\nWeek 2\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\nWeek 1\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "hw/hw1.html",
-    "href": "hw/hw1.html",
-    "title": "Homework 1",
-    "section": "",
-    "text": "Homework 1 is due 2/15/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.\n\nX\\sim Bin(n,p), show that the variance of Binomial distribution is np(1-p).\nX\\sim Pois(\\lambda), show that the expected value of a Poisson distribution is \\lambda.\nX\\sim Pois(\\lambda), show that the variance of a Poisson distribution is \\lambda.\nX\\sim N(\\mu,\\sigma^2), show that the variance is \\sigma^2."
-  },
-  {
-    "objectID": "hw.html",
-    "href": "hw.html",
-    "title": "Homework",
-    "section": "",
-    "text": "Below are the different homework assignments for the course. Scan your homework as a PDF. You can use CamScanner, Dropbox, Google Drive, or icloud. Any assignments as images or not pdfs will not be graded.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 2\n\n\n\n\n\n\n\n\nFeb 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "exc/exc3.html",
-    "href": "exc/exc3.html",
-    "title": "Extra Credit 3",
-    "section": "",
-    "text": "After learning about one topic below, create a 10-minute vide-essay explaining more about the topic. Use visual aids, such as a powerpoint presentation, to highlight your main findings\n\nMonte Carlo Methods\nMonte Carlo Methods are a class of computational algorithms that rely on random sampling to obtain numerical results. These methods use statistical sampling techniques to approximate complex mathematical problems, particularly those with deterministic or probabilistic aspects. The name “Monte Carlo” is derived from the Monte Carlo Casino in Monaco, known for its games of chance and randomness.\nIn Monte Carlo Methods, random samples are generated to simulate the behavior of a system or process, and the results are analyzed to estimate desired quantities or solve problems. These methods find applications in various fields, such as physics, finance, engineering, and statistics. Monte Carlo simulations are particularly useful for solving problems with a large number of variables or complex interactions, where analytical solutions may be challenging or impossible to obtain.\n\nResources\n\nhttps://towardsdatascience.com/an-overview-of-monte-carlo-methods-675384eb1694\nhttps://towardsdatascience.com/monte-carlo-simulation-a-practical-guide-85da45597f0e\n\n\n\n\nSurvival Analysis\nSurvival analysis is a statistical method used to analyze the time until an event of interest occurs. This type of analysis is commonly employed in medical research, epidemiology, and other fields to study the duration until a specific event, often referred to as a “failure” or “survival” event. The event could be anything from the onset of a disease, death, relapse, or any other occurrence of interest.\nSurvival analysis is conducted using various statistical models, with the Cox proportional hazards model being one of the most widely used. These analyses help researchers understand factors influencing the time to an event, identify risk factors, and estimate survival probabilities over time.\nMake sure to provide a brief history of survival analysis and prominent methods such as Kaplan-Meier curves and Cox proportional hazard models.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2394262/\nhttps://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_survival/BS704_Survival_print.html\n\n\n\n\nBayesian Analysis\nBayesian analysis is a statistical approach that involves updating probabilities for hypotheses based on new evidence or data. It is rooted in Bayes’ theorem, which describes how beliefs about the probability of a hypothesis should change in light of new information. In Bayesian analysis, the prior probability (initial belief) is combined with the likelihood of observing the data given the hypothesis and results in the posterior probability (updated belief).\nBayesian methods are particularly valuable in situations with limited data or when incorporating prior knowledge is crucial. These methods provide a flexible framework for modeling uncertainty and updating beliefs as more information becomes available. Bayesian analysis is applied across various fields, including statistics, machine learning, physics, biology, and finance. Markov Chain Monte Carlo (MCMC) methods are often used to simulate samples from the posterior distribution in complex Bayesian models.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6406060/\nhttps://www.statlect.com/fundamentals-of-statistics/Bayesian-inference\n\n\n\n\nCausal Inference\nCausal inference is a field within statistics and epidemiology that focuses on understanding and estimating the causal relationships between variables or events. The goal is to determine whether a particular factor or intervention has a causal impact on an outcome. Causal inference involves identifying and controlling for confounding factors, which are variables that may influence both the cause and the effect, leading to potential bias in estimating causal relationships.\nCausal inference is essential for making informed decisions in fields such as medicine, public health, economics, and social sciences. It helps researchers draw valid conclusions about the effectiveness of interventions, policies, or treatments by accounting for potential sources of bias and confounding. Advances in causal inference methodologies contribute to a more rigorous understanding of cause-and-effect relationships in complex systems.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2836213/\nhttps://web.stanford.edu/~swager/stats361.pdf\n\nVideo Essay Guidelines:\n\n10 Minutes Long\nUse of visual aids\nNarrated by your own voice\nDue 5/15/2026\n\nWorth 2 final grade percentage points."
-  },
-  {
-    "objectID": "exc/exc1.html",
-    "href": "exc/exc1.html",
-    "title": "Extra Credit 1",
-    "section": "",
-    "text": "Write a 1-2 page report related to your favorite activity. Provide details of the activity and why you like the activity.\nReport guidelines\n\n1-2 Pages\nDouble Spaced\n12 point font\nDue 2/15/2026"
-  },
-  {
-    "objectID": "books.html",
-    "href": "books.html",
-    "title": "Books",
-    "section": "",
-    "text": "A list of recommended books to learn more about Statistics, the majority are freely available from the Broome Library:"
-  },
-  {
-    "objectID": "books.html#basics",
-    "href": "books.html#basics",
-    "title": "Books",
-    "section": "Basics",
-    "text": "Basics\n\nIntroduction to Statistics and Data Analysis\n\nHeumann and Shalabh\n\nStatistical Foundations, Reasoning and Inference\n\nKauermann, Küchenhoff, and Heumann"
-  },
-  {
-    "objectID": "books.html#regression",
-    "href": "books.html#regression",
-    "title": "Books",
-    "section": "Regression",
-    "text": "Regression\n\nGeneralized Linear Models With Examples in R\n\nDunn and Smyth\nGraduate\n\nLinear and Generalized Linear Mixed Models and Their Applications (2nd Edition)\n\nJiang and Nguyen\nGraudate\n\nRegression Modeling Strategies\n\nHarrell\nUndergraduate\n\nVector Generalized Linear and Additive Models\n\nYee\nGraduate"
-  },
-  {
-    "objectID": "books.html#nonparametric",
-    "href": "books.html#nonparametric",
-    "title": "Books",
-    "section": "Nonparametric",
-    "text": "Nonparametric\n\nSemiparametric Regression with R\n\nHarezlak, Ruppert, and Wand\nGraduate"
-  },
-  {
-    "objectID": "books.html#computational",
-    "href": "books.html#computational",
-    "title": "Books",
-    "section": "Computational",
-    "text": "Computational\n\nBootstrap Methods with applications in R\n\nDikta and Scheer\nGraduate\n\nModern Optimization with R (2nd Edition)\n\nCortez\nGraduate\n\nComputational Statistics\n\nGentle\n\nMonte Carlo and Quasi-Monte Carlo Sampling\n\nLemieux\n\nStatistics With Julia\n\nNazarathy andKlok\n\nIntroducing Monte Carlo Methods in R\n\nRobert and Casella\n\nPermutation Statistical Methods with R\n\nBerry, Kvamme, Johnston, and Mielke\n\nMonte Carlo Strategies in Scientific Computing\n\nLiu"
-  },
-  {
-    "objectID": "books.html#bayesian",
-    "href": "books.html#bayesian",
-    "title": "Books",
-    "section": "Bayesian",
-    "text": "Bayesian\n\nIntroduction to Bayesian Inference, Methods and Computation\n\nHeard\n\nApplied Bayesian Statistics\n\nCowles\n\nBayesian Statistical Modeling with Stan, R, and Python\n\nMatsuura\n\nBayesian Essentials in R\n\nMarin and Robert"
-  },
-  {
-    "objectID": "books.html#theoretical",
-    "href": "books.html#theoretical",
-    "title": "Books",
-    "section": "Theoretical",
-    "text": "Theoretical\n\nEssentials of Stochastic Processes (3rd Edition)\n\nDurrett\nGraduate\n\nA Concise Introduction to Measure Theory\n\nShirali\nGraduate\n\nLarge Sample Techniques for Statistics (2nd Edition)\n\nJiang\nGraduate\n\nA Course in Mathematical Statistics and Large Sample Theory\n\nBhattacharya, Lin, and Patrangenaru\nGraduate\n\nMixture and Hidden Markov Models with R\n\nVisser and Speekenbrink\nUndergraduate\n\nModern Mathematical Statistics (3rd Edition)\n\nDevore, Berk, and Carlton\nUndergraduate\n\nProbability Theory (3rd Edition)\n\nKlenke\nGraduate\n\nTesting Statistical Hypotheses (4th Edition)\n\nLehmann and Romano\nGraduate\n\nTheory of Point Estimation\n\nLehmann and Casella\nGraduate\nMay not be available"
-  },
-  {
-    "objectID": "books.html#longitudinal-data-analysis",
-    "href": "books.html#longitudinal-data-analysis",
-    "title": "Books",
-    "section": "Longitudinal Data Analysis",
-    "text": "Longitudinal Data Analysis\n\nLongitudinal Categorical Data Analysis\n\nSutradhar"
-  },
-  {
-    "objectID": "books.html#survival-analysis",
-    "href": "books.html#survival-analysis",
-    "title": "Books",
-    "section": "Survival Analysis",
-    "text": "Survival Analysis\n\nStatistical Modelling of Survival Data with Random Effects\n\nHa, Jeong, and Lee\n\nSurvival Analysis (3rd Edition)\n\nKleinbaum and Klein\n\nApplied Survival Analysis in R\n\nMoore\n\nBayesian Survival Analysis\n\nIbrahim, Chen, and Sinha\n\nSurvival Analysis Techniques for Censored and Truncated Data (2nd Edition)\n\nKlein and Moeschberger"
-  },
-  {
-    "objectID": "books.html#machine-learning",
-    "href": "books.html#machine-learning",
-    "title": "Books",
-    "section": "Machine Learning",
-    "text": "Machine Learning\n\nFundamental of High-Dimensional Statistics\n\nLederer\n\nAn Introduction to Statistical Learning (2nd Edition)\n\nJames, Witten, Hastie and Tibshirani\n\nStatistical Learning from a Regression Perspective (2nd Edition)\n\nBerk\n\nElements of Statistical Learning\n\nHastie, Friedman, and Tibshirani\n\nStatistics for High Dimensional Data\n\nBühlmann and van der Geer\n\nProbability and Statistics for Machine Learning\n\nDas Gupta"
-  },
-  {
-    "objectID": "books.html#time-series",
-    "href": "books.html#time-series",
-    "title": "Books",
-    "section": "Time-Series",
-    "text": "Time-Series\n\nIntroduction to Time Series and Forcasting (3rd Edition)\n\nBrockwell and Davis\n\nTime Series Analysis and Its Applications\n\nShumway and Stoffer\n\nTime Series Analysis for the State-Space Model with R/Stan\n\nHagiwara"
-  },
-  {
-    "objectID": "books.html#study-desing-and-causal-inference",
-    "href": "books.html#study-desing-and-causal-inference",
-    "title": "Books",
-    "section": "Study Desing and Causal Inference",
-    "text": "Study Desing and Causal Inference\n\nCausal Inference What IF\n\nHernán and Robins\n\nDesign of Observational Studies\n\nRosenbaum\n\n\nBolded Titles, I have read thoroughly."
-  },
-  {
-    "objectID": "exc.html",
-    "href": "exc.html",
-    "title": "Extra Credit",
-    "section": "",
-    "text": "Extra Credit is designed to expand on different topics that related to Probability and Statistics, but are not necessarily required for the course. Additionally, these opportunities provide students relief when unexpected situations occur during the semester. While it is not required, I encourage everyone to attempt each opportunity.\nBelow is more information on each assignment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 1\n\n\nInstructions for extra credit one.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 2\n\n\nInstructions for extra credit two.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 3\n\n\nInstructions for extra credit three.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "exc/exc2.html",
-    "href": "exc/exc2.html",
-    "title": "Extra Credit 2",
-    "section": "",
-    "text": "After reading one book below, create a video essay that summarizes the book, provide a brief analysis in supporting or opposing the book, and connect key elements of the book to your every day life. The video essay should be 10 minutes being narrated by your own voice. Use visual aids, such as a powerpoint presentation, to highlight your main findings, and how it relates to your own life. All books should be available through the Broome Library.\nMATH 408 STUDENTS: You must choose a different book from Math 408 in order to receive credit.\nBooks:\n\nEmpire of AI\n\nKaren Hao\n\nThe Last Human Job\n\nAllison Pugh\n\nThe Book of Why\n\nJudea Pearl\n\nAlgorithms of Oppression\n\nSafiya Umoja Noble\n\nData Feminism\n\nCatherine D’Ignazio and Lauren Klein\n\nWeapons of Math Destruction\n\nCathy O’Niel\n\nInvisible Women: Data bias in a world designed for men\n\nCaroline Criado Perez\n\nFactfulness: Ten Reasons We’re Wrong About the World… and Why Things are Better Than You Think\n\nHans Rosling\n\nArtificial Unintelligence: How Computers Misunderstand the World\n\nMerideth Broussard\n\nTechnically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech\n\nSara Wachter-Boettcher\n\nUnmasking AI\n\nJoy Buolamwini\n\nRace After Technology\n\nRuha Benjamin\n\nCloud Ethics\n\nLouise Amoore\n\nMore than a Glitch\n\nMeridith Broussard\n\nDigitizing Race\n\nLisa Nakamura\n\nData Action\n\nSarah Williams\n\nOR ANY Book Approved By Me (Deadline for Approval by March 29, 2026)\n\nVideo Essay Guidelines:\n\n10 Minutes Long\nUse of visual aids\nNarrated by your own voice\nDue 5/15/2026\n\nWorth 2 final grade percentage points."
-  },
-  {
-    "objectID": "hw/hw0.html",
-    "href": "hw/hw0.html",
-    "title": "Homework 0",
-    "section": "",
-    "text": "Set the equation to 0 and solve for x:\n\n\\ln(x^2+5)\nx^2+6x+7\n3x^2-5x+2\ne^{x^2-4}\n\\ln(5x) + 3"
-  },
-  {
-    "objectID": "hw/hw0.html#footnotes",
-    "href": "hw/hw0.html#footnotes",
-    "title": "Homework 0",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nEither convert to summation notation or evaluate the summation.↩︎"
-  },
-  {
-    "objectID": "hw/hw2.html",
-    "href": "hw/hw2.html",
-    "title": "Homework 2",
-    "section": "",
-    "text": "Homework 2 is due 2/22/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.\n\nShow that the moment generating function for a random variable \\(X\\sim Gamma(\\alpha,\\beta)\\) is \\(\\left(1-\\beta t\\right)^{-\\alpha}\\).\nLet \\(X\\) be a discrete random variable with PMF\n\n\\[\n    P(X=x)=\\left\\{\\begin{array}{cc}\n    0.25+0.5e^{-\\theta} & x =0 \\\\\n    0.25+0.5\\theta e^{-\\theta} & x =1 \\\\\n    0.5\\frac{\\theta^x}{x!}e^{-\\theta} & x = 2,3,\\ldots\\\\\n    0 & \\textrm{otherwise}\n    \\end{array}\\right.\n\\] Show that the PMF is valid.\n\nFind the moment-generating function of \\(X\\sim\\chi^2_k\\) and \\(f_X(x)=\\frac{x^{k/2-1}\\exp\\{-x/2\\}}{2^{k/2}\\Gamma(k/2)}\\) with \\(x&gt;0\\).\nProblem 110 in Chapter 4 of Modern Mathematical Statistics (2021; 3rd Edition)\nProblem 113 in Chapter 4 of Modern Mathematical Statistics (2021; 3rd Edition)"
-  },
-  {
-    "objectID": "lectures/15a.html#learning-outcomes",
-    "href": "lectures/15a.html#learning-outcomes",
-    "title": "Linear Regression",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nScatter Plot\nLinear Regression\nOrdinary Least Squares\nUnbiasedness"
-  },
-  {
-    "objectID": "lectures/15a.html#scatter-plot-1",
-    "href": "lectures/15a.html#scatter-plot-1",
-    "title": "Linear Regression",
-    "section": "Scatter Plot",
-    "text": "Scatter Plot"
-  },
-  {
-    "objectID": "lectures/15a.html#scatter-plot-2",
-    "href": "lectures/15a.html#scatter-plot-2",
-    "title": "Linear Regression",
-    "section": "Scatter Plot",
-    "text": "Scatter Plot"
-  },
-  {
-    "objectID": "lectures/15a.html#linear-regression-1",
-    "href": "lectures/15a.html#linear-regression-1",
-    "title": "Linear Regression",
-    "section": "Linear Regression",
-    "text": "Linear Regression\nLinear regression is used to model the association between a set of predictor variables (x’s) and an outcome variable (y). Linear regression will fit a line that best describes the data points."
-  },
-  {
-    "objectID": "lectures/15a.html#simple-linear-regression",
-    "href": "lectures/15a.html#simple-linear-regression",
-    "title": "Linear Regression",
-    "section": "Simple Linear Regression",
-    "text": "Simple Linear Regression\nSimple linear regression will model the association between one predictor variable and an outcome:\n\\[\nY = \\beta_0 + \\beta_1 X + \\epsilon\n\\]\n\n\\(\\beta_0\\): Intercept term\n\\(\\beta_1\\): Slope term\n\\(\\epsilon\\sim N(0,\\sigma^2)\\)"
-  },
-  {
-    "objectID": "lectures/15a.html#fitting-a-line",
-    "href": "lectures/15a.html#fitting-a-line",
-    "title": "Linear Regression",
-    "section": "Fitting a Line",
-    "text": "Fitting a Line"
-  },
-  {
-    "objectID": "lectures/15a.html#interpretation",
-    "href": "lectures/15a.html#interpretation",
-    "title": "Linear Regression",
-    "section": "Interpretation",
-    "text": "Interpretation\n\\[\n\\hat y = 136.73 + 0.015 x\n\\]"
-  },
-  {
-    "objectID": "lectures/15a.html#ordinary-least-squares-1",
-    "href": "lectures/15a.html#ordinary-least-squares-1",
-    "title": "Linear Regression",
-    "section": "Ordinary Least Squares",
-    "text": "Ordinary Least Squares\nFor a data pair \\((X_i,Y_i)_{i=1}^n\\), the ordinary least squares estimator will find the estimates of \\(\\hat\\beta_0\\) and \\(\\hat\\beta_1\\) that minimize the following function:\n\\[\n\\sum^n_{i=1}\\{y_i-(\\beta_0+\\beta_1x_i)\\}^2\n\\]"
-  },
-  {
-    "objectID": "lectures/15a.html#estimating-betas",
-    "href": "lectures/15a.html#estimating-betas",
-    "title": "Linear Regression",
-    "section": "Estimating \\(\\beta\\)’s",
-    "text": "Estimating \\(\\beta\\)’s"
-  },
-  {
-    "objectID": "lectures/15a.html#estimating-beta_1",
-    "href": "lectures/15a.html#estimating-beta_1",
-    "title": "Linear Regression",
-    "section": "Estimating \\(\\beta_1\\)",
-    "text": "Estimating \\(\\beta_1\\)"
-  },
-  {
-    "objectID": "lectures/15a.html#estimating-beta_0",
-    "href": "lectures/15a.html#estimating-beta_0",
-    "title": "Linear Regression",
-    "section": "Estimating \\(\\beta_0\\)",
-    "text": "Estimating \\(\\beta_0\\)"
-  },
-  {
-    "objectID": "lectures/15a.html#estimates",
-    "href": "lectures/15a.html#estimates",
-    "title": "Linear Regression",
-    "section": "Estimates",
-    "text": "Estimates\n\\[\n\\hat\\beta_0 = \\bar y - \\hat\\beta_1\\bar x\n\\] \\[\n\\hat\\beta_1 = \\frac{\\sum^n_{i=1}(y_i-\\bar y)(x_i-\\bar x)}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\] \\[\n\\hat\\sigma^2 = \\frac{1}{n-2}\\sum^n_{i=1}(y_i-\\hat y_i)^2\n\\]"
-  },
-  {
-    "objectID": "lectures/15a.html#unbiasedness-of-betas-1",
-    "href": "lectures/15a.html#unbiasedness-of-betas-1",
-    "title": "Linear Regression",
-    "section": "Unbiasedness of \\(\\beta\\)’s",
-    "text": "Unbiasedness of \\(\\beta\\)’s\nBoth \\(\\beta_0\\) and \\(\\beta_1\\) are unbiased estimators."
-  },
-  {
-    "objectID": "lectures/15a.html#ebeta_1",
-    "href": "lectures/15a.html#ebeta_1",
-    "title": "Linear Regression",
-    "section": "\\(E(\\beta_1)\\)",
-    "text": "\\(E(\\beta_1)\\)"
-  },
-  {
-    "objectID": "lectures/15a.html#ebeta_0",
-    "href": "lectures/15a.html#ebeta_0",
-    "title": "Linear Regression",
-    "section": "\\(E(\\beta_0)\\)",
-    "text": "\\(E(\\beta_0)\\)"
-  },
-  {
-    "objectID": "lectures/1a.html#introductions-1",
-    "href": "lectures/1a.html#introductions-1",
-    "title": "Math 453",
-    "section": "Introductions",
-    "text": "Introductions\n\nSan Bernardino, CA\nCSU Monterey Bay\n\nBS Biology\n\nSan Diego State University\n\nMaster’s in Public Health\n\nUC Riverside\n\nPhD in Applied Statistics"
-  },
-  {
-    "objectID": "lectures/1a.html#introductions-2",
-    "href": "lectures/1a.html#introductions-2",
-    "title": "Math 453",
-    "section": "Introductions",
-    "text": "Introductions\n\nName\nYear\nMajor\nFun Fact\nCareer Goal"
-  },
-  {
-    "objectID": "lectures/1a.html#class-setup-1",
-    "href": "lectures/1a.html#class-setup-1",
-    "title": "Math 453",
-    "section": "Class Setup",
-    "text": "Class Setup\n\nHomework Assignments\nFinal Presentation\nFinal Write Up\nExtra Credit"
-  },
-  {
-    "objectID": "lectures/1a.html#syllabus",
-    "href": "lectures/1a.html#syllabus",
-    "title": "Math 453",
-    "section": "Syllabus",
-    "text": "Syllabus\nm453.inqs.info/syllabus"
-  },
-  {
-    "objectID": "lectures/1a.html#learning-outcomes",
-    "href": "lectures/1a.html#learning-outcomes",
-    "title": "Math 453",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nDemonstrate statistical knowledge and apply it to various data sets.\nUse basic principles of statistical inference (both Bayesian and frequentist).\nBuild a starter statistical toolbox and discuss the utility and limitations of these techniques.\nUse software and simulation to do statistics.\nDemonstrate ability to discuss statistical information in oral and written form."
-  },
-  {
-    "objectID": "lectures/1a.html#course-description",
-    "href": "lectures/1a.html#course-description",
-    "title": "Math 453",
-    "section": "Course Description",
-    "text": "Course Description\nThis course is an introduction to mathematical statistics with an emphasis on statistical estimation and hypothesis testing. The course will be comprised of both theory and applications. We begin with a condensed review of fundamental concepts from Math 352; particularly, we briefly review important discrete and continuous probability distributions. We will then begin our discussion on the main topic of this course, statistical inference, through the study of distributions of functions of random variables using the method of moment-generating functions and order statistics. We then discuss ideas of convergence with sampling distributions and the central limit theorem. Next, we consider the topics of estimation, properties of point estimators, and methods of estimation. Finally, we study the theory of statistical tests and likelihood ratio tests. Depending on time, other topics may be added or removed."
-  },
-  {
-    "objectID": "lectures/1a.html#recommended-texts",
-    "href": "lectures/1a.html#recommended-texts",
-    "title": "Math 453",
-    "section": "Recommended Texts",
-    "text": "Recommended Texts\n\nModern Mathematical Statistics (MMS) with Applications, by Jay L. Devore and Kenneth N. Berk , Third Edition, Springer, 2021. (available online for free through the Broome Library)."
-  },
-  {
-    "objectID": "lectures/1a.html#math-foundations",
-    "href": "lectures/1a.html#math-foundations",
-    "title": "Math 453",
-    "section": "Math Foundations",
-    "text": "Math Foundations\nHave a strong math foundation is necessary to be successful in the course. We will be utilizing topics related to:\n\nCalculus\nProbability Theory\nAlgebra\n\nYou can try out these problems to get an idea of the type of math we will be doing in this class here."
-  },
-  {
-    "objectID": "lectures/1a.html#use-of-generative-ai-policy",
-    "href": "lectures/1a.html#use-of-generative-ai-policy",
-    "title": "Math 453",
-    "section": "Use of Generative AI Policy",
-    "text": "Use of Generative AI Policy\nThe use of generative artificial intelligence (AI) to complete any part or all of an assignment/exam is strictly prohibited in this class. This includes, but not limited to, ChatGPT, Claude, Meta AI, and Google Gemini.\n\nYou may use AI to enhance you understanding of the material.\n\n\nYou may not use AI to complete assignments.\n\n\nYou may not upload any course material to any AI platforms such as ChatGPT, Claude, Meta AI, and Google Gemini. Exceptions are allowed for DASS-approved services."
-  },
-  {
-    "objectID": "lectures/1a.html#use-of-ai",
-    "href": "lectures/1a.html#use-of-ai",
-    "title": "Math 453",
-    "section": "Use of AI",
-    "text": "Use of AI\nThere are consequences when you use of AI:\n\nEducational Mislearning\nTrusting AI\nStolen Work\nPrivacy Concerns\nEnvironmental Impacts\nWorking Exploitation"
-  },
-  {
-    "objectID": "lectures/1a.html#educational-mislearning",
-    "href": "lectures/1a.html#educational-mislearning",
-    "title": "Math 453",
-    "section": "Educational Mislearning",
-    "text": "Educational Mislearning\nThe purpose of this class, and college, is for you to learn about critical thinking skills and perseverance. Using AI will only teach you how to get an answer, which may or may not be correct.\n\nYou will not develop the skills needed to problem solve a challenge. Additionally, developing grit is essential to become successful in college and life. There is no easy way out and AI is an illusion to your success in life.\n\n\nTo learn something, it requires hours of work! If not years!"
-  },
-  {
-    "objectID": "lectures/1a.html#trusting-ai",
-    "href": "lectures/1a.html#trusting-ai",
-    "title": "Math 453",
-    "section": "Trusting AI",
-    "text": "Trusting AI\nWhen using AI, you must acknowledge its limitations:\n\nResponses provided may be incorrect\nResponses may not be fair\nCompanies may manipulate responses and/or terms of service for their benefit\nCompanies may not have your best interst in mind\n\n\nYou should always proceed with caution utilizing these tools!"
-  },
-  {
-    "objectID": "lectures/1a.html#stolen-work",
-    "href": "lectures/1a.html#stolen-work",
-    "title": "Math 453",
-    "section": "Stolen Work",
-    "text": "Stolen Work\n\nAdditionally, all these individuals are not receiving any royalties for the work to be used in creating generative AI models.\n\n\nInside Higher Ed and The New Yorker highlight individual’s concern of their work being used to train AI models."
-  },
-  {
-    "objectID": "lectures/1a.html#privacy-concerns",
-    "href": "lectures/1a.html#privacy-concerns",
-    "title": "Math 453",
-    "section": "Privacy Concerns",
-    "text": "Privacy Concerns\nThe use of generative AI raises concerns of what data is being harvested from us, possibly without informed consent or knowledge of impacts.\n\nWhen you use any large language models, you do not know what information is being harvested from you.\n\n\nDo you want to upload your thoughts and ideas to a company that can monetize, and possibly exploit you.\n\n\nDoes your Professors consent with you uploading their assignments to large language models?\n\n\nStanford provided a report highlighting the risks of our personal data use in large language models."
-  },
-  {
-    "objectID": "lectures/1a.html#environmental-impact",
-    "href": "lectures/1a.html#environmental-impact",
-    "title": "Math 453",
-    "section": "Environmental Impact",
-    "text": "Environmental Impact\nIn order to run these large language models, companies need to use a large amounts of energy. This is because large servers are needed to both train and execute a model.\n\nThe LA Times reports the potential impact that running AI models in California.\n\n\nAdditionally, Time reports that a ChatGPT query uses ten times more energy than a Google search query, and global AI demands can consume of 1 trillion gallons of water by 2027.\n\n\nThere are also environmental justice questions about where these data centers are constructed."
-  },
-  {
-    "objectID": "lectures/1a.html#worker-exploitation",
-    "href": "lectures/1a.html#worker-exploitation",
-    "title": "Math 453",
-    "section": "Worker Exploitation",
-    "text": "Worker Exploitation\nThe Washington Post and Time (Article 1 and Article 2) reported that AI companies utilize “digital sweatshops” to classify data points for model training.\n\nThere is a human cost from the Global South, both financially and mentally, to develop the AI models for users in the United States and Europe.\n\n\nWe must be conscious consumers and demand more from these companies to provide safe working conditions and livable wages."
-  },
-  {
-    "objectID": "lectures/1a.html#is-using-ai-bad",
-    "href": "lectures/1a.html#is-using-ai-bad",
-    "title": "Math 453",
-    "section": "Is Using AI Bad?",
-    "text": "Is Using AI Bad?\n\nYes/No/I don’t know"
-  },
-  {
-    "objectID": "lectures/1a.html#privacy-concerns-links",
-    "href": "lectures/1a.html#privacy-concerns-links",
-    "title": "Math 453",
-    "section": "Privacy Concerns Links",
-    "text": "Privacy Concerns Links\n\nOpenAI Says It’s Scanning Users’ ChatGPT Conversations and Reporting Content to the Police\nPrivacy in an AI Era: How Do We Protect Our Personal Information?"
-  },
-  {
-    "objectID": "lectures/1a.html#labor-violations-links",
-    "href": "lectures/1a.html#labor-violations-links",
-    "title": "Math 453",
-    "section": "Labor Violations Links",
-    "text": "Labor Violations Links\n\nThe Emotional Labor Behind AI Intimacy\nHow thousands of ‘overworked, underpaid’ humans train Google’s AI to seem smart"
-  },
-  {
-    "objectID": "lectures/1a.html#affecting-communities-links",
-    "href": "lectures/1a.html#affecting-communities-links",
-    "title": "Math 453",
-    "section": "Affecting Communities Links",
-    "text": "Affecting Communities Links\n\nAI surveillance and data colonialism shape African conflicts\nAfrican workers are taking on Meta and the world should pay attention\n‘It’s destroyed me completely’: Kenyan moderators decry toll of training of AI models\nThe AI Industry Is Traumatizing Desperate Contractors in the Developing World for Pennies\nChatGPT advises women to ask for lower salaries, study finds\nThe Impact of the Use of AI on People with Disabilities"
-  },
-  {
-    "objectID": "lectures/1a.html#ideas-and-learning-links",
-    "href": "lectures/1a.html#ideas-and-learning-links",
-    "title": "Math 453",
-    "section": "Ideas and Learning Links",
-    "text": "Ideas and Learning Links\n\nStudent’s Right to Refuse AI\nAI is homogenizing your thoughts\nThe Incuriosity Engine\nNew Junior Developers Can’t Actually Code"
-  },
-  {
-    "objectID": "lectures/1a.html#environmental-costs",
-    "href": "lectures/1a.html#environmental-costs",
-    "title": "Math 453",
-    "section": "Environmental Costs",
-    "text": "Environmental Costs\n\n‘I can’t drink the water’ - life next to a US data centre"
-  },
-  {
-    "objectID": "lectures/1a.html#extra-credits-1",
-    "href": "lectures/1a.html#extra-credits-1",
-    "title": "Math 453",
-    "section": "Extra Credits",
-    "text": "Extra Credits\n\nExtra Credit 1\nExtra Credit 2\nExtra Credit 3"
-  },
-  {
-    "objectID": "lectures/1a.html#fundamentals-of-statistics-1",
-    "href": "lectures/1a.html#fundamentals-of-statistics-1",
-    "title": "Math 453",
-    "section": "Fundamentals of Statistics",
-    "text": "Fundamentals of Statistics\n\nObservational Unit\nVariable\n\nTypes of Variables\n\nQuantitative\nCategorical\n\nRoles of Variables\n\nPredictors\nOutcome"
-  },
-  {
-    "objectID": "lectures/1a.html#observational-unit",
-    "href": "lectures/1a.html#observational-unit",
-    "title": "Math 453",
-    "section": "Observational Unit",
-    "text": "Observational Unit"
-  },
-  {
-    "objectID": "lectures/1a.html#type-of-variable---quantitative",
-    "href": "lectures/1a.html#type-of-variable---quantitative",
-    "title": "Math 453",
-    "section": "Type of Variable - Quantitative",
-    "text": "Type of Variable - Quantitative"
-  },
-  {
-    "objectID": "lectures/1a.html#type-of-variable---qualitative",
-    "href": "lectures/1a.html#type-of-variable---qualitative",
-    "title": "Math 453",
-    "section": "Type of Variable - Qualitative",
-    "text": "Type of Variable - Qualitative"
-  },
-  {
-    "objectID": "lectures/1a.html#predictor-variables",
-    "href": "lectures/1a.html#predictor-variables",
-    "title": "Math 453",
-    "section": "Predictor Variables",
-    "text": "Predictor Variables"
-  },
-  {
-    "objectID": "lectures/1a.html#outcomes",
-    "href": "lectures/1a.html#outcomes",
-    "title": "Math 453",
-    "section": "Outcomes",
-    "text": "Outcomes"
-  },
-  {
-    "objectID": "lectures/1a.html#fundamental-of-statistical-inference",
-    "href": "lectures/1a.html#fundamental-of-statistical-inference",
-    "title": "Math 453",
-    "section": "Fundamental of Statistical Inference",
-    "text": "Fundamental of Statistical Inference\n\n\n\nCategorical Variables\n\nProportions\n\np or \\(\\pi\\)\n\\(\\hat p\\)\n\n\n\n\n\nContinuous Variables\n\nMeans or Averages\n\n\\(\\mu\\)\n\\(\\hat \\mu\\) or \\(\\bar X\\)\n\nVariances\n\n\\(\\sigma^2\\)\n\\(\\hat \\sigma^2\\) or \\(s^2\\)"
-  },
-  {
-    "objectID": "lectures/1a.html#sampling-techniques-1",
-    "href": "lectures/1a.html#sampling-techniques-1",
-    "title": "Math 453",
-    "section": "Sampling Techniques",
-    "text": "Sampling Techniques\n\nSimple Random Sampling\nStratified Sampling\nCluster Sampling\nMultistage Sampling"
+    "objectID": "lectures/3c.html#example-4",
+    "href": "lectures/3c.html#example-4",
+    "title": "Transformations of Random Variables",
+    "section": "Example 4",
+    "text": "Example 4\nLet \\(Z\\) follow a standard normal distribution with mean \\(0\\) and variance \\(1\\). Find the distribution of \\(Y=Z^2\\)"
   },
   {
     "objectID": "lectures/2a.html#continuous-random-variables-1",
@@ -1435,239 +679,967 @@
     "text": "Example 4\nLet \\(Z\\) follow a standard normal distribution with mean \\(0\\) and variance \\(1\\). Find the distribution of \\(Y=Z^2\\)"
   },
   {
-    "objectID": "lectures/3c.html#transformation-of-random-variables-1",
-    "href": "lectures/3c.html#transformation-of-random-variables-1",
-    "title": "Transformations of Random Variables",
-    "section": "Transformation of Random Variables",
-    "text": "Transformation of Random Variables"
+    "objectID": "lectures/1a.html#introductions-1",
+    "href": "lectures/1a.html#introductions-1",
+    "title": "Math 453",
+    "section": "Introductions",
+    "text": "Introductions\n\nSan Bernardino, CA\nCSU Monterey Bay\n\nBS Biology\n\nSan Diego State University\n\nMaster’s in Public Health\n\nUC Riverside\n\nPhD in Applied Statistics"
   },
   {
-    "objectID": "lectures/3c.html#using-the-distribution-function",
-    "href": "lectures/3c.html#using-the-distribution-function",
-    "title": "Transformations of Random Variables",
-    "section": "Using the Distribution Function",
-    "text": "Using the Distribution Function\nLet there be a random variable \\(X\\) with a known distribution function \\(F_X(x)\\), the density function for the random variable \\(Y=g(X)\\) can be found with the following steps\n\n\nFind the region of \\(Y\\) in the space of \\(X\\), find \\(g^{-1}(y)\\)\nFind the region of \\(Y\\le y\\)\nFind \\(F_Y(y)=P(Y\\le y)\\) using the probability density function of \\(X\\) over region \\(Y\\le y\\)\nFind \\(f_Y(y)\\) by differentiating \\(F_Y(y)\\)"
+    "objectID": "lectures/1a.html#introductions-2",
+    "href": "lectures/1a.html#introductions-2",
+    "title": "Math 453",
+    "section": "Introductions",
+    "text": "Introductions\n\nName\nYear\nMajor\nFun Fact\nCareer Goal"
   },
   {
-    "objectID": "lectures/3c.html#example-1",
-    "href": "lectures/3c.html#example-1",
-    "title": "Transformations of Random Variables",
-    "section": "Example 1",
-    "text": "Example 1\nLet \\(X\\) have the following probability density function:\n\\[\nf_X(x)=\\left\\{\\begin{array}{cc}\n2x & 0\\le x \\le 1 \\\\\n0 & \\mathrm{otherwise}\n\\end{array}\n\\right.\n\\]\nFind the probability density function of \\(Y=3X-1\\)?"
+    "objectID": "lectures/1a.html#class-setup-1",
+    "href": "lectures/1a.html#class-setup-1",
+    "title": "Math 453",
+    "section": "Class Setup",
+    "text": "Class Setup\n\nHomework Assignments\nFinal Presentation\nFinal Write Up\nExtra Credit"
   },
   {
-    "objectID": "lectures/3c.html#using-the-pdf",
-    "href": "lectures/3c.html#using-the-pdf",
-    "title": "Transformations of Random Variables",
-    "section": "Using the PDF",
-    "text": "Using the PDF\nLet there be a random variable \\(X\\) with a known distribution function \\(F_X(x)\\), if the random variable \\(Y=g(X)\\) is either increasing or decreasing, than the probability density function can be found as\n\\[\nf_Y(y) = f_X\\{g^{-1}(y)\\}\\left|\\frac{dg^{-1}(y)}{dy}\\right|\n\\]"
+    "objectID": "lectures/1a.html#syllabus",
+    "href": "lectures/1a.html#syllabus",
+    "title": "Math 453",
+    "section": "Syllabus",
+    "text": "Syllabus\nm453.inqs.info/syllabus"
   },
   {
-    "objectID": "lectures/3c.html#example-2",
-    "href": "lectures/3c.html#example-2",
-    "title": "Transformations of Random Variables",
-    "section": "Example 2",
-    "text": "Example 2\nLet \\(X\\) have the following probability density function:\n\\[\nf_X(x)=\\left\\{\\begin{array}{cc}\n\\frac{3}{2}x^2 + x & 0\\le y \\le 1 \\\\\n0 & \\mathrm{otherwise}\n\\end{array}\n\\right.\n\\]\nFind the probability density function of \\(Y=5-(X/2)\\)?"
+    "objectID": "lectures/1a.html#learning-outcomes",
+    "href": "lectures/1a.html#learning-outcomes",
+    "title": "Math 453",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nDemonstrate statistical knowledge and apply it to various data sets.\nUse basic principles of statistical inference (both Bayesian and frequentist).\nBuild a starter statistical toolbox and discuss the utility and limitations of these techniques.\nUse software and simulation to do statistics.\nDemonstrate ability to discuss statistical information in oral and written form."
   },
   {
-    "objectID": "lectures/3c.html#using-the-mgf",
-    "href": "lectures/3c.html#using-the-mgf",
-    "title": "Transformations of Random Variables",
-    "section": "Using the MGF",
-    "text": "Using the MGF\nUsing the uniqueness property of Moment Generating Functions, for a random variable \\(X\\) with a known distribution function \\(F_X(x)\\) and random variable \\(Y=g(X)\\), the distribution of \\(Y\\) can be found by:\n\nFind the moment generating function of \\(Y\\), \\(M_Y(t)\\).\nCompare \\(M_Y(t)\\), with known moment generating functions. If \\(M_Y(t)=M_V(t)\\), for all values \\(t\\), them \\(Y\\) and \\(V\\) have identical distributions."
+    "objectID": "lectures/1a.html#course-description",
+    "href": "lectures/1a.html#course-description",
+    "title": "Math 453",
+    "section": "Course Description",
+    "text": "Course Description\nThis course is an introduction to mathematical statistics with an emphasis on statistical estimation and hypothesis testing. The course will be comprised of both theory and applications. We begin with a condensed review of fundamental concepts from Math 352; particularly, we briefly review important discrete and continuous probability distributions. We will then begin our discussion on the main topic of this course, statistical inference, through the study of distributions of functions of random variables using the method of moment-generating functions and order statistics. We then discuss ideas of convergence with sampling distributions and the central limit theorem. Next, we consider the topics of estimation, properties of point estimators, and methods of estimation. Finally, we study the theory of statistical tests and likelihood ratio tests. Depending on time, other topics may be added or removed."
   },
   {
-    "objectID": "lectures/3c.html#example-3",
-    "href": "lectures/3c.html#example-3",
-    "title": "Transformations of Random Variables",
-    "section": "Example 3",
-    "text": "Example 3\nLet \\(X\\) follow a normal distribution with mean \\(\\mu\\) and variance \\(\\sigma^2\\). Find the distribution of \\(Z=\\frac{X-\\mu}{\\sigma}\\)."
+    "objectID": "lectures/1a.html#recommended-texts",
+    "href": "lectures/1a.html#recommended-texts",
+    "title": "Math 453",
+    "section": "Recommended Texts",
+    "text": "Recommended Texts\n\nModern Mathematical Statistics (MMS) with Applications, by Jay L. Devore and Kenneth N. Berk , Third Edition, Springer, 2021. (available online for free through the Broome Library)."
   },
   {
-    "objectID": "lectures/3c.html#example-4",
-    "href": "lectures/3c.html#example-4",
-    "title": "Transformations of Random Variables",
-    "section": "Example 4",
-    "text": "Example 4\nLet \\(Z\\) follow a standard normal distribution with mean \\(0\\) and variance \\(1\\). Find the distribution of \\(Y=Z^2\\)"
+    "objectID": "lectures/1a.html#math-foundations",
+    "href": "lectures/1a.html#math-foundations",
+    "title": "Math 453",
+    "section": "Math Foundations",
+    "text": "Math Foundations\nHave a strong math foundation is necessary to be successful in the course. We will be utilizing topics related to:\n\nCalculus\nProbability Theory\nAlgebra\n\nYou can try out these problems to get an idea of the type of math we will be doing in this class here."
   },
   {
-    "objectID": "lectures/4c.html#sample",
-    "href": "lectures/4c.html#sample",
-    "title": "Sampling Distributions",
-    "section": "Sample",
-    "text": "Sample\nWhen collecting data to construct a sample, the sample is a collection of random variables.\n\nTherefore, the sample can be subjected to probability properties."
+    "objectID": "lectures/1a.html#use-of-generative-ai-policy",
+    "href": "lectures/1a.html#use-of-generative-ai-policy",
+    "title": "Math 453",
+    "section": "Use of Generative AI Policy",
+    "text": "Use of Generative AI Policy\nThe use of generative artificial intelligence (AI) to complete any part or all of an assignment/exam is strictly prohibited in this class. This includes, but not limited to, ChatGPT, Claude, Meta AI, and Google Gemini.\n\nYou may use AI to enhance you understanding of the material.\n\n\nYou may not use AI to complete assignments.\n\n\nYou may not upload any course material to any AI platforms such as ChatGPT, Claude, Meta AI, and Google Gemini. Exceptions are allowed for DASS-approved services."
   },
   {
-    "objectID": "lectures/4c.html#iid-random-variables",
-    "href": "lectures/4c.html#iid-random-variables",
-    "title": "Sampling Distributions",
-    "section": "iid Random Variables",
-    "text": "iid Random Variables\nA sample of random variables are said to be iid if they are identical and independentally distributed.\nFor example, \\(X\\) and \\(Y\\) are iid, if \\(X\\) and \\(Y\\) has the same distribution \\(f(\\theta)\\) and \\(X \\perp  Y\\)"
+    "objectID": "lectures/1a.html#use-of-ai",
+    "href": "lectures/1a.html#use-of-ai",
+    "title": "Math 453",
+    "section": "Use of AI",
+    "text": "Use of AI\nThere are consequences when you use of AI:\n\nEducational Mislearning\nTrusting AI\nStolen Work\nPrivacy Concerns\nEnvironmental Impacts\nWorking Exploitation"
   },
   {
-    "objectID": "lectures/4c.html#statistics-1",
-    "href": "lectures/4c.html#statistics-1",
-    "title": "Sampling Distributions",
-    "section": "Statistics",
-    "text": "Statistics\nA statistic is a transformation of the the sample data.\n\nBefore data is calculated, a statistic from a sample can take any value.\n\n\nTherefore, a statistic must be a random variable."
+    "objectID": "lectures/1a.html#educational-mislearning",
+    "href": "lectures/1a.html#educational-mislearning",
+    "title": "Math 453",
+    "section": "Educational Mislearning",
+    "text": "Educational Mislearning\nThe purpose of this class, and college, is for you to learn about critical thinking skills and perseverance. Using AI will only teach you how to get an answer, which may or may not be correct.\n\nYou will not develop the skills needed to problem solve a challenge. Additionally, developing grit is essential to become successful in college and life. There is no easy way out and AI is an illusion to your success in life.\n\n\nTo learn something, it requires hours of work! If not years!"
   },
   {
-    "objectID": "lectures/4c.html#sampling-distributions-1",
-    "href": "lectures/4c.html#sampling-distributions-1",
-    "title": "Sampling Distributions",
-    "section": "Sampling Distributions",
-    "text": "Sampling Distributions\nA sampling distribution is the distribution of a statistic. Many known statistics have a known distribution."
+    "objectID": "lectures/1a.html#trusting-ai",
+    "href": "lectures/1a.html#trusting-ai",
+    "title": "Math 453",
+    "section": "Trusting AI",
+    "text": "Trusting AI\nWhen using AI, you must acknowledge its limitations:\n\nResponses provided may be incorrect\nResponses may not be fair\nCompanies may manipulate responses and/or terms of service for their benefit\nCompanies may not have your best interst in mind\n\n\nYou should always proceed with caution utilizing these tools!"
   },
   {
-    "objectID": "lectures/4c.html#bar-x",
-    "href": "lectures/4c.html#bar-x",
-    "title": "Sampling Distributions",
-    "section": "\\(\\bar X\\)",
-    "text": "\\(\\bar X\\)\nLet \\(X_1, X_2, \\ldots, X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\) , show that \\(\\bar X \\sim N(\\mu,\\sigma^2/n)\\). Note: the MGF of \\(X_i\\) is \\(e^{\\mu t + \\frac{t^2\\sigma^2}{2}}\\)."
+    "objectID": "lectures/1a.html#stolen-work",
+    "href": "lectures/1a.html#stolen-work",
+    "title": "Math 453",
+    "section": "Stolen Work",
+    "text": "Stolen Work\n\nAdditionally, all these individuals are not receiving any royalties for the work to be used in creating generative AI models.\n\n\nInside Higher Ed and The New Yorker highlight individual’s concern of their work being used to train AI models."
   },
   {
-    "objectID": "lectures/4c.html#sum-of-chi2_1",
-    "href": "lectures/4c.html#sum-of-chi2_1",
-    "title": "Sampling Distributions",
-    "section": "Sum of \\(\\chi^2_1\\)",
-    "text": "Sum of \\(\\chi^2_1\\)\nLet \\(Z_1^2, \\ldots, Z_n^2\\) be a iid \\(\\chi^2_1\\). Find \\(Y = \\sum^n_{i=1} Z_i^2\\)"
+    "objectID": "lectures/1a.html#privacy-concerns",
+    "href": "lectures/1a.html#privacy-concerns",
+    "title": "Math 453",
+    "section": "Privacy Concerns",
+    "text": "Privacy Concerns\nThe use of generative AI raises concerns of what data is being harvested from us, possibly without informed consent or knowledge of impacts.\n\nWhen you use any large language models, you do not know what information is being harvested from you.\n\n\nDo you want to upload your thoughts and ideas to a company that can monetize, and possibly exploit you.\n\n\nDoes your Professors consent with you uploading their assignments to large language models?\n\n\nStanford provided a report highlighting the risks of our personal data use in large language models."
   },
   {
-    "objectID": "lectures/4c.html#s2",
-    "href": "lectures/4c.html#s2",
-    "title": "Sampling Distributions",
-    "section": "\\(s^2\\)",
-    "text": "\\(s^2\\)"
+    "objectID": "lectures/1a.html#environmental-impact",
+    "href": "lectures/1a.html#environmental-impact",
+    "title": "Math 453",
+    "section": "Environmental Impact",
+    "text": "Environmental Impact\nIn order to run these large language models, companies need to use a large amounts of energy. This is because large servers are needed to both train and execute a model.\n\nThe LA Times reports the potential impact that running AI models in California.\n\n\nAdditionally, Time reports that a ChatGPT query uses ten times more energy than a Google search query, and global AI demands can consume of 1 trillion gallons of water by 2027.\n\n\nThere are also environmental justice questions about where these data centers are constructed."
   },
   {
-    "objectID": "lectures/4c.html#t-distribution",
-    "href": "lectures/4c.html#t-distribution",
-    "title": "Sampling Distributions",
-    "section": "t-distribution",
-    "text": "t-distribution\nLet \\(Z\\sim N(0,1)\\), \\(W\\sim \\chi^2_\\nu\\), \\(Z\\perp W\\); therefore:\n\\[\nT=\\frac{Z}{\\sqrt{W/\\nu}} \\sim t_\\nu\n\\]"
+    "objectID": "lectures/1a.html#worker-exploitation",
+    "href": "lectures/1a.html#worker-exploitation",
+    "title": "Math 453",
+    "section": "Worker Exploitation",
+    "text": "Worker Exploitation\nThe Washington Post and Time (Article 1 and Article 2) reported that AI companies utilize “digital sweatshops” to classify data points for model training.\n\nThere is a human cost from the Global South, both financially and mentally, to develop the AI models for users in the United States and Europe.\n\n\nWe must be conscious consumers and demand more from these companies to provide safe working conditions and livable wages."
   },
   {
-    "objectID": "lectures/4c.html#f-distribution",
-    "href": "lectures/4c.html#f-distribution",
-    "title": "Sampling Distributions",
-    "section": "F-distribution",
-    "text": "F-distribution\nLet \\(W_1\\sim\\chi^2_{\\nu_1}\\) \\(W_2\\sim\\chi^2_{\\nu_2}\\), and \\(W_1\\perp W_2\\); therefore:\n\\[\nF = \\frac{W_1/\\nu_1}{W_2/\\nu_2}\\sim F_{\\nu_1,\\nu_2}\n\\]"
+    "objectID": "lectures/1a.html#is-using-ai-bad",
+    "href": "lectures/1a.html#is-using-ai-bad",
+    "title": "Math 453",
+    "section": "Is Using AI Bad?",
+    "text": "Is Using AI Bad?\n\nYes/No/I don’t know"
   },
   {
-    "objectID": "lectures/4c.html#central-limit-theorem-1",
-    "href": "lectures/4c.html#central-limit-theorem-1",
+    "objectID": "lectures/1a.html#privacy-concerns-links",
+    "href": "lectures/1a.html#privacy-concerns-links",
+    "title": "Math 453",
+    "section": "Privacy Concerns Links",
+    "text": "Privacy Concerns Links\n\nOpenAI Says It’s Scanning Users’ ChatGPT Conversations and Reporting Content to the Police\nPrivacy in an AI Era: How Do We Protect Our Personal Information?"
+  },
+  {
+    "objectID": "lectures/1a.html#labor-violations-links",
+    "href": "lectures/1a.html#labor-violations-links",
+    "title": "Math 453",
+    "section": "Labor Violations Links",
+    "text": "Labor Violations Links\n\nThe Emotional Labor Behind AI Intimacy\nHow thousands of ‘overworked, underpaid’ humans train Google’s AI to seem smart"
+  },
+  {
+    "objectID": "lectures/1a.html#affecting-communities-links",
+    "href": "lectures/1a.html#affecting-communities-links",
+    "title": "Math 453",
+    "section": "Affecting Communities Links",
+    "text": "Affecting Communities Links\n\nAI surveillance and data colonialism shape African conflicts\nAfrican workers are taking on Meta and the world should pay attention\n‘It’s destroyed me completely’: Kenyan moderators decry toll of training of AI models\nThe AI Industry Is Traumatizing Desperate Contractors in the Developing World for Pennies\nChatGPT advises women to ask for lower salaries, study finds\nThe Impact of the Use of AI on People with Disabilities"
+  },
+  {
+    "objectID": "lectures/1a.html#ideas-and-learning-links",
+    "href": "lectures/1a.html#ideas-and-learning-links",
+    "title": "Math 453",
+    "section": "Ideas and Learning Links",
+    "text": "Ideas and Learning Links\n\nStudent’s Right to Refuse AI\nAI is homogenizing your thoughts\nThe Incuriosity Engine\nNew Junior Developers Can’t Actually Code"
+  },
+  {
+    "objectID": "lectures/1a.html#environmental-costs",
+    "href": "lectures/1a.html#environmental-costs",
+    "title": "Math 453",
+    "section": "Environmental Costs",
+    "text": "Environmental Costs\n\n‘I can’t drink the water’ - life next to a US data centre"
+  },
+  {
+    "objectID": "lectures/1a.html#extra-credits-1",
+    "href": "lectures/1a.html#extra-credits-1",
+    "title": "Math 453",
+    "section": "Extra Credits",
+    "text": "Extra Credits\n\nExtra Credit 1\nExtra Credit 2\nExtra Credit 3"
+  },
+  {
+    "objectID": "lectures/1a.html#fundamentals-of-statistics-1",
+    "href": "lectures/1a.html#fundamentals-of-statistics-1",
+    "title": "Math 453",
+    "section": "Fundamentals of Statistics",
+    "text": "Fundamentals of Statistics\n\nObservational Unit\nVariable\n\nTypes of Variables\n\nQuantitative\nCategorical\n\nRoles of Variables\n\nPredictors\nOutcome"
+  },
+  {
+    "objectID": "lectures/1a.html#observational-unit",
+    "href": "lectures/1a.html#observational-unit",
+    "title": "Math 453",
+    "section": "Observational Unit",
+    "text": "Observational Unit"
+  },
+  {
+    "objectID": "lectures/1a.html#type-of-variable---quantitative",
+    "href": "lectures/1a.html#type-of-variable---quantitative",
+    "title": "Math 453",
+    "section": "Type of Variable - Quantitative",
+    "text": "Type of Variable - Quantitative"
+  },
+  {
+    "objectID": "lectures/1a.html#type-of-variable---qualitative",
+    "href": "lectures/1a.html#type-of-variable---qualitative",
+    "title": "Math 453",
+    "section": "Type of Variable - Qualitative",
+    "text": "Type of Variable - Qualitative"
+  },
+  {
+    "objectID": "lectures/1a.html#predictor-variables",
+    "href": "lectures/1a.html#predictor-variables",
+    "title": "Math 453",
+    "section": "Predictor Variables",
+    "text": "Predictor Variables"
+  },
+  {
+    "objectID": "lectures/1a.html#outcomes",
+    "href": "lectures/1a.html#outcomes",
+    "title": "Math 453",
+    "section": "Outcomes",
+    "text": "Outcomes"
+  },
+  {
+    "objectID": "lectures/1a.html#fundamental-of-statistical-inference",
+    "href": "lectures/1a.html#fundamental-of-statistical-inference",
+    "title": "Math 453",
+    "section": "Fundamental of Statistical Inference",
+    "text": "Fundamental of Statistical Inference\n\n\n\nCategorical Variables\n\nProportions\n\np or \\(\\pi\\)\n\\(\\hat p\\)\n\n\n\n\n\nContinuous Variables\n\nMeans or Averages\n\n\\(\\mu\\)\n\\(\\hat \\mu\\) or \\(\\bar X\\)\n\nVariances\n\n\\(\\sigma^2\\)\n\\(\\hat \\sigma^2\\) or \\(s^2\\)"
+  },
+  {
+    "objectID": "lectures/1a.html#sampling-techniques-1",
+    "href": "lectures/1a.html#sampling-techniques-1",
+    "title": "Math 453",
+    "section": "Sampling Techniques",
+    "text": "Sampling Techniques\n\nSimple Random Sampling\nStratified Sampling\nCluster Sampling\nMultistage Sampling"
+  },
+  {
+    "objectID": "lectures/15a.html#learning-outcomes",
+    "href": "lectures/15a.html#learning-outcomes",
+    "title": "Linear Regression",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nScatter Plot\nLinear Regression\nOrdinary Least Squares\nUnbiasedness"
+  },
+  {
+    "objectID": "lectures/15a.html#scatter-plot-1",
+    "href": "lectures/15a.html#scatter-plot-1",
+    "title": "Linear Regression",
+    "section": "Scatter Plot",
+    "text": "Scatter Plot"
+  },
+  {
+    "objectID": "lectures/15a.html#scatter-plot-2",
+    "href": "lectures/15a.html#scatter-plot-2",
+    "title": "Linear Regression",
+    "section": "Scatter Plot",
+    "text": "Scatter Plot"
+  },
+  {
+    "objectID": "lectures/15a.html#linear-regression-1",
+    "href": "lectures/15a.html#linear-regression-1",
+    "title": "Linear Regression",
+    "section": "Linear Regression",
+    "text": "Linear Regression\nLinear regression is used to model the association between a set of predictor variables (x’s) and an outcome variable (y). Linear regression will fit a line that best describes the data points."
+  },
+  {
+    "objectID": "lectures/15a.html#simple-linear-regression",
+    "href": "lectures/15a.html#simple-linear-regression",
+    "title": "Linear Regression",
+    "section": "Simple Linear Regression",
+    "text": "Simple Linear Regression\nSimple linear regression will model the association between one predictor variable and an outcome:\n\\[\nY = \\beta_0 + \\beta_1 X + \\epsilon\n\\]\n\n\\(\\beta_0\\): Intercept term\n\\(\\beta_1\\): Slope term\n\\(\\epsilon\\sim N(0,\\sigma^2)\\)"
+  },
+  {
+    "objectID": "lectures/15a.html#fitting-a-line",
+    "href": "lectures/15a.html#fitting-a-line",
+    "title": "Linear Regression",
+    "section": "Fitting a Line",
+    "text": "Fitting a Line"
+  },
+  {
+    "objectID": "lectures/15a.html#interpretation",
+    "href": "lectures/15a.html#interpretation",
+    "title": "Linear Regression",
+    "section": "Interpretation",
+    "text": "Interpretation\n\\[\n\\hat y = 136.73 + 0.015 x\n\\]"
+  },
+  {
+    "objectID": "lectures/15a.html#ordinary-least-squares-1",
+    "href": "lectures/15a.html#ordinary-least-squares-1",
+    "title": "Linear Regression",
+    "section": "Ordinary Least Squares",
+    "text": "Ordinary Least Squares\nFor a data pair \\((X_i,Y_i)_{i=1}^n\\), the ordinary least squares estimator will find the estimates of \\(\\hat\\beta_0\\) and \\(\\hat\\beta_1\\) that minimize the following function:\n\\[\n\\sum^n_{i=1}\\{y_i-(\\beta_0+\\beta_1x_i)\\}^2\n\\]"
+  },
+  {
+    "objectID": "lectures/15a.html#estimating-betas",
+    "href": "lectures/15a.html#estimating-betas",
+    "title": "Linear Regression",
+    "section": "Estimating \\(\\beta\\)’s",
+    "text": "Estimating \\(\\beta\\)’s"
+  },
+  {
+    "objectID": "lectures/15a.html#estimating-beta_1",
+    "href": "lectures/15a.html#estimating-beta_1",
+    "title": "Linear Regression",
+    "section": "Estimating \\(\\beta_1\\)",
+    "text": "Estimating \\(\\beta_1\\)"
+  },
+  {
+    "objectID": "lectures/15a.html#estimating-beta_0",
+    "href": "lectures/15a.html#estimating-beta_0",
+    "title": "Linear Regression",
+    "section": "Estimating \\(\\beta_0\\)",
+    "text": "Estimating \\(\\beta_0\\)"
+  },
+  {
+    "objectID": "lectures/15a.html#estimates",
+    "href": "lectures/15a.html#estimates",
+    "title": "Linear Regression",
+    "section": "Estimates",
+    "text": "Estimates\n\\[\n\\hat\\beta_0 = \\bar y - \\hat\\beta_1\\bar x\n\\] \\[\n\\hat\\beta_1 = \\frac{\\sum^n_{i=1}(y_i-\\bar y)(x_i-\\bar x)}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\] \\[\n\\hat\\sigma^2 = \\frac{1}{n-2}\\sum^n_{i=1}(y_i-\\hat y_i)^2\n\\]"
+  },
+  {
+    "objectID": "lectures/15a.html#unbiasedness-of-betas-1",
+    "href": "lectures/15a.html#unbiasedness-of-betas-1",
+    "title": "Linear Regression",
+    "section": "Unbiasedness of \\(\\beta\\)’s",
+    "text": "Unbiasedness of \\(\\beta\\)’s\nBoth \\(\\beta_0\\) and \\(\\beta_1\\) are unbiased estimators."
+  },
+  {
+    "objectID": "lectures/15a.html#ebeta_1",
+    "href": "lectures/15a.html#ebeta_1",
+    "title": "Linear Regression",
+    "section": "\\(E(\\beta_1)\\)",
+    "text": "\\(E(\\beta_1)\\)"
+  },
+  {
+    "objectID": "lectures/15a.html#ebeta_0",
+    "href": "lectures/15a.html#ebeta_0",
+    "title": "Linear Regression",
+    "section": "\\(E(\\beta_0)\\)",
+    "text": "\\(E(\\beta_0)\\)"
+  },
+  {
+    "objectID": "hw/hw2.html",
+    "href": "hw/hw2.html",
+    "title": "Homework 2",
+    "section": "",
+    "text": "Homework 2 is due 2/22/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.\n\nShow that the moment generating function for a random variable \\(X\\sim Gamma(\\alpha,\\beta)\\) is \\(\\left(1-\\beta t\\right)^{-\\alpha}\\).\nLet \\(X\\) be a discrete random variable with PMF\n\n\\[\n    P(X=x)=\\left\\{\\begin{array}{cc}\n    0.25+0.5e^{-\\theta} & x =0 \\\\\n    0.25+0.5\\theta e^{-\\theta} & x =1 \\\\\n    0.5\\frac{\\theta^x}{x!}e^{-\\theta} & x = 2,3,\\ldots\\\\\n    0 & \\textrm{otherwise}\n    \\end{array}\\right.\n\\] Show that the PMF is valid.\n\nFind the moment-generating function of \\(X\\sim\\chi^2_k\\) and \\(f_X(x)=\\frac{x^{k/2-1}\\exp\\{-x/2\\}}{2^{k/2}\\Gamma(k/2)}\\) with \\(x&gt;0\\).\nProblem 110 in Chapter 4 of Modern Mathematical Statistics (2021; 3rd Edition)\nProblem 113 in Chapter 4 of Modern Mathematical Statistics (2021; 3rd Edition)"
+  },
+  {
+    "objectID": "hw/hw0.html",
+    "href": "hw/hw0.html",
+    "title": "Homework 0",
+    "section": "",
+    "text": "Set the equation to 0 and solve for x:\n\n\\ln(x^2+5)\nx^2+6x+7\n3x^2-5x+2\ne^{x^2-4}\n\\ln(5x) + 3"
+  },
+  {
+    "objectID": "hw/hw0.html#footnotes",
+    "href": "hw/hw0.html#footnotes",
+    "title": "Homework 0",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nEither convert to summation notation or evaluate the summation.↩︎"
+  },
+  {
+    "objectID": "exc/exc2.html",
+    "href": "exc/exc2.html",
+    "title": "Extra Credit 2",
+    "section": "",
+    "text": "After reading one book below, create a video essay that summarizes the book, provide a brief analysis in supporting or opposing the book, and connect key elements of the book to your every day life. The video essay should be 10 minutes being narrated by your own voice. Use visual aids, such as a powerpoint presentation, to highlight your main findings, and how it relates to your own life. All books should be available through the Broome Library.\nMATH 408 STUDENTS: You must choose a different book from Math 408 in order to receive credit.\nBooks:\n\nEmpire of AI\n\nKaren Hao\n\nThe Last Human Job\n\nAllison Pugh\n\nThe Book of Why\n\nJudea Pearl\n\nAlgorithms of Oppression\n\nSafiya Umoja Noble\n\nData Feminism\n\nCatherine D’Ignazio and Lauren Klein\n\nWeapons of Math Destruction\n\nCathy O’Niel\n\nInvisible Women: Data bias in a world designed for men\n\nCaroline Criado Perez\n\nFactfulness: Ten Reasons We’re Wrong About the World… and Why Things are Better Than You Think\n\nHans Rosling\n\nArtificial Unintelligence: How Computers Misunderstand the World\n\nMerideth Broussard\n\nTechnically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech\n\nSara Wachter-Boettcher\n\nUnmasking AI\n\nJoy Buolamwini\n\nRace After Technology\n\nRuha Benjamin\n\nCloud Ethics\n\nLouise Amoore\n\nMore than a Glitch\n\nMeridith Broussard\n\nDigitizing Race\n\nLisa Nakamura\n\nData Action\n\nSarah Williams\n\nOR ANY Book Approved By Me (Deadline for Approval by March 29, 2026)\n\nVideo Essay Guidelines:\n\n10 Minutes Long\nUse of visual aids\nNarrated by your own voice\nDue 5/15/2026\n\nWorth 2 final grade percentage points."
+  },
+  {
+    "objectID": "exc.html",
+    "href": "exc.html",
+    "title": "Extra Credit",
+    "section": "",
+    "text": "Extra Credit is designed to expand on different topics that related to Probability and Statistics, but are not necessarily required for the course. Additionally, these opportunities provide students relief when unexpected situations occur during the semester. While it is not required, I encourage everyone to attempt each opportunity.\nBelow is more information on each assignment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 1\n\n\nInstructions for extra credit one.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 2\n\n\nInstructions for extra credit two.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 3\n\n\nInstructions for extra credit three.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Books",
+    "section": "",
+    "text": "A list of recommended books to learn more about Statistics, the majority are freely available from the Broome Library:"
+  },
+  {
+    "objectID": "books.html#basics",
+    "href": "books.html#basics",
+    "title": "Books",
+    "section": "Basics",
+    "text": "Basics\n\nIntroduction to Statistics and Data Analysis\n\nHeumann and Shalabh\n\nStatistical Foundations, Reasoning and Inference\n\nKauermann, Küchenhoff, and Heumann"
+  },
+  {
+    "objectID": "books.html#regression",
+    "href": "books.html#regression",
+    "title": "Books",
+    "section": "Regression",
+    "text": "Regression\n\nGeneralized Linear Models With Examples in R\n\nDunn and Smyth\nGraduate\n\nLinear and Generalized Linear Mixed Models and Their Applications (2nd Edition)\n\nJiang and Nguyen\nGraudate\n\nRegression Modeling Strategies\n\nHarrell\nUndergraduate\n\nVector Generalized Linear and Additive Models\n\nYee\nGraduate"
+  },
+  {
+    "objectID": "books.html#nonparametric",
+    "href": "books.html#nonparametric",
+    "title": "Books",
+    "section": "Nonparametric",
+    "text": "Nonparametric\n\nSemiparametric Regression with R\n\nHarezlak, Ruppert, and Wand\nGraduate"
+  },
+  {
+    "objectID": "books.html#computational",
+    "href": "books.html#computational",
+    "title": "Books",
+    "section": "Computational",
+    "text": "Computational\n\nBootstrap Methods with applications in R\n\nDikta and Scheer\nGraduate\n\nModern Optimization with R (2nd Edition)\n\nCortez\nGraduate\n\nComputational Statistics\n\nGentle\n\nMonte Carlo and Quasi-Monte Carlo Sampling\n\nLemieux\n\nStatistics With Julia\n\nNazarathy andKlok\n\nIntroducing Monte Carlo Methods in R\n\nRobert and Casella\n\nPermutation Statistical Methods with R\n\nBerry, Kvamme, Johnston, and Mielke\n\nMonte Carlo Strategies in Scientific Computing\n\nLiu"
+  },
+  {
+    "objectID": "books.html#bayesian",
+    "href": "books.html#bayesian",
+    "title": "Books",
+    "section": "Bayesian",
+    "text": "Bayesian\n\nIntroduction to Bayesian Inference, Methods and Computation\n\nHeard\n\nApplied Bayesian Statistics\n\nCowles\n\nBayesian Statistical Modeling with Stan, R, and Python\n\nMatsuura\n\nBayesian Essentials in R\n\nMarin and Robert"
+  },
+  {
+    "objectID": "books.html#theoretical",
+    "href": "books.html#theoretical",
+    "title": "Books",
+    "section": "Theoretical",
+    "text": "Theoretical\n\nEssentials of Stochastic Processes (3rd Edition)\n\nDurrett\nGraduate\n\nA Concise Introduction to Measure Theory\n\nShirali\nGraduate\n\nLarge Sample Techniques for Statistics (2nd Edition)\n\nJiang\nGraduate\n\nA Course in Mathematical Statistics and Large Sample Theory\n\nBhattacharya, Lin, and Patrangenaru\nGraduate\n\nMixture and Hidden Markov Models with R\n\nVisser and Speekenbrink\nUndergraduate\n\nModern Mathematical Statistics (3rd Edition)\n\nDevore, Berk, and Carlton\nUndergraduate\n\nProbability Theory (3rd Edition)\n\nKlenke\nGraduate\n\nTesting Statistical Hypotheses (4th Edition)\n\nLehmann and Romano\nGraduate\n\nTheory of Point Estimation\n\nLehmann and Casella\nGraduate\nMay not be available"
+  },
+  {
+    "objectID": "books.html#longitudinal-data-analysis",
+    "href": "books.html#longitudinal-data-analysis",
+    "title": "Books",
+    "section": "Longitudinal Data Analysis",
+    "text": "Longitudinal Data Analysis\n\nLongitudinal Categorical Data Analysis\n\nSutradhar"
+  },
+  {
+    "objectID": "books.html#survival-analysis",
+    "href": "books.html#survival-analysis",
+    "title": "Books",
+    "section": "Survival Analysis",
+    "text": "Survival Analysis\n\nStatistical Modelling of Survival Data with Random Effects\n\nHa, Jeong, and Lee\n\nSurvival Analysis (3rd Edition)\n\nKleinbaum and Klein\n\nApplied Survival Analysis in R\n\nMoore\n\nBayesian Survival Analysis\n\nIbrahim, Chen, and Sinha\n\nSurvival Analysis Techniques for Censored and Truncated Data (2nd Edition)\n\nKlein and Moeschberger"
+  },
+  {
+    "objectID": "books.html#machine-learning",
+    "href": "books.html#machine-learning",
+    "title": "Books",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\nFundamental of High-Dimensional Statistics\n\nLederer\n\nAn Introduction to Statistical Learning (2nd Edition)\n\nJames, Witten, Hastie and Tibshirani\n\nStatistical Learning from a Regression Perspective (2nd Edition)\n\nBerk\n\nElements of Statistical Learning\n\nHastie, Friedman, and Tibshirani\n\nStatistics for High Dimensional Data\n\nBühlmann and van der Geer\n\nProbability and Statistics for Machine Learning\n\nDas Gupta"
+  },
+  {
+    "objectID": "books.html#time-series",
+    "href": "books.html#time-series",
+    "title": "Books",
+    "section": "Time-Series",
+    "text": "Time-Series\n\nIntroduction to Time Series and Forcasting (3rd Edition)\n\nBrockwell and Davis\n\nTime Series Analysis and Its Applications\n\nShumway and Stoffer\n\nTime Series Analysis for the State-Space Model with R/Stan\n\nHagiwara"
+  },
+  {
+    "objectID": "books.html#study-desing-and-causal-inference",
+    "href": "books.html#study-desing-and-causal-inference",
+    "title": "Books",
+    "section": "Study Desing and Causal Inference",
+    "text": "Study Desing and Causal Inference\n\nCausal Inference What IF\n\nHernán and Robins\n\nDesign of Observational Studies\n\nRosenbaum\n\n\nBolded Titles, I have read thoroughly."
+  },
+  {
+    "objectID": "exc/exc1.html",
+    "href": "exc/exc1.html",
+    "title": "Extra Credit 1",
+    "section": "",
+    "text": "Write a 1-2 page report related to your favorite activity. Provide details of the activity and why you like the activity.\nReport guidelines\n\n1-2 Pages\nDouble Spaced\n12 point font\nDue 2/15/2026"
+  },
+  {
+    "objectID": "exc/exc3.html",
+    "href": "exc/exc3.html",
+    "title": "Extra Credit 3",
+    "section": "",
+    "text": "After learning about one topic below, create a 10-minute vide-essay explaining more about the topic. Use visual aids, such as a powerpoint presentation, to highlight your main findings\n\nMonte Carlo Methods\nMonte Carlo Methods are a class of computational algorithms that rely on random sampling to obtain numerical results. These methods use statistical sampling techniques to approximate complex mathematical problems, particularly those with deterministic or probabilistic aspects. The name “Monte Carlo” is derived from the Monte Carlo Casino in Monaco, known for its games of chance and randomness.\nIn Monte Carlo Methods, random samples are generated to simulate the behavior of a system or process, and the results are analyzed to estimate desired quantities or solve problems. These methods find applications in various fields, such as physics, finance, engineering, and statistics. Monte Carlo simulations are particularly useful for solving problems with a large number of variables or complex interactions, where analytical solutions may be challenging or impossible to obtain.\n\nResources\n\nhttps://towardsdatascience.com/an-overview-of-monte-carlo-methods-675384eb1694\nhttps://towardsdatascience.com/monte-carlo-simulation-a-practical-guide-85da45597f0e\n\n\n\n\nSurvival Analysis\nSurvival analysis is a statistical method used to analyze the time until an event of interest occurs. This type of analysis is commonly employed in medical research, epidemiology, and other fields to study the duration until a specific event, often referred to as a “failure” or “survival” event. The event could be anything from the onset of a disease, death, relapse, or any other occurrence of interest.\nSurvival analysis is conducted using various statistical models, with the Cox proportional hazards model being one of the most widely used. These analyses help researchers understand factors influencing the time to an event, identify risk factors, and estimate survival probabilities over time.\nMake sure to provide a brief history of survival analysis and prominent methods such as Kaplan-Meier curves and Cox proportional hazard models.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2394262/\nhttps://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_survival/BS704_Survival_print.html\n\n\n\n\nBayesian Analysis\nBayesian analysis is a statistical approach that involves updating probabilities for hypotheses based on new evidence or data. It is rooted in Bayes’ theorem, which describes how beliefs about the probability of a hypothesis should change in light of new information. In Bayesian analysis, the prior probability (initial belief) is combined with the likelihood of observing the data given the hypothesis and results in the posterior probability (updated belief).\nBayesian methods are particularly valuable in situations with limited data or when incorporating prior knowledge is crucial. These methods provide a flexible framework for modeling uncertainty and updating beliefs as more information becomes available. Bayesian analysis is applied across various fields, including statistics, machine learning, physics, biology, and finance. Markov Chain Monte Carlo (MCMC) methods are often used to simulate samples from the posterior distribution in complex Bayesian models.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6406060/\nhttps://www.statlect.com/fundamentals-of-statistics/Bayesian-inference\n\n\n\n\nCausal Inference\nCausal inference is a field within statistics and epidemiology that focuses on understanding and estimating the causal relationships between variables or events. The goal is to determine whether a particular factor or intervention has a causal impact on an outcome. Causal inference involves identifying and controlling for confounding factors, which are variables that may influence both the cause and the effect, leading to potential bias in estimating causal relationships.\nCausal inference is essential for making informed decisions in fields such as medicine, public health, economics, and social sciences. It helps researchers draw valid conclusions about the effectiveness of interventions, policies, or treatments by accounting for potential sources of bias and confounding. Advances in causal inference methodologies contribute to a more rigorous understanding of cause-and-effect relationships in complex systems.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2836213/\nhttps://web.stanford.edu/~swager/stats361.pdf\n\nVideo Essay Guidelines:\n\n10 Minutes Long\nUse of visual aids\nNarrated by your own voice\nDue 5/15/2026\n\nWorth 2 final grade percentage points."
+  },
+  {
+    "objectID": "hw.html",
+    "href": "hw.html",
+    "title": "Homework",
+    "section": "",
+    "text": "Below are the different homework assignments for the course. Scan your homework as a PDF. You can use CamScanner, Dropbox, Google Drive, or icloud. Any assignments as images or not pdfs will not be graded.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 2\n\n\n\n\n\n\n\n\nFeb 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "hw/hw1.html",
+    "href": "hw/hw1.html",
+    "title": "Homework 1",
+    "section": "",
+    "text": "Homework 1 is due 2/15/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.\n\nX\\sim Bin(n,p), show that the variance of Binomial distribution is np(1-p).\nX\\sim Pois(\\lambda), show that the expected value of a Poisson distribution is \\lambda.\nX\\sim Pois(\\lambda), show that the variance of a Poisson distribution is \\lambda.\nX\\sim N(\\mu,\\sigma^2), show that the variance is \\sigma^2."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Course!",
+    "section": "",
+    "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\nThis week, we will review sampling distributions and the Central Limit Theorem.\n\n\n\n\n\nFeb 22, 2026\n\n\n\n\n\n\n\nWeek 4\n\n\nThis week we will review joint distribution functions.\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\nWeek 3\n\n\nThis week, we will cover Transformations of Random Variables\n\n\n\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\nWeek 2\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\nWeek 1\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "lectures/15b.html#learning-outcomes",
+    "href": "lectures/15b.html#learning-outcomes",
+    "title": "Simple Linear Regression",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nLinear Regression\nOrdinary Least Squares\nR Code"
+  },
+  {
+    "objectID": "lectures/15b.html#r-packages",
+    "href": "lectures/15b.html#r-packages",
+    "title": "Simple Linear Regression",
+    "section": "R Packages",
+    "text": "R Packages\n\nlibrary(tidyverse)\npenguins &lt;- penguins |&gt; drop_na()"
+  },
+  {
+    "objectID": "lectures/15b.html#linear-regression-1",
+    "href": "lectures/15b.html#linear-regression-1",
+    "title": "Simple Linear Regression",
+    "section": "Linear Regression",
+    "text": "Linear Regression\nLinear regression is used to model the association between a set of predictor variables (x’s) and an outcome variable (y). Linear regression will fit a line that best describes the data points."
+  },
+  {
+    "objectID": "lectures/15b.html#simple-linear-regression",
+    "href": "lectures/15b.html#simple-linear-regression",
+    "title": "Simple Linear Regression",
+    "section": "Simple Linear Regression",
+    "text": "Simple Linear Regression\nSimple linear regression will model the association between one predictor variable and an outcome:\n\\[\nY = \\beta_0 + \\beta_1 X + \\epsilon\n\\]\n\n\\(\\beta_0\\): Intercept term\n\\(\\beta_1\\): Slope term\n\\(\\epsilon\\sim N(0,\\sigma^2)\\)"
+  },
+  {
+    "objectID": "lectures/15b.html#palmerpenguins",
+    "href": "lectures/15b.html#palmerpenguins",
+    "title": "Simple Linear Regression",
+    "section": "palmerpenguins",
+    "text": "palmerpenguins\nThe palmerpenguins data set contains 344 observations of 7 penguin characteristics. We will be looking at different association of the penguins"
+  },
+  {
+    "objectID": "lectures/15b.html#scatter-plot",
+    "href": "lectures/15b.html#scatter-plot",
+    "title": "Simple Linear Regression",
+    "section": "Scatter Plot",
+    "text": "Scatter Plot\n\nggplot(penguins, aes(y = flipper_len, x = body_mass)) +\n  geom_point() + theme_bw()"
+  },
+  {
+    "objectID": "lectures/15b.html#scatter-plot-1",
+    "href": "lectures/15b.html#scatter-plot-1",
+    "title": "Simple Linear Regression",
+    "section": "Scatter Plot",
+    "text": "Scatter Plot\n\nggplot(sample_n(penguins,10), aes(y = flipper_len, x = body_mass)) +\n  geom_point() + theme_bw()"
+  },
+  {
+    "objectID": "lectures/15b.html#fitting-a-line",
+    "href": "lectures/15b.html#fitting-a-line",
+    "title": "Simple Linear Regression",
+    "section": "Fitting a Line",
+    "text": "Fitting a Line\n\npenguins |&gt; \n  ggplot(aes(y = flipper_len, x = body_mass)) +\n    geom_point() + \n    geom_smooth(method = \"lm\") +\n    theme_bw() + \n    annotate(\"text\", label = \"y=136.7+0.015x\", x=3250, y=230, size = 10)"
+  },
+  {
+    "objectID": "lectures/15b.html#interpretation",
+    "href": "lectures/15b.html#interpretation",
+    "title": "Simple Linear Regression",
+    "section": "Interpretation",
+    "text": "Interpretation\n\\[\n\\hat y = 136.73 + 0.015 x\n\\]"
+  },
+  {
+    "objectID": "lectures/15b.html#ordinary-least-squares-1",
+    "href": "lectures/15b.html#ordinary-least-squares-1",
+    "title": "Simple Linear Regression",
+    "section": "Ordinary Least Squares",
+    "text": "Ordinary Least Squares\nFor a data pair \\((X_i,Y_i)_{i=1}^n\\), the ordinary least squares estimator will find the estimates of \\(\\hat\\beta_0\\) and \\(\\hat\\beta_1\\) that minimize the following function:\n\\[\n\\sum^n_{i=1}\\{y_i-(\\beta_0+\\beta_1x_i)\\}^2\n\\]"
+  },
+  {
+    "objectID": "lectures/15b.html#estimates",
+    "href": "lectures/15b.html#estimates",
+    "title": "Simple Linear Regression",
+    "section": "Estimates",
+    "text": "Estimates\n\\[\n\\hat\\beta_0 = \\bar y - \\hat\\beta_1\\bar x\n\\] \\[\n\\hat\\beta_1 = \\frac{\\sum^n_{i=1}(y_i-\\bar y)(x_i-\\bar x)}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\] \\[\n\\hat\\sigma^2 = \\frac{1}{n-2}\\sum^n_{i=1}(y_i-\\hat y_i)^2\n\\]"
+  },
+  {
+    "objectID": "lectures/15b.html#standard-errors-of-betas-1",
+    "href": "lectures/15b.html#standard-errors-of-betas-1",
+    "title": "Simple Linear Regression",
+    "section": "Standard Errors of \\(\\beta\\)’s",
+    "text": "Standard Errors of \\(\\beta\\)’s\n\\[\nSE(\\hat\\beta_0)=\\sqrt{\\frac{\\sum^n_{i=1}x_i^2\\hat\\sigma^2}{n\\sum^n_{i=1}(x_i-\\bar x)^2}}\n\\]\n\\[\nSE(\\hat\\beta_1)=\\sqrt\\frac{\\hat\\sigma^2}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\]"
+  },
+  {
+    "objectID": "lectures/15b.html#distributions",
+    "href": "lectures/15b.html#distributions",
+    "title": "Simple Linear Regression",
+    "section": "Distributions",
+    "text": "Distributions"
+  },
+  {
+    "objectID": "lectures/15b.html#standard-error-of-beta_0",
+    "href": "lectures/15b.html#standard-error-of-beta_0",
+    "title": "Simple Linear Regression",
+    "section": "Standard Error of \\(\\beta_0\\)",
+    "text": "Standard Error of \\(\\beta_0\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#random-variables",
+    "href": "lectures/1b.html#random-variables",
+    "title": "Review:",
+    "section": "Random Variables",
+    "text": "Random Variables\nA random variable is function that maps the sample space to real value."
+  },
+  {
+    "objectID": "lectures/1b.html#discrete-random-variables-1",
+    "href": "lectures/1b.html#discrete-random-variables-1",
+    "title": "Review:",
+    "section": "Discrete Random Variables",
+    "text": "Discrete Random Variables\nA random variable is considered to be discrete if it can only map to a finite or countably infinite number of distinct values."
+  },
+  {
+    "objectID": "lectures/1b.html#pmf",
+    "href": "lectures/1b.html#pmf",
+    "title": "Review:",
+    "section": "PMF",
+    "text": "PMF\nThe probability mass function of discrete variable can be represented by a formula, table, or a graph. The Probability of a random variable Y can be expressed as \\(P(Y=y)\\) for all values of \\(y\\)."
+  },
+  {
+    "objectID": "lectures/1b.html#cdf",
+    "href": "lectures/1b.html#cdf",
+    "title": "Review:",
+    "section": "CDF",
+    "text": "CDF\nThe cumulative distribution function provides the \\(P(Y\\leq y)\\) for a random variable \\(Y\\)."
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value",
+    "href": "lectures/1b.html#expected-value",
+    "title": "Review:",
+    "section": "Expected Value",
+    "text": "Expected Value\nThe expected value is the value we expect when we randomly sample from population that follows a specific distribution. The expected value of Y is\n\\[\nE(Y)=\\sum_y yP(y)\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#variance",
+    "href": "lectures/1b.html#variance",
+    "title": "Review:",
+    "section": "Variance",
+    "text": "Variance\nThe variance is the expected squared difference between the random variable and expected value.\n\\[\nVar(Y)=\\sum_y\\{y-E(Y)\\}^2P(y)\n\\]\n\\[\nVar(Y) = E(X^2) - E(X)^2\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#known-distributions",
+    "href": "lectures/1b.html#known-distributions",
+    "title": "Review:",
+    "section": "Known Distributions",
+    "text": "Known Distributions\n\n\n\n\n\n\n\n\nDistribution\nParameter(s)\nPMF \\(P(Y=y)\\)\n\n\n\n\nBernoulli\n\\(p\\)\n\\(p\\)\n\n\nBinomial\n\\(n\\) and \\(p\\)\n\\((^n_y)p^y(1-p)^{n-p}\\)\n\n\nGeometric\n\\(p\\)\n\\((1-p)^{y-1}p\\)\n\n\nNegative Binomial\n\\(r\\) and \\(p\\)\n\\((^{y-1}_{r-1})p^{r-1}(1-p)^{y-r}\\)\n\n\nHypergeometric\n\\(N\\), \\(n\\), and \\(r\\)\n\\(\\frac{(^r_y)(^{N-r}_{n-y})}{(^N_n)}\\)\n\n\nPoisson\n\\(\\lambda\\)\n\\(\\frac{\\lambda^y}{y!} e^{-\\lambda}\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#binomial-distribution-1",
+    "href": "lectures/1b.html#binomial-distribution-1",
+    "title": "Review:",
+    "section": "Binomial Distribution",
+    "text": "Binomial Distribution\nAn experiment is said to follow a binomial distribution if\n\nFixed \\(n\\)\nEach trial has 2 outcomes\nThe probability of success is a constant \\(p\\)\nThe trials are independent of each\n\n\n\\(P(X=x)=(^n_x)p^x(1-p)^{n-x}\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-of-a-binomial-distribution",
+    "href": "lectures/1b.html#expected-value-of-a-binomial-distribution",
+    "title": "Review:",
+    "section": "Expected Value of a Binomial Distribution",
+    "text": "Expected Value of a Binomial Distribution"
+  },
+  {
+    "objectID": "lectures/1b.html#poisson-distribution-1",
+    "href": "lectures/1b.html#poisson-distribution-1",
+    "title": "Review:",
+    "section": "Poisson Distribution",
+    "text": "Poisson Distribution\nThe poisson distribution describes an experiment that measures that occurrence of an event at specific point and/or time period.\n\n\\(P(X=x)=\\frac{\\lambda^x}{x!}e^{-\\lambda}\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-of-a-poisson-distribution",
+    "href": "lectures/1b.html#expected-value-of-a-poisson-distribution",
+    "title": "Review:",
+    "section": "Expected Value of a Poisson Distribution",
+    "text": "Expected Value of a Poisson Distribution"
+  },
+  {
+    "objectID": "lectures/1b.html#continuous-random-variables-1",
+    "href": "lectures/1b.html#continuous-random-variables-1",
+    "title": "Review:",
+    "section": "Continuous Random Variables",
+    "text": "Continuous Random Variables\nA random variable \\(X\\) is considered continuous if the \\(P(X=x)\\) does not exist."
+  },
+  {
+    "objectID": "lectures/1b.html#cdf-1",
+    "href": "lectures/1b.html#cdf-1",
+    "title": "Review:",
+    "section": "CDF",
+    "text": "CDF\nThe cumulative distribution function of \\(X\\) provides the \\(P(X\\leq x)\\), denoted by \\(F(x)\\), for the domain of \\(X\\).\nProperties of the CDF of \\(X\\):\n\n\\(F(-\\infty)\\equiv \\lim_{y\\rightarrow -\\infty}F(y)=0\\)\n\\(F(\\infty)\\equiv \\lim_{y\\rightarrow \\infty}F(y)=1\\)\n\\(F(x)\\) is a nondecreaseing function"
+  },
+  {
+    "objectID": "lectures/1b.html#pdf",
+    "href": "lectures/1b.html#pdf",
+    "title": "Review:",
+    "section": "PDF",
+    "text": "PDF\nThe probability density function of the random variable \\(X\\) is given by\n\\[\nf(x)=\\frac{dF(x)}{d(x)}=F^\\prime(x)\n\\]\nwherever the derivative exists.\nProperties of pdfs:\n\n\\(f(x)\\geq 0\\)\n\\(\\int^\\infty_{-\\infty}f(x)dx=1\\)\n\\(P(a\\leq X\\leq b) = P(a&lt;X&lt;b)=\\int^b_af(x)dx\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-1",
+    "href": "lectures/1b.html#expected-value-1",
+    "title": "Review:",
+    "section": "Expected Value",
+    "text": "Expected Value\nThe expected value for a continuous distribution is defined as\n\\[\nE(X)=\\int x f(x)dx\n\\]\nThe expectation of a function \\(g(X)\\) is defined as\n\\[\nE\\{g(X)\\}=\\int g(x)f(x)dx\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-properties",
+    "href": "lectures/1b.html#expected-value-properties",
+    "title": "Review:",
+    "section": "Expected Value Properties",
+    "text": "Expected Value Properties\n\n\\(E(c)=c\\), where \\(c\\) is constant\n\\(E\\{cg(X)\\}=cE\\{g(X)\\}\\)\n\\(E\\{g_1(X)+g_2(X)+\\cdots+g_n(X)\\}=E\\{g_1(X)\\}+E\\{g_2(X)\\}+\\cdots+E\\{g_n(X)\\}\\)"
+  },
+  {
+    "objectID": "lectures/1b.html#variance-1",
+    "href": "lectures/1b.html#variance-1",
+    "title": "Review:",
+    "section": "Variance",
+    "text": "Variance\nThe variance of continuous variable is defined as\n\\[\nVar(X) =  E[\\{X-E(X)\\}^2] = \\int \\{X-E(X)\\}^2 f(x)dx\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#uniform-distribution-1",
+    "href": "lectures/1b.html#uniform-distribution-1",
+    "title": "Review:",
+    "section": "Uniform Distribution",
+    "text": "Uniform Distribution\nA random variable is said to follow uniform distribution if the density function is constant between two parameters.\n\n\\[\nf(x) = \\left\\{\\begin{array}{cc}\n\\frac{1}{b-a} & a \\leq x \\leq b\\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\\right.\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-2",
+    "href": "lectures/1b.html#expected-value-2",
+    "title": "Review:",
+    "section": "Expected Value",
+    "text": "Expected Value"
+  },
+  {
+    "objectID": "lectures/1b.html#normal-distribution-1",
+    "href": "lectures/1b.html#normal-distribution-1",
+    "title": "Review:",
+    "section": "Normal Distribution",
+    "text": "Normal Distribution\nA random variable is said to follow a normal distribution if the the frequency of occurrence follow a Gaussian function.\n\n\\[\nf(x)=\\frac{1}{\\sqrt{2\\pi \\sigma^2}}\\exp\\left\\{-\\frac{(x-\\mu)^2}{2\\sigma^2}\\right\\}\n\\]"
+  },
+  {
+    "objectID": "lectures/1b.html#expected-value-3",
+    "href": "lectures/1b.html#expected-value-3",
+    "title": "Review:",
+    "section": "Expected Value",
+    "text": "Expected Value"
+  },
+  {
+    "objectID": "lectures/3d.html#partial-derivatives",
+    "href": "lectures/3d.html#partial-derivatives",
+    "title": "Joint Distribution Functions",
+    "section": "Partial Derivatives",
+    "text": "Partial Derivatives\nFor a function \\(f(x,y)\\), the partial derivative with respect to \\(x\\) is taken by differentiating \\(f(x,y)\\) with respect to \\(x\\) while treating \\(y\\) as a constant. For example:\n\\(f(x,y) = x^2 + \\ln(y)\\)"
+  },
+  {
+    "objectID": "lectures/3d.html#multiple-integration",
+    "href": "lectures/3d.html#multiple-integration",
+    "title": "Joint Distribution Functions",
+    "section": "Multiple Integration",
+    "text": "Multiple Integration\nMultiple integration is when you integrate a multivariate function by multiple variables. This is done by integrating the function by an individual variable at a time. For example:\n\\(f(x,y)=x^2 + y^2\\) which can be integrated as:"
+  },
+  {
+    "objectID": "lectures/3d.html#joint-distributions-1",
+    "href": "lectures/3d.html#joint-distributions-1",
+    "title": "Joint Distribution Functions",
+    "section": "Joint Distributions",
+    "text": "Joint Distributions\nA joint distribution is a process where more than one random variable is generated; for example, collecting biomedical data, such as multiple biomarkers, are considered to follow a joint distribution. In mathematical terms, instead of dealing with a random variable, we are dealing with a random vector. Observing a particular random vector will have a probability attached to it."
+  },
+  {
+    "objectID": "lectures/3d.html#bivariate-discrete-distributions",
+    "href": "lectures/3d.html#bivariate-discrete-distributions",
+    "title": "Joint Distribution Functions",
+    "section": "Bivariate Discrete Distributions",
+    "text": "Bivariate Discrete Distributions\nLet \\(X_1\\) and \\(X_2\\) be 2 discrete random variables, the joint distribution function of \\((X_1, X_2)\\) is defined as\n\\[\np_{X_1,X_2}(x_1, x_2) = P(X_1=x_1, X_2 = x_2).\n\\]\nThe properties of a bivariate discrete distribution are\n\n\\(p_{X_1,X_2}(x_1,x_2)\\ge 0\\) for all \\(x_1,\\ x_2\\)\n\\(\\sum_{x_1}\\sum_{x2}p(x_1,x_2)=1\\)"
+  },
+  {
+    "objectID": "lectures/3d.html#bivariate-continuous-distribution",
+    "href": "lectures/3d.html#bivariate-continuous-distribution",
+    "title": "Joint Distribution Functions",
+    "section": "Bivariate Continuous Distribution",
+    "text": "Bivariate Continuous Distribution\nLet \\(X_1\\) and \\(X_2\\) be 2 continuous random variables, the joint distribution function of \\((X_1, X_2)\\) is defined as\n\\[\nF_{X_1,X_2}(x_1, x_2) = P(X_1\\le x_1, X_2 \\le x_2).\n\\]\nThe properties of a bivariate continuous distribution are\n\n\\(f_{X_1,X_2}(x_1,x_2)=\\frac{\\partial^2F(x_1,x_2)}{\\partial x_1\\partial x_2}\\)\n\\(f_{X_1,X_2}(x_1, x_2)\\ge 0\\)\n\\(\\int_{x_1}\\int_{x_2}f_{X_1,X_2}(x_1,x_2)dx_2dx_1=1\\)"
+  },
+  {
+    "objectID": "lectures/3d.html#example",
+    "href": "lectures/3d.html#example",
+    "title": "Joint Distribution Functions",
+    "section": "Example",
+    "text": "Example\n\\[\nf(x,y) \\left\\{\\begin{array}{cc}\n3x & 0\\le y\\le x\\le 1\\\\\n0 & \\mathrm{otherwise}\n\\end{array}\\right.\n\\]\nFind \\(P(0\\le X\\le 0.5,0.25\\le Y)\\)"
+  },
+  {
+    "objectID": "lectures/3d.html#marginal-density-functions",
+    "href": "lectures/3d.html#marginal-density-functions",
+    "title": "Joint Distribution Functions",
+    "section": "Marginal Density Functions",
+    "text": "Marginal Density Functions\nA Marginal Density Function is density function of one random variable from a random vector."
+  },
+  {
+    "objectID": "lectures/3d.html#marginal-discrete-probability-mass-function",
+    "href": "lectures/3d.html#marginal-discrete-probability-mass-function",
+    "title": "Joint Distribution Functions",
+    "section": "Marginal Discrete Probability Mass Function",
+    "text": "Marginal Discrete Probability Mass Function\nLet \\(X_1\\) and \\(X_2\\) be 2 discrete random variables, with a joint distribution function of\n\\[\np_{X_1,X_2}(x_1, x_2) = P(X_1=x_1, X_2 = x_2).\n\\]\nThe marginal distribution of \\(X_1\\) is defined as\n\\[\np_{X_1}(x_1) = \\sum_{x_2}p_{X_1,X_2}(x_1,x_2)\n\\]"
+  },
+  {
+    "objectID": "lectures/3d.html#marginal-continuous-density-function",
+    "href": "lectures/3d.html#marginal-continuous-density-function",
+    "title": "Joint Distribution Functions",
+    "section": "Marginal Continuous Density Function",
+    "text": "Marginal Continuous Density Function\nLet \\(X_1\\) and \\(X_2\\) be 2 continuous random variables, with a joint density function of \\(f_{X_1,X_2}(x_1,x_2)\\). The marginal distribution of \\(X_1\\) is defined as\n\\[\nf_{X_1}(x_1) = \\int_{x_2}f_{X_1,X_2}(x_1,x_2)dx_2\n\\]"
+  },
+  {
+    "objectID": "lectures/3d.html#example-1",
+    "href": "lectures/3d.html#example-1",
+    "title": "Joint Distribution Functions",
+    "section": "Example",
+    "text": "Example\n\\[\nf_{X,Y}(x,y) \\left\\{\\begin{array}{cc}\n2x & 0\\le y \\le 1;\\ 0 \\le x\\le 1\\\\\n0 & \\mathrm{otherwise}\n\\end{array}\\right.\n\\]\nFind \\(f_X(x)\\)"
+  },
+  {
+    "objectID": "lectures/3d.html#conditional-distributions-1",
+    "href": "lectures/3d.html#conditional-distributions-1",
+    "title": "Joint Distribution Functions",
+    "section": "Conditional Distributions",
+    "text": "Conditional Distributions\nA conditional distribution provides the probability of a random variable, given that it was conditioned on the value of a second random variable."
+  },
+  {
+    "objectID": "lectures/3d.html#discrete-conditional-distributions",
+    "href": "lectures/3d.html#discrete-conditional-distributions",
+    "title": "Joint Distribution Functions",
+    "section": "Discrete Conditional Distributions",
+    "text": "Discrete Conditional Distributions\nLet \\(X_1\\) and \\(X_2\\) be 2 discrete random variables, with a joint distribution function of\n\\[\np_{X_1,X_2}(x_1, x_2) = P(X_1=x_1, X_2 = x_2).\n\\]\nThe conditional distribution of \\(X_1|X_2=x_2\\) is defined as\n\\[\np_{X_1|X_2}(x_1) = \\frac{p_{X_1,X_2}(x_1,x_2)}{p_{X_2}(x_2)}\n\\]"
+  },
+  {
+    "objectID": "lectures/3d.html#continuous-conditional-distributions",
+    "href": "lectures/3d.html#continuous-conditional-distributions",
+    "title": "Joint Distribution Functions",
+    "section": "Continuous Conditional Distributions",
+    "text": "Continuous Conditional Distributions\nLet \\(X_1\\) and \\(X_2\\) be 2 continuous random variables, with a joint density function of \\(f_{X_1,X_2}(x_1,x_2)\\). The conditional distribution of \\(X_1|X_2=_2\\) is defined as\n\\[\nf_{X_1|X_2}(x_1) = \\frac{f_{X_1,X_2}(x_1,x_2)}{f_{X_2}(x_2)}\n\\]"
+  },
+  {
+    "objectID": "lectures/3d.html#example-2",
+    "href": "lectures/3d.html#example-2",
+    "title": "Joint Distribution Functions",
+    "section": "Example",
+    "text": "Example\nLet the joint density function of \\(X_1\\) and \\(X_2\\) be defined as\n\\[\nf_{X_1,X_2}(x_1,x_2)=\\left\\{\\begin{array}{cc}\n30x_1x_2² & x_1 -1 \\le x_2 \\le 1-x_1; 0\\le x_1\\le 1\\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\\right.\n\\]\nFind the conditional density function of \\(X_2|X_1=x_1\\)."
+  },
+  {
+    "objectID": "lectures/3d.html#independent-random-variables",
+    "href": "lectures/3d.html#independent-random-variables",
+    "title": "Joint Distribution Functions",
+    "section": "Independent Random Variables",
+    "text": "Independent Random Variables\nRandom variables are considered independent of each other if the probability of one variable does not affect the probability of another variable."
+  },
+  {
+    "objectID": "lectures/3d.html#discrete-independent-random-variables",
+    "href": "lectures/3d.html#discrete-independent-random-variables",
+    "title": "Joint Distribution Functions",
+    "section": "Discrete Independent Random Variables",
+    "text": "Discrete Independent Random Variables\nLet \\(X_1\\) and \\(X_2\\) be 2 discrete random variables, with a joint density function of \\(p_{X_1,X_2}(x_1,x_2)\\). \\(X_1\\) is independent of \\(X_2\\) if and only if\n\\[\np_{X_1,X_2}(x_1,x_2) = p_{X_1}(x_1)p_{X_2}(x_2)\n\\]"
+  },
+  {
+    "objectID": "lectures/3d.html#continuous-independent-random-variables",
+    "href": "lectures/3d.html#continuous-independent-random-variables",
+    "title": "Joint Distribution Functions",
+    "section": "Continuous Independent Random Variables",
+    "text": "Continuous Independent Random Variables\nLet \\(X_1\\) and \\(X_2\\) be 2 continuous random variables, with a joint density function of \\(f_{X_1,X_2}(x_1,x_2)\\). \\(X_1\\) is independent of \\(X_2\\) if and only if\n\\[\nf_{X_1,X_2}(x_1,x_2) = f_{X_1}(x_1)f_{X_2}(x_2)\n\\]"
+  },
+  {
+    "objectID": "lectures/3d.html#matrix-algebra",
+    "href": "lectures/3d.html#matrix-algebra",
+    "title": "Joint Distribution Functions",
+    "section": "Matrix Algebra",
+    "text": "Matrix Algebra\n\\[\nA = \\left(\\begin{array}{cc}\na_1 & 0\\\\\n0 & a_2\n\\end{array}\\right)\n\\]\n\\[\n\\det(A) = a_1a_2\n\\]\n\\[\nA^{-1}=\\left(\\begin{array}{cc}\n1/a_1 & 0 \\\\\n0 & 1/a_2\n\\end{array}\\right)\n\\]"
+  },
+  {
+    "objectID": "lectures/3d.html#example-3",
+    "href": "lectures/3d.html#example-3",
+    "title": "Joint Distribution Functions",
+    "section": "Example",
+    "text": "Example\n\\[\n\\left(\\begin{array}{c}\nX\\\\\nY\n\\end{array}\\right)\\sim N \\left\\{\n\\left(\\begin{array}{c}\n\\mu_x\\\\\n\\mu_y\n\\end{array}\\right),\\left(\\begin{array}{cc}\n\\sigma_x^2 & 0\\\\\n0 & \\sigma_y^2\n\\end{array}\\right)\n\\right\\}\n\\]\nShow that \\(X\\perp Y\\).\n\\[\nf_{X,Y}(x,y)=\\det(2\\pi\\Sigma)^{-1/2}\\exp\\left\\{-\\frac{1}{2}(\\boldsymbol{w}-\\boldsymbol\\mu)^T\\Sigma^{-1}(\\boldsymbol w-\\boldsymbol\\mu)\\right\\}\n\\]\nwhere \\(\\Sigma=\\left(\\begin{array}{cc}\\sigma_y^2 & 0\\\\0 & \\sigma_y^2\\end{array}\\right)\\), \\(\\boldsymbol \\mu = \\left(\\begin{array}{cc}\\mu_x\\\\ \\mu_y \\end{array}\\right)\\), and \\(\\boldsymbol w = \\left(\\begin{array}{cc} x\\\\ y \\end{array}\\right)\\)"
+  },
+  {
+    "objectID": "lectures/3d.html#expectations-1",
+    "href": "lectures/3d.html#expectations-1",
+    "title": "Joint Distribution Functions",
+    "section": "Expectations",
+    "text": "Expectations\nLet \\(X_1, X_2, \\ldots,X_n\\) be a set of random variables, the expectation of a function \\(g(X_1,\\ldots, X_n)\\) is defined as\n\\[\nE\\{g(X_1,\\ldots, X_n)\\} = \\sum_{x_1\\in X_1}\\cdots\\sum_{x_n\\in X_n}g(X_1,\\ldots, X_n)p(x_1,\\ldots,x_n)\n\\]\nor\n\\[\nE\\{g(\\boldsymbol X)\\} = \\int_{x_1\\in X_1}\\cdots\\int_{x_n\\in X_n}g(\\boldsymbol X)f(\\boldsymbol X)dx_n \\cdots dx_1\n\\]\n\n\\(\\boldsymbol X = (X_1,\\cdots, X_n)\\)"
+  },
+  {
+    "objectID": "lectures/3d.html#expected-value-and-variance-of-linear-functions",
+    "href": "lectures/3d.html#expected-value-and-variance-of-linear-functions",
+    "title": "Joint Distribution Functions",
+    "section": "Expected Value and Variance of Linear Functions",
+    "text": "Expected Value and Variance of Linear Functions\nLet \\(X_1,\\ldots,X_n\\) and \\(Y_1,\\ldots,Y_m\\) be random variables with \\(E(X_i)=\\mu_i\\) and \\(E(Y_j)=\\tau_j\\). Furthermore, let \\(U = \\sum^n_{i=1}a_iX_i\\) and \\(V=\\sum^m_{j=1}b_jY_j\\) where \\(\\{a_i\\}^n_{i=1}\\) and \\(\\{b_j\\}_{j=1}^m\\) are constants. We have the following properties:\n\n\\(E(U)=\\sum_{i=1}^na_i\\mu_i\\)\n\\(Var(U)=\\sum^n_{i=1}a_i^2Var(X_i)+2\\underset{i&lt;j}{\\sum\\sum}a_ia_jCov(X_i,X_j)\\)\n\\(Cov(U,V)=\\sum^n_{i=1}\\sum^m_{j=1}Cov(X_i,Y_j)\\)"
+  },
+  {
+    "objectID": "lectures/3d.html#conditional-expectations",
+    "href": "lectures/3d.html#conditional-expectations",
+    "title": "Joint Distribution Functions",
+    "section": "Conditional Expectations",
+    "text": "Conditional Expectations\nLet \\(X_1\\) and \\(X_2\\) be two random variables, the conditional expectation of \\(g(X_1)\\), given \\(X_2=x_2\\), is defined as\n\\[\nE\\{g(X_1)|X_2=x_2\\}=\\sum_{x_1}g(x_1)p(x_1|x_2)\n\\]\nor\n\\[\nE\\{g(X_1)|X_2=x_2\\}=\\int_{x_1}g(x_1)f(x_1|x_2)dx_1.\n\\]"
+  },
+  {
+    "objectID": "lectures/3d.html#conditional-expectations-1",
+    "href": "lectures/3d.html#conditional-expectations-1",
+    "title": "Joint Distribution Functions",
+    "section": "Conditional Expectations",
+    "text": "Conditional Expectations\nFurthermore,\n\\[\nE(X_1)=E_{X_2}\\{E_{X_1|X_2}(X_1|X_2)\\}\n\\]\nand\n\\[\nVar(X_1) = E_{X_2}\\{Var_{X_1|X_2}(X_1|X_2)\\} + Var_{X_2}\\{E_{X_1|X_2}(X_1|X_2)\\}\n\\]"
+  },
+  {
+    "objectID": "lectures/3d.html#covariance-1",
+    "href": "lectures/3d.html#covariance-1",
+    "title": "Joint Distribution Functions",
+    "section": "Covariance",
+    "text": "Covariance\nLet \\(X_1\\) and \\(X_2\\) be 2 random variables with mean \\(E(X_1)=\\mu_1\\) and \\(E(X_2)=\\mu_2\\), respectively. The covariance of \\(X_1\\) and \\(X_2\\) is defined as\n\\[\n\\begin{eqnarray*}\nCov(X_1,X_2) & = & E\\{(X_1-\\mu_1)(X_2-\\mu_2)\\}\\\\\n& =& E(X_1X_2)-\\mu_1\\mu_2\n\\end{eqnarray*}\n\\]\nIf \\(X_1\\) and \\(X_2\\) are independent random variables, then\n\\[\nCov(X_1,X_2)=0\n\\]"
+  },
+  {
+    "objectID": "lectures/3d.html#correlation",
+    "href": "lectures/3d.html#correlation",
+    "title": "Joint Distribution Functions",
+    "section": "Correlation",
+    "text": "Correlation\nThe correlation of \\(X_1\\) and \\(X_2\\) is defined as\n\\[\n\\rho = Cor(X_1,X_2) = \\frac{Cov(X_1,X_2)}{\\sqrt{Var(X_1)Var(X_2)}}\n\\]"
+  },
+  {
+    "objectID": "lectures/5c.html#central-limit-theorem-1",
+    "href": "lectures/5c.html#central-limit-theorem-1",
     "title": "Sampling Distributions",
     "section": "Central Limit Theorem",
     "text": "Central Limit Theorem\nLet \\(X_1, X_2, \\ldots, X_n\\) be identical and independent distributed random variables with \\(E(X_i)=\\mu\\) and \\(Var(X_i) = \\sigma²\\). We define\n\\[\nY_n = \\sqrt n \\left(\\frac{\\bar X-\\mu}{\\sigma}\\right) \\mathrm{ where }\\ \\bar X = x\\frac{1}{n}\\sum^n_{i=1}X_i.\n\\]\nThen, the distribution of the function \\(Y_n\\) converges to a standard normal distribution function as \\(n\\rightarrow \\infty\\)."
   },
   {
-    "objectID": "lectures/4c.html#central-limit-theorem-2",
-    "href": "lectures/4c.html#central-limit-theorem-2",
+    "objectID": "lectures/5c.html#central-limit-theorem-2",
+    "href": "lectures/5c.html#central-limit-theorem-2",
     "title": "Sampling Distributions",
     "section": "Central Limit Theorem",
     "text": "Central Limit Theorem\n\\[\n\\bar X \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right)\n\\]"
   },
   {
-    "objectID": "lectures/4c.html#example",
-    "href": "lectures/4c.html#example",
+    "objectID": "lectures/5c.html#example",
+    "href": "lectures/5c.html#example",
     "title": "Sampling Distributions",
     "section": "Example",
     "text": "Example\nLet \\(X_1, \\ldots, X_n \\overset{iid}{\\sim} \\chi^2_p\\), the MGF is \\(M(t)=(1-2t)^{-p/2}\\). Find the distribution of \\(\\bar X\\) as \\(n \\rightarrow \\infty\\)."
   },
   {
-    "objectID": "lectures/5b.html#central-limit-theorem-1",
-    "href": "lectures/5b.html#central-limit-theorem-1",
-    "title": "Sampling Distributions",
-    "section": "Central Limit Theorem",
-    "text": "Central Limit Theorem\nLet \\(X_1, X_2, \\ldots, X_n\\) be identical and independent distributed random variables with \\(E(X_i)=\\mu\\) and \\(Var(X_i) = \\sigma²\\). We define\n\\[\nY_n = \\sqrt n \\left(\\frac{\\bar X-\\mu}{\\sigma}\\right) \\mathrm{ where }\\ \\bar X = x\\frac{1}{n}\\sum^n_{i=1}X_i.\n\\]\nThen, the distribution of the function \\(Y_n\\) converges to a standard normal distribution function as \\(n\\rightarrow \\infty\\)."
-  },
-  {
-    "objectID": "lectures/5b.html#central-limit-theorem-2",
-    "href": "lectures/5b.html#central-limit-theorem-2",
-    "title": "Sampling Distributions",
-    "section": "Central Limit Theorem",
-    "text": "Central Limit Theorem\n\\[\n\\bar X \\sim N\\left(\\mu, \\frac{\\sigma^2}{n}\\right)\n\\]"
-  },
-  {
-    "objectID": "lectures/5b.html#example",
-    "href": "lectures/5b.html#example",
-    "title": "Sampling Distributions",
-    "section": "Example",
-    "text": "Example\nLet \\(X_1, \\ldots, X_n \\overset{iid}{\\sim} \\chi^2_p\\), the MGF is \\(M(t)=(1-2t)^{-p/2}\\). Find the distribution of \\(\\bar X\\) as \\(n \\rightarrow \\infty\\)."
-  },
-  {
-    "objectID": "lectures/5b.html#order-statistics-1",
-    "href": "lectures/5b.html#order-statistics-1",
-    "title": "Sampling Distributions",
-    "section": "Order Statistics",
-    "text": "Order Statistics\nOrder statistics are a fundamental concept in statistics and probability, dealing with the properties of sorted random variables. They provide insights into the distribution and behavior of sample data, such as minimum, maximum, and quantiles. Understanding order statistics is crucial in various fields such as risk management, quality control, and data analysis."
-  },
-  {
-    "objectID": "lectures/5b.html#order-statistics-2",
-    "href": "lectures/5b.html#order-statistics-2",
-    "title": "Sampling Distributions",
-    "section": "Order Statistics",
-    "text": "Order Statistics\nLet \\(X_1, X_2, \\ldots, X_n\\) be a sample of \\(n\\) independent and identically distributed (i.i.d.) random variables with a common probability density function \\(f(x)\\). The order statistics are the sorted values of this sample, denoted as:\n\\[\n  X_{(1)} \\leq X_{(2)} \\leq \\cdots \\leq X_{(n)}\n  \\]\nHere, \\(X_{(1)}\\) is the minimum, and \\(X_{(n)}\\) is the maximum of the sample."
-  },
-  {
-    "objectID": "lectures/5b.html#order-statistics-3",
-    "href": "lectures/5b.html#order-statistics-3",
-    "title": "Sampling Distributions",
-    "section": "Order Statistics",
-    "text": "Order Statistics\n\n\\(X_{(k)}\\): The \\(k\\)-th order statistic, representing the \\(k\\)-th smallest value in the sample.\n\\(X_{(1)}, X_{(n)}\\): The minimum and maximum of the sample, respectively."
-  },
-  {
-    "objectID": "lectures/5b.html#distribution-of-order-statistic",
-    "href": "lectures/5b.html#distribution-of-order-statistic",
-    "title": "Sampling Distributions",
-    "section": "Distribution of Order Statistic",
-    "text": "Distribution of Order Statistic\nThe distribution of the \\(k\\)-th order statistic \\(X_{(k)}\\) can be derived using combinatorial arguments. Its PDF is given by: \\[\n  f_{X_{(k)}}(x) = \\frac{n!}{(k-1)!(n-k)!} [F(x)]^{k-1} [1 - F(x)]^{n-k} f(x)\n  \\]\nThis formula shows how the distribution of \\(X_{(k)}\\) depends on the underlying distribution of the sample and its position \\(k\\)."
-  },
-  {
-    "objectID": "lectures/5b.html#estimators-1",
-    "href": "lectures/5b.html#estimators-1",
+    "objectID": "lectures/5c.html#estimators-1",
+    "href": "lectures/5c.html#estimators-1",
     "title": "Sampling Distributions",
     "section": "Estimators",
     "text": "Estimators\nAn estimator is an operation computing the value of an estimate, that targets the parameter, using measurements from a sample."
   },
   {
-    "objectID": "lectures/5b.html#unbiased-estimator",
-    "href": "lectures/5b.html#unbiased-estimator",
+    "objectID": "lectures/5c.html#unbiased-estimator",
+    "href": "lectures/5c.html#unbiased-estimator",
     "title": "Sampling Distributions",
     "section": "Unbiased Estimator",
     "text": "Unbiased Estimator\nAn unbiased estimator \\(\\hat\\theta\\) is an estimator that satisfies the following condition:\n\\[\nE(\\hat\\theta) = \\theta\n\\]"
   },
   {
-    "objectID": "lectures/5b.html#bias",
-    "href": "lectures/5b.html#bias",
+    "objectID": "lectures/5c.html#bias",
+    "href": "lectures/5c.html#bias",
     "title": "Sampling Distributions",
     "section": "Bias",
     "text": "Bias\nThe bias of an estimator is defined as\n\\[\nB(\\hat\\theta) = E(\\hat\\theta)-\\theta\n\\]"
   },
   {
-    "objectID": "lectures/5b.html#mean-square-error",
-    "href": "lectures/5b.html#mean-square-error",
+    "objectID": "lectures/5c.html#mean-square-error",
+    "href": "lectures/5c.html#mean-square-error",
     "title": "Sampling Distributions",
     "section": "Mean Square Error",
     "text": "Mean Square Error\nThe mean square of an estimator is \\(\\hat\\theta\\) is given as\n\\[\n\\begin{eqnarray}\nMSE(\\hat\\theta) & = & E\\{(\\hat\\theta-\\theta)^2\\} \\\\\n& = & Var(\\hat\\theta) + B(\\hat\\theta)^2\n\\end{eqnarray}\n\\]"
   },
   {
-    "objectID": "lectures/5b.html#is-bar-x-an-unbiased-estimator-of-mu",
-    "href": "lectures/5b.html#is-bar-x-an-unbiased-estimator-of-mu",
+    "objectID": "lectures/5c.html#is-bar-x-an-unbiased-estimator-of-mu",
+    "href": "lectures/5c.html#is-bar-x-an-unbiased-estimator-of-mu",
     "title": "Sampling Distributions",
     "section": "Is \\(\\bar X\\) an unbiased estimator of \\(\\mu\\)?",
     "text": "Is \\(\\bar X\\) an unbiased estimator of \\(\\mu\\)?\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\), find the bias of \\(\\bar X\\)."
   },
   {
-    "objectID": "lectures/5b.html#why-is-s²-divided-by-n-1-instead-of-n",
-    "href": "lectures/5b.html#why-is-s²-divided-by-n-1-instead-of-n",
+    "objectID": "lectures/5c.html#why-is-s²-divided-by-n-1-instead-of-n",
+    "href": "lectures/5c.html#why-is-s²-divided-by-n-1-instead-of-n",
     "title": "Sampling Distributions",
     "section": "Why is \\(S²\\) divided by \\(n-1\\) instead of \\(n\\)?",
     "text": "Why is \\(S²\\) divided by \\(n-1\\) instead of \\(n\\)?\nLet \\(X_1,\\ldots,X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)\\), find the bias of \\(S²\\)."
   },
   {
-    "objectID": "lectures/5b.html#problem",
-    "href": "lectures/5b.html#problem",
+    "objectID": "lectures/5c.html#problem",
+    "href": "lectures/5c.html#problem",
     "title": "Sampling Distributions",
     "section": "Problem",
     "text": "Problem\nLet \\(X_1,X_2,X_3\\) follow and exponential distribution with mean and variance \\(\\lambda\\) and \\(\\lambda²\\), respectively. Using the following estimators:\n\n\\(\\hat\\theta_1 = X_1\\)\n\\(\\hat\\theta_2 = \\frac{X_1+X_2}{2}\\)\n\\(\\hat\\theta_3 = \\frac{X_1+2X_2}{3}\\)\n\\(\\hat\\theta_4 = \\frac{X_1+X_2+X_3}{3}\\)\n\nIdentify which estimator\n\nIs unbiased?\nHas the lowest variance?"

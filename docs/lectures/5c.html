@@ -153,9 +153,6 @@
 <p>Central Limit Theorem</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
-<p>Order Statistics</p>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active">
 <p>Estimators</p>
 </div></li>
 </ul>
@@ -180,58 +177,12 @@ Y_n = \sqrt n \left(\frac{\bar X-\mu}{\sigma}\right) \mathrm{ where }\ \bar X = 
 <p>Let <span class="math inline">\(X_1, \ldots, X_n \overset{iid}{\sim} \chi^2_p\)</span>, the MGF is <span class="math inline">\(M(t)=(1-2t)^{-p/2}\)</span>. Find the distribution of <span class="math inline">\(\bar X\)</span> as <span class="math inline">\(n \rightarrow \infty\)</span>.</p>
 </section></section>
 <section>
-<section id="order-statistics" class="title-slide slide level1 agenda-slide center">
-<h1>Order Statistics</h1>
-<div class="agenda">
-<ul>
-<li><div class="agenda-inactive agenda-pre-active">
-<p>Central Limit Theorem</p>
-</div></li>
-<li><div class="agenda-active">
-<p>Order Statistics</p>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active">
-<p>Estimators</p>
-</div></li>
-</ul>
-</div>
-</section>
-<section id="order-statistics-1" class="slide level2">
-<h2>Order Statistics</h2>
-<p>Order statistics are a fundamental concept in statistics and probability, dealing with the properties of sorted random variables. They provide insights into the distribution and behavior of sample data, such as minimum, maximum, and quantiles. Understanding order statistics is crucial in various fields such as risk management, quality control, and data analysis.</p>
-</section>
-<section id="order-statistics-2" class="slide level2">
-<h2>Order Statistics</h2>
-<p>Let <span class="math inline">\(X_1, X_2, \ldots, X_n\)</span> be a sample of <span class="math inline">\(n\)</span> independent and identically distributed (i.i.d.) random variables with a common probability density function <span class="math inline">\(f(x)\)</span>. The order statistics are the sorted values of this sample, denoted as:</p>
-<p><span class="math display">\[
-  X_{(1)} \leq X_{(2)} \leq \cdots \leq X_{(n)}
-  \]</span></p>
-<p>Here, <span class="math inline">\(X_{(1)}\)</span> is the minimum, and <span class="math inline">\(X_{(n)}\)</span> is the maximum of the sample.</p>
-</section>
-<section id="order-statistics-3" class="slide level2">
-<h2>Order Statistics</h2>
-<ul>
-<li><span class="math inline">\(X_{(k)}\)</span>: The <span class="math inline">\(k\)</span>-th order statistic, representing the <span class="math inline">\(k\)</span>-th smallest value in the sample.</li>
-<li><span class="math inline">\(X_{(1)}, X_{(n)}\)</span>: The minimum and maximum of the sample, respectively.</li>
-</ul>
-</section>
-<section id="distribution-of-order-statistic" class="slide level2">
-<h2>Distribution of Order Statistic</h2>
-<p>The distribution of the <span class="math inline">\(k\)</span>-th order statistic <span class="math inline">\(X_{(k)}\)</span> can be derived using combinatorial arguments. Its PDF is given by: <span class="math display">\[
-  f_{X_{(k)}}(x) = \frac{n!}{(k-1)!(n-k)!} [F(x)]^{k-1} [1 - F(x)]^{n-k} f(x)
-  \]</span></p>
-<p>This formula shows how the distribution of <span class="math inline">\(X_{(k)}\)</span> depends on the underlying distribution of the sample and its position <span class="math inline">\(k\)</span>.</p>
-</section></section>
-<section>
 <section id="estimators" class="title-slide slide level1 agenda-slide center">
 <h1>Estimators</h1>
 <div class="agenda">
 <ul>
 <li><div class="agenda-inactive agenda-pre-active">
 <p>Central Limit Theorem</p>
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active">
-<p>Order Statistics</p>
 </div></li>
 <li><div class="agenda-active">
 <p>Estimators</p>
