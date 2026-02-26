@@ -108,14 +108,14 @@ The following outline may be subject to change. Any changes will be announced in
 | **4** 2/16- 2/20 | 7 Tuesday | Functions of RV's and Order Statistics | 5.6, 5.7 |
 |  | 8 Thursday | Sampling Distributions | 6.1, 6.2 |
 | **5** 2/23-2/27 | 9 Tuesday | Common Sampling Distributions | 6.3, 6.4 |
-|  | 10 Thursday |  Exam #1 |  |
+|  | 10 Thursday |  Sampling Distributions |  |
 | **6** 3/2-3/6 | 11 Tuesday | Point Estimation | 7.1 |
-|  | 12 Thursday | Maximum Likelihood Estimator | 7.2 |
-| **7** 3/9-3/13 | 13 Tuesday | Method of Moments Estimator | 7.2 |
-|  | 14 Thursday | Bayesian Estimators | 15.2 | 
+|  | 12 Thursday | Exam #1 | 7.2 |
+| **7** 3/9-3/13 | 13 Tuesday | Maximum Likelihood Estimators | 7.2 |
+|  | 14 Thursday | Method of Moments Estimators | 15.2 | 
 | 3/16-3/20 | **Spring Break** | | |
-| **8** 3/23-3/27  | 15 Tuesday | Sufficiency | 7.3 |
-|  | 16 Thursday | Information and Efficiency | 7.4 |
+| **8** 3/23-3/27  | 15 Tuesday | Bayesian Estimators | 7.3 |
+|  | 16 Thursday | Sufficiency, Information and Efficiency | 7.4 |
 | **9** 3/30-4/3 | 17 Tuesday | Holiday | 8.1 |
 |  | 18 Thursday | Confidence Intervals | 8.1 |
 | **10** 4/6-4/10 | 19 Tuesday | Single Sample Intervals | 8.2 |
