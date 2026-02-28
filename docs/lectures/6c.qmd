@@ -1,0 +1,143 @@
+---
+title: "Statistical Estimators"
+format:
+  revealjs:
+    navigation-mode: vertical
+    controls-layout: bottom-right
+    controls-tutorial: true
+    incremental: false 
+    chalkboard:
+      src: chalkboard.json
+      theme: whiteboard
+      chalk-width: 4
+
+revealjs-plugins:
+  - pointer
+  - verticator
+  
+filters: 
+  - reveal-header
+  - code-fullscreen
+  - reveal-auto-agenda
+
+editor: source
+---
+
+```{r}
+#| include: false
+
+knitr::opts_chunk$set(echo = T)
+
+```
+
+# Estimators
+
+## Estimators
+
+An *estimator* is an operation computing the value of an estimate, that targets the parameter, using measurements from a sample.
+
+## Unbiased Estimator
+
+An unbiased estimator $\hat\theta$ is an estimator that satisfies the following condition:
+
+$$
+E(\hat\theta) = \theta
+$$
+
+## Bias
+
+The bias of an estimator is defined as
+
+$$
+B(\hat\theta) = E(\hat\theta)-\theta
+$$
+
+## Mean Square Error
+
+The mean square of an estimator is $\hat\theta$ is given as
+
+$$
+\begin{eqnarray}
+MSE(\hat\theta) & = & E\{(\hat\theta-\theta)^2\} \\
+& = & Var(\hat\theta) + B(\hat\theta)^2
+\end{eqnarray}
+$$
+
+## Is $\bar X$ an unbiased estimator of $\mu$?
+
+Let $X_1,\ldots,X_n\overset{iid}{\sim}N(\mu,\sigma^2)$, find the bias of $\bar X$.
+
+## Why is $S²$ divided by $n-1$ instead of $n$?
+
+Let $X_1,\ldots,X_n\overset{iid}{\sim}N(\mu,\sigma^2)$, find the bias of $S²$.
+
+## Problem
+
+Let $X_1,X_2,X_3$ follow and exponential distribution with mean and variance $\lambda$ and $\lambda²$, respectively. Using the following estimators:
+
+-   $\hat\theta_1 = X_1$
+
+-   $\hat\theta_2 = \frac{X_1+X_2}{2}$
+
+-   $\hat\theta_3 = \frac{X_1+2X_2}{3}$
+
+-   $\hat\theta_4 = \frac{X_1+X_2+X_3}{3}$
+
+Identify which estimator:
+
+1.  Is unbiased?
+2.  Has the smallest variance?
+
+# Likelihood Function
+
+## Likelihood Function
+
+Using the joint pdf or pmf of the sample $\boldsymbol X$, the likelihood function is a function of $\boldsymbol \theta$, given the observed data $\boldsymbol X =\boldsymbol x$, defined as
+
+$$
+L(\boldsymbol \theta|\boldsymbol x)=f(\boldsymbol x|\boldsymbol \theta)
+$$
+
+If the data is iid, then
+
+$$
+f(\boldsymbol x|\boldsymbol \theta) = \prod^n_{i=1}f(x_i|\boldsymbol\theta)
+$$
+
+# MLE
+
+## Likelihood Function
+
+Using the joint pdf or pmf of the sample $\boldsymbol X$, the likelihood function is a function of $\boldsymbol \theta$, given the observed data $\boldsymbol X =\boldsymbol x$, defined as
+
+$$
+L(\boldsymbol \theta|\boldsymbol x)=f(\boldsymbol x|\boldsymbol \theta)
+$$
+
+If the data is iid, then
+
+$$
+f(\boldsymbol x|\boldsymbol \theta) = \prod^n_{i=1}f(x_i|\boldsymbol\theta)
+$$
+
+## Log-Likelihood Function
+
+If $\ln\{L(\boldsymbol \theta)\}$ is monotone of $\boldsymbol \theta$, then maximizing $\ell(\boldsymbol\theta) = \ln\{L(\boldsymbol \theta)\}$ will yield the maximum likelihood estimators.
+
+## Maximum log-Likelihood Estimator
+
+The maximum likelihood estimator are the estimates of $\boldsymbol \theta$ that maximize $\ell(\boldsymbol\theta)$.
+
+# Example
+
+## Poisson Distribution
+
+Let $X_1,\ldots,X_n\overset{iid}{\sim}\mathrm{Pois}(\lambda)$, show that the MLE of $\lambda$ is $\bar x$.
+
+## Normal Distribution
+
+Let $X_1,\ldots,X_n\overset{iid}{\sim}N(\mu,\sigma^2)$. Show that the MLE's of $\mu$ and $\sigma^2$ are $\bar x$ and $\frac{n-1}{n}s^2$, respectively.
+
+## Exponential Distribution
+
+Let $X_1,\ldots,X_n\overset{iid}{\sim}Exp(\lambda)$. Find the MLE of $\lambda$

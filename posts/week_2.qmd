@@ -14,6 +14,6 @@ draft: false
 
 | Lecture   | Slides                       | Annotated  | Video     |
 |-----------|------------------------------|------------|-----------|
-| Monday    | [Slides](../lectures/2a) | [Slides](../lectures/1b_annotated.pdf) | [Video](https://youtu.be/Zmnevj_lcYQ) |
-| Wednesday | [Slides](../lectures/2b.pdf) | [Slides](../lectures/2b_annotated.pdf) | Unavailable |
+| Teusday    | [Slides](../lectures/2a) | [Slides](../lectures/1b_annotated.pdf) | [Video](https://youtu.be/Zmnevj_lcYQ) |
+| Thursday | [Slides](../lectures/2b.pdf) | [Slides](../lectures/2b_annotated.pdf) | Unavailable |
 

@@ -25,5 +25,5 @@ Press the "b" key to access hidden notes.
 
 | Lecture | Slides | Videos |
 |---------------|-------------------------------|--------------------------|
-| Monday | [Slides](https://m453.inqs.info/lectures/7a) | [Video](https://youtu.be/nmuweszbWJ8) |
-| Wednesday | [Slides](https://m453.inqs.info/lectures/7b) | [Video](https://youtu.be/89ZUgX9zsvg) |
+| Tuesday | [Slides](https://m453.inqs.info/lectures/7a) | [Video](https://youtu.be/nmuweszbWJ8) |
+| Thursday | [Slides](https://m453.inqs.info/lectures/7b) | [Video](https://youtu.be/89ZUgX9zsvg) |

@@ -11,5 +11,5 @@ draft: false
 
 | Lecture   | Slides                       | Annotated  | Video     |
 |-----------|------------------------------|------------|-----------|
-| Monday    | [Slides](../lectures/3a.pdf) | [Slides](../lectures/3a_annotated.pdf) | [Video](https://youtu.be/4OfIgxmLrSc) |
-| Wednesday | [Slides](../lectures/3b.pdf) | [Slides](../lectures/3b_annotated.pdf) | [Video](https://youtu.be/PDsr5sEB1QM)  |
+| Tuesday    | [Slides](../lectures/3a.pdf) | [Slides](../lectures/3a_annotated.pdf) | [Video](https://youtu.be/4OfIgxmLrSc) |
+| Thursday | [Slides](../lectures/3b.pdf) | [Slides](../lectures/3b_annotated.pdf) | [Video](https://youtu.be/PDsr5sEB1QM)  |

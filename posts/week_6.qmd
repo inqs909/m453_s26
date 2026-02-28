@@ -1,31 +1,12 @@
 ---
 title: "Week 6"
-date: 09-30-24
+date: 02-28-26
 description: |
-  This week focuses on statistical estimators
+  This week, we will review sampling distributions and the Central Limit Theorem.
 editor: source
-draft: true
+draft: false
 ---
 
-## Learning Outcomes
-
-### Monday
-
--   Estimators
-
--   MLE
-
-### Wednesday
-
--   Exam
-
-## Resources
-
-You must log on to your CI Google account to access the video.
-
-Press the "b" key to access hidden notes.
-
-| Lecture | Slides | Videos |
-|---------------|-------------------------------|--------------------------|
-| Monday | [Slides](https://m453.inqs.info/lectures/6a) | [Video](https://youtu.be/Nrz1ZDB7lUo) |
-| Wednesday |  |  |
+| Lecture   | Slides                       | Annotated  | Video     |
+|-----------|------------------------------|------------|-----------|
+| Tuesday    | [Slides](../lectures/6a.pdf) | [Slides]() | [Video]() |

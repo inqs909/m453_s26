@@ -1,24 +1,26 @@
 ---
-title: "Statistical Estimators"
+title: "Central Limit Theorem"
 format:
-  revealjs:
-    navigation-mode: vertical
-    controls-layout: bottom-right
-    controls-tutorial: true
-    incremental: false 
-    chalkboard:
-      src: chalkboard.json
-      theme: whiteboard
-      chalk-width: 4
-
-revealjs-plugins:
-  - pointer
-  - verticator
-  
-filters: 
-  - reveal-header
-  - code-fullscreen
-  - reveal-auto-agenda
+  beamer:
+    theme: gotham
+    colortheme: dolphin
+    fonttheme: professionalfonts
+    fontsize: 14pt
+header-includes:
+  - \setbeamertemplate{footline}{
+      \hfill
+      \usebeamerfont{page number in head/foot}
+      \insertframenumber{} / \inserttotalframenumber
+      \kern1em\vskip2pt
+    }
+  - \gothamset{sectionframe default=off}
+knitr:
+  opts_chunk: 
+    echo: true
+    eval: true
+    message: false
+    warnings: false
+    comment: "#>" 
 
 editor: source
 ---
@@ -30,114 +32,58 @@ knitr::opts_chunk$set(echo = T)
 
 ```
 
-# Estimators
+# Central Limit Theorem
 
-## Estimators
+## Central Limit Theorem
 
-An *estimator* is an operation computing the value of an estimate, that targets the parameter, using measurements from a sample.
-
-## Unbiased Estimator
-
-An unbiased estimator $\hat\theta$ is an estimator that satisfies the following condition:
+Let $X_1, X_2, \ldots, X_n$ be identical and independent distributed random variables with $E(X_i)=\mu$ and $Var(X_i) = \sigma²$. We define
 
 $$
-E(\hat\theta) = \theta
+Y_n = \sqrt n \left(\frac{\bar X-\mu}{\sigma}\right) \mathrm{ where }\ \bar X = x\frac{1}{n}\sum^n_{i=1}X_i.
 $$
 
-## Bias
+Then, the distribution of the function $Y_n$ converges to a standard normal distribution function as $n\rightarrow \infty$.
 
-The bias of an estimator is defined as
-
-$$
-B(\hat\theta) = E(\hat\theta)-\theta
-$$
-
-## Mean Square Error
-
-The mean square of an estimator is $\hat\theta$ is given as
+## Central Limit Theorem
 
 $$
-\begin{eqnarray}
-MSE(\hat\theta) & = & E\{(\hat\theta-\theta)^2\} \\
-& = & Var(\hat\theta) + B(\hat\theta)^2
-\end{eqnarray}
+\bar X \sim N\left(\mu, \frac{\sigma^2}{n}\right)
 $$
 
-## Is $\bar X$ an unbiased estimator of $\mu$?
+## Central Limit Theorem Proof
 
-Let $X_1,\ldots,X_n\overset{iid}{\sim}N(\mu,\sigma^2)$, find the bias of $\bar X$.
 
-## Why is $S²$ divided by $n-1$ instead of $n$?
+## Example
 
-Let $X_1,\ldots,X_n\overset{iid}{\sim}N(\mu,\sigma^2)$, find the bias of $S²$.
+Let $X_1, \ldots, X_n \overset{iid}{\sim} \chi^2_p$, the MGF is $M(t)=(1-2t)^{-p/2}$. Find the distribution of $\bar X$ as $n \rightarrow \infty$.
 
-## Problem
 
-Let $X_1,X_2,X_3$ follow and exponential distribution with mean and variance $\lambda$ and $\lambda²$, respectively. Using the following estimators:
+# Order Statistics
 
--   $\hat\theta_1 = X_1$
+##  Order Statistics
 
--   $\hat\theta_2 = \frac{X_1+X_2}{2}$
+Order statistics are a fundamental concept in statistics and probability, dealing with the properties of sorted random variables. They provide insights into the distribution and behavior of sample data, such as minimum, maximum, and quantiles. Understanding order statistics is crucial in various fields such as risk management, quality control, and data analysis.
 
--   $\hat\theta_3 = \frac{X_1+2X_2}{3}$
+## Order Statistics
 
--   $\hat\theta_4 = \frac{X_1+X_2+X_3}{3}$
-
-Identify which estimator:
-
-1.  Is unbiased?
-2.  Has the smallest variance?
-
-# Likelihood Function
-
-## Likelihood Function
-
-Using the joint pdf or pmf of the sample $\boldsymbol X$, the likelihood function is a function of $\boldsymbol \theta$, given the observed data $\boldsymbol X =\boldsymbol x$, defined as
-
+  Let $X_1, X_2, \ldots, X_n$ be a sample of $n$ independent and identically distributed (i.i.d.) random variables with a common probability density function $f(x)$. The order statistics are the sorted values of this sample, denoted as:
+  
 $$
-L(\boldsymbol \theta|\boldsymbol x)=f(\boldsymbol x|\boldsymbol \theta)
+X_{(1)} \leq X_{(2)} \leq \cdots \leq X_{(n)}
 $$
+  
+  Here, $X_{(1)}$ is the minimum, and $X_{(n)}$ is the maximum of the sample.
 
-If the data is iid, then
+## Order Statistics
 
+  - $X_{(k)}$: The $k$-th order statistic, representing the $k$-th smallest value in the sample.
+  - $X_{(1)}, X_{(n)}$: The minimum and maximum of the sample, respectively.
+
+## Distribution of Order Statistic
+
+The distribution of the $k$-th order statistic $X_{(k)}$ can be derived using combinatorial arguments. Its PDF is given by:
 $$
-f(\boldsymbol x|\boldsymbol \theta) = \prod^n_{i=1}f(x_i|\boldsymbol\theta)
+f_{X_{(k)}}(x) = \frac{n!}{(k-1)!(n-k)!} [F(x)]^{k-1} [1 - F(x)]^{n-k} f(x)
 $$
 
-# MLE
-
-## Likelihood Function
-
-Using the joint pdf or pmf of the sample $\boldsymbol X$, the likelihood function is a function of $\boldsymbol \theta$, given the observed data $\boldsymbol X =\boldsymbol x$, defined as
-
-$$
-L(\boldsymbol \theta|\boldsymbol x)=f(\boldsymbol x|\boldsymbol \theta)
-$$
-
-If the data is iid, then
-
-$$
-f(\boldsymbol x|\boldsymbol \theta) = \prod^n_{i=1}f(x_i|\boldsymbol\theta)
-$$
-
-## Log-Likelihood Function
-
-If $\ln\{L(\boldsymbol \theta)\}$ is monotone of $\boldsymbol \theta$, then maximizing $\ell(\boldsymbol\theta) = \ln\{L(\boldsymbol \theta)\}$ will yield the maximum likelihood estimators.
-
-## Maximum log-Likelihood Estimator
-
-The maximum likelihood estimator are the estimates of $\boldsymbol \theta$ that maximize $\ell(\boldsymbol\theta)$.
-
-# Example
-
-## Poisson Distribution
-
-Let $X_1,\ldots,X_n\overset{iid}{\sim}\mathrm{Pois}(\lambda)$, show that the MLE of $\lambda$ is $\bar x$.
-
-## Normal Distribution
-
-Let $X_1,\ldots,X_n\overset{iid}{\sim}N(\mu,\sigma^2)$. Show that the MLE's of $\mu$ and $\sigma^2$ are $\bar x$ and $\frac{n-1}{n}s^2$, respectively.
-
-## Exponential Distribution
-
-Let $X_1,\ldots,X_n\overset{iid}{\sim}Exp(\lambda)$. Find the MLE of $\lambda$
+  This formula shows how the distribution of $X_{(k)}$ depends on the underlying distribution of the sample and its position $k$.
