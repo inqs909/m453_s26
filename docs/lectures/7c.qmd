@@ -1,0 +1,75 @@
+---
+title: "Method of Moment Estimator"
+format:
+  revealjs:
+    navigation-mode: vertical
+    controls-layout: bottom-right
+    controls-tutorial: true
+    incremental: false 
+    chalkboard:
+      src: chalkboard.json
+      theme: whiteboard
+      chalk-width: 4
+
+revealjs-plugins:
+  - pointer
+  - verticator
+  
+filters: 
+  - reveal-header
+  - code-fullscreen
+  - reveal-auto-agenda
+
+editor: source
+---
+
+```{r}
+#| include: false
+
+knitr::opts_chunk$set(echo = T)
+
+```
+
+# Background Information
+
+## Estimators
+
+An *estimator* is an operation computing the value of an estimate, that targets the parameter, using measurements from a sample.
+
+## Data
+
+Let $X_1,\ldots,X_n\overset{iid}{\sim}F(\boldsymbol \theta)$ where $F(\cdot)$ is a known distribution function and $\boldsymbol\theta$ is a vector of parameters. Let $\boldsymbol X = (X_1,\ldots, X_n)^\mathrm{T}$, be the sample collected.
+
+# Methods of Moments
+
+## Method of Moments
+
+Let the $k$th moment be defined as $\mu_k$ and the corresponding $k$th moment average $\frac{1}{n}\sum^n_{i=1}X_i^{k}$:
+
+$$
+\mu_k = \frac{1}{n}\sum^n_{i=1}X_i^k.
+$$
+
+The parameter estimates are for $t$ parameters are the solutions for $\mu_k$ for $k=1,\ldots,t$.
+
+# Examples
+
+## Bernoulli Distribution
+
+Let $X_1, \ldots,X_n\overset{iid}{\sim}\mathrm{Bin}(n,p)$, find the method of moments estimator for $p$.
+
+## Poisson Distribution
+
+Let $X_1, \ldots,X_n\overset{iid}{\sim}\mathrm{Pois}(\lambda)$, find the method of moments estimator for $\lambda$.
+
+## Uniform Distribution
+
+Let $X_1, \ldots,X_n\overset{iid}{\sim}U(1,\theta)$, find the method of moments estimator for $\theta$.
+
+## Gamma Distribution
+
+Let $X_1, \ldots,X_n\overset{iid}{\sim}\mathrm{Gamma}(\alpha,\beta)$, find the method of moments estimator for $\alpha$ and $\beta$.
+
+## Nomal Distribution
+
+Let $X_1, \ldots,X_n\overset{iid}{\sim}N(\mu,\sigma^2)$, find the method of moments estimator for $\mu$ and $\sigma^2$.

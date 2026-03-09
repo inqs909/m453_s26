@@ -1,0 +1,19 @@
+{
+  "hash": "7ca735dcfbe20a1498e8a1c91914cec2",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Method of Moment Estimator\"\nformat:\n  revealjs:\n    navigation-mode: vertical\n    controls-layout: bottom-right\n    controls-tutorial: true\n    incremental: false \n    chalkboard:\n      src: chalkboard.json\n      theme: whiteboard\n      chalk-width: 4\n\nrevealjs-plugins:\n  - pointer\n  - verticator\n  \nfilters: \n  - reveal-header\n  - code-fullscreen\n  - reveal-auto-agenda\n\neditor: source\n---\n\n\n\n# Background Information\n\n## Estimators\n\nAn *estimator* is an operation computing the value of an estimate, that targets the parameter, using measurements from a sample.\n\n## Data\n\nLet $X_1,\\ldots,X_n\\overset{iid}{\\sim}F(\\boldsymbol \\theta)$ where $F(\\cdot)$ is a known distribution function and $\\boldsymbol\\theta$ is a vector of parameters. Let $\\boldsymbol X = (X_1,\\ldots, X_n)^\\mathrm{T}$, be the sample collected.\n\n# Methods of Moments\n\n## Method of Moments\n\nLet the $k$th moment be defined as $\\mu_k$ and the corresponding $k$th moment average $\\frac{1}{n}\\sum^n_{i=1}X_i^{k}$:\n\n$$\n\\mu_k = \\frac{1}{n}\\sum^n_{i=1}X_i^k.\n$$\n\nThe parameter estimates are for $t$ parameters are the solutions for $\\mu_k$ for $k=1,\\ldots,t$.\n\n# Examples\n\n## Bernoulli Distribution\n\nLet $X_1, \\ldots,X_n\\overset{iid}{\\sim}\\mathrm{Bin}(n,p)$, find the method of moments estimator for $p$.\n\n## Poisson Distribution\n\nLet $X_1, \\ldots,X_n\\overset{iid}{\\sim}\\mathrm{Pois}(\\lambda)$, find the method of moments estimator for $\\lambda$.\n\n## Uniform Distribution\n\nLet $X_1, \\ldots,X_n\\overset{iid}{\\sim}U(1,\\theta)$, find the method of moments estimator for $\\theta$.\n\n## Gamma Distribution\n\nLet $X_1, \\ldots,X_n\\overset{iid}{\\sim}\\mathrm{Gamma}(\\alpha,\\beta)$, find the method of moments estimator for $\\alpha$ and $\\beta$.\n\n## Nomal Distribution\n\nLet $X_1, \\ldots,X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)$, find the method of moments estimator for $\\mu$ and $\\sigma^2$.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

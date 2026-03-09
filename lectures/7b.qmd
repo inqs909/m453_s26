@@ -1,25 +1,26 @@
 ---
-title: "Method of Moment Estimator"
+title: "Maximum Likelihood Estimators"
 format:
-  revealjs:
-    navigation-mode: vertical
-    controls-layout: bottom-right
-    controls-tutorial: true
-    incremental: false 
-    chalkboard:
-      src: chalkboard.json
-      theme: whiteboard
-      chalk-width: 4
-
-revealjs-plugins:
-  - pointer
-  - verticator
-  
-filters: 
-  - reveal-header
-  - code-fullscreen
-  - reveal-auto-agenda
-
+  beamer:
+    theme: gotham
+    colortheme: dolphin
+    fonttheme: professionalfonts
+    fontsize: 14pt
+header-includes:
+  - \setbeamertemplate{footline}{
+      \hfill
+      \usebeamerfont{page number in head/foot}
+      \insertframenumber{} / \inserttotalframenumber
+      \kern1em\vskip2pt
+    }
+  - \gothamset{sectionframe default=off}
+knitr:
+  opts_chunk: 
+    echo: true
+    eval: true
+    message: false
+    warnings: false
+    comment: "#>" 
 editor: source
 ---
 
@@ -30,46 +31,60 @@ knitr::opts_chunk$set(echo = T)
 
 ```
 
-# Background Information
+# Maximum Likelihood Estimators
 
-## Estimators
+## Likelihood Function
 
-An *estimator* is an operation computing the value of an estimate, that targets the parameter, using measurements from a sample.
-
-## Data
-
-Let $X_1,\ldots,X_n\overset{iid}{\sim}F(\boldsymbol \theta)$ where $F(\cdot)$ is a known distribution function and $\boldsymbol\theta$ is a vector of parameters. Let $\boldsymbol X = (X_1,\ldots, X_n)^\mathrm{T}$, be the sample collected.
-
-# Methods of Moments
-
-## Method of Moments
-
-Let the $k$th moment be defined as $\mu_k$ and the corresponding $k$th moment average $\frac{1}{n}\sum^n_{i=1}X_i^{k}$:
+Using the joint pdf or pmf of the sample $\boldsymbol X$, the likelihood function is a function of $\boldsymbol \theta$, given the observed data $\boldsymbol X =\boldsymbol x$, defined as
 
 $$
-\mu_k = \frac{1}{n}\sum^n_{i=1}X_i^k.
+L(\boldsymbol \theta|\boldsymbol x)=f(\boldsymbol x|\boldsymbol \theta)
 $$
 
-The parameter estimates are for $t$ parameters are the solutions for $\mu_k$ for $k=1,\ldots,t$.
+If the data is iid, then
 
-# Examples
+$$
+f(\boldsymbol x|\boldsymbol \theta) = \prod^n_{i=1}f(x_i|\boldsymbol\theta)
+$$
 
-## Bernoulli Distribution
+# MLE
 
-Let $X_1, \ldots,X_n\overset{iid}{\sim}\mathrm{Bin}(n,p)$, find the method of moments estimator for $p$.
+## Likelihood Function
+
+Using the joint pdf or pmf of the sample $\boldsymbol X$, the likelihood function is a function of $\boldsymbol \theta$, given the observed data $\boldsymbol X =\boldsymbol x$, defined as
+
+$$
+L(\boldsymbol \theta|\boldsymbol x)=f(\boldsymbol x|\boldsymbol \theta)
+$$
+
+If the data is iid, then
+
+$$
+f(\boldsymbol x|\boldsymbol \theta) = \prod^n_{i=1}f(x_i|\boldsymbol\theta)
+$$
+
+## Log-Likelihood Function
+
+If $\ln\{L(\boldsymbol \theta)\}$ is monotone of $\boldsymbol \theta$, then maximizing $\ell(\boldsymbol\theta) = \ln\{L(\boldsymbol \theta)\}$ will yield the maximum likelihood estimators.
+
+## Maximum log-Likelihood Estimator
+
+The maximum likelihood estimator are the estimates of $\boldsymbol \theta$ that maximize $\ell(\boldsymbol\theta)$.
+
+# Example
+
+## Binomial Distribution
+
+Let $X_1,\ldots,X_n\overset{iid}{\sim}\mathrm{Bin}(n, p)$
 
 ## Poisson Distribution
 
-Let $X_1, \ldots,X_n\overset{iid}{\sim}\mathrm{Pois}(\lambda)$, find the method of moments estimator for $\lambda$.
+Let $X_1,\ldots,X_n\overset{iid}{\sim}\mathrm{Pois}(\lambda)$
 
-## Uniform Distribution
+## Normal Distribution
 
-Let $X_1, \ldots,X_n\overset{iid}{\sim}U(1,\theta)$, find the method of moments estimator for $\theta$.
+Let $X_1,\ldots,X_n\overset{iid}{\sim}N(\mu,\sigma^2)$
 
-## Gamma Distribution
+## Exponential Distribution
 
-Let $X_1, \ldots,X_n\overset{iid}{\sim}\mathrm{Gamma}(\alpha,\beta)$, find the method of moments estimator for $\alpha$ and $\beta$.
-
-## Nomal Distribution
-
-Let $X_1, \ldots,X_n\overset{iid}{\sim}N(\mu,\sigma^2)$, find the method of moments estimator for $\mu$ and $\sigma^2$.
+Let $X_1,\ldots,X_n\overset{iid}{\sim}Exp(\lambda)$
