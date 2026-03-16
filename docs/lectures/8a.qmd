@@ -1,129 +1,76 @@
 ---
-title: "Goodness of Estimators"
+title: "Method of Moment Estimator"
 format:
-  revealjs:
-    scrollable: true
-    navigation-mode: vertical
-    controls-layout: bottom-right
-    incremental: true 
-    chalkboard:
-      src: chalkboard.json
-      storage: chalkboard_pres
-      theme: whiteboard
-      chalk-width: 4
+  beamer:
+    theme: gotham
+    colortheme: dolphin
+    fonttheme: professionalfonts
+    fontsize: 14pt
+header-includes:
+  - \setbeamertemplate{footline}{
+      \hfill
+      \usebeamerfont{page number in head/foot}
+      \insertframenumber{} / \inserttotalframenumber
+      \kern1em\vskip2pt
+    }
+  - \gothamset{sectionframe default=off}
+knitr:
+  opts_chunk: 
+    echo: true
+    eval: true
+    message: false
+    warnings: false
+    comment: "#>" 
 editor: source
 ---
 
-## Learning Outcomes
+```{r}
+#| include: false
 
--   Consistency
--   Sufficiency
--   Information
--   Efficiency
+knitr::opts_chunk$set(echo = T)
 
-# Consistency
+```
 
-## Consistency
+# Background Information
 
-An estimator is considered a consistent estimator of $\theta$ if the estimator, on average, converges to $\theta$ as $n\rightarrow\infty$.
+## Estimators
 
-## Consistency
+An *estimator* is an operation computing the value of an estimate, that targets the parameter, using measurements from a sample.
 
-Let $X_1,\ldots,X_n$ be a random sample from a distribution with parameter $\theta$. The estimator $\hat \theta$ is a consistent estimator of the $\theta$ if
+## Data
 
-1.  $E\{(\hat\theta-\theta)^2\}\rightarrow0$ as $n\rightarrow \infty$
-2.  $P(|\hat\theta-\theta|\ge \epsilon)\rightarrow0$ as $n\rightarrow \infty$ for every $\epsilon>0$
+Let $X_1,\ldots,X_n\overset{iid}{\sim}F(\boldsymbol \theta)$ where $F(\cdot)$ is a known distribution function and $\boldsymbol\theta$ is a vector of parameters. Let $\boldsymbol X = (X_1,\ldots, X_n)^\mathrm{T}$, be the sample collected.
 
-# Sufficiency
+# Methods of Moments
 
-## Sufficiency
+## Method of Moments
 
-Sufficiency evaluates whether a statistic (or estimator) contains enough information of a parameter $\theta$. In essence a statistic is considered sufficient to infer $\theta$ if it provides enough information about $\theta$.
-
-## Sufficiency
-
-Let $X_1,\ldots,X_n$ be a random sample from a distribution with parameter $\theta$. A statistic $T=t(X_1,\ldots,X_n)$ is said to be sufficient for making inferences of a parameter $\theta$ if condition joint distribution of $X_1,\ldots,X_n$ given $T=t$ does not depend on $\theta$.
-
-## Factorization Theorem
-
-The **Factorization Theorem** provides a condition for a statistic $T(X)$ to be sufficient for a parameter $\theta$ given a probability density function or probability mass function.
-
-## Factorization Theorem
-
-Let $X = (X_1, X_2, \dots, X_n)$ be a random sample with joint probability density (or mass) function $f(x|\theta)$, where $\theta$ is a parameter.
-
-**Theorem**: A statistic $T(X)$ is sufficient for $\theta$ if and only if the joint density (or mass) function $f(x|\theta)$ can be factored into the form
+Let the $k$th moment be defined as $\mu_k$ and the corresponding $k$th moment average $\frac{1}{n}\sum^n_{i=1}X_i^{k}$:
 
 $$
-f(x|\theta) = g(T(x), \theta) \cdot h(x)
+\mu_k = \frac{1}{n}\sum^n_{i=1}X_i^k.
 $$
 
-where:
+The parameter estimates are for $t$ parameters are the solutions for $\mu_k$ for $k=1,\ldots,t$.
 
--   $g(T(x), \theta)$ is a function that depends on $T(x)$ and $\theta$,
+# Examples
 
--   $h(x)$ is a function that does not depend on $\theta$.
+## Bernoulli Distribution
 
-## Factorization Theorem
+Let $X_1, \ldots,X_n\overset{iid}{\sim}\mathrm{Bin}(1,p)$, find the method of moments estimator for $p$.
 
-In other words, $f(x|\theta)$ can be written as a product of two functions, where only one function depends on the parameter $\theta$ and the sufficient statistic $T(X)$.
+## Poisson Distribution
 
-**Implications**: The Factorization Theorem is useful for identifying sufficient statistics, which summarize all necessary information from a sample about the parameter $\theta$.
+Let $X_1, \ldots,X_n\overset{iid}{\sim}\mathrm{Pois}(\lambda)$, find the method of moments estimator for $\lambda$.
 
-## Example
+## Uniform Distribution
 
-Let $X_1,\ldots, X_n\overset{iid}{\sim}Bernoulli(p)$ and $Y_n=\sum^n_{i=1}X_i$. Show that $Y_n$ is a sufficient statistic for $p$.
+Let $X_1, \ldots,X_n\overset{iid}{\sim}U(1,\theta)$, find the method of moments estimator for $\theta$.
 
-## Example
+## Gamma Distribution
 
-Let $X_1,\ldots, X_n\overset{iid}{\sim}Normal(\mu,\sigma^2)$ and $Y_n=\sum^n_{i=1}X_i$. Show that $Y_n$ is a sufficient statistic for $\mu$. Assume $\sigma^2$ is known.
+Let $X_1, \ldots,X_n\overset{iid}{\sim}\mathrm{Gamma}(\alpha,\beta)$, find the method of moments estimator for $\alpha$ and $\beta$.
 
-# Information
+## Nomal Distribution
 
-## Information
-
-In Statistics, information is thought of as how much does the data tell you about a parameter $\theta$. In general, the more data is provided, the more information is provided to estimate $\theta$.
-
-## Information
-
-Information can be quantified using Fisher's Information $I(\theta)$. For a single observation, Fisher's Information is defined as
-
-$$
-I(\theta)=E\left[-\frac{\partial^2}{\partial\theta^2}\log\{f(X;\theta)\}\right],
-$$
-
-where $f(X;\theta)$ is either the PMF or PDF of the random variable $X$.
-
-## Information
-
-Furthermore, $I(\theta)$ can be defined as
-
-$$
-I(\theta)=Var\left\{\frac{\partial}{\partial\theta}\log f(X;\theta)\right\}.
-$$
-
-## Proof
-
-Show the following property:
-
-$$
-E\left[-\frac{\partial^2}{\partial\theta^2}\log\{f(X;\theta)\}\right] = Var\left\{\frac{\partial}{\partial\theta}\log f(X;\theta)\right\}
-$$
-
-# Efficiency
-
-## Efficiency
-
-Efficiency of an estimator $T$ is the ratio of variation compared to the lowest possible variance.
-
-## Efficiency
-
-The efficiency of an estimator $T$, where $T$ is an unbiased estimator of $\theta$, is defined as
-
-$$
-efficiency\ of\ T = \frac{1}{Var(T)nI(\theta)}
-$$
-
-## Example
-
-Let $X_1,\ldots, X_n\overset{iid}{\sim}Unif(0,\theta)$ and $\hat\theta=2\bar X$. Find the efficiency of $\hat \theta$.
+Let $X_1, \ldots,X_n\overset{iid}{\sim}N(\mu,\sigma^2)$, find the method of moments estimator for $\mu$ and $\sigma^2$.

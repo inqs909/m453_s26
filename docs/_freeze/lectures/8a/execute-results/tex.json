@@ -1,0 +1,15 @@
+{
+  "hash": "f05783595552fa9887c5ff51414c827c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Method of Moment Estimator\"\nformat:\n  beamer:\n    theme: gotham\n    colortheme: dolphin\n    fonttheme: professionalfonts\n    fontsize: 14pt\nheader-includes:\n  - \\setbeamertemplate{footline}{\n      \\hfill\n      \\usebeamerfont{page number in head/foot}\n      \\insertframenumber{} / \\inserttotalframenumber\n      \\kern1em\\vskip2pt\n    }\n  - \\gothamset{sectionframe default=off}\nknitr:\n  opts_chunk: \n    echo: true\n    eval: true\n    message: false\n    warnings: false\n    comment: \"#>\" \neditor: source\n---\n\n\n\n# Background Information\n\n## Estimators\n\nAn *estimator* is an operation computing the value of an estimate, that targets the parameter, using measurements from a sample.\n\n## Data\n\nLet $X_1,\\ldots,X_n\\overset{iid}{\\sim}F(\\boldsymbol \\theta)$ where $F(\\cdot)$ is a known distribution function and $\\boldsymbol\\theta$ is a vector of parameters. Let $\\boldsymbol X = (X_1,\\ldots, X_n)^\\mathrm{T}$, be the sample collected.\n\n# Methods of Moments\n\n## Method of Moments\n\nLet the $k$th moment be defined as $\\mu_k$ and the corresponding $k$th moment average $\\frac{1}{n}\\sum^n_{i=1}X_i^{k}$:\n\n$$\n\\mu_k = \\frac{1}{n}\\sum^n_{i=1}X_i^k.\n$$\n\nThe parameter estimates are for $t$ parameters are the solutions for $\\mu_k$ for $k=1,\\ldots,t$.\n\n# Examples\n\n## Bernoulli Distribution\n\nLet $X_1, \\ldots,X_n\\overset{iid}{\\sim}\\mathrm{Bin}(1,p)$, find the method of moments estimator for $p$.\n\n## Poisson Distribution\n\nLet $X_1, \\ldots,X_n\\overset{iid}{\\sim}\\mathrm{Pois}(\\lambda)$, find the method of moments estimator for $\\lambda$.\n\n## Uniform Distribution\n\nLet $X_1, \\ldots,X_n\\overset{iid}{\\sim}U(1,\\theta)$, find the method of moments estimator for $\\theta$.\n\n## Gamma Distribution\n\nLet $X_1, \\ldots,X_n\\overset{iid}{\\sim}\\mathrm{Gamma}(\\alpha,\\beta)$, find the method of moments estimator for $\\alpha$ and $\\beta$.\n\n## Nomal Distribution\n\nLet $X_1, \\ldots,X_n\\overset{iid}{\\sim}N(\\mu,\\sigma^2)$, find the method of moments estimator for $\\mu$ and $\\sigma^2$.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}

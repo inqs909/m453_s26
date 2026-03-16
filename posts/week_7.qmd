@@ -11,4 +11,4 @@ draft: false
 | Lecture   | Slides                       | Annotated  | Video     |
 |-----------|------------------------------|------------|-----------|
 | Monday    | [Slides](../lectures/7a.pdf) | [Slides](../lectures/7a_annotated.pdf) | [Video](https://youtu.be/-gnYzlGYuVs) |
-| Wednesday | [Slides](../lectures/7b.pdf) | [Slides](../lectures/7b_annotated.pdf) | [Video]()  |
+| Wednesday | [Slides](../lectures/7b.pdf) | [Slides](../lectures/7b_annotated.pdf) | [Video](https://youtu.be/t1M9dM9ay7A)  |
