@@ -1,25 +1,14 @@
 ---
 title: "Homework 3"
 editor: source
-date: 10-05-2024
-draft: true
+date: 03-17-2026
+draft: false
 ---
 
-**Homework 3 is due 10/20/2024 at 11:59 PM. Submit your homework on Canvas as one PDF document.**
+**Homework 3 is due 3/29/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.**
+
 
 1.  Let $X_1, X_2, \ldots, X_n$ be iid with the following density function
-
-    $$
-    f(x) = \left\{\begin{array}{cc}
-    \frac{\alpha x^{\alpha-1}}{3^\alpha}& 0\le x\le 3 \\
-    0 & \mathrm{elsewhere}
-    \end{array}
-    \right.
-    $$
-
-    Find the method of moment estimator for $\alpha$.
-
-2.  Let $X_1, X_2, \ldots, X_n$ be iid with the following density function
 
     $$
     f(x) = \left\{\begin{array}{cc}
@@ -31,10 +20,10 @@ draft: true
 
     Find the MLE for $\theta$.
 
-3.  Is the MLE estimator from Problem 2 unbiased?
+2.  Is the MLE estimator from Problem 2 unbiased?
 
 
-4.  Let $X_1, X_2, \ldots, X_n$ be iid with the following density function
+3.  Let $X_1, X_2, \ldots, X_n$ be iid with the following density function
 
     $$
     f(x) = \left\{\begin{array}{cc}
@@ -46,7 +35,7 @@ draft: true
 
     Find the MLE for $\theta$.
     
-5.  Let $X_1, X_2, \ldots, X_n$ be iid with the following density function
+4.  Let $X_1, X_2, \ldots, X_n$ be iid with the following density function
 
     $$
     f(x) = \left\{\begin{array}{cc}
@@ -58,14 +47,3 @@ draft: true
 
     where $\alpha>0$ is known. Find the MLE for $\theta$.
 
-6.  Let $X_1, X_2, \ldots, X_n$ be iid with the following density function
-
-    $$
-    f(x) = \left\{\begin{array}{cc}
-    e^{-(x-\theta)} & x>\theta \\
-    0 & \mathrm{elsewhere}
-    \end{array}
-    \right.
-    $$
-
-    Find the method of moment estimator for $\theta$.
