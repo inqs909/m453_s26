@@ -1,19 +1,20 @@
 [
   {
-    "listing": "/hw.html",
-    "items": [
-      "/hw/hw0.html",
-      "/hw/hw3.html",
-      "/hw/hw2.html",
-      "/hw/hw1.html"
-    ]
-  },
-  {
     "listing": "/exc.html",
     "items": [
       "/exc/exc1.html",
       "/exc/exc2.html",
       "/exc/exc3.html"
+    ]
+  },
+  {
+    "listing": "/hw.html",
+    "items": [
+      "/hw/hw0.html",
+      "/hw/hw4.html",
+      "/hw/hw3.html",
+      "/hw/hw2.html",
+      "/hw/hw1.html"
     ]
   },
   {

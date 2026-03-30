@@ -1,20 +1,28 @@
 ---
 title: "Homework 4"
 editor: source
-date: 10-20-2024
-draft: true
+date: 03-30-2026
+draft: false
 ---
 
-**Homework 4 is due 10/28/2024 at 11:59 PM. Submit your homework on Canvas as one PDF document.**
+**Homework 4 is due 04/12/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.**
 
-## Problem 1
+1.  Let $X_1, X_2, \ldots, X_n$ be iid with the following density function
 
-Problem 40 (page 435) from the Modern Mathematical Statistics
+    $$
+    f(x) = \left\{\begin{array}{cc}
+    \frac{\alpha x^{\alpha-1}}{3^\alpha}& 0\le x\le 3 \\
+    0 & \mathrm{elsewhere}
+    \end{array}
+    \right.
+    $$
 
-## Problem 2
+    Find the method of moment estimator for $\alpha$.
 
-Problem 43 (page 435) from the Modern Mathematical Statistics
+2.  Let $X_1, X_2, \ldots, X_n$ be iid of a $N(\mu, \sigma^2)$. Given that $\sigma^2$ is known, find the Bayesian estimator for $\mu$ with a conjugate prior $\mu \sim N(\phi, \gamma)$.
 
-## Problem 3
+3.  Let $\tau = \frac{1}{\sigma^2}$, and  $X_1, X_2, \ldots, X_n$ be iid of a $N(\mu, \sigma^2 = 1/\tau)$. Find the conjugate prior for $\tau$.
 
-Problem 54 (page 444) from the Modern Mathematical Statistics
+4.  Using the conjugate prior for Problem 3, find the Bayesian estimator for $\tau$, assume that $\mu$ is known.
+
+5.  Let $X_1, X_2, \ldots, X_n$ be iid of a $Exponential(\lambda)$. Find the method of moment estimator for $\lambda$.

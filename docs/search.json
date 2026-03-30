@@ -917,39 +917,39 @@
     "text": "\\(E(\\beta_0)\\)"
   },
   {
-    "objectID": "hw/hw3.html",
-    "href": "hw/hw3.html",
-    "title": "Homework 3",
+    "objectID": "hw/hw2.html",
+    "href": "hw/hw2.html",
+    "title": "Homework 2",
     "section": "",
-    "text": "Homework 3 is due 3/29/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.\n\nLet \\(X_1, X_2, \\ldots, X_n\\) be iid with the following density function\n\\[\nf(x) = \\left\\{\\begin{array}{cc}\n\\frac{1}{\\theta}2xe^{-x^2/\\theta} & 0&lt;x;0&lt; \\theta \\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\n\\right.\n\\]\nFind the MLE for \\(\\theta\\).\nIs the MLE estimator from Problem 2 unbiased?\nLet \\(X_1, X_2, \\ldots, X_n\\) be iid with the following density function\n\\[\nf(x) = \\left\\{\\begin{array}{cc}\n(\\theta + 1)x^\\theta& 0\\le x\\le 1;\\theta&gt;-1 \\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\n\\right.\n\\]\nFind the MLE for \\(\\theta\\).\nLet \\(X_1, X_2, \\ldots, X_n\\) be iid with the following density function\n\\[\nf(x) = \\left\\{\\begin{array}{cc}\n\\frac{1}{\\Gamma(\\alpha)\\theta^\\alpha}x^{\\alpha-1}e^{-x/\\theta} & 0&lt;x;0&lt; \\theta \\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\n\\right.\n\\]\nwhere \\(\\alpha&gt;0\\) is known. Find the MLE for \\(\\theta\\)."
+    "text": "Homework 2 is due 2/22/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.\n\nShow that the moment generating function for a random variable \\(X\\sim Gamma(\\alpha,\\beta)\\) is \\(\\left(1-\\beta t\\right)^{-\\alpha}\\).\nLet \\(X\\) be a discrete random variable with PMF\n\n\\[\n    P(X=x)=\\left\\{\\begin{array}{cc}\n    0.25+0.5e^{-\\theta} & x =0 \\\\\n    0.25+0.5\\theta e^{-\\theta} & x =1 \\\\\n    0.5\\frac{\\theta^x}{x!}e^{-\\theta} & x = 2,3,\\ldots\\\\\n    0 & \\textrm{otherwise}\n    \\end{array}\\right.\n\\] Show that the PMF is valid.\n\nFind the moment-generating function of \\(X\\sim\\chi^2_k\\) and \\(f_X(x)=\\frac{x^{k/2-1}\\exp\\{-x/2\\}}{2^{k/2}\\Gamma(k/2)}\\) with \\(x&gt;0\\).\nProblem 110 in Chapter 4 of Modern Mathematical Statistics (2021; 3rd Edition)\nProblem 113 in Chapter 4 of Modern Mathematical Statistics (2021; 3rd Edition)"
   },
   {
-    "objectID": "hw/hw1.html",
-    "href": "hw/hw1.html",
-    "title": "Homework 1",
+    "objectID": "hw/hw0.html",
+    "href": "hw/hw0.html",
+    "title": "Homework 0",
     "section": "",
-    "text": "Homework 1 is due 2/15/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.\n\nX\\sim Bin(n,p), show that the variance of Binomial distribution is np(1-p).\nX\\sim Pois(\\lambda), show that the expected value of a Poisson distribution is \\lambda.\nX\\sim Pois(\\lambda), show that the variance of a Poisson distribution is \\lambda.\nX\\sim N(\\mu,\\sigma^2), show that the variance is \\sigma^2."
+    "text": "Set the equation to 0 and solve for x:\n\n\\ln(x^2+5)\nx^2+6x+7\n3x^2-5x+2\ne^{x^2-4}\n\\ln(5x) + 3"
   },
   {
-    "objectID": "hw.html",
-    "href": "hw.html",
-    "title": "Homework",
-    "section": "",
-    "text": "Below are the different homework assignments for the course. Scan your homework as a PDF. You can use CamScanner, Dropbox, Google Drive, or icloud. Any assignments as images or not pdfs will not be graded.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 3\n\n\n\n\n\n\n\n\nMar 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 2\n\n\n\n\n\n\n\n\nFeb 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\nNo matching items"
+    "objectID": "hw/hw0.html#footnotes",
+    "href": "hw/hw0.html#footnotes",
+    "title": "Homework 0",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nEither convert to summation notation or evaluate the summation.↩︎"
   },
   {
-    "objectID": "exc/exc3.html",
-    "href": "exc/exc3.html",
-    "title": "Extra Credit 3",
+    "objectID": "exc/exc2.html",
+    "href": "exc/exc2.html",
+    "title": "Extra Credit 2",
     "section": "",
-    "text": "After learning about one topic below, create a 10-minute vide-essay explaining more about the topic. Use visual aids, such as a powerpoint presentation, to highlight your main findings\n\nMonte Carlo Methods\nMonte Carlo Methods are a class of computational algorithms that rely on random sampling to obtain numerical results. These methods use statistical sampling techniques to approximate complex mathematical problems, particularly those with deterministic or probabilistic aspects. The name “Monte Carlo” is derived from the Monte Carlo Casino in Monaco, known for its games of chance and randomness.\nIn Monte Carlo Methods, random samples are generated to simulate the behavior of a system or process, and the results are analyzed to estimate desired quantities or solve problems. These methods find applications in various fields, such as physics, finance, engineering, and statistics. Monte Carlo simulations are particularly useful for solving problems with a large number of variables or complex interactions, where analytical solutions may be challenging or impossible to obtain.\n\nResources\n\nhttps://towardsdatascience.com/an-overview-of-monte-carlo-methods-675384eb1694\nhttps://towardsdatascience.com/monte-carlo-simulation-a-practical-guide-85da45597f0e\n\n\n\n\nSurvival Analysis\nSurvival analysis is a statistical method used to analyze the time until an event of interest occurs. This type of analysis is commonly employed in medical research, epidemiology, and other fields to study the duration until a specific event, often referred to as a “failure” or “survival” event. The event could be anything from the onset of a disease, death, relapse, or any other occurrence of interest.\nSurvival analysis is conducted using various statistical models, with the Cox proportional hazards model being one of the most widely used. These analyses help researchers understand factors influencing the time to an event, identify risk factors, and estimate survival probabilities over time.\nMake sure to provide a brief history of survival analysis and prominent methods such as Kaplan-Meier curves and Cox proportional hazard models.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2394262/\nhttps://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_survival/BS704_Survival_print.html\n\n\n\n\nBayesian Analysis\nBayesian analysis is a statistical approach that involves updating probabilities for hypotheses based on new evidence or data. It is rooted in Bayes’ theorem, which describes how beliefs about the probability of a hypothesis should change in light of new information. In Bayesian analysis, the prior probability (initial belief) is combined with the likelihood of observing the data given the hypothesis and results in the posterior probability (updated belief).\nBayesian methods are particularly valuable in situations with limited data or when incorporating prior knowledge is crucial. These methods provide a flexible framework for modeling uncertainty and updating beliefs as more information becomes available. Bayesian analysis is applied across various fields, including statistics, machine learning, physics, biology, and finance. Markov Chain Monte Carlo (MCMC) methods are often used to simulate samples from the posterior distribution in complex Bayesian models.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6406060/\nhttps://www.statlect.com/fundamentals-of-statistics/Bayesian-inference\n\n\n\n\nCausal Inference\nCausal inference is a field within statistics and epidemiology that focuses on understanding and estimating the causal relationships between variables or events. The goal is to determine whether a particular factor or intervention has a causal impact on an outcome. Causal inference involves identifying and controlling for confounding factors, which are variables that may influence both the cause and the effect, leading to potential bias in estimating causal relationships.\nCausal inference is essential for making informed decisions in fields such as medicine, public health, economics, and social sciences. It helps researchers draw valid conclusions about the effectiveness of interventions, policies, or treatments by accounting for potential sources of bias and confounding. Advances in causal inference methodologies contribute to a more rigorous understanding of cause-and-effect relationships in complex systems.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2836213/\nhttps://web.stanford.edu/~swager/stats361.pdf\n\nVideo Essay Guidelines:\n\n10 Minutes Long\nUse of visual aids\nNarrated by your own voice\nDue 5/15/2026\n\nWorth 2 final grade percentage points."
+    "text": "After reading one book below, create a video essay that summarizes the book, provide a brief analysis in supporting or opposing the book, and connect key elements of the book to your every day life. The video essay should be 10 minutes being narrated by your own voice. Use visual aids, such as a powerpoint presentation, to highlight your main findings, and how it relates to your own life. All books should be available through the Broome Library.\nMATH 408 STUDENTS: You must choose a different book from Math 408 in order to receive credit.\nBooks:\n\nEmpire of AI\n\nKaren Hao\n\nThe Last Human Job\n\nAllison Pugh\n\nThe Book of Why\n\nJudea Pearl\n\nAlgorithms of Oppression\n\nSafiya Umoja Noble\n\nData Feminism\n\nCatherine D’Ignazio and Lauren Klein\n\nWeapons of Math Destruction\n\nCathy O’Niel\n\nInvisible Women: Data bias in a world designed for men\n\nCaroline Criado Perez\n\nFactfulness: Ten Reasons We’re Wrong About the World… and Why Things are Better Than You Think\n\nHans Rosling\n\nArtificial Unintelligence: How Computers Misunderstand the World\n\nMerideth Broussard\n\nTechnically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech\n\nSara Wachter-Boettcher\n\nUnmasking AI\n\nJoy Buolamwini\n\nRace After Technology\n\nRuha Benjamin\n\nCloud Ethics\n\nLouise Amoore\n\nMore than a Glitch\n\nMeridith Broussard\n\nDigitizing Race\n\nLisa Nakamura\n\nData Action\n\nSarah Williams\n\nOR ANY Book Approved By Me (Deadline for Approval by March 29, 2026)\n\nVideo Essay Guidelines:\n\n10 Minutes Long\nUse of visual aids\nNarrated by your own voice\nDue 5/15/2026\n\nWorth 2 final grade percentage points."
   },
   {
-    "objectID": "exc/exc1.html",
-    "href": "exc/exc1.html",
-    "title": "Extra Credit 1",
+    "objectID": "exc.html",
+    "href": "exc.html",
+    "title": "Extra Credit",
     "section": "",
-    "text": "Write a 1-2 page report related to your favorite activity. Provide details of the activity and why you like the activity.\nReport guidelines\n\n1-2 Pages\nDouble Spaced\n12 point font\nDue 2/15/2026"
+    "text": "Extra Credit is designed to expand on different topics that related to Probability and Statistics, but are not necessarily required for the course. Additionally, these opportunities provide students relief when unexpected situations occur during the semester. While it is not required, I encourage everyone to attempt each opportunity.\nBelow is more information on each assignment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 1\n\n\nInstructions for extra credit one.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 2\n\n\nInstructions for extra credit two.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 3\n\n\nInstructions for extra credit three.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "books.html",
@@ -1036,39 +1036,46 @@
     "text": "Study Desing and Causal Inference\n\nCausal Inference What IF\n\nHernán and Robins\n\nDesign of Observational Studies\n\nRosenbaum\n\n\nBolded Titles, I have read thoroughly."
   },
   {
-    "objectID": "exc.html",
-    "href": "exc.html",
-    "title": "Extra Credit",
+    "objectID": "exc/exc1.html",
+    "href": "exc/exc1.html",
+    "title": "Extra Credit 1",
     "section": "",
-    "text": "Extra Credit is designed to expand on different topics that related to Probability and Statistics, but are not necessarily required for the course. Additionally, these opportunities provide students relief when unexpected situations occur during the semester. While it is not required, I encourage everyone to attempt each opportunity.\nBelow is more information on each assignment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 1\n\n\nInstructions for extra credit one.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 2\n\n\nInstructions for extra credit two.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Credit 3\n\n\nInstructions for extra credit three.\n\n\n\n\n\nJan 22, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Write a 1-2 page report related to your favorite activity. Provide details of the activity and why you like the activity.\nReport guidelines\n\n1-2 Pages\nDouble Spaced\n12 point font\nDue 2/15/2026"
   },
   {
-    "objectID": "exc/exc2.html",
-    "href": "exc/exc2.html",
-    "title": "Extra Credit 2",
+    "objectID": "exc/exc3.html",
+    "href": "exc/exc3.html",
+    "title": "Extra Credit 3",
     "section": "",
-    "text": "After reading one book below, create a video essay that summarizes the book, provide a brief analysis in supporting or opposing the book, and connect key elements of the book to your every day life. The video essay should be 10 minutes being narrated by your own voice. Use visual aids, such as a powerpoint presentation, to highlight your main findings, and how it relates to your own life. All books should be available through the Broome Library.\nMATH 408 STUDENTS: You must choose a different book from Math 408 in order to receive credit.\nBooks:\n\nEmpire of AI\n\nKaren Hao\n\nThe Last Human Job\n\nAllison Pugh\n\nThe Book of Why\n\nJudea Pearl\n\nAlgorithms of Oppression\n\nSafiya Umoja Noble\n\nData Feminism\n\nCatherine D’Ignazio and Lauren Klein\n\nWeapons of Math Destruction\n\nCathy O’Niel\n\nInvisible Women: Data bias in a world designed for men\n\nCaroline Criado Perez\n\nFactfulness: Ten Reasons We’re Wrong About the World… and Why Things are Better Than You Think\n\nHans Rosling\n\nArtificial Unintelligence: How Computers Misunderstand the World\n\nMerideth Broussard\n\nTechnically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech\n\nSara Wachter-Boettcher\n\nUnmasking AI\n\nJoy Buolamwini\n\nRace After Technology\n\nRuha Benjamin\n\nCloud Ethics\n\nLouise Amoore\n\nMore than a Glitch\n\nMeridith Broussard\n\nDigitizing Race\n\nLisa Nakamura\n\nData Action\n\nSarah Williams\n\nOR ANY Book Approved By Me (Deadline for Approval by March 29, 2026)\n\nVideo Essay Guidelines:\n\n10 Minutes Long\nUse of visual aids\nNarrated by your own voice\nDue 5/15/2026\n\nWorth 2 final grade percentage points."
+    "text": "After learning about one topic below, create a 10-minute vide-essay explaining more about the topic. Use visual aids, such as a powerpoint presentation, to highlight your main findings\n\nMonte Carlo Methods\nMonte Carlo Methods are a class of computational algorithms that rely on random sampling to obtain numerical results. These methods use statistical sampling techniques to approximate complex mathematical problems, particularly those with deterministic or probabilistic aspects. The name “Monte Carlo” is derived from the Monte Carlo Casino in Monaco, known for its games of chance and randomness.\nIn Monte Carlo Methods, random samples are generated to simulate the behavior of a system or process, and the results are analyzed to estimate desired quantities or solve problems. These methods find applications in various fields, such as physics, finance, engineering, and statistics. Monte Carlo simulations are particularly useful for solving problems with a large number of variables or complex interactions, where analytical solutions may be challenging or impossible to obtain.\n\nResources\n\nhttps://towardsdatascience.com/an-overview-of-monte-carlo-methods-675384eb1694\nhttps://towardsdatascience.com/monte-carlo-simulation-a-practical-guide-85da45597f0e\n\n\n\n\nSurvival Analysis\nSurvival analysis is a statistical method used to analyze the time until an event of interest occurs. This type of analysis is commonly employed in medical research, epidemiology, and other fields to study the duration until a specific event, often referred to as a “failure” or “survival” event. The event could be anything from the onset of a disease, death, relapse, or any other occurrence of interest.\nSurvival analysis is conducted using various statistical models, with the Cox proportional hazards model being one of the most widely used. These analyses help researchers understand factors influencing the time to an event, identify risk factors, and estimate survival probabilities over time.\nMake sure to provide a brief history of survival analysis and prominent methods such as Kaplan-Meier curves and Cox proportional hazard models.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2394262/\nhttps://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_survival/BS704_Survival_print.html\n\n\n\n\nBayesian Analysis\nBayesian analysis is a statistical approach that involves updating probabilities for hypotheses based on new evidence or data. It is rooted in Bayes’ theorem, which describes how beliefs about the probability of a hypothesis should change in light of new information. In Bayesian analysis, the prior probability (initial belief) is combined with the likelihood of observing the data given the hypothesis and results in the posterior probability (updated belief).\nBayesian methods are particularly valuable in situations with limited data or when incorporating prior knowledge is crucial. These methods provide a flexible framework for modeling uncertainty and updating beliefs as more information becomes available. Bayesian analysis is applied across various fields, including statistics, machine learning, physics, biology, and finance. Markov Chain Monte Carlo (MCMC) methods are often used to simulate samples from the posterior distribution in complex Bayesian models.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6406060/\nhttps://www.statlect.com/fundamentals-of-statistics/Bayesian-inference\n\n\n\n\nCausal Inference\nCausal inference is a field within statistics and epidemiology that focuses on understanding and estimating the causal relationships between variables or events. The goal is to determine whether a particular factor or intervention has a causal impact on an outcome. Causal inference involves identifying and controlling for confounding factors, which are variables that may influence both the cause and the effect, leading to potential bias in estimating causal relationships.\nCausal inference is essential for making informed decisions in fields such as medicine, public health, economics, and social sciences. It helps researchers draw valid conclusions about the effectiveness of interventions, policies, or treatments by accounting for potential sources of bias and confounding. Advances in causal inference methodologies contribute to a more rigorous understanding of cause-and-effect relationships in complex systems.\n\nResources\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2836213/\nhttps://web.stanford.edu/~swager/stats361.pdf\n\nVideo Essay Guidelines:\n\n10 Minutes Long\nUse of visual aids\nNarrated by your own voice\nDue 5/15/2026\n\nWorth 2 final grade percentage points."
   },
   {
-    "objectID": "hw/hw0.html",
-    "href": "hw/hw0.html",
-    "title": "Homework 0",
+    "objectID": "hw.html",
+    "href": "hw.html",
+    "title": "Homework",
     "section": "",
-    "text": "Set the equation to 0 and solve for x:\n\n\\ln(x^2+5)\nx^2+6x+7\n3x^2-5x+2\ne^{x^2-4}\n\\ln(5x) + 3"
+    "text": "Below are the different homework assignments for the course. Scan your homework as a PDF. You can use CamScanner, Dropbox, Google Drive, or icloud. Any assignments as images or not pdfs will not be graded.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 4\n\n\n\n\n\n\n\n\nMar 30, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 3\n\n\n\n\n\n\n\n\nMar 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 2\n\n\n\n\n\n\n\n\nFeb 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "hw/hw0.html#footnotes",
-    "href": "hw/hw0.html#footnotes",
-    "title": "Homework 0",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nEither convert to summation notation or evaluate the summation.↩︎"
+    "objectID": "hw/hw1.html",
+    "href": "hw/hw1.html",
+    "title": "Homework 1",
+    "section": "",
+    "text": "Homework 1 is due 2/15/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.\n\nX\\sim Bin(n,p), show that the variance of Binomial distribution is np(1-p).\nX\\sim Pois(\\lambda), show that the expected value of a Poisson distribution is \\lambda.\nX\\sim Pois(\\lambda), show that the variance of a Poisson distribution is \\lambda.\nX\\sim N(\\mu,\\sigma^2), show that the variance is \\sigma^2."
   },
   {
-    "objectID": "hw/hw2.html",
-    "href": "hw/hw2.html",
-    "title": "Homework 2",
+    "objectID": "hw/hw3.html",
+    "href": "hw/hw3.html",
+    "title": "Homework 3",
     "section": "",
-    "text": "Homework 2 is due 2/22/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.\n\nShow that the moment generating function for a random variable \\(X\\sim Gamma(\\alpha,\\beta)\\) is \\(\\left(1-\\beta t\\right)^{-\\alpha}\\).\nLet \\(X\\) be a discrete random variable with PMF\n\n\\[\n    P(X=x)=\\left\\{\\begin{array}{cc}\n    0.25+0.5e^{-\\theta} & x =0 \\\\\n    0.25+0.5\\theta e^{-\\theta} & x =1 \\\\\n    0.5\\frac{\\theta^x}{x!}e^{-\\theta} & x = 2,3,\\ldots\\\\\n    0 & \\textrm{otherwise}\n    \\end{array}\\right.\n\\] Show that the PMF is valid.\n\nFind the moment-generating function of \\(X\\sim\\chi^2_k\\) and \\(f_X(x)=\\frac{x^{k/2-1}\\exp\\{-x/2\\}}{2^{k/2}\\Gamma(k/2)}\\) with \\(x&gt;0\\).\nProblem 110 in Chapter 4 of Modern Mathematical Statistics (2021; 3rd Edition)\nProblem 113 in Chapter 4 of Modern Mathematical Statistics (2021; 3rd Edition)"
+    "text": "Homework 3 is due 3/29/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.\n\nLet \\(X_1, X_2, \\ldots, X_n\\) be iid with the following density function\n\\[\nf(x) = \\left\\{\\begin{array}{cc}\n\\frac{1}{\\theta}2xe^{-x^2/\\theta} & 0&lt;x;0&lt; \\theta \\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\n\\right.\n\\]\nFind the MLE for \\(\\theta\\).\nIs the MLE estimator from Problem 2 unbiased?\nLet \\(X_1, X_2, \\ldots, X_n\\) be iid with the following density function\n\\[\nf(x) = \\left\\{\\begin{array}{cc}\n(\\theta + 1)x^\\theta& 0\\le x\\le 1;\\theta&gt;-1 \\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\n\\right.\n\\]\nFind the MLE for \\(\\theta\\).\nLet \\(X_1, X_2, \\ldots, X_n\\) be iid with the following density function\n\\[\nf(x) = \\left\\{\\begin{array}{cc}\n\\frac{1}{\\Gamma(\\alpha)\\theta^\\alpha}x^{\\alpha-1}e^{-x/\\theta} & 0&lt;x;0&lt; \\theta \\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\n\\right.\n\\]\nwhere \\(\\alpha&gt;0\\) is known. Find the MLE for \\(\\theta\\)."
+  },
+  {
+    "objectID": "hw/hw4.html",
+    "href": "hw/hw4.html",
+    "title": "Homework 4",
+    "section": "",
+    "text": "Homework 4 is due 04/12/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.\n\nLet \\(X_1, X_2, \\ldots, X_n\\) be iid with the following density function\n\\[\nf(x) = \\left\\{\\begin{array}{cc}\n\\frac{\\alpha x^{\\alpha-1}}{3^\\alpha}& 0\\le x\\le 3 \\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\n\\right.\n\\]\nFind the method of moment estimator for \\(\\alpha\\).\nLet \\(X_1, X_2, \\ldots, X_n\\) be iid of a \\(N(\\mu, \\sigma^2)\\). Given that \\(\\sigma^2\\) is known, find the Bayesian estimator for \\(\\mu\\) with a conjugate prior \\(\\mu \\sim N(\\phi, \\gamma)\\).\nLet \\(\\tau = \\frac{1}{\\sigma^2}\\), and \\(X_1, X_2, \\ldots, X_n\\) be iid of a \\(N(\\mu, \\sigma^2 = 1/\\tau)\\). Find the conjugate prior for \\(\\tau\\).\nUsing the conjugate prior for Problem 3, find the Bayesian estimator for \\(\\tau\\), assume that \\(\\mu\\) is known.\nLet \\(X_1, X_2, \\ldots, X_n\\) be iid of a \\(Exponential(\\lambda)\\). Find the method of moment estimator for \\(\\lambda\\)."
   },
   {
     "objectID": "index.html",
