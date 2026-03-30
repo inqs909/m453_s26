@@ -25,4 +25,4 @@ draft: false
 
 4.  Using the conjugate prior for Problem 3, find the Bayesian estimator for $\tau$, assume that $\mu$ is known.
 
-5.  Let $X_1, X_2, \ldots, X_n$ be iid of a $Exponential(\lambda)$. Find the method of moment estimator for $\lambda$.
+5.  Let $X_1, X_2, \ldots, X_n$ be iid of an $Exponential(\lambda)$. Find the method of moment estimator for $\lambda$.

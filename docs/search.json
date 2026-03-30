@@ -1054,7 +1054,7 @@
     "href": "hw.html",
     "title": "Homework",
     "section": "",
-    "text": "Below are the different homework assignments for the course. Scan your homework as a PDF. You can use CamScanner, Dropbox, Google Drive, or icloud. Any assignments as images or not pdfs will not be graded.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 4\n\n\n\n\n\n\n\n\nMar 30, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 3\n\n\n\n\n\n\n\n\nMar 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 2\n\n\n\n\n\n\n\n\nFeb 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Below are the different homework assignments for the course. Scan your homework as a PDF. You can use CamScanner, Dropbox, Google Drive, or icloud. Any assignments as images or not pdfs will not be graded.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 4\n\n\n\n\n\n\n\n\nMar 30, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 3\n\n\n\n\n\n\n\n\nMar 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 2\n\n\n\n\n\n\n\n\nFeb 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 1\n\n\n\n\n\n\n\n\nFeb 6, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 0\n\n\n\n\n\n\n\n\nJan 18, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "hw/hw1.html",
@@ -1075,7 +1075,7 @@
     "href": "hw/hw4.html",
     "title": "Homework 4",
     "section": "",
-    "text": "Homework 4 is due 04/12/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.\n\nLet \\(X_1, X_2, \\ldots, X_n\\) be iid with the following density function\n\\[\nf(x) = \\left\\{\\begin{array}{cc}\n\\frac{\\alpha x^{\\alpha-1}}{3^\\alpha}& 0\\le x\\le 3 \\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\n\\right.\n\\]\nFind the method of moment estimator for \\(\\alpha\\).\nLet \\(X_1, X_2, \\ldots, X_n\\) be iid of a \\(N(\\mu, \\sigma^2)\\). Given that \\(\\sigma^2\\) is known, find the Bayesian estimator for \\(\\mu\\) with a conjugate prior \\(\\mu \\sim N(\\phi, \\gamma)\\).\nLet \\(\\tau = \\frac{1}{\\sigma^2}\\), and \\(X_1, X_2, \\ldots, X_n\\) be iid of a \\(N(\\mu, \\sigma^2 = 1/\\tau)\\). Find the conjugate prior for \\(\\tau\\).\nUsing the conjugate prior for Problem 3, find the Bayesian estimator for \\(\\tau\\), assume that \\(\\mu\\) is known.\nLet \\(X_1, X_2, \\ldots, X_n\\) be iid of a \\(Exponential(\\lambda)\\). Find the method of moment estimator for \\(\\lambda\\)."
+    "text": "Homework 4 is due 04/12/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.\n\nLet \\(X_1, X_2, \\ldots, X_n\\) be iid with the following density function\n\\[\nf(x) = \\left\\{\\begin{array}{cc}\n\\frac{\\alpha x^{\\alpha-1}}{3^\\alpha}& 0\\le x\\le 3 \\\\\n0 & \\mathrm{elsewhere}\n\\end{array}\n\\right.\n\\]\nFind the method of moment estimator for \\(\\alpha\\).\nLet \\(X_1, X_2, \\ldots, X_n\\) be iid of a \\(N(\\mu, \\sigma^2)\\). Given that \\(\\sigma^2\\) is known, find the Bayesian estimator for \\(\\mu\\) with a conjugate prior \\(\\mu \\sim N(\\phi, \\gamma)\\).\nLet \\(\\tau = \\frac{1}{\\sigma^2}\\), and \\(X_1, X_2, \\ldots, X_n\\) be iid of a \\(N(\\mu, \\sigma^2 = 1/\\tau)\\). Find the conjugate prior for \\(\\tau\\).\nUsing the conjugate prior for Problem 3, find the Bayesian estimator for \\(\\tau\\), assume that \\(\\mu\\) is known.\nLet \\(X_1, X_2, \\ldots, X_n\\) be iid of an \\(Exponential(\\lambda)\\). Find the method of moment estimator for \\(\\lambda\\)."
   },
   {
     "objectID": "index.html",
