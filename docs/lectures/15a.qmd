@@ -1,0 +1,128 @@
+---
+title: "Linear Regression"
+format:
+  revealjs:
+    scrollable: true
+    navigation-mode: vertical
+    controls-layout: bottom-right
+    controls-tutorial: true
+    incremental: true 
+    chalkboard:
+      src: chalkboard.json
+      storage: "chalkboard_pres"
+      theme: whiteboard
+      chalk-width: 4
+editor: source
+---
+
+```{r}
+#| include: false
+library(tidyverse)
+penguins <- penguins |> drop_na()
+
+```
+
+## Learning Outcomes
+
+- Scatter Plot
+
+- Linear Regression
+
+- Ordinary Least Squares
+
+- Unbiasedness
+
+# Scatter Plot
+
+## Scatter Plot
+
+```{r}
+ggplot(penguins, aes(y = flipper_len, x = body_mass)) +
+  geom_point() + theme_bw()
+```
+
+## Scatter Plot
+
+```{r}
+sample_n(penguins,10) |> 
+  ggplot(aes(y = flipper_len, x = body_mass)) +
+    geom_point() + 
+    theme_bw()
+```
+
+
+
+# Linear Regression
+
+## Linear Regression
+
+Linear regression is used to model the association between a set of predictor variables (x's) and an outcome variable (y). Linear regression will fit a line that best describes the data points.
+
+## Simple Linear Regression
+
+Simple linear regression will model the association between one predictor variable and an outcome:
+
+$$
+Y = \beta_0 + \beta_1 X + \epsilon
+$$
+
+- $\beta_0$: Intercept term
+
+- $\beta_1$: Slope term
+
+- $\epsilon\sim N(0,\sigma^2)$ 
+
+
+## Fitting a Line 
+
+```{r}
+penguins |> 
+  ggplot(aes(y = flipper_len, x = body_mass)) + 
+    geom_point() + 
+    geom_smooth(method = "lm") +
+    theme_bw() + 
+    annotate("text", label = "y=136.7+0.015x", x=3250, y=230, size = 10)
+```
+## Interpretation
+
+$$
+\hat y = 136.73 + 0.015 x
+$$
+
+# Ordinary Least Squares
+
+## Ordinary Least Squares
+
+For a data pair $(X_i,Y_i)_{i=1}^n$, the ordinary least squares estimator will find the estimates of $\hat\beta_0$ and $\hat\beta_1$ that minimize the following function:
+
+$$
+\sum^n_{i=1}\{y_i-(\beta_0+\beta_1x_i)\}^2
+$$
+
+## Estimating $\beta$'s
+
+## Estimating $\beta_1$
+
+## Estimating $\beta_0$
+
+## Estimates
+
+$$
+\hat\beta_0 = \bar y - \hat\beta_1\bar x
+$$
+$$
+\hat\beta_1 = \frac{\sum^n_{i=1}(y_i-\bar y)(x_i-\bar x)}{\sum^n_{i=1}(x_i-\bar x)^2}
+$$
+$$
+\hat\sigma^2 = \frac{1}{n-2}\sum^n_{i=1}(y_i-\hat y_i)^2
+$$
+
+# Unbiasedness of $\beta$'s
+
+## Unbiasedness of $\beta$'s
+
+Both $\beta_0$ and $\beta_1$ are unbiased estimators.
+
+##  $E(\beta_1)$
+
+##  $E(\beta_0)$

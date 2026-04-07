@@ -1,0 +1,139 @@
+---
+title: "Goodness of Estimators"
+format:
+  revealjs:
+    scrollable: true
+    navigation-mode: vertical
+    controls-layout: bottom-right
+    incremental: true 
+    chalkboard:
+      src: chalkboard.json
+      storage: chalkboard_pres
+      theme: whiteboard
+      chalk-width: 4
+editor: source
+---
+
+## Learning Outcomes
+
+-   Information
+-   Efficiency
+-   Cramér-Rao Inequality
+-   Relative Efficiency
+-   Law of Large Numbers
+
+# Information
+
+## Information
+
+In Statistics, information is thought of as how much does the data tell you about a parameter $\theta$. In general, the more data is provided, the more information is provided to estimate $\theta$.
+
+## Information
+
+Information can be quantified using Fisher's Information $I(\theta)$. For a single observation, Fisher's Information is defined as
+
+$$
+I(\theta)=E\left[-\frac{\partial^2}{\partial\theta^2}\log\{f(X;\theta)\}\right],
+$$
+
+where $f(X;\theta)$ is either the PMF or PDF of the random variable $X$.
+
+## Information
+
+Furthermore, $I(\theta)$ can be defined as
+
+$$
+I(\theta)=Var\left\{\frac{\partial}{\partial\theta}\log f(X;\theta)\right\}.
+$$
+
+## Proof
+
+Show the following property:
+
+$$
+E\left[-\frac{\partial^2}{\partial\theta^2}\log\{f(X;\theta)\}\right] = Var\left\{\frac{\partial}{\partial\theta}\log f(X;\theta)\right\}
+$$
+
+# Efficiency
+
+## Efficiency
+
+Efficiency of an estimator $T$ is the ratio of variation compared to the lowest possible variance.
+
+## Efficiency
+
+The efficiency of an estimator $T$, where $T$ is an unbiased estimator of $\theta$, is defined as
+
+$$
+efficiency\ of\ T = \frac{1}{Var(T)nI(\theta)}
+$$
+
+## Example
+
+Let $X_1,\ldots, X_n\overset{iid}{\sim}Unif(0,\theta)$ and $\hat\theta=2\bar X$. Find the efficiency of $\hat \theta$.
+
+## Cramér-Rao Inequality
+
+Let $f(x_1, \ldots, x_n;\theta)$ be the joint PMF of PDF of $X_1, \ldots,X_n$ and $T=t(X_1,\ldots,X_n)$ be an unbiased estimator of $\theta$. Then
+
+$$
+Var(T) \ge \frac{1}{nI(\theta)}
+$$ 
+
+If $Var(T)=\frac{1}{nI(\theta)}$, then $T$ is considered an efficient estimator of $\theta$.
+
+## Example
+
+Let $X_1,\ldots,X_n\overset{iid}{\sim}Pois(\lambda)$, show that $\bar X$ is an efficient estimator of $\lambda$.
+
+## Example
+
+Let $X_1,\ldots,X_n\overset{iid}{\sim}N(\mu,\sigma^2)$, show that $\bar X$ is an efficient estimator of $\mu$.
+
+## Relative Efficiency
+
+Given 2 unbiased estimators $\hat\theta_1$ and $\hat\theta_2$ of a parameter $\theta$ , with variances $V(\hat\theta_1)$ and $V(\hat\theta_2)$, respectively, then the efficiency of $\hat\theta_1$ relative to $\hat\theta_2$ is defined as
+
+$$
+releff(\hat\theta_1,\hat\theta_2)=\frac{V(\hat\theta_1)}{V(\hat\theta_2)}
+$$
+
+## Example
+
+Let $X_1,\ldots,X_n$ be a random sample from a population with mean $\mu$ and variance $\sigma^2$.
+
+::: nonincremental
+-   $\hat\mu_1=(X_1+X_2)/2$
+-   $\hat\mu_2=X_1/4+\frac{\sum^{n-1}_{i=2}X_i}{2(n-2)}+X_n/4$
+-   $\hat\mu_3=\bar X$
+:::
+
+Find the relative efficiency of $\hat\mu_3$ with respect to $\hat\mu_1$ and $\hat\mu_2$.
+
+## Consistency
+
+Let $X_1,\ldots,X_n$ be a random sample from a distribution with parameter $\theta$. The estimator $\hat \theta$ is a consistent estimator of the $\theta$ if
+
+1.  $E\{(\hat\theta-\theta)^2\}\rightarrow0$ as $n\rightarrow \infty$
+2.  $P(|\hat\theta-\theta|\ge \epsilon)\rightarrow0$ as $n\rightarrow \infty$ for every $\epsilon>0$
+
+## Weak Law of Large Numbers
+
+Let $X_1,\ldots,X_n$ be iid random variables with $E(X_i)=\mu$ and $Var(X_i)=\sigma^2<\infty$. Let $\bar X_n=\frac{1}{n}\sum^n_{i=1}X_i$, for every, $\epsilon>0$,
+
+$$
+\lim_{n\rightarrow\infty} P(|\bar X-\mu|<\epsilon) = 1
+$$
+
+that is, $\bar X_n$ converges in probability to $\mu$.
+
+## Strong Law of Large Numbers
+
+Let $X_1,\ldots,X_n$ be iid random variables with $E(X_i)=\mu$ and $Var(X_i)=\sigma^2<\infty$. Let $\bar X_n=\frac{1}{n}\sum^n_{i=1}X_i$, for every, $\epsilon>0$,
+
+
+$$
+P(\lim_{n\rightarrow\infty} |\bar X-\mu|<\epsilon) = 1
+$$
+
+that is, $\bar X_n$ converges almost surely to $\mu$.

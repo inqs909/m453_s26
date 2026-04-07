@@ -1,0 +1,113 @@
+---
+title: "Bayesian Estimators"
+format:
+  beamer:
+    theme: gotham
+    colortheme: dolphin
+    fonttheme: professionalfonts
+    fontsize: 14pt
+header-includes:
+  - \setbeamertemplate{footline}{
+      \hfill
+      \usebeamerfont{page number in head/foot}
+      \insertframenumber{} / \inserttotalframenumber
+      \kern1em\vskip2pt
+    }
+  - \gothamset{sectionframe default=off}
+knitr:
+  opts_chunk: 
+    echo: true
+    eval: true
+    message: false
+    warnings: false
+    comment: "#>" 
+editor: source
+---
+
+## Data
+
+Let $X_1,\ldots,X_n\overset{iid}{\sim}F(\boldsymbol \theta)$ where $F(\cdot)$ is a known distribution function and $\boldsymbol\theta$ is a vector of parameters. Let $\boldsymbol X = (X_1,\ldots, X_n)^\mathrm{T}$, be the sample collected.
+
+## Frequentist-based Estimation
+
+Bothe the **maximum likelihood estimator** and **method of moments estimator** are known as frequentist-based estimators since the parameters we are esimating are considered **fixed**.
+
+## Bayesian Estimation
+
+The idea of Bayesian estimation is that our parameters $\theta$ are random variables instead. Therefore; they follow the probability theory that we have learned so far.
+
+
+Using the prior distribution, we would like to find the distribution of $\theta$ when we incorporate the data $\boldsymbol X$ into our distribution. We are looking to find the **posterior distribution**.
+
+
+## Prior Distribution
+
+The prior distribution is the distribution for the random variable $\theta$:
+
+$$
+\pi(\theta)
+$$
+
+
+## Likelihood Function 
+
+$$
+L(\boldsymbol \theta|\boldsymbol x)=f(\boldsymbol x|\boldsymbol \theta) = \prod^n_{i=1}f(x_i|\boldsymbol\theta)
+$$
+
+## Likelihood X Prior
+
+$$
+L(\boldsymbol \theta|\boldsymbol x) \times \pi(\theta)
+$$
+
+## Posterior Distribution
+
+The posterior distribution is the distribution of $\theta$ when we condition it on the data $\boldsymbol X$
+
+$$
+\pi(\theta | \boldsymbol x) = \frac{L(\boldsymbol \theta|\boldsymbol X) \pi(\theta)}{\int L(\boldsymbol \theta|\boldsymbol X) \pi(\theta) d\theta}
+$$
+
+
+## Estimators
+
+- Bayesian Estimator
+
+- *maximum a posteriori* (MAP)
+
+## Bayesian Estimator
+
+$$
+\hat \theta = E_{\theta|\boldsymbol X}(\theta) = \int \theta \pi (\theta|\boldsymbol x) d\theta
+$$
+
+## MAP
+
+$$
+\tilde \theta = \mathrm{argmax}_\theta \pi(\theta|\boldsymbol x)
+$$
+
+
+## Conjugate Prior
+
+A conjugate prior distribution is any distribution that result in the posterior distribution having a similar form as the conjugate distribution.
+
+## Hyper Parameters
+
+Hyperparameters are the parameters involved in the prior distribution.
+
+
+## Bernoulli Distribution
+
+Let $X_1, \ldots,X_n\overset{iid}{\sim}\mathrm{Bin}(1,p)$
+
+## Poisson Distribution
+
+Let $X_1, \ldots,X_n\overset{iid}{\sim}\mathrm{Pois}(\lambda)$
+
+
+## Nomal Distribution
+
+Let $X_1, \ldots,X_n\overset{iid}{\sim}N(\mu,\sigma^2)$
+

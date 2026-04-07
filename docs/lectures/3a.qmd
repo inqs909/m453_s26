@@ -1,0 +1,134 @@
+---
+title: "Review:"
+subtitle: "More Probability Theory"
+format:
+  beamer:
+    theme: gotham
+    colortheme: dolphin
+    fonttheme: professionalfonts
+    fontsize: 14pt
+header-includes:
+  - \setbeamertemplate{footline}{
+      \hfill
+      \usebeamerfont{page number in head/foot}
+      \insertframenumber{} / \inserttotalframenumber
+      \kern1em\vskip2pt
+    }
+  - \gothamset{sectionframe default=off}
+knitr:
+  opts_chunk: 
+    echo: true
+    eval: true
+    message: false
+    warnings: false
+    comment: "#>" 
+
+editor: source
+---
+
+# Moment Generating Functions
+
+## Independent Random Variables
+
+Let $X$ and $Y$ be independent random variables with joint density function $f_{XY}(x,y)$. Let $g(X)$ and $h(Y)$ be functions of $X$ and $Y$, respectively.
+
+Then:
+
+$$
+E\left\{g(X)h(Y)\right\}= E\left\{g(X)\right\}E\left\{h(Y)\right\}
+$$
+
+## Linearity
+
+Let $X$ follow a distribution $f$, with the an MGF $M_X(t)$, the MGF of $Y=aX+b$ is given as
+
+$$
+M_Y(t) = e^{tb}M_X(at)
+$$
+
+
+## Linearity
+
+Let $X$ and $Y$ be two random variables with MGFs $M_X(t)$ and $M_Y(t)$, respectively, and are independent. The MGF of $U=X-Y$
+
+$$
+M_U(t) = M_X(t)M_Y(-t)
+$$
+
+
+## Uniqueness
+
+Let $X$ and $Y$ have the following distributions $F_X(x)$ and $F_Y(y)$ and MGFs $M_X(t)$ and $M_Y(t)$, respectively. $X$ and $Y$ have the same distribution $F_X(x)=F_Y(y)$ if and only if $M_X(t)=M_Y(t)$.
+
+## Uniqueness
+
+Let $X_1,\cdots, X_n$ be independent random variables, where $X_i\sim N(\mu_i, \sigma^2_i)$, with $M_{X_i}(t)=\exp\{\mu_i t+\sigma^2_it^2/2\}$ for $i=1,\cdots, n$. Find the MGF of $Y=a_1X_1+\cdots+a_nX_n$, where $a_1, \cdots, a_n$ are constants.
+
+
+# Function of Random Variables
+
+## Using the Distribution Function
+
+Let there be a random variable $X$ with a known distribution function $F_X(x)$, the density function for the random variable $Y=g(X)$ can be found with the following steps
+
+::: fragment
+::: nonincremental
+1.  Find the region of $Y$ in the space of $X$, find $g^{-1}(y)$
+2.  Find the region of $Y\le y$
+3.  Find $F_Y(y)=P(Y\le y)$ using the probability density function of $X$ over region $Y\le y$
+4.  Find $f_Y(y)$ by differentiating $F_Y(y)$
+:::
+:::
+
+## Example 1
+
+Let $X$ have the following probability density function:
+
+$$
+f_X(x)=\left\{\begin{array}{cc}
+2x & 0\le x \le 1 \\
+0 & \mathrm{otherwise}
+\end{array}
+\right.
+$$
+
+Find the probability density function of $Y=3X-1$?
+
+## Using the PDF
+
+Let there be a random variable $X$ with a known distribution function $F_X(x)$, if the random variable $Y=g(X)$ is either increasing or decreasing, than the probability density function can be found as
+
+$$
+f_Y(y) = f_X\{g^{-1}(y)\}\left|\frac{dg^{-1}(y)}{dy}\right|
+$$
+
+## Example 2
+
+Let $X$ have the following probability density function:
+
+$$
+f_X(x)=\left\{\begin{array}{cc}
+\frac{3}{2}x^2 + x & 0\le y \le 1 \\
+0 & \mathrm{otherwise}
+\end{array}
+\right.
+$$
+
+Find the probability density function of $Y=5-(X/2)$?
+
+## Using the MGF
+
+Using the uniqueness property of Moment Generating Functions, for a random variable $X$ with a known distribution function $F_X(x)$ and random variable $Y=g(X)$, the distribution of $Y$ can be found by:
+
+::: nonincremental
+1.  Find the moment generating function of $Y$, $M_Y(t)$.
+2.  Compare $M_Y(t)$, with known moment generating functions. If $M_Y(t)=M_V(t)$, for all values $t$, them $Y$ and $V$ have identical distributions.
+:::
+
+## Example 3
+
+Let $X$ follow a normal distribution with mean $\mu$ and variance $\sigma^2$. Find the distribution of $Z=\frac{X-\mu}{\sigma}$.
+
+## Example 4
+
+Let $Z$ follow a standard normal distribution with mean $0$ and variance $1$. Find the distribution of $Y=Z^2$

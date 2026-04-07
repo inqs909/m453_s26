@@ -1,0 +1,366 @@
+---
+title: "Joint Distribution Functions"
+format:
+  beamer:
+    theme: gotham
+    colortheme: dolphin
+    fonttheme: professionalfonts
+    fontsize: 14pt
+header-includes:
+  - \setbeamertemplate{footline}{
+      \hfill
+      \usebeamerfont{page number in head/foot}
+      \insertframenumber{} / \inserttotalframenumber
+      \kern1em\vskip2pt
+    }
+  - \gothamset{sectionframe default=off}
+  - \usepackage{amsmath}
+  - \usepackage{amssymb}
+
+knitr:
+  opts_chunk: 
+    echo: true
+    eval: true
+    message: false
+    warnings: false
+    comment: "#>" 
+
+editor: source
+---
+
+```{r}
+#| include: false
+
+knitr::opts_chunk$set(
+  echo = F,
+  message = F
+  )
+
+```
+
+
+# Conditional Distributions
+
+## Conditional Distributions
+
+A conditional distribution provides the probability of a random variable, given that it was conditioned on the value of a second random variable.
+
+## Discrete Conditional Distributions
+
+Let $X$ and $Y$ be 2 discrete random variables, with a joint distribution function of
+
+$$
+p_{X,Y}(x, y) = P(X = x, Y = y)
+$$
+
+The conditional distribution of $X|Y=y$ is defined as
+
+$$
+p_{X|Y = y}(x) = \frac{p_{X,Y}(x,y)}{p_{Y}(y)}
+$$
+
+## Continuous Conditional Distributions
+
+Let $X$ and $Y$ be 2 continuous random variables, with a joint density function of $f_{X,Y}(x,y)$. The conditional distribution of $X|Y=y$ is defined as
+
+$$
+f_{X|Y=y}(x)= \frac{f_{X,Y}(x,y)}{f_{Y}(y)}
+$$
+
+## Bivariae Normal Conditional Distribution
+
+
+# Multivariate Normal
+
+## Multivariate Normal
+
+The normal distribution function can be extended to from univariate (n=1), bivariate (n=2), to a k-dimensional normal distribution function:
+
+$$
+\boldsymbol X \sim N_k(\boldsymbol \mu, \boldsymbol \Sigma)
+$$
+
+
+## Multivariate Normal Parameters
+
+```{=latex}
+{\small
+\begin{equation*}
+\boldsymbol X = \left(
+  \begin{array}{c}
+  X_1 \\
+  \vdots \\
+  X_k
+  \end{array}
+\right)\
+\boldsymbol \mu = \left(
+  \begin{array}{c}
+  \mu_1 \\
+  \vdots \\
+  \mu_k
+  \end{array}
+\right)\ 
+\boldsymbol \Sigma = \left(
+  \begin{array}{cccc}
+  \sigma_1^2 & \sigma_{21} & \cdots & \sigma_{k1} \\
+  \sigma_{21} & \sigma_2^2 & \cdots & \vdots \\
+  \vdots  & \cdots & \ddots & \vdots \\
+  \sigma_{k1} & \sigma_{k2} & \cdots & \sigma_k^2
+  \end{array}
+\right)
+\end{equation*}
+}
+```
+
+## Multivariate Normal PDF
+
+$$
+{\small
+f_{\boldsymbol X} (\boldsymbol x) = 
+\det(2\pi\boldsymbol\Sigma)^{-1/2}\exp\left\{-\frac{1}{2}(\boldsymbol{x}-\boldsymbol\mu)^\mathrm{T}\boldsymbol\Sigma^{-1}(\boldsymbol x-\boldsymbol\mu)\right\}
+}
+$$
+
+## Marginal Normal Distribution
+
+```{=latex}
+{\small
+\begin{equation*}
+X = \left(
+  \begin{array}{c}
+  \mathcal X_1 \\
+  \mathcal X_2
+  \end{array}
+\right)\
+\mathcal X_1 = \left(
+  \begin{array}{c}
+  X_1 \\
+  \vdots \\
+  X_j
+  \end{array}
+\right)\ 
+\mathcal X_2 = \left(
+  \begin{array}{c}
+  X_{j+1} \\
+  \vdots \\
+  X_k
+  \end{array}
+\right)\ 
+\end{equation*}
+}
+```
+
+## Marginal Normal Distribution
+
+```{=latex}
+{\small
+\begin{equation*}
+\mu = \left(
+  \begin{array}{c}
+  \varpi_1 \\
+  \varpi_2
+  \end{array}
+\right)\
+\varpi_1 = \left(
+  \begin{array}{c}
+  \mu_1 \\
+  \vdots \\
+  \mu_j
+  \end{array}
+\right)\ 
+\varpi_2 = \left(
+  \begin{array}{c}
+  \mu_{j+1} \\
+  \vdots \\
+  \mu_k
+  \end{array}
+\right)\ 
+\end{equation*}
+}
+```
+
+## Marginal Normal Distribution
+
+```{=latex}
+\begin{equation*}
+\Sigma = \left(
+  \begin{array}{cc}
+  \varSigma_{11} & \varSigma_{21} \\
+  \varSigma_{12} & \varSigma_{22}
+  \end{array}
+\right)
+\end{equation*}
+```
+## Marginal Normal Distribution
+
+$$
+\mathcal X_1 \sim N_j(\varpi_1, \varSigma_{11})
+$$
+
+$$
+\mathcal X_2 \sim N_{k-j}(\varpi_2, \varSigma_{22})
+$$
+
+## Conditional Normal Distribution
+
+```{=latex}
+{\small
+\begin{equation*}
+\mathcal X_2|\mathcal X_1 \sim N_j(\varpi_2 + \varSigma_{21}\varSigma_{11}^{-1}(\mathcal X_1 - \varpi_1), \varSigma_{22}-\varSigma_{21}\varSigma_{11}^{-1}\varSigma_{12})
+\end{equation*}
+}
+```
+
+
+
+
+# Independence
+
+## Independent Random Variables
+
+Random variables are considered independent of each other if the probability of one variable does not affect the probability of another variable.
+
+## Discrete Independent Random Variables
+
+Let $X$ and $Y$ be 2 discrete random variables, with a joint density function of $p_{X,Y}(x,y)$. $X$ is independent of $Y$ if and only if
+
+$$
+p_{X,Y}(x,y) = p_{X}(x)p_{Y}(y)
+$$
+
+## Continuous Independent Random Variables
+
+Let $X$ and $Y$ be 2 continuous random variables, with a joint density function of $f_{X,Y}(x,y)$. $X$ is independent of $Y$ if and only if
+
+$$
+f_{X,Y}(x,y) = f_{X}(x)f_{Y}(y)
+$$
+
+## Matrix Algebra
+
+$$
+A = \left(\begin{array}{cc}
+a_1 & 0\\
+0 & a_2
+\end{array}\right)
+$$
+
+$$
+\det(A) = a_1a_2
+$$
+
+$$
+A^{-1}=\left(\begin{array}{cc}
+1/a_1 & 0 \\
+0 & 1/a_2
+\end{array}\right)
+$$
+
+## Example
+
+$$
+\left(\begin{array}{c}
+X\\
+Y
+\end{array}\right)\sim N_2 \left\{
+\left(\begin{array}{c}
+\mu_x\\
+\mu_y
+\end{array}\right),\left(\begin{array}{cc}
+\sigma_x^2 & 0\\
+0 & \sigma_y^2
+\end{array}\right)
+\right\}
+$$
+
+Show that $X\perp Y$ (**this will be on the upcoming test!**).
+
+
+# Covariance
+
+## Covariance
+
+Let $X$ and $Y$ be 2 random variables with mean $E(X)=\mu_x$ and $E(Y)=\mu_y$, respectively. The covariance of $X$ and $Y$ is defined as
+
+
+$$
+Cov(X,Y) = E\{(X-\mu_x)(Y-\mu_y)\}
+$$
+
+$$
+Cov(X,Y) = E(XY)-\mu_x\mu_y
+$$
+
+
+## Covariance
+
+If $X$ and $Y$ are independent random variables, then
+
+$$
+Cov(X,Y)=0
+$$
+
+## Correlation
+
+The correlation of $X$ and $Y$ is defined as
+
+$$
+\rho = Cor(X,Y) = \frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}}
+$$
+
+
+# Expectations
+
+## Expectations
+
+Let $\boldsymbol X = (X_1, X_2, \ldots,X_n)^\mathrm{T}$ be a set of random variables, the expectation of a function $g(\boldsymbol X)$ is defined as
+
+$$
+E\{g(\boldsymbol X)\} = \sum_{x_1\in X_1}\cdots\sum_{x_n\in X_n}g(\boldsymbol X)p(\boldsymbol x, \boldsymbol \theta)
+$$
+
+or
+
+$$
+E\{g(\boldsymbol X)\} = \int_{x_1\in X_1}\cdots\int_{x_n\in X_n}g(\boldsymbol X)f(\boldsymbol x, \boldsymbol \theta)dx_n \cdots dx_1
+$$
+
+
+## Expected Value and Variance of Linear Functions
+
+Let $X_1,\ldots,X_n$ and $Y_1,\ldots,Y_m$ be random variables with $E(X_i)=\mu_i$ and $E(Y_j)=\tau_j$. Furthermore, let $U = \sum^n_{i=1}a_iX_i$ and $V=\sum^m_{j=1}b_jY_j$ where $\{a_i\}^n_{i=1}$ and $\{b_j\}_{j=1}^m$ are constants. We have the following properties:
+
+-   $E(U)=\sum_{i=1}^na_i\mu_i$
+
+-   $Var(U)=\sum^n_{i=1}a_i^2Var(X_i)+2\underset{i<j}{\sum\sum}a_ia_jCov(X_i,X_j)$
+
+-   $Cov(U,V)=\sum^n_{i=1}\sum^m_{j=1}Cov(X_i,Y_j)$
+
+## Conditional Expectations
+
+Let $X_1$ and $X_2$ be two random variables, the conditional expectation of $g(X_1)$, given $X_2=x_2$, is defined as
+
+$$
+E\{g(X_1)|X_2=x_2\}=\sum_{x_1}g(x_1)p(x_1|x_2)
+$$
+
+or
+
+$$
+E\{g(X_1)|X_2=x_2\}=\int_{x_1}g(x_1)f(x_1|x_2)dx_1.
+$$
+
+## Conditional Expectations
+
+Furthermore,
+
+$$
+E(X_1)=E_{X_2}\{E_{X_1|X_2}(X_1|X_2)\}
+$$
+
+and
+
+$$
+Var(X_1) = E_{X_2}\{Var_{X_1|X_2}(X_1|X_2)\} + Var_{X_2}\{E_{X_1|X_2}(X_1|X_2)\}
+$$
+
