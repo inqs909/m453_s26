@@ -1,0 +1,105 @@
+---
+title: "Goodness of Estimators"
+format:
+  beamer:
+    theme: gotham
+    colortheme: dolphin
+    fonttheme: professionalfonts
+    fontsize: 14pt
+header-includes:
+  - \setbeamertemplate{footline}{
+      \hfill
+      \usebeamerfont{page number in head/foot}
+      \insertframenumber{} / \inserttotalframenumber
+      \kern1em\vskip2pt
+    }
+  - \gothamset{sectionframe default=off}
+knitr:
+  opts_chunk: 
+    echo: true
+    eval: true
+    message: false
+    warnings: false
+    comment: "#>" 
+editor: source
+---
+## Learning Outcomes
+
+-   Rao-Blackwell Theorem
+-   MVUE
+-   MLE Properties
+
+# Rao-Blackwell Theorem
+
+## Rao-Blackwell Theorem
+
+Let the joint distribution of $X_1,\ldots,X_n$ depend on parameter $\theta$ and let $T$ be a sufficient statistic for $\theta$. If we consider estimating $h(\theta)$, a function of $\theta$. If $U$ is an unbiased estimator of $h(\theta)$, then the estimator $U^*=E(U|T)$ is also an unbiased estimator of $h(\theta)$ and has a variance no larger than $U$.
+
+# Minimum Variance Unbiased Estimator
+
+## Minimum Variance Unbiased Estimator
+
+Let $\mathcal U$ be a set of all unbiased estimators $T$ of $\theta\in\Theta$ and $E(T^2)<\infty$. An estimator $T_0$ is said to be the minimum variance unbiased estimator for $\theta$ if
+
+$$
+E\{(T_0-\theta)^2\}\le E\{(T-\theta)^2\} 
+$$
+
+for all $\theta\in\Theta$ and every $T\in \mathcal U$.
+
+# MLE Properties
+
+## Invariance Property
+
+If $\hat \theta$ is an ML estimator of $\theta$, then for any one-to-one function $g$, the ML estimator for $g(\theta)$ is $g(\hat\theta)$.
+
+## Large Sample Theory
+
+Let $X_1,\ldots,X_n$ be a random sample from a distribution with parameter $\theta$. Let $\hat \theta$ be the MLE estimator for a parameter $\theta$. As $n\rightarrow\infty$, then $\hat \theta$ has a normal distribution with mean $\theta$ and variance $1/nI(\theta)$, where
+
+$$
+I(\theta)=E\left[-\frac{\partial^2}{\partial\theta^2}\log\{f(X;\theta)\}\right]
+$$
+
+# Examples
+
+##  Weibull Distribution
+
+Let $X_1,\ldots,X_n$ be a random sample with the following distribution:
+
+$$
+f(x)=\frac{2x}{\theta}e^{-x^2/\theta}\ \mathrm{for}\ x>0
+$$
+
+Find the MVUE of $\theta$.
+
+## Exponential Distribution
+
+Let $X_1,\ldots,X_n$ be a random sample with the following distribution:
+
+$$
+f(x)=\frac{1}{\theta}e^{-x/\theta}\ \mathrm{for}\ x>0
+$$
+
+Find the MVUE of $\theta$.
+
+## Normal Distribution
+
+Let $X_1,\ldots,X_n$ be a random sample with the following distribution:
+
+$$
+f(x)=\frac{1}{\sqrt{2\pi\sigma^2}}e^{-(x-\mu)^2/2\sigma^2}
+$$
+
+Find the MVUE of $\mu$ and $\sigma^2$.
+
+## Bernoulli Distribution
+
+Let $X_1,\ldots,X_n$ be a random sample with the following distribution:
+
+$$
+f(x)=p^x(1-p)^{1-x}
+$$
+
+Find the MVUE of $p$.
+

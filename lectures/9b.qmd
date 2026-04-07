@@ -107,6 +107,14 @@ $$
 I(\theta)=Var\left\{\frac{\partial}{\partial\theta}\log f(X;\theta)\right\}.
 $$
 
+## Proof
+
+Show the following property:
+
+$$
+E\left[-\frac{\partial^2}{\partial\theta^2}\log\{f(X;\theta)\}\right] = Var\left\{\frac{\partial}{\partial\theta}\log f(X;\theta)\right\}
+$$
+
 # Efficiency
 
 ## Efficiency
