@@ -4,12 +4,10 @@ date: 10-28-24
 description: |
   We will continue learning about statistical intervals.
 editor: source
-draft: true
+draft: false
 ---
 
-## Resources
-
-| Lecture   | Slides                                                             | Videos                                |
-|-------------------|----------------------------------|-------------------|
-| Monday    | [Notes](files/m453-10-28.pdf) | [Video](https://youtu.be/qH-aZ8y-t8E) |
-| Wednesday | [Notes](files/m453-10-30.pdf) | [Video](https://youtu.be/i7HEPkO-0SM) |
+| Lecture   | Slides                       | Annotated  | Video     |
+|-----------|------------------------------|------------|-----------|
+| Tuesday    | [Slides](../lectures/10a.pdf) | [Slides](../lectures/10a_annotated.pdf) | [Video]() |
+| Thursday | [Slides](../lectures/10b.pdf) | [Slides](../lectures/10b_annotated.pdf) | [Video]() |
