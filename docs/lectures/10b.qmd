@@ -61,28 +61,6 @@ $$
 I(\theta)=E\left[-\frac{\partial^2}{\partial\theta^2}\log\{f(X;\theta)\}\right]
 $$
 
-# Examples
-
-##  Weibull Distribution
-
-Let $X_1,\ldots,X_n$ be a random sample with the following distribution:
-
-$$
-f(x)=\frac{2x}{\theta}e^{-x^2/\theta}\ \mathrm{for}\ x>0
-$$
-
-Find the MVUE of $\theta$.
-
-## Exponential Distribution
-
-Let $X_1,\ldots,X_n$ be a random sample with the following distribution:
-
-$$
-f(x)=\frac{1}{\theta}e^{-x/\theta}\ \mathrm{for}\ x>0
-$$
-
-Find the MVUE of $\theta$.
-
 ## Normal Distribution
 
 Let $X_1,\ldots,X_n$ be a random sample with the following distribution:
@@ -91,7 +69,7 @@ $$
 f(x)=\frac{1}{\sqrt{2\pi\sigma^2}}e^{-(x-\mu)^2/2\sigma^2}
 $$
 
-Find the MVUE of $\mu$ and $\sigma^2$.
+Find the Information of $\mu$.
 
 ## Bernoulli Distribution
 
@@ -101,5 +79,25 @@ $$
 f(x)=p^x(1-p)^{1-x}
 $$
 
-Find the MVUE of $p$.
+Find the Information of $p$.
 
+## Poisson Distribution
+
+Let $X_1,\ldots,X_n$ be a random sample with the following distribution:
+
+$$
+f(x)=\frac{e^{-\lambda}\lambda^x}{x!}
+$$
+
+Find the Information of $p$.
+
+
+## Exponential Distribution
+
+Let $X_1,\ldots,X_n$ be a random sample with the following distribution:
+
+$$
+f(x)=\frac{1}{\theta}e^{-x/\theta}\ \mathrm{for}\ x>0
+$$
+
+Find the Information of $\theta$.

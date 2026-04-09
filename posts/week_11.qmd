@@ -1,6 +1,6 @@
 ---
 title: "Week 11"
-date: 11-02-24
+date: 04-07-26
 description: |
   We will continue learning about statistical intervals.
 editor: source

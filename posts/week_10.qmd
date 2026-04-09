@@ -1,6 +1,6 @@
 ---
 title: "Week 10"
-date: 10-28-24
+date: 04-07-26
 description: |
   We will continue learning about statistical intervals.
 editor: source
