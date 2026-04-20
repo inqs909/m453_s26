@@ -1,14 +1,14 @@
 ---
 title: "Week 11"
-date: 04-07-26
+date: 04-14-26
 description: |
   We will continue learning about statistical intervals.
 editor: source
-draft: true
+draft: false
 ---
 
 ## Resources
 
-| Lecture   | Slides                                                             | Videos                                |
-|-------------------|----------------------------------|-------------------|
-| Monday    | [Notes](files/m453-11-04.pdf) | [Video](https://youtu.be/dH6vdxo6Es0?feature=shared) |
+| Lecture   | Slides                       | Annotated  | Video     |
+|-----------|------------------------------|------------|-----------|
+| Tuesday    | [Slides](../lectures/11a.pdf) | [Slides](../lectures/11a_annotated.pdf) | [Video](https://youtu.be/fcxPP_9xOao) |

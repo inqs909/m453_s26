@@ -3,6 +3,7 @@ title: "Linear Regression"
 format:
   revealjs:
     scrollable: true
+    include-in-header: "math_commands.html"
     navigation-mode: vertical
     controls-layout: bottom-right
     controls-tutorial: true
@@ -108,10 +109,10 @@ $$
 ## Estimates
 
 $$
-\hat\beta_0 = \bar y - \hat\beta_1\bar x
+\hat\bbeta_0 = \bar y - \hat{\boldsymbol{\beta}}_1\bar x
 $$
 $$
-\hat\beta_1 = \frac{\sum^n_{i=1}(y_i-\bar y)(x_i-\bar x)}{\sum^n_{i=1}(x_i-\bar x)^2}
+\hat\bbeta_1 = \frac{\sum^n_{i=1}(y_i-\bar y)(x_i-\bar x)}{\sum^n_{i=1}(x_i-\bar x)^2}
 $$
 $$
 \hat\sigma^2 = \frac{1}{n-2}\sum^n_{i=1}(y_i-\hat y_i)^2

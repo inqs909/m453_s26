@@ -767,7 +767,7 @@
     "href": "index.html",
     "title": "Welcome to Course!",
     "section": "",
-    "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\nWe will continue learning about statistical intervals.\n\n\n\n\n\nApr 7, 2026\n\n\n\n\n\n\n\nWeek 9\n\n\nThis week, we will evaluate the goodness of point estimators.\n\n\n\n\n\nApr 1, 2026\n\n\n\n\n\n\n\nWeek 8\n\n\nThis week, we will learn about method of moments and bayesian estimators.\n\n\n\n\n\nMar 24, 2026\n\n\n\n\n\n\n\nWeek 7\n\n\nThis week focuses on statistical estimators.\n\n\n\n\n\nMar 8, 2026\n\n\n\n\n\n\n\nWeek 6\n\n\nThis week, we will review sampling distributions and the Central Limit Theorem.\n\n\n\n\n\nFeb 28, 2026\n\n\n\n\n\n\n\nWeek 5\n\n\nThis week, we will review sampling distributions and the Central Limit Theorem.\n\n\n\n\n\nFeb 22, 2026\n\n\n\n\n\n\n\nWeek 4\n\n\nThis week we will review joint distribution functions.\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\nWeek 3\n\n\nThis week, we will cover Transformations of Random Variables\n\n\n\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\nWeek 2\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\nWeek 1\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\nNo matching items"
+    "text": "NoteBrief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\nWe will continue learning about statistical intervals.\n\n\n\n\n\nApr 14, 2026\n\n\n\n\n\n\n\nWeek 10\n\n\nWe will continue learning about statistical intervals.\n\n\n\n\n\nApr 7, 2026\n\n\n\n\n\n\n\nWeek 9\n\n\nThis week, we will evaluate the goodness of point estimators.\n\n\n\n\n\nApr 1, 2026\n\n\n\n\n\n\n\nWeek 8\n\n\nThis week, we will learn about method of moments and bayesian estimators.\n\n\n\n\n\nMar 24, 2026\n\n\n\n\n\n\n\nWeek 7\n\n\nThis week focuses on statistical estimators.\n\n\n\n\n\nMar 8, 2026\n\n\n\n\n\n\n\nWeek 6\n\n\nThis week, we will review sampling distributions and the Central Limit Theorem.\n\n\n\n\n\nFeb 28, 2026\n\n\n\n\n\n\n\nWeek 5\n\n\nThis week, we will review sampling distributions and the Central Limit Theorem.\n\n\n\n\n\nFeb 22, 2026\n\n\n\n\n\n\n\nWeek 4\n\n\nThis week we will review joint distribution functions.\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\nWeek 3\n\n\nThis week, we will cover Transformations of Random Variables\n\n\n\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\nWeek 2\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nFeb 2, 2026\n\n\n\n\n\n\n\nWeek 1\n\n\nThis week is designed to be an introduction week. We will briefly discuss topics related to statistics and inference.\n\n\n\n\n\nAug 22, 2024\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "hw/hw4.html",
@@ -1012,7 +1012,7 @@
     "href": "lectures/15a.html#estimates",
     "title": "Linear Regression",
     "section": "Estimates",
-    "text": "Estimates\n\\[\n\\hat\\beta_0 = \\bar y - \\hat\\beta_1\\bar x\n\\] \\[\n\\hat\\beta_1 = \\frac{\\sum^n_{i=1}(y_i-\\bar y)(x_i-\\bar x)}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\] \\[\n\\hat\\sigma^2 = \\frac{1}{n-2}\\sum^n_{i=1}(y_i-\\hat y_i)^2\n\\]"
+    "text": "Estimates\n\\[\n\\hat\\bbeta_0 = \\bar y - \\hat{\\boldsymbol{\\beta}}_1\\bar x\n\\] \\[\n\\hat\\bbeta_1 = \\frac{\\sum^n_{i=1}(y_i-\\bar y)(x_i-\\bar x)}{\\sum^n_{i=1}(x_i-\\bar x)^2}\n\\] \\[\n\\hat\\sigma^2 = \\frac{1}{n-2}\\sum^n_{i=1}(y_i-\\hat y_i)^2\n\\]"
   },
   {
     "objectID": "lectures/15a.html#unbiasedness-of-betas-1",
@@ -1806,6 +1806,20 @@
     "text": "Resources\n\n\n\nLecture\nSlides\nAnnotated\nVideo\n\n\n\n\nTuesday\nSlides\nN/A\nN/A\n\n\nThursday\nSlides\nSlides\nVideo"
   },
   {
+    "objectID": "posts/week_11.html",
+    "href": "posts/week_11.html",
+    "title": "Week 11",
+    "section": "",
+    "text": "Lecture\nSlides\nAnnotated\nVideo\n\n\n\n\nTuesday\nSlides\nSlides\nVideo"
+  },
+  {
+    "objectID": "posts/week_11.html#resources",
+    "href": "posts/week_11.html#resources",
+    "title": "Week 11",
+    "section": "",
+    "text": "Lecture\nSlides\nAnnotated\nVideo\n\n\n\n\nTuesday\nSlides\nSlides\nVideo"
+  },
+  {
     "objectID": "posts/week_3.html",
     "href": "posts/week_3.html",
     "title": "Week 3",
@@ -1831,13 +1845,13 @@
     "href": "posts/week_9.html",
     "title": "Week 9",
     "section": "",
-    "text": "Lecture\nSlides\nAnnotated\nVideo\n\n\n\n\nThursday\nSlides\nSlides\nVideo"
+    "text": "Lecture\nSlides\nAnnotated\nVideo\n\n\n\n\nThursday\nSlides\nSlides\nVideo 1 & Video 2"
   },
   {
     "objectID": "posts/week_9.html#resources",
     "href": "posts/week_9.html#resources",
     "title": "Week 9",
     "section": "",
-    "text": "Lecture\nSlides\nAnnotated\nVideo\n\n\n\n\nThursday\nSlides\nSlides\nVideo"
+    "text": "Lecture\nSlides\nAnnotated\nVideo\n\n\n\n\nThursday\nSlides\nSlides\nVideo 1 & Video 2"
   }
 ]

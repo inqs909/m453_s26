@@ -9,5 +9,5 @@ draft: false
 
 | Lecture   | Slides                       | Annotated  | Video     |
 |-----------|------------------------------|------------|-----------|
-| Tuesday    | [Slides](../lectures/10a.pdf) | [Slides](../lectures/10a_annotated.pdf) | [Video]() |
-| Thursday | [Slides](../lectures/10b.pdf) | [Slides](../lectures/10b_annotated.pdf) | [Video]() |
+| Tuesday    | [Slides](../lectures/10a.pdf) | [Slides](../lectures/10a_annotated.pdf) | [Video](https://youtu.be/rTvQ1SEMEAY) |
+| Thursday | [Slides](../lectures/10b.pdf) | [Slides](../lectures/10b_annotated.pdf) | [Video](https://youtu.be/AaR3e5iW3PQ) |

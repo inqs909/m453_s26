@@ -11,5 +11,5 @@ draft: false
 
 | Lecture   | Slides                       | Annotated  | Video     |
 |-----------|------------------------------|------------|-----------|
-| Thursday | [Slides](../lectures/9b.pdf) | [Slides](../lectures/9b_annotated.pdf) | [Video]() |
+| Thursday | [Slides](../lectures/9b.pdf) | [Slides](../lectures/9b_annotated.pdf) | [Video 1](https://youtu.be/2Ed-POdy3wg) & [Video 2](https://youtu.be/lijr0eOXq5k) |
 
