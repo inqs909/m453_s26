@@ -1,46 +1,19 @@
 ---
 title: "Homework 5"
 editor: source
-date: 10-10-2024
+date: 04-27-2024
 draft: true
 ---
 
-**Homework 5 is due 10/21/2024 at 11:59 PM. Submit your homework on Canvas as one PDF document.**
+**Homework 5 is due 5/04/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.**
 
-The PDF version of this assignment can be found [here](hw5.pdf).
+The questions were obtained from Modern Mathematical Statistics 3rd Edition
 
-1.  Let $X_1, X_2, \ldots, X_n$ be iid with the following density function
-
-    $$
-    f(x) = \left\{\begin{array}{cc}
-    (\theta + 1)x^\theta& 0\le x\le 1;\theta>-1 \\
-    0 & \mathrm{elsewhere}
-    \end{array}
-    \right.
-    $$
-
-    Find the MLE for $\theta$.
-
-2.  Let $X_1, X_2, \ldots, X_n$ be iid with the following density function
-
-    $$
-    f(x) = \left\{\begin{array}{cc}
-    \frac{1}{\Gamma(\alpha)\theta^\alpha}x^{\alpha-1}e^{-x/\theta} & 0<x;0< \theta \\
-    0 & \mathrm{elsewhere}
-    \end{array}
-    \right.
-    $$
-
-    where $\alpha>0$ is known. Find the MLE for $\theta$.
-
-3.  Let $X_1, X_2, \ldots, X_n$ be iid with the following density function
-
-    $$
-    f(x) = \left\{\begin{array}{cc}
-    e^{-(x-\theta)} & x>\theta \\
-    0 & \mathrm{elsewhere}
-    \end{array}
-    \right.
-    $$
-
-    Find the method of moment estimator for $\theta$.
+1. Problem 2 on Page 461
+2. Problem 3 on Page 461
+3. Problem 4 on Page 461
+4. Problem 8 on Page 462
+5. Problem 11 on Page 462
+6. Problem 57 on Page 484
+7. Problem 59 on Page 484
+8. Problem 71 on Page 494
