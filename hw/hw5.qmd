@@ -2,7 +2,7 @@
 title: "Homework 5"
 editor: source
 date: 04-27-2024
-draft: true
+draft: false
 ---
 
 **Homework 5 is due 5/04/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.**
