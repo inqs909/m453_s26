@@ -1,14 +1,14 @@
 ---
 title: "Week 12"
-date: 11-11-24
+date: 04-23-26
 description: |
-  We will begin hypothesis testing.
+  We will learn Bootstrapping.
 editor: source
-draft: true
+draft: false
 ---
 
 ## Resources
 
-| Lecture   | Slides                                                             | Videos                                |
-|-------------------|----------------------------------|-------------------|
-| Wednesday    | [Notes](files/m453-11-13.pdf) | [Video](https://youtu.be/Xj8aGd6JUnw) |
+| Lecture   | Slides                       | Annotated  | Video     |
+|-----------|------------------------------|------------|-----------|
+| Thursday | | [Notes](../lectures/12b_annotated.pdf) | [Video](https://youtu.be/8LKs1ooyl2w) |
