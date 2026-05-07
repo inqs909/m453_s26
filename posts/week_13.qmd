@@ -4,11 +4,12 @@ date: 04-27-26
 description: |
   We will begin hypothesis testing.
 editor: source
-draft: true
+draft: false
 ---
 
 ## Resources
 
 | Lecture   | Slides                       | Annotated  | Video     |
 |-----------|------------------------------|------------|-----------|
-
+| Tuesday    | [Slides](../lectures/13a.pdf) | [Slides](../lectures/13a_annotated.pdf) | [Video](https://youtu.be/lGCLcUW6ekQ) |
+| Thursday | [Slides](../lectures/13b.pdf) | [Slides](../lectures/13b_annotated.pdf) | [Video](https://youtu.be/yCP9USxyuVk) |
