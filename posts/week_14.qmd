@@ -12,4 +12,4 @@ draft: false
 | Lecture   | Slides                       | Annotated  | Video     |
 |-----------|------------------------------|------------|-----------|
 | Tuesday    | [Slides](../lectures/14a.pdf) | [Slides](../lectures/14a_annotated.pdf) | [Video](https://youtu.be/_bMD01N-uMM) |
-| Thursday | [Slides](../lectures/13b.pdf) | [Slides](../lectures/13b_annotated.pdf) | [Video]() |
+| Thursday | [Slides](../lectures/14b.pdf) | [Slides](../lectures/14_annotated.pdf) | [Video](https://youtu.be/DhOFIKQMqQY) |
