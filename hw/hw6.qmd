@@ -2,7 +2,7 @@
 title: "Homework 6"
 editor: source
 date: 05-05-2026
-draft: true
+draft: false
 ---
 
 **Homework 6 is due 05/15/2026 at 11:59 PM. Submit your homework on Canvas as one PDF document.**
@@ -12,8 +12,6 @@ The questions were obtained from Modern Mathematical Statistics 3rd Edition
 1. Problem 3 on Page 510
 2. Problem 12 on Page 511
 3. Problem 21 on Page 523
-4. Problem 24 on Page 523
-5. Problem 28 on Page 524
-6. Problem 29 on Page 524
-7. Problem 39 on Page 530
-8. Problem 42 on Page 530
+4. Problem 28 on Page 524
+5. Problem 29 on Page 524
+6. Problem 39 on Page 530
